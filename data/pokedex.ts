@@ -12314,8 +12314,6 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		prevo: "Sliggoo",
 		evoLevel: 50,
 		eggGroups: ["Dragon"],
-		otherFormes: ["Goodra-HF"],
-		formeOrder: ["Goodra", "Goodra-HF",],
 	},
 	klefki: {
 		num: 707,
@@ -16202,7 +16200,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		evoLevel: 42,
 		eggGroups: ["Fairy", "Mineral"],
 		otherFormes: ["GlalieHF-Mega"],
-		formeOrder: ["Glalie-HF", "GlalieHF-Mega"],
+		formeOrder: ["Glalie-HF", "Glalie-HF-Mega"],
 	},
 	glaliehfmega: {
 		num: 899,

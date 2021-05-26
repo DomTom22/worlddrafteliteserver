@@ -2374,7 +2374,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		isNonstandard: "Past",
 		tier: "Illegal",
 	},
-	altariamegahf: {
+	altariahfmega: {
 		isNonstandard: "Past",
 		tier: "Illegal",
 	},
@@ -2554,7 +2554,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		isNonstandard: "Past",
 		tier: "Illegal",
 	},
-	glaliemegahf: {
+	glaliehfmega: {
 		isNonstandard: "Past",
 		tier: "Illegal",
 	},

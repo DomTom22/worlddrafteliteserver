@@ -2374,6 +2374,10 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		isNonstandard: "Past",
 		tier: "Illegal",
 	},
+	altariamegahf: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
 	zangoose: {
 		isNonstandard: "Past",
 		tier: "Illegal",

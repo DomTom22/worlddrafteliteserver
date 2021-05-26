@@ -1436,7 +1436,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		name: "Arcanine-HF",
 		types: ["Water"],
 		genderRatio: {M: 0.75, F: 0.25},
-		baseStats: {hp: 148, atk: 100, def: 80, spa: 102, spd: 80, spe: 45},
+		baseStats: {hp: 148, atk: 100, def: 80, spa: 102, spd: 80, spe: 95},
 		abilities: {0: "Serene Grace", H: "Sheer Force"},
 		heightm: 1.9,
 		weightkg: 155,

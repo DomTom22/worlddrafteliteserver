@@ -9376,7 +9376,6 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		otherFormes: ["Zebstrika-HF"],
 		formeOrder: ["Zebstrika", "Zebstrika-HF"],
 	},
-	},
 	zebstrikahf: {
 		num: 523,
 		name: "Zebstrika-HF",
@@ -9447,8 +9446,6 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		prevo: "Boldore",
 		evoType: "trade",
 		eggGroups: ["Mineral"],
-		otherFormes: ["Gigalith-HF"],
-		formeOrder: ["Gigalith", "Gigalith-HF"],
 	},
 	woobat: {
 		num: 527,

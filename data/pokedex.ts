@@ -1776,7 +1776,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		prevo: "Graveler",
 		evoType: "trade",
 		eggGroups: ["Mineral"],
-		otherFormes: ["Golem-Alola"],
+		otherFormes: ["Golem-Alola", "Golem-HF"],
 		formeOrder: ["Golem", "Golem-Alola", "Golem-HF"],
 	},
 	golemalola: {

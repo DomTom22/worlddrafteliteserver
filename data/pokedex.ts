@@ -1671,7 +1671,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		heightm: 0.9,
 		weightkg: 45.5,
 		color: "Blue",
-		evos: ["Tentacruel"],
+		evos: [""],
 		eggGroups: ["Water 3"],
 	},
 	tentacruel: {

@@ -510,6 +510,10 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "NU",
 		doublesTier: "DUU",
 	},
+	arcaninehf: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
 	poliwag: {
 		tier: "LC",
 	},

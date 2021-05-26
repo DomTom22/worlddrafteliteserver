@@ -2548,7 +2548,11 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	},
 	glaliemega: {
 		isNonstandard: "Past",
-		tier: "AG",
+		tier: "Illegal",
+	},
+	glaliemegahf: {
+		isNonstandard: "Past",
+		tier: "Illegal",
 	},
 	froslass: {
 		randomBattleMoves: ["destinybond", "poltergeist", "spikes", "taunt", "tripleaxel", "willowisp"],

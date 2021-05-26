@@ -37744,6 +37744,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			weatherball: ["8T"],
 			thunder: ["8T"],
 		},
+	},
 	zangoose: {
 		learnset: {
 			aerialace: ["7M", "6M", "5M", "4M", "3M"],

@@ -16252,7 +16252,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		evoLevel: 42,
 		eggGroups: ["Fairy", "Mineral"],
 		otherFormes: ["GlalieHF-Mega"],
-		formeOrder: ["Glalie-HF", "GlalieHF-Mega"],
+		formeOrder: ["Glalie-HF", "Glalie-HF-Mega"],
 	},
 	glaliehfmega: {
 		num: 899,

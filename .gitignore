@@ -1,4 +1,11 @@
-/config/*
+/config/avatars/*
+/config/chat-plugins/*
+/config/ladders/*
+/config/config.js
+/config/custom-example.css
+/config/CUSTOM-RULES.md
+/config/hosts.csv
+/config/proxies.csv
 /logs/*
 /test/modlogs
 /test/replays/*.html

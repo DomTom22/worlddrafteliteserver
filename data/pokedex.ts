@@ -12362,8 +12362,6 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		heightm: 2,
 		weightkg: 150.5,
 		color: "Purple",
-		prevo: "Sliggoo",
-		evoLevel: 50,
 		eggGroups: ["Dragon"],
 	},
 	klefki: {

@@ -10303,7 +10303,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			woodhammer: ["8M"],
 		},
 	},
-	ponyta: *
+	ponyta: {
 		learnset: {
 			agility: ["8M", "8L20", "8V", "7L37", "7V", "6L37", "5L37", "4L33", "3L38"],
 			allyswitch: ["8M", "7T", "7E", "6E"],

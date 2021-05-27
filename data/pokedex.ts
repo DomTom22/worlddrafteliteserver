@@ -1432,7 +1432,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		formeOrder: ["Arcanine", "Arcanine-HF"],
 	},
 	arcaninehf: {
-		num: -59,
+		num: 59,
 		name: "Arcanine-HF",
 		baseSpecies: "Arcanine",
 		forme: "HF",
@@ -16241,7 +16241,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		changesFrom: "Calyrex",
 	},
 	glaliehf: {
-		num: 899,
+		num: -1,
 		name: "Glalie-HF",
 		types: ["Fire"],
 		baseStats: {hp: 80, atk: 80, def: 80, spa: 80, spd: 80, spe: 80},

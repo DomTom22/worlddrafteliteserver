@@ -1432,7 +1432,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		formeOrder: ["Arcanine", "Arcanine-HF"],
 	},
 	arcaninehf: {
-		num: 59,
+		num: -59,
 		name: "Arcanine-HF",
 		baseSpecies: "Arcanine",
 		forme: "HF",

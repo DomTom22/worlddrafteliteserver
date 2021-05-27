@@ -4466,6 +4466,10 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "NU",
 		doublesTier: "(DUU)",
 	},
+	dragalge: {
+		tier: "OU",
+		doublesTier: "(DUU)",
+	},
 	clauncher: {
 		tier: "LC",
 	},

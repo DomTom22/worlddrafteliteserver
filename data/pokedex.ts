@@ -16241,7 +16241,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		changesFrom: "Calyrex",
 	},
 	glaliehf: {
-		num: -1,
+		num: 899,
 		name: "Glalie-HF",
 		types: ["Fire"],
 		baseStats: {hp: 80, atk: 80, def: 80, spa: 80, spd: 80, spe: 80},

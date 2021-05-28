@@ -51908,6 +51908,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			flareblitz: ["8M"],
 			closecombat: ["8M"],
 			thrash: ["8M"],
+			uturn: ["8M"],
 		},
 	},
 	roggenrola: {

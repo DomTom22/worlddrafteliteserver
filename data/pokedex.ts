@@ -1442,9 +1442,6 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		heightm: 1,
 		weightkg: 34,
 		color: "Blue",
-		prevo: "Growlithe",
-		evoType: "useItem",
-		evoItem: "Water Stone",
 		eggGroups: ["Monster"],
 	},
 	poliwag: {
@@ -8421,7 +8418,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		name: "Dusknoir-HF",
 		types: ["Ghost", "Fairy"],
 		baseStats: {hp: 45, atk: 100, def: 135, spa: 65, spd: 135, spe: 45},
-		abilities: {0: "Pressure", H: "Frisk"},
+		abilities: {0: "Pressure", H: "Prankster"},
 		heightm: 2.2,
 		weightkg: 106.6,
 		color: "Black",

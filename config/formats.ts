@@ -488,7 +488,7 @@ export const Formats: FormatList = [
 			'Mawile-Mega', 'Medicham-Mega', 'Pelipper', 'Registeel-HF', 'Rillaboom', 'Sableye-Mega', 'Scizor-Mega', 'Serperior', 'Slowbro-Base', 'Swampert-Mega',
 			'Tapu Fini', 'Tapu Koko', 'Tapu Lele', 'Tentacruel-HF', 'Toxapex', 'Tyranitar', 'Vespiquen-HF', 'Victini', 'Volcarona', 'Zapdos-Base', 'Zebstrika-HF', 'Zoroark-HF',
 			'nduubl', // National Dex UUBL
-			'Aerodactyl-Mega', 'Altaria-HF-Mega' 'Arcanine-HF', 'Azumarill', 'Blacephalon', 'Charizard-Mega-X', 'Diancie-Mega', 'Dustox-HF', 'Gardevoir-Mega',
+			'Aerodactyl-Mega', 'Altaria-HF-Mega', 'Arcanine-HF', 'Azumarill', 'Blacephalon', 'Charizard-Mega-X', 'Diancie-Mega', 'Dustox-HF', 'Gardevoir-Mega',
 			'Gengar', 'Gyarados', 'Hawlucha', 'Heracross-Mega', 'Hydreigon', 'Latias-Mega', 'Latios', 'Manaphy', 'Pinsir-Mega',
 			'Regieleki', 'Slowbro-Mega', 'Tangrowth', 'Thundurus', 'Venusaur-Mega',
 			// Slowbronite is banned so it doesn't validate on Galarian Slowbro

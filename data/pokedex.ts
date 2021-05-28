@@ -16260,7 +16260,6 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		heightm: 1.5,
 		weightkg: 256.5,
 		color: "Gray",
-		prevo: "Snorunt",
 		evoLevel: 42,
 		eggGroups: ["Fairy", "Mineral"],
 		otherFormes: ["GlalieHF-Mega"],
@@ -16278,7 +16277,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		weightkg: 350.2,
 		color: "Gray",
 		eggGroups: ["Fairy", "Mineral"],
-		requiredItem: "Glalitite",
+		requiredItem: "HFGlalitite",
 	},
 	altariahf: {
 		num: 900,
@@ -16289,7 +16288,6 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		heightm: 1.1,
 		weightkg: 20.6,
 		color: "Blue",
-		prevo: "Swablu",
 		evoLevel: 35,
 		eggGroups: ["Flying", "Dragon"],
 		otherFormes: ["Altaria-HF-Mega"],
@@ -16307,7 +16305,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		weightkg: 20.6,
 		color: "Blue",
 		eggGroups: ["Flying", "Dragon"],
-		requiredItem: "Altarianite",
+		requiredItem: "HFAltarianite",
 	},
 	missingno: {
 		num: 0,

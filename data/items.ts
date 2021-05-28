@@ -2374,6 +2374,34 @@ export const Items: {[itemid: string]: ItemData} = {
 		gen: 6,
 		isNonstandard: "Past",
 	},
+	hfaltarianite: {
+		name: "HFAltarianite",
+		spritenum: 619,
+		megaStone: "Altaria-HF-Mega",
+		megaEvolves: "Altaria-HF",
+		itemUser: ["Altaria-HF"],
+		onTakeItem(item, source) {
+			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
+			return true;
+		},
+		num: 741,
+		gen: 6,
+		isNonstandard: "Past",
+	},
+	hfglalitite: {
+		name: "HFGlalitite",
+		spritenum: 580,
+		megaStone: "Glalie-HF-Mega",
+		megaEvolves: "Glalie-HF",
+		itemUser: ["Glalie-HF"],
+		onTakeItem(item, source) {
+			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
+			return true;
+		},
+		num: 742,
+		gen: 6,
+		isNonstandard: "Past",
+	},
 	hondewberry: {
 		name: "Hondew Berry",
 		spritenum: 213,

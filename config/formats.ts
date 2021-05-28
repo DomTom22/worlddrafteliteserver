@@ -531,6 +531,15 @@ export const Formats: FormatList = [
 		mod: 'gen8',
 		ruleset: ['Standard NatDex'],
 	},
+	{
+		name: "[Gen 8] National Dex Uber",
+		threads: [
+			`&bullet; <a href="https://www.smogon.com/forums/threads/3672423/">National Dex AG</a>`,
+		],
+
+		mod: 'gen8',
+		ruleset: ['Standard NatDex'],
+	},
 
 	// Pet Mods
 	///////////////////////////////////////////////////////////////////

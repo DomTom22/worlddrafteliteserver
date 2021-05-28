@@ -489,8 +489,8 @@ export const Formats: FormatList = [
 			'Tapu Fini', 'Tapu Koko', 'Tapu Lele', 'Tentacruel-HF', 'Toxapex', 'Tyranitar', 'Vespiquen-HF', 'Victini', 'Volcarona', 'Zapdos-Base', 'Zebstrika-HF', 'Zoroark-HF',
 			'nduubl', // National Dex UUBL
 			'Aerodactyl-Mega', 'Altaria-HF-Mega', 'Arcanine-HF', 'Azumarill', 'Blacephalon', 'Charizard-Mega-X', 'Diancie-Mega', 'Dustox-HF', 'Gardevoir-Mega',
-			'Gengar', 'Gyarados', 'Hawlucha', 'Heracross-Mega', 'Hydreigon', 'Latias-Mega', 'Latios', 'Manaphy', 'Pinsir-Mega',
-			'Regieleki', 'Slowbro-Mega', 'Tangrowth', 'Thundurus', 'Venusaur-Mega',
+			'Gengar', 'Gyarados', 'Hawlucha', 'Heracross-Mega', 'Hydreigon', 'Latias-Mega', 'Latios', 'Manaphy', 'Pinsir-Mega', 'Regice-HF',
+			'Regieleki', 'Slowbro-Mega', 'Tangrowth', 'Venusaur-Mega',
 			// Slowbronite is banned so it doesn't validate on Galarian Slowbro
 			'Slowbronite',
 		],
@@ -498,9 +498,9 @@ export const Formats: FormatList = [
 		restricted: [
 			'Absol-Mega', 'Aggron-Mega', 'Altaria-Mega', 'Amoonguss', 'Beedrill-Mega', 'Bisharp', 'Buzzwole', 'Chesnaught',
 			'Dragonite', 'Dusclops-HF', 'Gallade-Mega', 'Gigalith-HF', 'Golem-HF', 'Goodra-HF', 'Hippowdon', 'Hoopa-Unbound', 'Infernape', 'Jirachi', 'Keldeo', 'Krookodile',
-			'Latias', 'Mamoswine', 'Mandibuzz', 'Manectric-Mega', 'Melmetal', 'Mew', 'Mienshao', 'Moltres-Base', 'Nihilego', 'Porygon2', 'Qwilfish-HF', 'Rapidash-HF',
-			'Regice-HF', 'Regirock-HF', 'Ribombee', 'Rotom-Heat', 'Rotom-Wash', 'Sawsbuck-HF', 'Scizor', 'Shuckle', 'Skarmory', 'Slaking-HF', 'Slowking', 'Slowking-Galar',
-			'Staraptor', 'Swampert', 'Tapu Bulu', 'Trevenant-HF', 'Urshifu-Rapid-Strike', 'Victreebel-HF', 'Weavile', 'Xurkitree', 'Zapdos-Galar',
+			'Latias', 'Mamoswine', 'Mandibuzz', 'Manectric-Mega', 'Melmetal', 'Mew', 'Mienshao', 'Moltres-Base', 'Nihilego', 'Ninetales-Alola', 'Porygon2', 'Quagsire', 'Qwilfish-HF',
+			'Rapidash-HF', 'Regirock-HF', 'Ribombee', 'Rotom-Heat', 'Rotom-Wash', 'Sawsbuck-HF', 'Scizor', 'Shuckle', 'Skarmory', 'Slaking-HF', 'Slowking', 'Slowking-Galar',
+			'Staraptor', 'Swampert', 'Tapu Bulu', 'Terrakion', 'Thundurus', 'Trevenant-HF', 'Urshifu-Rapid-Strike', 'Victreebel-HF', 'Weavile', 'Xurkitree', 'Zapdos-Galar',
 		],
 	},
 	{

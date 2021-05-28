@@ -497,7 +497,7 @@ export const Formats: FormatList = [
 		// Used to distinguish UU from below UU in the client
 		restricted: [
 			'Absol-Mega', 'Aggron-Mega', 'Altaria-Mega', 'Amoonguss', 'Beedrill-Mega', 'Bisharp', 'Buzzwole', 'Chesnaught',
-			'Dragonite', 'Dusclops-HF' 'Gallade-Mega', 'Gigalith-HF', 'Golem-HF', 'Goodra-HF', 'Hippowdon', 'Hoopa-Unbound', 'Infernape', 'Jirachi', 'Keldeo', 'Krookodile',
+			'Dragonite', 'Dusclops-HF', 'Gallade-Mega', 'Gigalith-HF', 'Golem-HF', 'Goodra-HF', 'Hippowdon', 'Hoopa-Unbound', 'Infernape', 'Jirachi', 'Keldeo', 'Krookodile',
 			'Latias', 'Mamoswine', 'Mandibuzz', 'Manectric-Mega', 'Melmetal', 'Mew', 'Mienshao', 'Moltres-Base', 'Nihilego', 'Porygon2', 'Qwilfish-HF', 'Rapidash-HF',
 			'Regice-HF', 'Regirock-HF', 'Ribombee', 'Rotom-Heat', 'Rotom-Wash', 'Sawsbuck-HF', 'Scizor', 'Shuckle', 'Skarmory', 'Slaking-HF', 'Slowking', 'Slowking-Galar',
 			'Staraptor', 'Swampert', 'Tapu Bulu', 'Trevenant-HF', 'Urshifu-Rapid-Strike', 'Victreebel-HF', 'Weavile', 'Xurkitree', 'Zapdos-Galar',

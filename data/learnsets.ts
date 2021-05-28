@@ -66765,8 +66765,8 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			watergun: ["8L1"],
 			waterpulse: ["8L25", "7T", "6T"],
 			weatherball: ["8M"],
-			iciclecrash: ["8F"],
-			iceshard: ["8F"],
+			iciclecrash: ["8M"],
+			iceshard: ["8M"],
 		},
 	},
 	klefki: {

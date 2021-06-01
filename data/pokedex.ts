@@ -12107,8 +12107,6 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "Brown",
 		evos: ["Dragalge"],
 		eggGroups: ["Water 1", "Dragon"],
-		otherFormes: ["Skrelp-HF"],
-		formeOrder: ["Skrelp", "Skrelp-HF"],
 	},
 	dragalge: {
 		num: 691,

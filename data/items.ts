@@ -680,7 +680,7 @@ export const Items: {[itemid: string]: ItemData} = {
 			return true;
 		},
 		num: 678,
-		gen: 6,
+		gen: 8,
 	},
 	chartiberry: {
 		name: "Charti Berry",

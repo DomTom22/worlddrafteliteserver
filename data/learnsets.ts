@@ -9711,6 +9711,9 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			protect: ["8M"],
 			hiddenpower: ["8M"],
 			sludgebomb: ["8M"],
+			zapcannon: ["8M"],
+			psychic: ["8M"],
+			hypnosis: ["8M"],
 		},
 	},
 	geodude: {
@@ -67035,7 +67038,6 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			gigadrain: ["8M", "7T", "6T"],
 			gigaimpact: ["8M", "7M", "6M"],
 			grassknot: ["8M", "7M", "6M"],
-			grassyglide: ["8M"],
 			growth: ["8L24", "7L1", "6L8"],
 			hex: ["8M", "8L20"],
 			hiddenpower: ["7M", "6M"],

@@ -6475,7 +6475,7 @@ export const Items: {[itemid: string]: ItemData} = {
 			return true;
 		},
 		num: 659,
-		gen: 6,
+		gen: 8,
 	},
 	wacanberry: {
 		name: "Wacan Berry",

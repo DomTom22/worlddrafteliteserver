@@ -39887,6 +39887,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			dazzlinggleam: ["8M"],
 			playrough: ["8M"],
 			drainingkiss: ["8M"],
+			haze: ["7M"],
 		},
 	},
 	dusknoir: {
@@ -40006,7 +40007,6 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			curse: ["8L36", "7L33", "6L30", "5L30", "4L30"],
 			darkestlariat: ["8M"],
 			darkpulse: ["8M", "7M", "6M", "5T", "4M"],
-			destinybond: ["8L54"],
 			disable: ["8L1", "7L1", "6L1", "5L1", "4L1"],
 			doubleteam: ["7M", "6M", "5M", "4M"],
 			dreameater: ["7M", "6M", "5M", "4M"],
@@ -40089,6 +40089,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			dazzlinggleam: ["8M"],
 			playrough: ["8M"],
 			drainingkiss: ["8M"],
+			haze: ["7M"],
 		},
 	},
 	tropius: {

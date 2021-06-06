@@ -2347,7 +2347,18 @@ export const Items: {[itemid: string]: ItemData} = {
 			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
 			return true;
 		},
-		num: 742,
+	},
+	hfsharpedonite: {
+		name: "HFSharpedonite",
+		spritenum: 583,
+		megaStone: "Sharpedo-HF-Mega",
+		megaEvolves: "Sharpedo-HF",
+		itemUser: ["Sharpedo-HF"],
+		onTakeItem(item, source) {
+			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
+			return true;
+		},
+		num: 743,
 		gen: 6,
 	},
 	hondewberry: {

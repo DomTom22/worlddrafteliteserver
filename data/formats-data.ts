@@ -2238,12 +2238,14 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		doublesTier: "(DUU)",
 	},
 	sharpedohf: {
+		isNonstandard: "CAP",
 		tier: "CAP",
 	},
 	sharpedomega: {
 		tier: "RU",
 	},
 	sharpedohfmega: {
+		isNonstandard: "CAP",
 		tier: "CAP",
 	},
 	wailmer: {

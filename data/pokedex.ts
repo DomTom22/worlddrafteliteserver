@@ -148,6 +148,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "Red",
 		eggGroups: ["Monster", "Dragon"],
 		requiredItem: "Charizardite Y",
+		battleonly: "Charizard",
 	},
 	charizardgmax: {
 		num: 6,

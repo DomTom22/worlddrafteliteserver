@@ -16282,7 +16282,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		formeOrder: ["Sharpedo-HF", "Sharpedo-HF-Mega"],
 	},
 	sharpedohfmega: {
-		num: 319,
+		num: 901,
 		name: "Sharpedo-HF-Mega",
 		baseSpecies: "Sharpedo-HF",
 		forme: "Mega",

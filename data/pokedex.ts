@@ -16294,6 +16294,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "Blue",
 		eggGroups: ["Water 2"],
 		requiredItem: "HFSharpedonite",
+		battleOnly: "Sharpedo-HF",
 	},
 	missingno: {
 		num: 0,

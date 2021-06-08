@@ -16322,7 +16322,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		num: 901,
 		name: "Sharpedo-HF",
 		types: ["Water", "Ground"],
-		baseStats: {hp: 70, atk: 120, def: 75, spa: 95, spd: 60, spe: 95},
+		baseStats: {hp: 70, atk: 120, def: 75, spa: 80, spd: 60, spe: 95},
 		abilities: {0: "Intimidate", H: "Hustle"},
 		heightm: 1.8,
 		weightkg: 88.8,

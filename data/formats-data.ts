@@ -4194,7 +4194,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "OU",
 	},
 	greninjaash: {
-		tier: "OU",
+		tier: "Illegal",
 	},
 	bunnelby: {
 		tier: "LC",

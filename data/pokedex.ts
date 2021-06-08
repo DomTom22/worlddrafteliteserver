@@ -58,6 +58,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "Green",
 		eggGroups: ["Monster", "Grass"],
 		requiredItem: "Venusaurite",
+		battleOnly: "Venusaur",
 	},
 	venusaurgmax: {
 		num: 3,
@@ -133,6 +134,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "Black",
 		eggGroups: ["Monster", "Dragon"],
 		requiredItem: "Charizardite X",
+		battleOnly: "Charizard",
 	},
 	charizardmegay: {
 		num: 6,
@@ -224,6 +226,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "Blue",
 		eggGroups: ["Monster", "Water 1"],
 		requiredItem: "Blastoisinite",
+		battleOnly: "Blastoise",
 	},
 	blastoisegmax: {
 		num: 9,
@@ -348,6 +351,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "Yellow",
 		eggGroups: ["Bug"],
 		requiredItem: "Beedrillite",
+		battleOnly: "Beedrill",
 	},
 	pidgey: {
 		num: 16,
@@ -403,6 +407,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "Brown",
 		eggGroups: ["Flying"],
 		requiredItem: "Pidgeotite",
+		battleOnly: "Pidgeot",
 	},
 	rattata: {
 		num: 19,
@@ -1543,6 +1548,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "Brown",
 		eggGroups: ["Human-Like"],
 		requiredItem: "Alakazite",
+		battleOnly: "Alakazam",
 	},
 	machop: {
 		num: 66,
@@ -1933,6 +1939,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "Pink",
 		eggGroups: ["Monster", "Water 1"],
 		requiredItem: "Slowbronite",
+		battleOnly: "Slowbro",
 	},
 	slowbrogalar: {
 		num: 80,
@@ -2194,6 +2201,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "Purple",
 		eggGroups: ["Amorphous"],
 		requiredItem: "Gengarite",
+		battleOnly: "Gengar",
 	},
 	gengargmax: {
 		num: 94,
@@ -2580,6 +2588,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "Brown",
 		eggGroups: ["Monster"],
 		requiredItem: "Kangaskhanite",
+		battleOnly: "Kangaskhan",
 	},
 	horsea: {
 		num: 116,
@@ -2777,6 +2786,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "Brown",
 		eggGroups: ["Bug"],
 		requiredItem: "Pinsirite",
+		battleOnly: "Pinsir",
 	},
 	tauros: {
 		num: 128,
@@ -2830,6 +2840,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "Blue",
 		eggGroups: ["Water 2", "Dragon"],
 		requiredItem: "Gyaradosite",
+		battleOnly: "Gyarados",
 	},
 	lapras: {
 		num: 131,
@@ -3054,6 +3065,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "Purple",
 		eggGroups: ["Flying"],
 		requiredItem: "Aerodactylite",
+		battleOnly: "Aerodactyl",
 	},
 	snorlax: {
 		num: 143,
@@ -3237,6 +3249,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "Purple",
 		eggGroups: ["Undiscovered"],
 		requiredItem: "Mewtwonite X",
+		battleOnly: "Mewtwo",
 	},
 	mewtwomegay: {
 		num: 150,
@@ -3252,6 +3265,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "Purple",
 		eggGroups: ["Undiscovered"],
 		requiredItem: "Mewtwonite Y",
+		battleOnly: "Mewtwo",
 	},
 	mew: {
 		num: 151,
@@ -3694,6 +3708,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "Yellow",
 		eggGroups: ["Monster", "Field"],
 		requiredItem: "Ampharosite",
+		battleOnly: "Ampharos",
 	},
 	bellossom: {
 		num: 182,
@@ -4083,6 +4098,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "Gray",
 		eggGroups: ["Mineral"],
 		requiredItem: "Steelixite",
+		battleOnly: "Steelix",
 	},
 	snubbull: {
 		num: 209,
@@ -4165,6 +4181,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "Red",
 		eggGroups: ["Bug"],
 		requiredItem: "Scizorite",
+		battleOnly: "Scizor",
 	},
 	shuckle: {
 		num: 213,
@@ -4203,6 +4220,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "Blue",
 		eggGroups: ["Bug"],
 		requiredItem: "Heracronite",
+		battleOnly: "Heracross",
 	},
 	sneasel: {
 		num: 215,
@@ -4423,6 +4441,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "Black",
 		eggGroups: ["Field"],
 		requiredItem: "Houndoominite",
+		battleOnly: "Houndoom",
 	},
 	kingdra: {
 		num: 230,
@@ -4688,6 +4707,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "Green",
 		eggGroups: ["Monster"],
 		requiredItem: "Tyranitarite",
+		battleOnly: "Tyranitar",
 	},
 	lugia: {
 		num: 249,
@@ -4783,6 +4803,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "Green",
 		eggGroups: ["Monster", "Dragon"],
 		requiredItem: "Sceptilite",
+		battleOnly: "Sceptile",
 	},
 	torchic: {
 		num: 255,
@@ -4842,6 +4863,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "Red",
 		eggGroups: ["Field"],
 		requiredItem: "Blazikenite",
+		battleOnly: "Blaziken",
 	},
 	mudkip: {
 		num: 258,
@@ -4901,6 +4923,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "Blue",
 		eggGroups: ["Monster", "Water 1"],
 		requiredItem: "Swampertite",
+		battleOnly: "Swampert",
 	},
 	poochyena: {
 		num: 261,
@@ -5250,6 +5273,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "White",
 		eggGroups: ["Amorphous"],
 		requiredItem: "Gardevoirite",
+		battleOnly: "Gardevoir",
 	},
 	surskit: {
 		num: 283,
@@ -5540,6 +5564,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "Purple",
 		eggGroups: ["Human-Like"],
 		requiredItem: "Sablenite",
+		battleOnly: "Sableye",
 	},
 	mawile: {
 		num: 303,
@@ -5567,6 +5592,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "Black",
 		eggGroups: ["Field", "Fairy"],
 		requiredItem: "Mawilite",
+		battleOnly: "Mawile",
 	},
 	aron: {
 		num: 304,
@@ -5622,6 +5648,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "Gray",
 		eggGroups: ["Monster"],
 		requiredItem: "Aggronite",
+		battleOnly: "Aggron",
 	},
 	meditite: {
 		num: 307,
@@ -5663,6 +5690,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "Red",
 		eggGroups: ["Human-Like"],
 		requiredItem: "Medichamite",
+		battleOnly: "Medicham",
 	},
 	electrike: {
 		num: 309,
@@ -5704,6 +5732,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "Yellow",
 		eggGroups: ["Field"],
 		requiredItem: "Manectite",
+		battleOnly: "Manectric",
 	},
 	plusle: {
 		num: 311,
@@ -5832,6 +5861,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "Blue",
 		eggGroups: ["Water 2"],
 		requiredItem: "Sharpedonite",
+		battleOnly: "Sharpedo",
 	},
 	wailmer: {
 		num: 320,
@@ -5898,6 +5928,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "Red",
 		eggGroups: ["Field"],
 		requiredItem: "Cameruptite",
+		battleOnly: "Camerupt",
 	},
 	torkoal: {
 		num: 324,
@@ -6050,6 +6081,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "Blue",
 		eggGroups: ["Flying", "Dragon"],
 		requiredItem: "Altarianite",
+		battleOnly: "Altaria",
 	},
 	zangoose: {
 		num: 335,
@@ -6363,6 +6395,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "Black",
 		eggGroups: ["Amorphous"],
 		requiredItem: "Banettite",
+		battleOnly: "Banette",
 	},
 	duskull: {
 		num: 355,
@@ -6456,6 +6489,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "White",
 		eggGroups: ["Field"],
 		requiredItem: "Absolite",
+		battleOnly: "Absol",
 	},
 	wynaut: {
 		num: 360,
@@ -6510,6 +6544,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "Gray",
 		eggGroups: ["Fairy", "Mineral"],
 		requiredItem: "Glalitite",
+		battleOnly: "Glalie",
 	},
 	spheal: {
 		num: 363,
@@ -6668,6 +6703,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "Blue",
 		eggGroups: ["Dragon"],
 		requiredItem: "Salamencite",
+		battleOnly: "Salamence",
 	},
 	beldum: {
 		num: 374,
@@ -6727,6 +6763,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "Blue",
 		eggGroups: ["Mineral"],
 		requiredItem: "Metagrossite",
+		battleOnly: "Metagross",
 	},
 	regirock: {
 		num: 377,
@@ -6837,6 +6874,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "Purple",
 		eggGroups: ["Undiscovered"],
 		requiredItem: "Latiasite",
+		battleOnly: "Latias",
 	},
 	latios: {
 		num: 381,
@@ -6866,6 +6904,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "Purple",
 		eggGroups: ["Undiscovered"],
 		requiredItem: "Latiosite",
+		battleOnly: "Latios",
 	},
 	kyogre: {
 		num: 382,
@@ -6895,6 +6934,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "Blue",
 		eggGroups: ["Undiscovered"],
 		requiredItem: "Blue Orb",
+		battleOnly: "Kyogre",
 	},
 	groudon: {
 		num: 383,
@@ -6924,6 +6964,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "Red",
 		eggGroups: ["Undiscovered"],
 		requiredItem: "Red Orb",
+		battleOnly: "Groudon",
 	},
 	rayquaza: {
 		num: 384,
@@ -6953,6 +6994,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "Green",
 		eggGroups: ["Undiscovered"],
 		requiredMove: "Dragon Ascent",
+		battleOnly: "Rayquaza",
 	},
 	jirachi: {
 		num: 385,
@@ -7670,6 +7712,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "Brown",
 		eggGroups: ["Field", "Human-Like"],
 		requiredItem: "Lopunnite",
+		battleOnly: "Lopunny",
 	},
 	mismagius: {
 		num: 429,
@@ -7907,6 +7950,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "Blue",
 		eggGroups: ["Monster", "Dragon"],
 		requiredItem: "Garchompite",
+		battleOnly: "Garchomp",
 	},
 	munchlax: {
 		num: 446,
@@ -7967,6 +8011,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "Blue",
 		eggGroups: ["Field", "Human-Like"],
 		requiredItem: "Lucarionite",
+		battleOnly: "Lucario",
 	},
 	hippopotas: {
 		num: 449,
@@ -8132,6 +8177,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "White",
 		eggGroups: ["Monster", "Grass"],
 		requiredItem: "Abomasite",
+		battleOnly: "Abomasnow",
 	},
 	weavile: {
 		num: 461,
@@ -8368,6 +8414,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "White",
 		eggGroups: ["Amorphous"],
 		requiredItem: "Galladite",
+		battleOnly: "Gallade",
 	},
 	probopass: {
 		num: 476,
@@ -9546,6 +9593,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "White",
 		eggGroups: ["Fairy"],
 		requiredItem: "Audinite",
+		battleOnly: "Audino",
 	},
 	timburr: {
 		num: 532,
@@ -11563,7 +11611,6 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Undiscovered"],
 		requiredAbility: "Battle Bond",
 		battleOnly: "Greninja",
-		gen: 7,
 	},
 	bunnelby: {
 		num: 659,
@@ -12679,6 +12726,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "Pink",
 		eggGroups: ["Undiscovered"],
 		requiredItem: "Diancite",
+		battleOnly: "Diancie",
 	},
 	hoopa: {
 		num: 720,
@@ -16239,6 +16287,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "Gray",
 		eggGroups: ["Fairy", "Mineral"],
 		requiredItem: "HFGlalitite",
+		battleOnly: "Glalie-HF",
 	},
 	altariahf: {
 		num: 900,
@@ -16267,6 +16316,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "Blue",
 		eggGroups: ["Flying", "Dragon"],
 		requiredItem: "HFAltarianite",
+		battleOnly: "Altaria-HF",
 	},
 	sharpedohf: {
 		num: 901,

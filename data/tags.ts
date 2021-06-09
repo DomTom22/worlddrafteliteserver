@@ -112,6 +112,10 @@ export const Tags: {[id: string]: TagData} = {
 		name: "Uber",
 		pokemonFilter: species => species.tier === 'Uber',
 	},
+	oubl: {
+		name: "OUBL",
+		pokemonFilter: species => species.tier === 'OUBL',
+	},
 	ou: {
 		name: "OU",
 		pokemonFilter: species => species.tier === 'OU',

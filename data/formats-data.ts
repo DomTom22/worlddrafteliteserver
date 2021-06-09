@@ -4043,7 +4043,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		randomBattleLevel: 78,
 		randomDoubleBattleMoves: ["heatwave", "hurricane", "knockoff", "nastyplot", "protect"],
 		randomDoubleBattleLevel: 80,
-		tier: "Uber",
+		tier: "OUBL",
 		doublesTier: "(DUU)",
 	},
 	thundurus: {

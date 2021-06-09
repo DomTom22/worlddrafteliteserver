@@ -26,7 +26,7 @@ export const Formats: FormatList = [
 		section: "HF Singles",
 	},
 	{
-		name: "OUBL",
+		name: "[Gen 8] OUBL",
 
 		mod: 'gen8',
 		ruleset: ['Standard NatDex', 'Dynamax Clause'],

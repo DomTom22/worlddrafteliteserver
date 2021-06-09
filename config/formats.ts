@@ -76,6 +76,13 @@ export const Formats: FormatList = [
 		banlist: ['AG', 'Shadow Tag', 'Baton Pass'],
 	},
 	{
+		name: "[Gen 8] OUBL",
+
+		mod: 'gen8',
+		ruleset: ['Standard NatDex', 'Dynamax Clause'],
+		banlist: ['Uber', 'AG', 'Arena Trap', 'Moody', 'Power Construct', 'Shadow Tag', 'Baton Pass'],
+	},
+	{
 		name: "[Gen 8] UU",
 		threads: [
 			`&bullet; <a href="https://www.smogon.com/forums/threads/3679677/">UU Metagame Discussion</a>`,

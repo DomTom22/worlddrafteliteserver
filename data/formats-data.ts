@@ -537,7 +537,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		doublesTier: "(DUU)",
 	},
 	alakazammega: {
-		tier: "Uber",
+		tier: "OUBL",
 	},
 	machop: {
 		tier: "LC",
@@ -1891,7 +1891,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		randomBattleLevel: 76,
 		randomDoubleBattleMoves: ["closecombat", "flareblitz", "knockoff", "protect", "swordsdance"],
 		randomDoubleBattleLevel: 78,
-		tier: "Uber",
+		tier: "OUBL",
 		doublesTier: "(DUU)",
 	},
 	blazikenmega: {
@@ -2592,7 +2592,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		doublesTier: "DOU",
 	},
 	metagrossmega: {
-		tier: "Uber",
+		tier: "OUBL",
 	},
 	regirock: {
 		randomBattleMoves: ["bodypress", "curse", "earthquake", "explosion", "rest", "rockslide", "stoneedge"],
@@ -3157,13 +3157,13 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "UUBL",
 	},
 	darkrai: {
-		tier: "Uber",
+		tier: "OUBL",
 	},
 	shaymin: {
 		tier: "NUBL",
 	},
 	shayminsky: {
-		tier: "Uber",
+		tier: "OUBL",
 	},
 	arceus: {
 		tier: "Uber",
@@ -3524,7 +3524,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		randomBattleLevel: 78,
 		randomDoubleBattleMoves: ["earthquake", "flareblitz", "iciclecrash", "rockslide", "superpower", "uturn"],
 		randomDoubleBattleLevel: 80,
-		tier: "Uber",
+		tier: "OUBL",
 		doublesTier: "(DUU)",
 	},
 	darmanitangalarzen: {
@@ -4083,7 +4083,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		randomBattleLevel: 76,
 		randomDoubleBattleMoves: ["calmmind", "earthpower", "focusblast", "protect", "psychic", "sludgebomb"],
 		randomDoubleBattleLevel: 80,
-		tier: "Uber",
+		tier: "OUBL",
 		doublesTier: "DOU",
 	},
 	landorustherian: {
@@ -4139,25 +4139,25 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		randomBattleLevel: 76,
 		randomDoubleBattleMoves: ["blazekick", "ironhead", "leechlife", "protect", "shiftgear", "thunderbolt", "uturn"],
 		randomDoubleBattleLevel: 78,
-		tier: "Uber",
+		tier: "OUBL",
 		doublesTier: "DOU",
 	},
 	genesectburn: {
-		tier: "Uber",
+		tier: "OUBL",
 		doublesTier: "(DOU)",
 	},
 	genesectchill: {
-		tier: "Uber",
+		tier: "OUBL",
 		doublesTier: "(DOU)",
 	},
 	genesectdouse: {
 		randomBattleMoves: ["bugbuzz", "extremespeed", "flamethrower", "icebeam", "ironhead", "technoblast", "thunderbolt", "uturn"],
 		randomBattleLevel: 76,
-		tier: "Uber",
+		tier: "OUBL",
 		doublesTier: "(DOU)",
 	},
 	genesectshock: {
-		tier: "Uber",
+		tier: "OUBL",
 		doublesTier: "(DOU)",
 	},
 	chespin: {
@@ -4312,7 +4312,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		randomBattleLevel: 80,
 		randomDoubleBattleMoves: ["flashcannon", "kingsshield", "shadowball", "shadowsneak"],
 		randomDoubleBattleLevel: 84,
-		tier: "Uber",
+		tier: "OUBL",
 		doublesTier: "DUU",
 	},
 	aegislashblade: {
@@ -4580,7 +4580,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		randomBattleLevel: 72,
 		randomDoubleBattleMoves: ["coil", "dragondance", "extremespeed", "glare", "irontail", "thousandarrows"],
 		randomDoubleBattleLevel: 72,
-		tier: "Uber",
+		tier: "OUBL",
 		doublesTier: "DOU",
 	},
 	zygarde10: {
@@ -5245,7 +5245,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		randomBattleLevel: 76,
 		randomDoubleBattleMoves: ["closecombat", "icebeam", "poisonjab", "protect", "throatchop", "uturn"],
 		randomDoubleBattleLevel: 78,
-		tier: "Uber",
+		tier: "OUBL",
 		doublesTier: "(DUU)",
 	},
 	xurkitree: {
@@ -5301,7 +5301,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		randomBattleLevel: 76,
 		randomDoubleBattleMoves: ["heatwave", "moongeistbeam", "photongeyser", "protect", "thunderwave"],
 		randomDoubleBattleLevel: 72,
-		tier: "Uber",
+		tier: "OUBL",
 		doublesTier: "DUber",
 	},
 	necrozmaultra: {
@@ -5312,7 +5312,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		randomBattleLevel: 76,
 		randomDoubleBattleMoves: ["agility", "aurasphere", "dazzlinggleam", "flashcannon", "fleurcannon", "protect", "trick"],
 		randomDoubleBattleLevel: 72,
-		tier: "Uber",
+		tier: "OUBL",
 		doublesTier: "DUber",
 	},
 	magearnaoriginal: {
@@ -5320,7 +5320,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		randomBattleLevel: 74,
 		randomDoubleBattleMoves: ["agility", "aurasphere", "dazzlinggleam", "flashcannon", "fleurcannon", "protect", "trick"],
 		randomDoubleBattleLevel: 72,
-		tier: "Uber",
+		tier: "OUBL",
 		doublesTier: "DUber",
 	},
 	marshadow: {
@@ -5340,7 +5340,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		randomDoubleBattleMoves: ["dracometeor", "flamethrower", "nastyplot", "sludgebomb", "uturn"],
 		randomDoubleBattleLevel: 76,
 		randomBattleNoDynamaxMoves: ["dracometeor", "fireblast", "nastyplot", "sludgewave", "uturn"],
-		tier: "Uber",
+		tier: "OUBL",
 		doublesTier: "DUU",
 	},
 	stakataka: {
@@ -5416,7 +5416,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		randomBattleLevel: 76,
 		randomDoubleBattleMoves: ["courtchange", "gunkshot", "highjumpkick", "protect", "pyroball", "suckerpunch", "uturn"],
 		randomDoubleBattleLevel: 80,
-		tier: "Uber",
+		tier: "OUBL",
 		doublesTier: "(DUU)",
 	},
 	cinderacegmax: {
@@ -5874,7 +5874,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		randomBattleLevel: 80,
 		randomDoubleBattleMoves: ["crunch", "dragonrush", "fishiousrend", "icefang", "psychicfangs"],
 		randomDoubleBattleLevel: 80,
-		tier: "Uber",
+		tier: "OUBL",
 		doublesTier: "DOU",
 	},
 	arctovish: {
@@ -5909,7 +5909,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		randomBattleLevel: 78,
 		randomDoubleBattleMoves: ["dragondarts", "fireblast", "protect", "shadowball", "thunderbolt", "willowisp"],
 		randomDoubleBattleLevel: 80,
-		tier: "Uber",
+		tier: "OUBL",
 		doublesTier: "DOU",
 	},
 	zacian: {
@@ -5941,7 +5941,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		randomBattleLevel: 74,
 		randomDoubleBattleMoves: ["behemothbash", "closecombat", "crunch", "howl", "protect", "psychicfangs"],
 		randomDoubleBattleLevel: 72,
-		tier: "Uber",
+		tier: "OUBL",
 		doublesTier: "DUber",
 	},
 	eternatus: {
@@ -5964,7 +5964,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		randomBattleLevel: 76,
 		randomDoubleBattleMoves: ["closecombat", "ironhead", "protect", "suckerpunch", "wickedblow"],
 		randomDoubleBattleLevel: 76,
-		tier: "Uber",
+		tier: "OUBL",
 		doublesTier: "DUber",
 	},
 	urshifurapidstrike: {
@@ -6033,7 +6033,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		randomBattleLevel: 74,
 		randomDoubleBattleMoves: ["darkpulse", "nastyplot", "protect", "shadowball"],
 		randomDoubleBattleLevel: 78,
-		tier: "Uber",
+		tier: "OUBL",
 		doublesTier: "DUU",
 	},
 	calyrex: {

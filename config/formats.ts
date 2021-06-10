@@ -549,7 +549,7 @@ export const Formats: FormatList = [
 			`&bullet; <a href="https://www.smogon.com/forums/threads/3667522/">USM OU Viability Rankings</a>`,
 		],
 
-		mod: 'gen8',
+		mod: 'gen7',
 		ruleset: ['Standard NatDex'],
 		banlist: ['Uber', 'Arena Trap', 'Power Construct', 'Shadow Tag', 'Baton Pass'],
 	},

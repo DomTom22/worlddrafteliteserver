@@ -9,7 +9,7 @@ export const Formats: {[k: string]: ModdedFormatData} = {
 		name: 'Standard NatDex',
 		desc: "The standard ruleset for all National Dex tiers",
 		ruleset: [
-			'Obtainable', '+Unobtainable', '+Past', 'Team Preview', 'Nickname Clause', 'HP Percentage Mod', 'Cancel Mod', 'Endless Battle Clause',
+			'Obtainable', '+Unobtainable', '+Past', '+Future', 'Team Preview', 'Nickname Clause', 'HP Percentage Mod', 'Cancel Mod', 'Endless Battle Clause',
 		],
 		onValidateSet(set) {
 			// These Pokemon are still unobtainable
@@ -33,7 +33,7 @@ export const Formats: {[k: string]: ModdedFormatData} = {
 			if (!set.item) return;
 			const item = this.dex.getItem(set.item);
 			if (!item.isNonstandard) return;
-			if (['Past', 'Unobtainable'].includes(item.isNonstandard) && !item.zMove && !item.itemUser && !item.forcedForme) {
+			if (['Future', 'Past', 'Unobtainable'].includes(item.isNonstandard) && !item.zMove && !item.itemUser && !item.forcedForme) {
 				if (this.ruleTable.has(`+item:${item.id}`)) return;
 				return [`${set.name}'s item ${item.name} does not exist in Gen ${this.dex.gen}.`];
 			}

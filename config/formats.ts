@@ -542,7 +542,7 @@ export const Formats: FormatList = [
 		section: "Elite Singles",
 	},
 	{
-		name: "[Gen 7] OU",
+		name: "[Elite] OU",
 		threads: [
 			`&bullet; <a href="https://www.smogon.com/dex/sm/tags/ou/">USM OU Banlist</a>`,
 			`&bullet; <a href="https://www.smogon.com/forums/posts/8162240/">USM OU Sample Teams</a>`,

@@ -37,7 +37,7 @@ interface FormatData {
 	[source: string]: PokemonSets;
 }
 
-type GenerationNum = 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8;
+type GenerationNum = 1 | 2 | 3 | 4 | 5 | 6 | Elite | 8;
 
 // The tiers we support, ie. ones that we have data sources for.
 export const TIERS = new Set([

@@ -542,7 +542,7 @@ export const Formats: FormatList = [
 		section: "Elite Singles",
 	},
 	{
-		name: "[Gen ELite] Random Battle",
+		name: "[Elite] Random Battle",
 		desc: `Randomized teams of level-balanced Pok&eacute;mon with sets that are generated to be competitively viable.`,
 		threads: [
 			`&bullet; <a href="https://www.smogon.com/forums/threads/3591157/">Sets and Suggestions</a>`,
@@ -554,7 +554,7 @@ export const Formats: FormatList = [
 		ruleset: ['Obtainable', 'Sleep Clause Mod', 'HP Percentage Mod', 'Cancel Mod'],
 	},
 	{
-		name: "[Gen Elite] OU",
+		name: "[Elite] OU",
 		threads: [
 			`&bullet; <a href="https://www.smogon.com/dex/sm/tags/ou/">USM OU Banlist</a>`,
 			`&bullet; <a href="https://www.smogon.com/forums/posts/8162240/">USM OU Sample Teams</a>`,
@@ -566,7 +566,7 @@ export const Formats: FormatList = [
 		banlist: ['Uber', 'Arena Trap', 'Power Construct', 'Shadow Tag', 'Baton Pass'],
 	},
 	{
-		name: "[Gen Elite] Ubers",
+		name: "[Elite] Ubers",
 		threads: [
 			`&bullet; <a href="https://www.smogon.com/forums/posts/8286276/">USM Ubers</a>`,
 		],
@@ -577,7 +577,7 @@ export const Formats: FormatList = [
 		banlist: ['Baton Pass'],
 	},
 	{
-		name: "[Gen Elite] UU",
+		name: "[Elite] UU",
 		threads: [
 			`&bullet; <a href="https://www.smogon.com/forums/threads/3621217/">USM UU Sample Teams</a>`,
 			`&bullet; <a href="https://www.smogon.com/forums/threads/3641346/">USM UU Viability Rankings</a>`,
@@ -585,11 +585,11 @@ export const Formats: FormatList = [
 
 		mod: 'gen7',
 		searchShow: false,
-		ruleset: ['[Gen Elite] OU'],
+		ruleset: ['[Elite] OU'],
 		banlist: ['OU', 'UUBL', 'Drizzle', 'Drought', 'Kommonium Z', 'Mewnium Z'],
 	},
 	{
-		name: "[Gen Elite] RU",
+		name: "[Elite] RU",
 		threads: [
 			`&bullet; <a href="https://www.smogon.com/forums/threads/3645338/">USM RU Sample Teams</a>`,
 			`&bullet; <a href="https://www.smogon.com/forums/threads/3645873/">USM RU Viability Rankings</a>`,
@@ -597,12 +597,12 @@ export const Formats: FormatList = [
 
 		mod: 'gen7',
 		searchShow: false,
-		ruleset: ['[Gen Elite] UU'],
+		ruleset: ['[Elite] UU'],
 		banlist: ['UU', 'RUBL', 'Mimikyu', 'Aurora Veil'],
 		unbanlist: ['Drought'],
 	},
 	{
-		name: "[Gen ELite] NU",
+		name: "[Elite] NU",
 		threads: [
 			`&bullet; <a href="https://www.smogon.com/forums/threads/3632667/">USM NU Sample Teams</a>`,
 			`&bullet; <a href="https://www.smogon.com/forums/threads/3645166/">USM NU Viability Rankings</a>`,
@@ -610,11 +610,11 @@ export const Formats: FormatList = [
 
 		mod: 'gen7',
 		searchShow: false,
-		ruleset: ['[Gen Elite] RU'],
+		ruleset: ['[Elite] RU'],
 		banlist: ['RU', 'NUBL', 'Drought'],
 	},
 	{
-		name: "[Gen Elite] PU",
+		name: "[Elite] PU",
 		threads: [
 			`&bullet; <a href="https://www.smogon.com/forums/threads/3611496/">USM PU Sample Teams</a>`,
 			`&bullet; <a href="https://www.smogon.com/forums/threads/3614892/">USM PU Viability Rankings</a>`,
@@ -622,11 +622,11 @@ export const Formats: FormatList = [
 
 		mod: 'gen7',
 		// searchShow: false,
-		ruleset: ['[Gen Elite] NU'],
+		ruleset: ['[Elite] NU'],
 		banlist: ['NU', 'PUBL'],
 	},
 	{
-		name: "[Gen Elite] LC",
+		name: "[Elite] LC",
 		threads: [
 			`&bullet; <a href="https://www.smogon.com/dex/sm/formats/lc/">USM LC Banlist</a>`,
 			`&bullet; <a href="https://www.smogon.com/forums/threads/3639319/">USM LC Sample Teams</a>`,
@@ -644,7 +644,7 @@ export const Formats: FormatList = [
 		],
 	},
 	{
-		name: "[Gen Elite] Monotype",
+		name: "[Elite] Monotype",
 		desc: `All the Pok&eacute;mon on a team must share a type.`,
 		threads: [
 			`&bullet; <a href="https://www.smogon.com/forums/posts/8411581/">USM Monotype</a>`,
@@ -662,7 +662,7 @@ export const Formats: FormatList = [
 		],
 	},
 	{
-		name: "[Gen Elite] 1v1",
+		name: "[Elite] 1v1",
 		desc: `Bring three Pok&eacute;mon to Team Preview and choose one to battle.`,
 		threads: [
 			`&bullet; <a href="https://www.smogon.com/forums/posts/8031460/">USUM 1v1</a>`,
@@ -683,7 +683,7 @@ export const Formats: FormatList = [
 		],
 	},
 	{
-		name: "[Gen Elite] Anything Goes",
+		name: "[Elite] Anything Goes",
 		threads: [
 			`&bullet; <a href="https://www.smogon.com/forums/threads/3587441/">Anything Goes Metagame Discussion</a>`,
 			`&bullet; <a href="https://www.smogon.com/forums/threads/3591711/">Anything Goes Viability Rankings</a>`,
@@ -695,7 +695,7 @@ export const Formats: FormatList = [
 		ruleset: ['Obtainable', 'Team Preview', 'HP Percentage Mod', 'Cancel Mod', 'Endless Battle Clause'],
 	},
 	{
-		name: "[Gen Elite] ZU",
+		name: "[Elite] ZU",
 		desc: `The unofficial usage-based tier below PU.`,
 		threads: [
 			`&bullet; <a href="https://www.smogon.com/forums/threads/3646743/">ZU Metagame Discussion</a>`,
@@ -705,7 +705,7 @@ export const Formats: FormatList = [
 
 		mod: 'gen7',
 		searchShow: false,
-		ruleset: ['[Gen Elite] PU'],
+		ruleset: ['[Elite] PU'],
 		banlist: [
 			'PU', 'Carracosta', 'Crabominable', 'Gorebyss', 'Jynx', 'Raticate-Alola',
 			'Shiftry', 'Throh', 'Turtonator', 'Type: Null', 'Ursaring', 'Victreebel',
@@ -2209,7 +2209,7 @@ export const Formats: FormatList = [
 		],
 
 		mod: 'gen7',
-		ruleset: ['[Gen Elite] OU', 'STABmons Move Legality'],
+		ruleset: ['[Elite] OU', 'STABmons Move Legality'],
 		banlist: ['Aerodactyl', 'Aerodactyl-Mega', 'Araquanid', 'Blacephalon', 'Kartana', 'Komala', 'Kyurem-Black', 'Porygon-Z', 'Silvally', 'Tapu Koko', 'Tapu Lele', 'Thundurus', 'Thundurus-Therian', 'King\'s Rock', 'Razor Fang'],
 		restricted: ['Acupressure', 'Belly Drum', 'Chatter', 'Extreme Speed', 'Geomancy', 'Lovely Kiss', 'Shell Smash', 'Shift Gear', 'Spore', 'Thousand Arrows'],
 	},
@@ -2253,7 +2253,7 @@ export const Formats: FormatList = [
 
 		mod: 'gen7',
 		searchShow: false,
-		ruleset: ['[Gen Elite] OU', '+CAP'],
+		ruleset: ['[Elite] OU', '+CAP'],
 	},
 	{
 		name: "[Gen 7] Battle Spot Singles",

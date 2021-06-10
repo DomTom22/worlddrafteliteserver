@@ -23,7 +23,7 @@ export const Formats: FormatList = [
 	///////////////////////////////////////////////////////////////////
 
 	{
-		section: "HF Singles",
+		section: "Hallowed Fantasy Singles",
 	},
 	{
 		name: "[Gen 8] Random Battle",
@@ -538,7 +538,9 @@ export const Formats: FormatList = [
 		mod: 'gen8',
 		ruleset: ['Standard NatDex'],
 	},
-
+	{
+		section: "Elite Singles",
+	},
 	// Pet Mods
 	///////////////////////////////////////////////////////////////////
 

@@ -552,7 +552,7 @@ export const Formats: FormatList = [
 		mod: 'gen7',
 		ruleset: ['Standard'],
 		banlist: ['Uber', 'Arena Trap', 'Power Construct', 'Shadow Tag', 'Baton Pass'],
-	},+
+	},
 	// Pet Mods
 	///////////////////////////////////////////////////////////////////
 

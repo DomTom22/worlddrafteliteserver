@@ -180,6 +180,21 @@ export const Tags: {[id: string]: TagData} = {
 		name: "AG",
 		pokemonFilter: species => species.tier === 'AG',
 	},
+nduubl: {
+	name: "ND UUBL",
+	speciesFilter: species => [
+		'Aerodactyl-Mega', 'Azumarill', 'Blacephalon', 'Diancie-Mega', 'Gallade-Mega', 'Gardevoir-Mega', 'Gengar', 'Gyarados', 'Hawlucha',
+		'Heracross-Mega', 'Hoopa-Unbound', 'Hydreigon', 'Latias', 'Latias-Mega', 'Latios', 'Latios-Mega', 'Manaphy', 'Pinsir-Mega', 'Slowbro-Mega',
+		'Thundurus', 'Thundurus-Therian', 'Venusaur-Mega', 'Xurkitree', 'Zapdos-Galar',
+	].includes(species.name),
+},
+ndrubl: {
+	name: "ND RUBL",
+	speciesFilter: species => [
+		'Alakazam',
+	].includes(species.name),
+},
+
 
 	// Doubles tiers
 	// -------------

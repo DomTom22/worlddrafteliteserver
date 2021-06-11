@@ -535,7 +535,7 @@ export const Formats: FormatList = [
 			'Gengar', 'Gyarados', 'Hawlucha', 'Heracross-Mega', 'Hydreigon', 'Latias-Mega', 'Latios', 'Manaphy', 'Pinsir-Mega', 'Regice-HF',
 			'Regieleki', 'Slowbro-Mega', 'Tangrowth', 'Venusaur-Mega',
 			'ndrubl', // National Dex RUBL
-			'Alakazam'
+			'Alakazam',
 			// Slowbronite is banned so it doesn't validate on Galarian Slowbro
 			'Slowbronite',
 		],

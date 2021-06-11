@@ -1,7 +1,7 @@
 export const Formats: {[k: string]: ModdedFormatData} = {
 	standard: {
 		inherit: true,
-		ruleset: ['Obtainable', '+Unobtainable', '+Future', 'Team Preview', 'Sleep Clause Mod', 'Species Clause', 'Nickname Clause', 'OHKO Clause', 'Moody Clause', 'Evasion Moves Clause', 'Endless Battle Clause', 'HP Percentage Mod', 'Cancel Mod'],
+		ruleset: ['Obtainable', 'Team Preview', 'Sleep Clause Mod', 'Species Clause', 'Nickname Clause', 'OHKO Clause', 'Moody Clause', 'Evasion Moves Clause', 'Endless Battle Clause', 'HP Percentage Mod', 'Cancel Mod'],
 		minSourceGen: 0, // auto
 	},
 	standarddoubles: {

@@ -509,7 +509,7 @@ export const Formats: FormatList = [
 			'Rapidash-HF', 'Regirock-HF', 'Ribombee', 'Rotom-Heat', 'Rotom-Wash', 'Sawsbuck-HF', 'Scizor', 'Shuckle', 'Skarmory', 'Slaking-HF', 'Slowking', 'Slowking-Galar',
 			'Staraptor', 'Swampert', 'Tapu Bulu', 'Terrakion', 'Thundurus', 'Trevenant-HF', 'Urshifu-Rapid-Strike', 'Victreebel-HF', 'Weavile', 'Xurkitree', 'Zapdos-Galar',
 		],
-	},z
+	},
 	{
 		name: "[Gen 8] National Dex Monotype",
 		threads: [

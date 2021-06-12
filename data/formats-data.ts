@@ -1015,6 +1015,10 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "NUBL",
 		doublesTier: "(DUU)",
 	},
+	starmieelite: {
+		tier: "Illegal",
+		doublesTier: "Illegal",
+	},
 	mimejr: {
 		tier: "LC",
 	},
@@ -1455,6 +1459,9 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	},
 	ariados: {
 		tier: "PU",
+	},
+	ariadoelites: {
+		tier: "Illegal",
 	},
 	chinchou: {
 		tier: "LC",
@@ -1920,6 +1927,9 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	},
 	mightyena: {
 		tier: "(PU)",
+	},
+	mightyenaelite: {
+		tier: "Illegal",
 	},
 	zigzagoon: {
 		tier: "LC",
@@ -4243,6 +4253,9 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	pyroar: {
 		tier: "PU",
 	},
+	pyroarelite: {
+		tier: "Illegal",
+	},
 	flabebe: {
 		isNonstandard: "Past",
 		tier: "Illegal",
@@ -4461,6 +4474,10 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		randomDoubleBattleLevel: 86,
 		tier: "NUBL",
 		doublesTier: "(DUU)",
+	},
+	goodraelite: {
+		tier: "Illegal",
+		doublesTier: "Illegal",
 	},
 	goodrahf: {
 		tier: "UU",

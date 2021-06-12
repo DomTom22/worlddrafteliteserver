@@ -497,7 +497,7 @@ export const Formats: FormatList = [
 			'nduubl', // National Dex UUBL
 			'Aerodactyl-Mega', 'Altaria-HF-Mega', 'Arcanine-HF', 'Azumarill', 'Blacephalon', 'Charizard-Mega-X', 'Diancie-Mega', 'Dustox-HF', 'Gardevoir-Mega',
 			'Gengar', 'Gyarados', 'Hawlucha', 'Heracross-Mega', 'Hydreigon', 'Latias-Mega', 'Latios', 'Manaphy', 'Pinsir-Mega', 'Regice-HF',
-			'Regieleki', 'Slowbro-Mega', 'Tangrowth', 'Venusaur-Mega',
+			'Regieleki', 'Slowbro-Mega', 'Tangrowth', 'Venusaur-Mega', 'Goodra-Elite', 'Ariados-Elite', 'Pyroar-Elite', 'Starmie-Elite', 'Mightyena-Elite',
 			// Slowbronite is banned so it doesn't validate on Galarian Slowbro
 			'Slowbronite',
 		],
@@ -509,41 +509,7 @@ export const Formats: FormatList = [
 			'Rapidash-HF', 'Regirock-HF', 'Ribombee', 'Rotom-Heat', 'Rotom-Wash', 'Sawsbuck-HF', 'Scizor', 'Shuckle', 'Skarmory', 'Slaking-HF', 'Slowking', 'Slowking-Galar',
 			'Staraptor', 'Swampert', 'Tapu Bulu', 'Terrakion', 'Thundurus', 'Trevenant-HF', 'Urshifu-Rapid-Strike', 'Victreebel-HF', 'Weavile', 'Xurkitree', 'Zapdos-Galar',
 		],
-	},
-	{
-		name: "[Gen 8] National Dex RU",
-		threads: [
-			`&bullet; <a href="https://www.smogon.com/forums/threads/3660920/">National Dex UU Metagame Discussion</a>`,
-			`&bullet; <a href="https://www.smogon.com/forums/threads/3672486/">National Dex UU Sample Teams</a>`,
-			`&bullet; <a href="https://www.smogon.com/forums/threads/3672482/">National Dex UU Viability Rankings</a>`,
-		],
-
-		mod: 'gen8',
-		ruleset: ['[Gen 8] National Dex'],
-		banlist: [
-			// National Dex OU
-			'Accelgor-HF', 'Blissey', 'Celesteela', 'Chansey', 'Charizard-Mega-Y', 'Clefable', 'Corviknight', 'Dragalge-HF', 'Dusknoir-HF', 'Excadrill', 'Ferrothorn',
-			'Garchomp', 'Gliscor', 'Greninja', 'Heatran', 'Kartana', 'Kommo-o', 'Kyurem', 'Landorus-Therian', 'Lopunny-Mega', 'Magnezone',
-			'Mawile-Mega', 'Medicham-Mega', 'Pelipper', 'Registeel-HF', 'Rillaboom', 'Sableye-Mega', 'Scizor-Mega', 'Serperior', 'Slowbro-Base', 'Swampert-Mega',
-			'Tapu Fini', 'Tapu Koko', 'Tapu Lele', 'Tentacruel-HF', 'Toxapex', 'Tyranitar', 'Vespiquen-HF', 'Victini', 'Volcarona', 'Zapdos-Base', 'Zebstrika-HF', 'Zoroark-HF',
-			'Absol-Mega', 'Aggron-Mega', 'Altaria-Mega', 'Amoonguss', 'Beedrill-Mega', 'Bisharp', 'Buzzwole', 'Chesnaught',
-			'Dragonite', 'Dusclops-HF', 'Gallade-Mega', 'Gigalith-HF', 'Golem-HF', 'Goodra-HF', 'Hippowdon', 'Hoopa-Unbound', 'Infernape', 'Jirachi', 'Keldeo', 'Krookodile',
-			'Latias', 'Mamoswine', 'Mandibuzz', 'Manectric-Mega', 'Melmetal', 'Mew', 'Mienshao', 'Moltres-Base', 'Nihilego', 'Ninetales-Alola', 'Porygon2', 'Quagsire', 'Qwilfish-HF',
-			'Rapidash-HF', 'Regirock-HF', 'Ribombee', 'Rotom-Heat', 'Rotom-Wash', 'Sawsbuck-HF', 'Scizor', 'Shuckle', 'Skarmory', 'Slaking-HF', 'Slowking', 'Slowking-Galar',
-			'Staraptor', 'Swampert', 'Tapu Bulu', 'Terrakion', 'Thundurus', 'Trevenant-HF', 'Urshifu-Rapid-Strike', 'Victreebel-HF', 'Weavile', 'Xurkitree', 'Zapdos-Galar',
-			'Aerodactyl-Mega', 'Altaria-HF-Mega', 'Arcanine-HF', 'Azumarill', 'Blacephalon', 'Charizard-Mega-X', 'Diancie-Mega', 'Dustox-HF', 'Gardevoir-Mega',
-			'Gengar', 'Gyarados', 'Hawlucha', 'Heracross-Mega', 'Hydreigon', 'Latias-Mega', 'Latios', 'Manaphy', 'Pinsir-Mega', 'Regice-HF',
-			'Regieleki', 'Slowbro-Mega', 'Tangrowth', 'Venusaur-Mega',
-			'ndrubl', // National Dex RUBL
-			'Alakazam',
-			// Slowbronite is banned so it doesn't validate on Galarian Slowbro
-			'Slowbronite',
-		],
-		// Used to distinguish UU from below UU in the client
-		restricted: [
-			'Alomomola',
-		],
-	},
+	},z
 	{
 		name: "[Gen 8] National Dex Monotype",
 		threads: [

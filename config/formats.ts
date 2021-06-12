@@ -491,7 +491,7 @@ export const Formats: FormatList = [
 		banlist: [
 			// National Dex OU
 			'Accelgor-HF', 'Blissey', 'Celesteela', 'Chansey', 'Charizard-Mega-Y', 'Clefable', 'Corviknight', 'Dragalge-HF', 'Dusknoir-HF', 'Excadrill', 'Ferrothorn',
-			'Garchomp', 'Gliscor', 'Greninja', 'Heatran', 'Kartana', 'Kommo-o', 'Kyurem', 'Landorus-Therian', 'Lopunny-Mega', 'Magnezone', 'Haxorus-HF'
+			'Garchomp', 'Gliscor', 'Greninja', 'Heatran', 'Kartana', 'Kommo-o', 'Kyurem', 'Landorus-Therian', 'Lopunny-Mega', 'Magnezone', 'Haxorus-HF',
 			'Mawile-Mega', 'Medicham-Mega', 'Pelipper', 'Registeel-HF', 'Rillaboom', 'Sableye-Mega', 'Scizor-Mega', 'Serperior', 'Slowbro-Base', 'Swampert-Mega',
 			'Tapu Fini', 'Tapu Koko', 'Tapu Lele', 'Tentacruel-HF', 'Toxapex', 'Tyranitar', 'Vespiquen-HF', 'Victini', 'Volcarona', 'Zapdos-Base', 'Zebstrika-HF', 'Zoroark-HF',
 			'nduubl', // National Dex UUBL

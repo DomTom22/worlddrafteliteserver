@@ -1016,7 +1016,6 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		doublesTier: "(DUU)",
 	},
 	starmieelite: {
-		isNonstandard: "Past",
 		tier: "Illegal",
 	},
 	mimejr: {
@@ -1275,6 +1274,9 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		randomDoubleBattleLevel: 86,
 		tier: "(PU)",
 		doublesTier: "(DUU)",
+	},
+	kabutopshf: {
+		tier: "CAP",
 	},
 	aerodactyl: {
 		randomBattleMoves: ["aquatail", "dualwingbeat", "earthquake", "honeclaws", "stoneedge"],
@@ -3292,11 +3294,19 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	simisage: {
 		tier: "(PU)",
 	},
+	simisageelite: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
 	pansear: {
 		tier: "Illegal",
 	},
 	simisear: {
 		tier: "(PU)",
+	},
+	simisearelite: {
+		isNonstandard: "Past",
+		tier: "Illegal",
 	},
 	panpour: {
 		isNonstandard: "Past",
@@ -3304,6 +3314,10 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	},
 	simipour: {
 		tier: "(PU)",
+	},
+	simipourelite: {
+		isNonstandard: "Past",
+		tier: "Illegal",
 	},
 	munna: {
 		tier: "LC",
@@ -3851,6 +3865,9 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		randomDoubleBattleLevel: 84,
 		tier: "RU",
 		doublesTier: "(DUU)",
+	},
+	haxorushf: {
+		tier: "CAP",
 	},
 	cubchoo: {
 		tier: "LC",
@@ -4436,6 +4453,10 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		randomDoubleBattleLevel: 88,
 		tier: "(PU)",
 		doublesTier: "(DUU)",
+	},
+	auroruselite: {
+		isNonstandard: "Past",
+		tier: "Illegal",
 	},
 	hawlucha: {
 		randomBattleMoves: ["bravebird", "closecombat", "roost", "stoneedge", "swordsdance", "throatchop"],
@@ -5558,6 +5579,10 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "(PU)",
 		doublesTier: "(DUU)",
 	},
+	drednawelite: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
 	drednawgmax: {
 		isNonstandard: "Gigantamax",
 		tier: "AG",
@@ -5573,6 +5598,10 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		randomDoubleBattleLevel: 86,
 		tier: "(PU)",
 		doublesTier: "(DUU)",
+	},
+	boltundelite: {
+		isNonstandard: "Past",
+		tier: "Illegal",
 	},
 	rolycoly: {
 		tier: "LC",

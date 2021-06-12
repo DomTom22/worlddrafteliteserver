@@ -1016,8 +1016,8 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		doublesTier: "(DUU)",
 	},
 	starmieelite: {
+		isNonstandard: "Past",
 		tier: "Illegal",
-		doublesTier: "Illegal",
 	},
 	mimejr: {
 		tier: "LC",

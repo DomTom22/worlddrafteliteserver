@@ -144,6 +144,10 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		isNonstandard: "Past",
 		tier: "Illegal",
 	},
+	raticateelite: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
 	spearow: {
 		isNonstandard: "Past",
 		tier: "Illegal",
@@ -400,6 +404,9 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	},
 	parasect: {
 		tier: "(PU)",
+	},
+	parasectelite: {
+		tier: "Illegal",
 	},
 	venonat: {
 		isNonstandard: "Past",
@@ -1616,6 +1623,9 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	girafarig: {
 		tier: "(PU)",
 	},
+	girafarigelite: {
+		tier: "Illegal",
+	},
 	pineco: {
 		isNonstandard: "Past",
 		tier: "Illegal",
@@ -1699,8 +1709,10 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "Illegal",
 	},
 	magcargo: {
-		isNonstandard: "Past",
 		tier: "(PU)",
+	},
+	magcargoelite: {
+		tier: "Illegal",
 	},
 	swinub: {
 		tier: "LC",
@@ -2061,6 +2073,9 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	},
 	masquerain: {
 		tier: "PU",
+	},
+	masquerainelite: {
+		tier: "Illegal",
 	},
 	shroomish: {
 		isNonstandard: "Past",
@@ -2603,6 +2618,9 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "RU",
 		doublesTier: "DOU",
 	},
+	metagrosselite: {
+		tier: "Illegal",
+	},
 	metagrossmega: {
 		tier: "OUBL",
 	},
@@ -2798,12 +2816,18 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	rampardos: {
 		tier: "(PU)",
 	},
+	rampardoselite: {
+		tier: "Illegal",
+	},
 	shieldon: {
 		isNonstandard: "Past",
 		tier: "Illegal",
 	},
 	bastiodon: {
 		tier: "(PU)",
+	},
+	bastiodonelite: {
+		tier: "Illegal",
 	},
 	burmy: {
 		isNonstandard: "Past",
@@ -2943,6 +2967,9 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		randomDoubleBattleLevel: 88,
 		tier: "(PU)",
 		doublesTier: "(DUU)",
+	},
+	spiritombelite: {
+		tier: "Illegal",
 	},
 	gible: {
 		tier: "LC",
@@ -3911,6 +3938,9 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		randomDoubleBattleLevel: 88,
 		tier: "(PU)",
 		doublesTier: "(DUU)",
+	},
+	stunfiskelite: {
+		tier: "Illegal",
 	},
 	stunfiskgalar: {
 		randomBattleMoves: ["earthquake", "painsplit", "stealthrock", "stoneedge", "thunderwave"],
@@ -5745,6 +5775,9 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		randomDoubleBattleLevel: 88,
 		tier: "(PU)",
 		doublesTier: "(DUU)",
+	},
+	grapploctelite: {
+		tier: "Illegal",
 	},
 	sinistea: {
 		tier: "LC",

@@ -42736,6 +42736,8 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			thunder: ["8M"],
 			thunderwave: ["8M"],
 			stoneedge: ["8M"],
+			superpower: ["8M"],
+			voltswitch: ["8M"],
 		},
 	},
 	regirock: {
@@ -47986,7 +47988,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			{generation: 5, level: 61, gender: "F", nature: "Quiet", ivs: {hp: 30, atk: 30, def: 30, spa: 30, spd: 30, spe: 30}, moves: ["darkpulse", "psychic", "silverwind", "embargo"], pokeball: "cherishball"},
 		],
 	},
-	spiritomb: {
+	spiritombelite: {
 		learnset: {
 			allyswitch: ["8M", "7T"],
 			attract: ["8M", "7M", "6M", "5M", "4M"],

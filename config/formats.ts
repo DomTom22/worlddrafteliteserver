@@ -499,7 +499,7 @@ export const Formats: FormatList = [
 			'Gengar', 'Gyarados', 'Hawlucha', 'Heracross-Mega', 'Hydreigon', 'Latias-Mega', 'Latios', 'Manaphy', 'Pinsir-Mega', 'Regice-HF',
 			'Regieleki', 'Slowbro-Mega', 'Tangrowth', 'Venusaur-Mega', 'Goodra-Elite', 'Ariados-Elite', 'Pyroar-Elite', 'Starmie-Elite', 'Mightyena-Elite', 'Drednaw-Elite',
 			'Aurorus-Elite', 'Simisage-Elite', 'Simipour-Elite', 'Simisear-Elite', 'Boltund-Elite', 'Metagross-Elite', 'Kabutops-HF', 'Rampardos-Elite', 'Bastiodon-Elite',
-			'Spiritomb-Elite', 'Girafarig-Elite', 'Parasect-Elite', 'Stunfisk-Elite', 'Grapploct-Elite', 'Masquerain-Elite', 'Raitcate-Elite', 'Magcargo-Elite',
+			'Spiritomb-Elite', 'Girafarig-Elite', 'Parasect-Elite', 'Stunfisk-Elite', 'Grapploct-Elite', 'Masquerain-Elite', 'Raticate-Elite', 'Magcargo-Elite',
 			// Slowbronite is banned so it doesn't validate on Galarian Slowbro
 			'Slowbronite',
 		],

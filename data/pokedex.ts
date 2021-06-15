@@ -9516,7 +9516,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	liepardelite: {
 		num: 510,
 		name: "Liepard-Elite",
-		types: ["Fairy", ""],
+		types: ["Fairy", "Fire"],
 		baseStats: {hp: 68, atk: 118, def: 70, spa: 78, spd: 70, spe: 96},
 		abilities: {0: "Moxie", 1: "Anger Point", H: "Prankster"},
 		heightm: 1.1,

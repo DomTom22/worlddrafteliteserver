@@ -1415,6 +1415,14 @@ export const MovesText: {[k: string]: MoveText} = {
 			desc: "The user recovers 1/2 the HP lost by the target, rounded down. If Big Root is held by the user, the HP recovered is 1.3x normal, rounded down.",
 		},
 	},
+	soulpunch: {
+		name: "Soul Punch",
+		desc: "The user recovers 1/2 the HP lost by the target, rounded half up. If Big Root is held by the user, the HP recovered is 1.3x normal, rounded half down.",
+		shortDesc: "User recovers 50% of the damage dealt.",
+		gen4: {
+			desc: "The user recovers 1/2 the HP lost by the target, rounded down. If Big Root is held by the user, the HP recovered is 1.3x normal, rounded down.",
+		},
+	},
 	dreameater: {
 		name: "Dream Eater",
 		desc: "The target is unaffected by this move unless it is asleep. The user recovers 1/2 the HP lost by the target, rounded half up. If Big Root is held by the user, the HP recovered is 1.3x normal, rounded half down.",
@@ -2803,14 +2811,29 @@ export const MovesText: {[k: string]: MoveText} = {
 			desc: "If this attack is not successful, the user loses HP equal to half the target's maximum HP if the target was immune, rounded down, otherwise half of the damage the target would have taken, rounded down, but no less than 1 HP and no more than half of the target's maximum HP, as crash damage. Pokemon with the Magic Guard Ability are unaffected by crash damage.",
 			shortDesc: "If miss, user takes 1/2 damage it would've dealt.",
 		},
-		lethalcharge: {
-			name: "Lethal Charge",
-			desc: "If this attack is not successful, the user loses half of its maximum HP, rounded down, as crash damage. Pokemon with the Magic Guard Ability are unaffected by crash damage.",
-			shortDesc: "User is hurt by 50% of its max HP if it misses.",
-			gen4: {
-				desc: "If this attack is not successful, the user loses HP equal to half the target's maximum HP if the target was immune, rounded down, otherwise half of the damage the target would have taken, rounded down, but no less than 1 HP and no more than half of the target's maximum HP, as crash damage. Pokemon with the Magic Guard Ability are unaffected by crash damage.",
-				shortDesc: "If miss, user takes 1/2 damage it would've dealt.",
-			},
+		gen3: {
+			desc: "If this attack is not successful and the target was not immune, the user loses HP equal to half of the damage the target would have taken, rounded down, but no less than 1 HP and no more than half of the target's maximum HP, as crash damage.",
+			shortDesc: "If miss, user takes 1/2 damage it would've dealt.",
+		},
+		gen2: {
+			desc: "If this attack is not successful and the target was not immune, the user loses HP equal to 1/8 the damage the target would have taken, rounded down, but not less than 1 HP, as crash damage.",
+			shortDesc: "If miss, user takes 1/8 damage it would've dealt.",
+		},
+		gen1: {
+			desc: "If this attack misses the target, the user takes 1 HP of crash damage. If the user has a substitute, the crash damage is dealt to the target's substitute if it has one, otherwise no crash damage is dealt.",
+			shortDesc: "User takes 1 HP of damage if it misses.",
+		},
+
+		damage: "#crash",
+	},
+	lethalcharge: {
+		name: "Lethal Charge",
+		desc: "If this attack is not successful, the user loses half of its maximum HP, rounded down, as crash damage. Pokemon with the Magic Guard Ability are unaffected by crash damage.",
+		shortDesc: "User is hurt by 50% of its max HP if it misses.",
+		gen4: {
+			desc: "If this attack is not successful, the user loses HP equal to half the target's maximum HP if the target was immune, rounded down, otherwise half of the damage the target would have taken, rounded down, but no less than 1 HP and no more than half of the target's maximum HP, as crash damage. Pokemon with the Magic Guard Ability are unaffected by crash damage.",
+			shortDesc: "If miss, user takes 1/2 damage it would've dealt.",
+		},
 		gen3: {
 			desc: "If this attack is not successful and the target was not immune, the user loses HP equal to half of the damage the target would have taken, rounded down, but no less than 1 HP and no more than half of the target's maximum HP, as crash damage.",
 			shortDesc: "If miss, user takes 1/2 damage it would've dealt.",

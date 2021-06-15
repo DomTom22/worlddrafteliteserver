@@ -377,6 +377,25 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 3,
 		num: 264,
 	},
+	chlorize: {
+		onModifyTypePriority: -1,
+		onModifyType(move, pokemon) {
+			const noModifyType = [
+				'judgment', 'multiattack', 'naturalgift', 'revelationdance', 'technoblast', 'terrainpulse', 'weatherball',
+			];
+			if (move.type === 'Normal' && !noModifyType.includes(move.id) && !(move.isZ && move.category !== 'Status')) {
+				move.type = 'Grass';
+				move.chlorizeBoosted = true;
+			}
+		},
+		onBasePowerPriority: 23,
+		onBasePower(basePower, pokemon, target, move) {
+			if (move.chlorizeBoosted) return this.chainModify([4915, 4096]);
+		},
+		name: "Chlorize",
+		rating: 4,
+		num: 268,
+	},
 	chlorophyll: {
 		onModifySpe(spe, pokemon) {
 			if (['sunnyday', 'desolateland'].includes(pokemon.effectiveWeather())) {
@@ -1213,25 +1232,6 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		name: "Galvanize",
 		rating: 4,
 		num: 206,
-	},
-	chlorize: {
-		onModifyTypePriority: -1,
-		onModifyType(move, pokemon) {
-			const noModifyType = [
-				'judgment', 'multiattack', 'naturalgift', 'revelationdance', 'technoblast', 'terrainpulse', 'weatherball',
-			];
-			if (move.type === 'Normal' && !noModifyType.includes(move.id) && !(move.isZ && move.category !== 'Status')) {
-				move.type = 'Grass';
-				move.chlorizeBoosted = true;
-			}
-		},
-		onBasePowerPriority: 23,
-		onBasePower(basePower, pokemon, target, move) {
-			if (move.chlorizeBoosted) return this.chainModify([4915, 4096]);
-		},
-		name: "Chlorize",
-		rating: 4,
-		num: 268,
 	},
 	gluttony: {
 		name: "Gluttony",
@@ -3106,6 +3106,16 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		name: "Sand Spit",
 		rating: 2,
 		num: 245,
+	},
+	splashalot: {
+		onDamagingHit(damage, target, source, move) {
+			if (this.field.getWeather().id !== 'rain') {
+				this.field.setWeather('rain');
+			}
+		},
+		name: "Splash A Lot",
+		rating: 2,
+		num: 370,
 	},
 	sandstream: {
 		onStart(source) {

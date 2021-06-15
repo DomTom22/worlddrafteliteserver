@@ -1415,6 +1415,14 @@ export const MovesText: {[k: string]: MoveText} = {
 			desc: "The user recovers 1/2 the HP lost by the target, rounded down. If Big Root is held by the user, the HP recovered is 1.3x normal, rounded down.",
 		},
 	},
+	soulpunch: {
+		name: "Soul Punch",
+		desc: "The user recovers 1/2 the HP lost by the target, rounded half up. If Big Root is held by the user, the HP recovered is 1.3x normal, rounded half down.",
+		shortDesc: "User recovers 50% of the damage dealt.",
+		gen4: {
+			desc: "The user recovers 1/2 the HP lost by the target, rounded down. If Big Root is held by the user, the HP recovered is 1.3x normal, rounded down.",
+		},
+	},
 	dreameater: {
 		name: "Dream Eater",
 		desc: "The target is unaffected by this move unless it is asleep. The user recovers 1/2 the HP lost by the target, rounded half up. If Big Root is held by the user, the HP recovered is 1.3x normal, rounded half down.",
@@ -1755,6 +1763,11 @@ export const MovesText: {[k: string]: MoveText} = {
 		desc: "Has a 50% chance to raise the user's Special Attack by 1 stage.",
 		shortDesc: "50% chance to raise the user's Sp. Atk by 1.",
 	},
+	frostwave: {
+		name: "Frost Wave",
+		desc: "Has a 50% chance to raise the user's Special Attack by 1 stage.",
+		shortDesc: "50% chance to raise the user's Sp. Atk by 1.",
+	},
 	fierywrath: {
 		name: "Fiery Wrath",
 		desc: "Has a 20% chance to make the target flinch.",
@@ -1970,6 +1983,11 @@ export const MovesText: {[k: string]: MoveText} = {
 		name: "Flying Press",
 		desc: "This move combines Flying in its type effectiveness against the target. Damage doubles and no accuracy check is done if the target has used Minimize while active.",
 		shortDesc: "Combines Flying in its type effectiveness.",
+	},
+	chainstrike: {
+		name: "Chain Strike",
+		desc: "This move combines Steel in its type effectiveness against the target. Damage doubles and no accuracy check is done if the target has used Minimize while active.",
+		shortDesc: "Combines Steel in its type effectiveness.",
 	},
 	focusblast: {
 		name: "Focus Blast",
@@ -2793,6 +2811,14 @@ export const MovesText: {[k: string]: MoveText} = {
 			desc: "If this attack is not successful, the user loses HP equal to half the target's maximum HP if the target was immune, rounded down, otherwise half of the damage the target would have taken, rounded down, but no less than 1 HP and no more than half of the target's maximum HP, as crash damage. Pokemon with the Magic Guard Ability are unaffected by crash damage.",
 			shortDesc: "If miss, user takes 1/2 damage it would've dealt.",
 		},
+		lethalcharge: {
+			name: "Lethal Charge",
+			desc: "If this attack is not successful, the user loses half of its maximum HP, rounded down, as crash damage. Pokemon with the Magic Guard Ability are unaffected by crash damage.",
+			shortDesc: "User is hurt by 50% of its max HP if it misses.",
+			gen4: {
+				desc: "If this attack is not successful, the user loses HP equal to half the target's maximum HP if the target was immune, rounded down, otherwise half of the damage the target would have taken, rounded down, but no less than 1 HP and no more than half of the target's maximum HP, as crash damage. Pokemon with the Magic Guard Ability are unaffected by crash damage.",
+				shortDesc: "If miss, user takes 1/2 damage it would've dealt.",
+			},
 		gen3: {
 			desc: "If this attack is not successful and the target was not immune, the user loses HP equal to half of the damage the target would have taken, rounded down, but no less than 1 HP and no more than half of the target's maximum HP, as crash damage.",
 			shortDesc: "If miss, user takes 1/2 damage it would've dealt.",
@@ -5769,6 +5795,11 @@ export const MovesText: {[k: string]: MoveText} = {
 	},
 	stoneedge: {
 		name: "Stone Edge",
+		desc: "Has a higher chance for a critical hit.",
+		shortDesc: "High critical hit ratio.",
+	},
+	glacialcrush: {
+		name: "Glacial Crush",
 		desc: "Has a higher chance for a critical hit.",
 		shortDesc: "High critical hit ratio.",
 	},

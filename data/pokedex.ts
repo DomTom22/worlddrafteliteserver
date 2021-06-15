@@ -15440,7 +15440,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		num: 836,
 		name: "Boltund-Elite",
 		types: ["Dark", "Psychic"],
-		baseStats: {hp: 89, atk: 105, def: 60, spa: 65, spd: 70, spe: 121},
+		baseStats: {hp: 89, atk: 100, def: 60, spa: 65, spd: 70, spe: 121},
 		abilities: {0: "Strong Jaw", H: "Defiant"},
 		heightm: 1,
 		weightkg: 34,

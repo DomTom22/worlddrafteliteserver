@@ -3782,7 +3782,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 	soulpunch: {
 		num: 409,
 		accuracy: 100,
-		basePower: 85,
+		basePower: 75,
 		category: "Physical",
 		name: "Soul Punch",
 		pp: 10,

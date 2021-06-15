@@ -24509,8 +24509,6 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			swagger: ["7M", "7V", "6M", "5M", "4M", "3T"],
 			swift: ["8M", "7V", "4T", "3T"],
 			tailwind: ["8L1", "7T", "7L1", "6T", "6L1", "5T", "5L27", "4T", "4L27"],
-			telekinesis: ["7T", "5M"],
-			teleport: ["8L1", "7L1", "7V", "6L1", "5L9", "4L9", "3L20"],
 			thief: ["8M", "7M", "7V", "6M", "5M", "4M", "3M"],
 			thunderwave: ["8M", "7M", "6M", "5M", "4M", "3T"],
 			toxic: ["7M", "7V", "6M", "5M", "4M", "3M"],

@@ -1214,7 +1214,7 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 4,
 		num: 206,
 	},
-	Chlorize: {
+	chlorize: {
 		onModifyTypePriority: -1,
 		onModifyType(move, pokemon) {
 			const noModifyType = [
@@ -1231,7 +1231,7 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		},
 		name: "Chlorize",
 		rating: 4,
-		num: 306,
+		num: 268,
 	},
 	gluttony: {
 		name: "Gluttony",
@@ -1707,6 +1707,26 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		name: "Intimidate",
 		rating: 3.5,
 		num: 22,
+	},
+	envision: {
+		onStart(pokemon) {
+			let activated = false;
+			for (const target of pokemon.side.foe.active) {
+				if (!target || !this.isAdjacent(target, pokemon)) continue;
+				if (!activated) {
+					this.add('-ability', pokemon, 'Envision', 'boost');
+					activated = true;
+				}
+				if (target.volatiles['substitute']) {
+					this.add('-immune', target);
+				} else {
+					this.boost({spa: -1}, target, pokemon, null, true);
+				}
+			}
+		},
+		name: "Envision",
+		rating: 3.5,
+		num: 269,
 	},
 	intrepidsword: {
 		onStart(pokemon) {

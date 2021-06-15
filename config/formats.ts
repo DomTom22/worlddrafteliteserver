@@ -500,8 +500,8 @@ export const Formats: FormatList = [
 			'Regieleki', 'Slowbro-Mega', 'Tangrowth', 'Venusaur-Mega', 'Goodra-Elite', 'Ariados-Elite', 'Pyroar-Elite', 'Starmie-Elite', 'Mightyena-Elite', 'Drednaw-Elite',
 			'Aurorus-Elite', 'Simisage-Elite', 'Simipour-Elite', 'Simisear-Elite', 'Boltund-Elite', 'Metagross-Elite', 'Kabutops-HF', 'Rampardos-Elite', 'Bastiodon-Elite',
 			'Spiritomb-Elite', 'Girafarig-Elite', 'Parasect-Elite', 'Stunfisk-Elite', 'Grapploct-Elite', 'Masquerain-Elite', 'Raticate-Elite', 'Magcargo-Elite', 'Komala-Elite',
-			'Virizion-Elite', 'Cobalion-Elite', 'Terrakion-Elite', 'Wailord-Elite', 'Glastier-Elite', 'Tyranitar-Elite', 'Grumpig-Elite', 'Toxtricity-Elite', 'Lucario-Elite',
-			'Xatu-Elite', 'Liepard-Elite', 'Golurk-Elite', 'Dhelmise-Elite', 
+			'Virizion-Elite', 'Cobalion-Elite', 'Terrakion-Elite', 'Wailord-Elite', 'Glastrier-Elite', 'Tyranitar-Elite', 'Grumpig-Elite', 'Toxtricity-Elite', 'Lucario-Elite',
+			'Xatu-Elite', 'Liepard-Elite', 'Golurk-Elite', 'Dhelmise-Elite',
 			// Slowbronite is banned so it doesn't validate on Galarian Slowbro
 			'Slowbronite',
 		],

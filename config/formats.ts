@@ -23,7 +23,7 @@ export const Formats: FormatList = [
 	///////////////////////////////////////////////////////////////////
 
 	{
-		section: "HF Singles",
+		section: "Hallowed Fantasy Singles",
 	},
 	{
 		name: "[Gen 8] Random Battle",
@@ -291,7 +291,7 @@ export const Formats: FormatList = [
 	///////////////////////////////////////////////////////////////////
 
 	{
-		section: "Sw/Sh Doubles",
+		section: "Hallowed Fantasy Doubles",
 	},
 	{
 		name: "[Gen 8] Random Doubles Battle",
@@ -456,7 +456,7 @@ export const Formats: FormatList = [
 	///////////////////////////////////////////////////////////////////
 
 	{
-		section: "National Dex",
+		section: "Elite Tiers",
 	},
 	{
 		name: "[Gen 8] National Dex",

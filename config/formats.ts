@@ -509,6 +509,18 @@ export const Formats: FormatList = [
 		],
 	},
 	{
+		name: "[Gen 8] Elite OU",
+		threads: [
+			`&bullet; <a href="https://www.smogon.com/forums/threads/3672210/">OU Metagame Discussion</a>`,
+			`&bullet; <a href="https://www.smogon.com/forums/threads/3672556/">OU Sample Teams</a>`,
+			`&bullet; <a href="https://www.smogon.com/forums/threads/3674058/">OU Viability Rankings</a>`,
+		],
+
+		mod: 'elite',
+		ruleset: ['Standard', 'Obtainable', 'Dynamax Clause'],
+		banlist: ['Uber', 'OUBL', 'AG', '+CAP', 'Arena Trap', 'Moody', 'Power Construct', 'Shadow Tag', 'Baton Pass'],
+	},
+	{
 		name: "[Gen 8] Battle Stadium Singles",
 		threads: [
 			`&bullet; <a href="https://www.smogon.com/forums/threads/3656336/">BSS Discussion</a>`,

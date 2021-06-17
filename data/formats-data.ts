@@ -597,7 +597,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	},
 	tentacruelhf: {
 		tier: "OU",
-		doublesTier: "DOU",
+		doublesTier: "DUber",
 	},
 	geodude: {
 		isNonstandard: "Past",

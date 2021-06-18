@@ -1,6 +1,6 @@
 export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	bulbasaur: {
-		tier: "LC",
+		tier: "LCUU",
 	},
 	ivysaur: {
 		tier: "NFE",
@@ -23,7 +23,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		doublesTier: "(DUber)",
 	},
 	charmander: {
-		tier: "LC",
+		tier: "LCUU",
 	},
 	charmeleon: {
 		tier: "NFE",
@@ -52,7 +52,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		doublesTier: "(DUber)",
 	},
 	squirtle: {
-		tier: "LC",
+		tier: "LCUU",
 	},
 	wartortle: {
 		tier: "NFE",
@@ -78,7 +78,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		doublesTier: "(DUber)",
 	},
 	caterpie: {
-		tier: "LC",
+		tier: "LCUU",
 	},
 	metapod: {
 		tier: "NFE",
@@ -101,8 +101,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		doublesTier: "(DUber)",
 	},
 	weedle: {
-		isNonstandard: "Past",
-		tier: "Illegal",
+		tier: "LCUU",
 	},
 	kakuna: {
 		isNonstandard: "Past",
@@ -115,8 +114,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "UU",
 	},
 	pidgey: {
-		isNonstandard: "Past",
-		tier: "Illegal",
+		tier: "LCUU",
 	},
 	pidgeotto: {
 		isNonstandard: "Past",
@@ -129,12 +127,10 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "RU",
 	},
 	rattata: {
-		isNonstandard: "Past",
-		tier: "Illegal",
+		tier: "LCUU",
 	},
 	rattataalola: {
-		isNonstandard: "Past",
-		tier: "Illegal",
+		tier: "LCUU",
 	},
 	raticate: {
 		tier: "(PU)",
@@ -151,21 +147,19 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "CAP",
 	},
 	spearow: {
-		isNonstandard: "Past",
-		tier: "Illegal",
+		tier: "LCUU",
 	},
 	fearow: {
 		tier: "PU",
 	},
 	ekans: {
-		isNonstandard: "Past",
-		tier: "Illegal",
+		tier: "LCUU",
 	},
 	arbok: {
 		tier: "PU",
 	},
 	pichu: {
-		tier: "LC",
+		tier: "LCUU",
 	},
 	pichuspikyeared: {
 		isNonstandard: "Past",
@@ -263,10 +257,10 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		doublesTier: "(DUU)",
 	},
 	sandshrew: {
-		tier: "LC",
+		tier: "LCUU",
 	},
 	sandshrewalola: {
-		tier: "LC",
+		tier: "LCUU",
 	},
 	sandslash: {
 		randomBattleMoves: ["earthquake", "knockoff", "rapidspin", "stealthrock", "swordsdance", "toxic", "spikes", "stoneedge"],
@@ -285,7 +279,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		doublesTier: "(DUU)",
 	},
 	nidoranf: {
-		tier: "LC",
+		tier: "LCUU",
 	},
 	nidorina: {
 		tier: "NFE",
@@ -299,7 +293,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		doublesTier: "(DUU)",
 	},
 	nidoranm: {
-		tier: "LC",
+		tier: "LCUU",
 	},
 	nidorino: {
 		tier: "NFE",
@@ -313,7 +307,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		doublesTier: "(DUU)",
 	},
 	cleffa: {
-		tier: "LC",
+		tier: "LCUU",
 	},
 	clefairy: {
 		randomDoubleBattleMoves: ["followme", "helpinghand", "moonblast", "protect"],
@@ -332,7 +326,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "LC",
 	},
 	vulpixalola: {
-		tier: "NFE",
+		tier: "LC",
 	},
 	ninetales: {
 		randomBattleMoves: ["fireblast", "nastyplot", "scorchingsands", "solarbeam", "willowisp"],
@@ -351,7 +345,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		doublesTier: "DUU",
 	},
 	igglybuff: {
-		tier: "LC",
+		tier: "LCUU",
 	},
 	jigglypuff: {
 		tier: "NFE",
@@ -365,7 +359,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		doublesTier: "(DUU)",
 	},
 	zubat: {
-		tier: "LC",
+		tier: "LCUU",
 	},
 	golbat: {
 		tier: "NFE",
@@ -379,7 +373,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		doublesTier: "(DUU)",
 	},
 	oddish: {
-		tier: "LC",
+		tier: "LCUU",
 	},
 	gloom: {
 		tier: "NFE",
@@ -401,8 +395,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		doublesTier: "(DUU)",
 	},
 	paras: {
-		isNonstandard: "Past",
-		tier: "Illegal",
+		tier: "LCUU",
 	},
 	parasect: {
 		tier: "(PU)",
@@ -412,8 +405,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "CAP",
 	},
 	venonat: {
-		isNonstandard: "Past",
-		tier: "Illegal",
+		tier: "LCUU",
 	},
 	venomoth: {
 		tier: "RU",
@@ -422,7 +414,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "LC",
 	},
 	diglettalola: {
-		tier: "LC",
+		tier: "LCUU",
 	},
 	dugtrio: {
 		randomBattleMoves: ["earthquake", "memento", "stoneedge", "suckerpunch"],
@@ -508,6 +500,8 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		doublesTier: "DUU",
 	},
 	arcaninehf: {
+		randomBattleMoves: ["scorchingsands", "scald", "icebeam", "slackoff"],
+		randomBattleLevel: 80,
 		tier: "UUBL",
 		doublesTier: "DOU",
 	},

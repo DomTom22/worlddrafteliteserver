@@ -167,6 +167,7 @@ export const Tags: {[id: string]: TagData} = {
 	lcuu: {
 		name: "LCUU",
 		pokemonFilter: species => species.tier === 'LCUU',
+	},
 	cap: {
 		name: "CAP",
 		pokemonFilter: species => species.tier === 'CAP',

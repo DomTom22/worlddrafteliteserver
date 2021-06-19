@@ -1916,8 +1916,16 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "PUBL",
 		doublesTier: "(DUU)",
 	},
+	sceptilehf: {
+		isNonstandard: "CAP",
+		tier: "CAP",
+	},
 	sceptilemega: {
 		tier: "RU",
+	},
+	sceptilehfmega: {
+		isNonstandard: "CAP",
+		tier: "CAP",
 	},
 	torchic: {
 		tier: "LC",
@@ -3404,6 +3412,10 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		randomDoubleBattleLevel: 88,
 		tier: "(PU)",
 		doublesTier: "(DUU)",
+	},
+	musharnahf: {
+		isNonstandard: "CAP",
+		tier: "CAP",
 	},
 	pidove: {
 		tier: "LC",

@@ -2572,14 +2572,14 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		doublesTier: "(DUU)",
 	},
 	glaliehf: {
-		tier: "PU",
+		tier: "UUBL",
 		doublesTier: "(DUU)",
 	},
 	glaliemega: {
 		tier: "PUBL",
 	},
 	glaliehfmega: {
-		tier: "NUBL",
+		tier: "UUBL",
 	},
 	froslass: {
 		randomBattleMoves: ["destinybond", "poltergeist", "spikes", "taunt", "tripleaxel", "willowisp"],

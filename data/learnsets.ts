@@ -42085,6 +42085,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			earthquake: ["8M"],
 			earthpower: ["8M"],
 			recover: ["8M"],
+			flareblitz: ["8M"],
 		},
 	},
 	froslass: {

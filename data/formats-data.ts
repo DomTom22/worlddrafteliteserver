@@ -1657,7 +1657,6 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "RU",
 	},
 	gliscor: {
-		isNonstandard: "Past",
 		tier: "OU",
 	},
 	snubbull: {
@@ -4637,7 +4636,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		doublesTier: "(DUU)",
 	},
 	trevenanthf: {
-		tier: "(UU)",
+		tier: "UU",
 		doublesTier: "DUU",
 	},
 	pumpkaboo: {

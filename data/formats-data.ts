@@ -576,7 +576,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "(PU)",
 	},
 	victreebelhf: {
-		tier: "(RUBL)",
+		tier: "RUBL",
 	},
 	tentacool: {
 		tier: "LC",
@@ -2686,7 +2686,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		doublesTier: "(DUU)",
 	},
 	regicehf: {
-		tier: "UU",
+		tier: "UUBL",
 		doublesTier: "DOU",
 	},
 	registeel: {

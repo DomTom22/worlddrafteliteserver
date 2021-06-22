@@ -922,6 +922,25 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 1,
 		num: 194,
 	},
+	evilize: {
+		onModifyTypePriority: -1,
+		onModifyType(move, pokemon) {
+			const noModifyType = [
+				'judgment', 'multiattack', 'naturalgift', 'revelationdance', 'technoblast', 'terrainpulse', 'weatherball',
+			];
+			if (move.type === 'Normal' && !noModifyType.includes(move.id) && !(move.isZ && move.category !== 'Status')) {
+				move.type = 'Dark';
+				move.chlorizeBoosted = true;
+			}
+		},
+		onBasePowerPriority: 23,
+		onBasePower(basePower, pokemon, target, move) {
+			if (move.chlorizeBoosted) return this.chainModify([4915, 4096]);
+		},
+		name: "Evilize",
+		rating: 4,
+		num: 270,
+	},
 	fairyaura: {
 		onStart(pokemon) {
 			this.add('-ability', pokemon, 'Fairy Aura');
@@ -1951,6 +1970,23 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		name: "Magic Guard",
 		rating: 4,
 		num: 98,
+	},
+	magicpull: {
+		onFoeTrapPokemon(pokemon) {
+			if (pokemon.hasType('Fairy') && this.isAdjacent(pokemon, this.effectData.target)) {
+				pokemon.tryTrap(true);
+			}
+		},
+		onFoeMaybeTrapPokemon(pokemon, source) {
+			if (!source) source = this.effectData.target;
+			if (!source || !this.isAdjacent(pokemon, source)) return;
+			if (!pokemon.knownType || pokemon.hasType('Fairy')) {
+				pokemon.maybeTrapped = true;
+			}
+		},
+		name: "Magic Pull",
+		rating: 4,
+		num: 271,
 	},
 	magician: {
 		onSourceHit(target, source, move) {

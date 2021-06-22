@@ -1376,6 +1376,10 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	dragonair: {
 		tier: "NFE",
 	},
+	dragonairelite: {
+		isNonstandard: "CAP",
+		tier: "CAP",
+	},
 	dragonite: {
 		randomBattleMoves: ["dragondance", "dualwingbeat", "earthquake", "extremespeed", "outrage"],
 		randomBattleLevel: 76,
@@ -2048,6 +2052,10 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		randomBattleNoDynamaxMoves: ["defog", "knockoff", "leafblade", "lowkick", "rockslide", "suckerpunch", "swordsdance"],
 		tier: "(PU)",
 		doublesTier: "(DUU)",
+	},
+	shiftryelite: {
+		isNonstandard: "CAP",
+		tier: "CAP",
 	},
 	taillow: {
 		isNonstandard: "Past",
@@ -3045,7 +3053,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "NUBL",
 		doublesTier: "(DUU)",
 	},
-	lucatioelite: {
+	lucarioelite: {
 		isNonstandard: "CAP",
 		tier: "CAP",
 	},
@@ -4265,6 +4273,10 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		randomBattleMoves: ["airslash", "calmmind", "hydropump", "icywind", "scald", "secretsword", "substitute"],
 		randomBattleLevel: 80,
 	},
+	keldeoelite: {
+		isNonstandard: "CAP",
+		tier: "CAP",
+	},
 	meloetta: {
 		tier: "RU",
 	},
@@ -4772,6 +4784,10 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "RU",
 		doublesTier: "DOU",
 	},
+	volcanionelite: {
+		isNonstandard: "CAP",
+		tier: "CAP",
+	},
 	rowlet: {
 		tier: "LC",
 	},
@@ -4907,6 +4923,10 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "(PU)",
 		doublesTier: "(DUU)",
 	},
+	lycanrocelite: {
+		isNonstandard: "CAP",
+		tier: "CAP",
+	},
 	lycanrocmidnight: {
 		randomBattleMoves: ["closecombat", "irontail", "stealthrock", "stoneedge", "suckerpunch", "swordsdance"],
 		randomBattleLevel: 82,
@@ -4914,6 +4934,10 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		randomDoubleBattleLevel: 88,
 		tier: "(PU)",
 		doublesTier: "(DUU)",
+	},
+	lycanrocmidnightelite: {
+		isNonstandard: "CAP",
+		tier: "CAP",
 	},
 	lycanrocdusk: {
 		randomBattleMoves: ["accelerock", "closecombat", "psychicfangs", "stoneedge", "swordsdance"],

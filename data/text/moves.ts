@@ -1367,6 +1367,11 @@ export const MovesText: {[k: string]: MoveText} = {
 		desc: "Raises the user's Attack and Speed by 1 stage.",
 		shortDesc: "Raises the user's Attack and Speed by 1.",
 	},
+	dragonaria: {
+		name: "Dragon Aria",
+		desc: "Raises the user's SpA and Speed by 1 stage.",
+		shortDesc: "Raises the user's SpA and Speed by 1.",
+	},
 	dragondarts: {
 		name: "Dragon Darts",
 		desc: "Hits twice. If the first hit breaks the target's substitute, it will take damage for the second hit. In Double Battles, this move attempts to hit the targeted Pokemon and its ally once each. If hitting one of these Pokemon would be prevented by immunity, protection, semi-invulnerability, an Ability, or accuracy, it attempts to hit the other Pokemon twice instead. If this move is redirected, it hits that target twice.",
@@ -4490,6 +4495,11 @@ export const MovesText: {[k: string]: MoveText} = {
 			desc: "Has a 33% chance to lower the target's Special by 1 stage.",
 			shortDesc: "33% chance to lower the target's Special by 1.",
 		},
+	},
+	necroblast: {
+		name: "Psychic",
+		desc: "Has a 20% chance to lower the target's Special Defense by 1 stage.",
+		shortDesc: "20% chance to lower the target's Sp. Def by 1.",
 	},
 	psychicfangs: {
 		name: "Psychic Fangs",

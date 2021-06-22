@@ -473,8 +473,13 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 	},
 	chlorize: {
 		name: "Chlorize",
-		desc: "This Pokemon's Normal-type moves become Grass-type moves and have their power multiplied by 1.2. This effect comes after other effects that change a move's type, but before Ion Deluge and Electrify's effects.",
+		desc: "This Pokemon's Normal-type moves become Grass-type moves and have their power multiplied by 1.2.",
 		shortDesc: "This Pokemon's Normal-type moves become Grass type and have 1.2x power.",
+	},
+	evilize: {
+		name: "Evilize",
+		desc: "This Pokemon's Normal-type moves become Dark-type moves and have their power multiplied by 1.2.",
+		shortDesc: "This Pokemon's Normal-type moves become Dark type and have 1.2x power.",
 	},
 	gluttony: {
 		name: "Gluttony",
@@ -776,6 +781,11 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 		name: "Magnet Pull",
 		desc: "Prevents adjacent opposing Steel-type Pokemon from choosing to switch out unless they are immune to trapping.",
 		shortDesc: "Prevents adjacent Steel-type foes from choosing to switch.",
+	},
+	magicpull: {
+		name: "Magic Pull",
+		desc: "Prevents adjacent opposing Fairy-type Pokemon from choosing to switch out unless they are immune to trapping.",
+		shortDesc: "Prevents adjacent Fairy-type foes from choosing to switch.",
 	},
 	marvelscale: {
 		name: "Marvel Scale",

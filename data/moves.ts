@@ -3642,6 +3642,25 @@ export const Moves: {[moveid: string]: MoveData} = {
 		zMove: {effect: 'clearnegativeboost'},
 		contestType: "Cool",
 	},
+	dragonaria: {
+		num: 832,
+		accuracy: true,
+		basePower: 0,
+		category: "Status",
+		name: "Dragon Aria",
+		pp: 20,
+		priority: 0,
+		flags: {snatch: 1, dance: 1},
+		boosts: {
+			spa: 1,
+			spe: 1,
+		},
+		secondary: null,
+		target: "self",
+		type: "Dragon",
+		zMove: {boost: {spa: 1, spe: 1}},
+		contestType: "Cool",
+	},
 	dragondarts: {
 		num: 751,
 		accuracy: 100,
@@ -13222,6 +13241,25 @@ export const Moves: {[moveid: string]: MoveData} = {
 		flags: {protect: 1, mirror: 1},
 		secondary: {
 			chance: 10,
+			boosts: {
+				spd: -1,
+			},
+		},
+		target: "normal",
+		type: "Psychic",
+		contestType: "Clever",
+	},
+	necroblast: {
+		num: 94,
+		accuracy: 95,
+		basePower: 110,
+		category: "Special",
+		name: "Necroblst",
+		pp: 5,
+		priority: 0,
+		flags: {protect: 1, mirror: 1},
+		secondary: {
+			chance: 20,
 			boosts: {
 				spd: -1,
 			},

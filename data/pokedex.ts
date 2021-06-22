@@ -16880,7 +16880,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	sceptilehfmega: {
 		num: 254,
 		name: "Sceptile-HF-Mega",
-		baseSpecies: "Sceptile",
+		baseSpecies: "Sceptile-HF",
 		forme: "Mega",
 		types: ["Ghost", "Ground"],
 		genderRatio: {M: 0.875, F: 0.125},

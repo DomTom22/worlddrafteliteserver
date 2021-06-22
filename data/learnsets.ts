@@ -9908,7 +9908,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			frustration: ["8M"],
 			rest: ["8M"],
 			sleeptalk: ["8M"],
-			subsitute: ["8M"],
+			substitute: ["8M"],
 		},
 	},
 	geodude: {

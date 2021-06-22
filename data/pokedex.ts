@@ -16906,7 +16906,6 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	glaliehf: {
 		num: 899,
 		name: "Glalie-HF",
-		baseSpecies: "Glalie",
 		types: ["Fire", "Ground"],
 		baseStats: {hp: 100, atk: 90, def: 80, spa: 90, spd: 80, spe: 80},
 		abilities: {0: "Flame Body", H: "Drought"},
@@ -16936,7 +16935,6 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	altariahf: {
 		num: 900,
 		name: "Altaria-HF",
-		baseSpecies: "Altaria",
 		types: ["Dragon", "Electric"],
 		baseStats: {hp: 75, atk: 70, def: 90, spa: 70, spd: 105, spe: 80},
 		abilities: {0: "Lightning Rod"},

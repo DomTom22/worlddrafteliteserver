@@ -4497,7 +4497,7 @@ export const MovesText: {[k: string]: MoveText} = {
 		},
 	},
 	necroblast: {
-		name: "Psychic",
+		name: "Necroblast",
 		desc: "Has a 20% chance to lower the target's Special Defense by 1 stage.",
 		shortDesc: "20% chance to lower the target's Sp. Def by 1.",
 	},

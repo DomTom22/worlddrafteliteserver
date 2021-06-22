@@ -13283,7 +13283,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		baseSpecies: "Volcanion",
 		types: ["Fire", "Psychic"],
 		gender: "N",
-		baseStats: {hp: 80, atk: 120, def: 110, spa: 90, spd: 130, spe: 70},
+		baseStats: {hp: 80, atk: 90, def: 110, spa: 120, spd: 130, spe: 70},
 		abilities: {0: "Magic Pull"},
 		heightm: 1.7,
 		weightkg: 195,

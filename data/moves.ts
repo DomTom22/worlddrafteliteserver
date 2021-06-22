@@ -13254,7 +13254,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		accuracy: 95,
 		basePower: 110,
 		category: "Special",
-		name: "Necroblst",
+		name: "Necroblast",
 		pp: 5,
 		priority: 0,
 		flags: {protect: 1, mirror: 1},

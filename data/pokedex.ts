@@ -14511,7 +14511,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		name: "Komala-Elite",
 		baseSpecies: "Komala",
 		types: ["Ghost", "Normal"],
-		baseStats: {hp: 85, atk: 140, def: 85, spa: 60, spd: 95, spe: 65},
+		baseStats: {hp: 85, atk: 125, def: 85, spa: 60, spd: 95, spe: 65},
 		abilities: {0: "Comatose"},
 		heightm: 0.4,
 		weightkg: 19.9,

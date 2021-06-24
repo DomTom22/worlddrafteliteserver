@@ -64891,7 +64891,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	keldeoresolute: {
 		eventOnly: true,
 	},
-	keldeo: {
+	keldeoelite: {
 		learnset: {
 			aerialace: ["7M", "6M", "5M"],
 			airslash: ["8M"],

@@ -2302,15 +2302,13 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		doublesTier: "(DUU)",
 	},
 	sharpedohf: {
-		isNonstandard: "CAP",
-		tier: "CAP",
+		tier: "UU",
 	},
 	sharpedomega: {
 		tier: "RU",
 	},
 	sharpedohfmega: {
-		isNonstandard: "CAP",
-		tier: "CAP",
+		tier: "OU",
 	},
 	wailmer: {
 		tier: "LC",
@@ -2579,14 +2577,14 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		doublesTier: "(DUU)",
 	},
 	glaliehf: {
-		tier: "UUBL",
-		doublesTier: "(DUU)",
+		tier: "OU",
+		doublesTier: "DOU",
 	},
 	glaliemega: {
 		tier: "PUBL",
 	},
 	glaliehfmega: {
-		tier: "UUBL",
+		tier: "OU",
 	},
 	froslass: {
 		randomBattleMoves: ["destinybond", "poltergeist", "spikes", "taunt", "tripleaxel", "willowisp"],
@@ -3222,6 +3220,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		doublesTier: "(DUU)",
 	},
 	regigigashf: {
+		isNonstandard: "CAP",
 		tier: "CAP",
 	},
 	giratina: {

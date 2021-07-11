@@ -412,7 +412,7 @@ export const Formats: FormatList = [
 			],
 
 			mod: 'gen8',
-			ruleset: ['Standard NatDex', 'OHKO Clause', 'Evasion Moves Clause', 'Species Clause', 'Dynamax Clause', 'Sleep Clause Mod'],
+			ruleset: ['Standard NatDex', '+CAP', 'OHKO Clause', 'Evasion Moves Clause', 'Species Clause', 'Dynamax Clause', 'Sleep Clause Mod'],
 			banlist: [
 				'Alakazam-Mega', 'Arceus', 'Blastoise-Mega', 'Blaziken', 'Calyrex-Ice', 'Calyrex-Shadow', 'Cinderace', 'Darkrai', 'Darmanitan-Galar',
 				'Deoxys-Attack', 'Deoxys-Base', 'Deoxys-Speed', 'Dialga', 'Dracovish', 'Dragapult', 'Eternatus', 'Genesect', 'Gengar-Mega', 'Giratina',
@@ -438,7 +438,7 @@ export const Formats: FormatList = [
 				'Blissey', 'Chansey', 'Charizard-Mega-X', 'Charizard-Mega-Y', 'Clefable', 'Corviknight', 'Excadrill', 'Ferrothorn',
 				'Garchomp', 'Gliscor', 'Greninja', 'Gyarados-Mega', 'Heatran', 'Kartana', 'Kommo-o', 'Kyurem', 'Landorus-Therian', 'Lopunny-Mega',
 				'Magnezone', 'Mawile-Mega', 'Medicham-Mega', 'Pelipper', 'Rillaboom', 'Scizor-Mega', 'Serperior', 'Slowbro-Base', 'Swampert-Mega',
-				'Tangrowth', 'Tapu Fini', 'Tapu Koko', 'Tapu Lele', 'Toxapex', 'Tyranitar', 'Victini', 'Volcarona', 'Zapdos-Base', "Boltund-Elite",
+				'Tangrowth', 'Tapu Fini', 'Tapu Koko', 'Tapu Lele', 'Toxapex', 'Tyranitar', 'Victini', 'Volcarona', 'Zapdos-Base', 'Boltund-Elite',
 				'ND UUBL', // National Dex UUBL
 				'Drizzle', 'Drought',
 				// Slowbronite is banned so it doesn't validate on Galarian Slowbro
@@ -517,8 +517,8 @@ export const Formats: FormatList = [
 		],
 
 		mod: 'elite',
-		ruleset: ['Standard', 'Obtainable', 'Dynamax Clause'],
-		banlist: ['Uber', 'OUBL', 'AG', '+CAP', 'Arena Trap', 'Moody', 'Power Construct', 'Shadow Tag', 'Baton Pass'],
+		ruleset: ['Standard', '+CAP', 'Obtainable', 'Dynamax Clause'],
+		banlist: ['Uber', 'OUBL', 'AG', 'Arena Trap', 'Moody', 'Power Construct', 'Shadow Tag', 'Baton Pass'],
 	},
 	{
 		name: "[Gen 8] Battle Stadium Singles",

@@ -805,6 +805,14 @@ export const ItemsText: {[k: string]: ItemText} = {
 		name: "Icy Rock",
 		desc: "Holder's use of Hail lasts 8 turns instead of 5.",
 	},
+	floatyrock: {
+		name: "Floaty Rock",
+		desc: "Holder's use of Wind lasts 8 turns instead of 5.",
+	},
+	pitchrock: {
+		name: "Pitch Rock",
+		desc: "Holder's use of Stary Night lasts 8 turns instead of 5.",
+	},
 	inciniumz: {
 		name: "Incinium Z",
 		desc: "If held by an Incineroar with Darkest Lariat, it can use Malicious Moonsault.",

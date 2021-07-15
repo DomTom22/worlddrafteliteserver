@@ -3120,6 +3120,23 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 2,
 		num: 159,
 	},
+	shadeforce: {
+		onBasePowerPriority: 21,
+		onBasePower(basePower, attacker, defender, move) {
+			if (this.field.isWeather('starynight')) {
+				if (move.type === 'Dark' || move.type === 'Ghost' || move.type === 'Poison') {
+					this.debug('Shade Force boost');
+					return this.chainModify([5325, 4096]);
+				}
+			}
+		},
+		onImmunity(type, pokemon) {
+			if (type === 'starynight') return false;
+		},
+		name: "Shade Force",
+		rating: 2,
+		num: 276,
+	},
 	sandrush: {
 		onModifySpe(spe, pokemon) {
 			if (this.field.isWeather('sandstorm')) {
@@ -3474,6 +3491,26 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 3,
 		num: 202,
 	},
+	windrider: {
+		onModifySpe(spe, pokemon) {
+			if (this.field.isWeather('wind')) {
+				return this.chainModify(2);
+			}
+		},
+		name: "Wind Rider",
+		rating: 3,
+		num: 274,
+	},
+	shadowdancer: {
+		onModifySpe(spe, pokemon) {
+			if (this.field.isWeather('starynight')) {
+				return this.chainModify(2);
+			}
+		},
+		name: "Shadow Dancer",
+		rating: 3,
+		num: 275,
+	},
 	sniper: {
 		onModifyDamage(damage, source, target, move) {
 			if (target.getMoveHitData(move).crit) {
@@ -3525,6 +3562,14 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 4,
 		num: 273,
 	},
+	trickster: {
+		onStart(source) {
+			this.field.setpseudoWeather('trickroom');
+		},
+		name: "Trickster",
+		rating: 4,
+		num: 278,
+	},
 	solarpower: {
 		onModifySpAPriority: 5,
 		onModifySpA(spa, pokemon) {
@@ -3541,6 +3586,23 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		name: "Solar Power",
 		rating: 2,
 		num: 94,
+	},
+	windpower: {
+		onModifySpAPriority: 5,
+		onModifySpA(spa, pokemon) {
+			if (['wind', 'deltastream'].includes(pokemon.effectiveWeather())) {
+				return this.chainModify(1.5);
+			}
+		},
+		onWeather(target, source, effect) {
+			if (target.hasItem('utilityumbrella')) return;
+			if (effect.id === 'wind' || effect.id === 'deltastream') {
+				this.damage(target.baseMaxhp / 8, target, target);
+			}
+		},
+		name: "Wind Power",
+		rating: 2,
+		num: 277,
 	},
 	solidrock: {
 		onSourceModifyDamage(damage, source, target, move) {

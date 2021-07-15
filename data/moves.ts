@@ -2977,6 +2977,13 @@ export const Moves: {[moveid: string]: MoveData} = {
 		pp: 10,
 		priority: 0,
 		flags: {protect: 1, reflectable: 1, mirror: 1},
+		onModifyMove(move, pokemon, target) {
+			switch (target?.effectiveWeather()) {
+			case 'starynight':
+				move.accuracy = true;
+				break;
+			}
+		},
 		status: 'slp',
 		onTry(source, target, move) {
 			if (source.species.name === 'Darkrai' || move.hasBounced) {
@@ -8599,6 +8606,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 			switch (target?.effectiveWeather()) {
 			case 'raindance':
 			case 'primordialsea':
+			case 'wind':
 				move.accuracy = true;
 				break;
 			case 'sunnyday':
@@ -11611,6 +11619,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 			switch (pokemon.effectiveWeather()) {
 			case 'sunnyday':
 			case 'desolateland':
+			case 'starynight':
 				factor = 0.667;
 				break;
 			case 'raindance':
@@ -11648,6 +11657,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 			case 'primordialsea':
 			case 'sandstorm':
 			case 'hail':
+			case 'starynight':
 				factor = 0.25;
 				break;
 			}
@@ -17681,6 +17691,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 			case 'primordialsea':
 			case 'sandstorm':
 			case 'hail':
+			case 'starynight':
 				factor = 0.25;
 				break;
 			}

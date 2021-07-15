@@ -1208,6 +1208,11 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 		desc: "If Sandstorm is active, this Pokemon's Ground-, Rock-, and Steel-type attacks have their power multiplied by 1.3. This Pokemon takes no damage from Sandstorm.",
 		shortDesc: "This Pokemon's Ground/Rock/Steel attacks do 1.3x in Sandstorm; immunity to it.",
 	},
+	shadeforce: {
+		name: "Shade Force",
+		desc: "If Stary Night is active, this Pokemon's Dark-, Ghost-, and Poison-type attacks have their power multiplied by 1.3.",
+		shortDesc: "This Pokemon's Dark/Ghost/Poison attacks do 1.3x in Stary Night.",
+	},
 	sandrush: {
 		name: "Sand Rush",
 		desc: "If Sandstorm is active, this Pokemon's Speed is doubled. This Pokemon takes no damage from Sandstorm.",
@@ -1336,6 +1341,14 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 		name: "Slush Rush",
 		shortDesc: "If Hail is active, this Pokemon's Speed is doubled.",
 	},
+	shadowdancer: {
+		name: "Shadow Dancer",
+		shortDesc: "If Stary Night is active, this Pokemon's Speed is doubled.",
+	},
+	windrider: {
+		name: "Wind Rider",
+		shortDesc: "If Wind is active, this Pokemon's Speed is doubled.",
+	},
 	sniper: {
 		name: "Sniper",
 		shortDesc: "If this Pokemon strikes with a critical hit, the damage is multiplied by 1.5.",
@@ -1349,6 +1362,10 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 		name: "Snow Warning",
 		shortDesc: "On switch-in, this Pokemon summons Hail.",
 	},
+	trickster: {
+		name: "Trickster",
+		shortDesc: "On switch-in, this Pokemon summons Trickroom.",
+	},
 	solarpower: {
 		name: "Solar Power",
 		desc: "If Sunny Day is active, this Pokemon's Special Attack is multiplied by 1.5 and it loses 1/8 of its maximum HP, rounded down, at the end of each turn. If this Pokemon is holding Utility Umbrella, its Special Attack remains the same and it does not lose any HP.",
@@ -1356,6 +1373,11 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 		gen7: {
 			desc: "If Sunny Day is active, this Pokemon's Special Attack is multiplied by 1.5 and it loses 1/8 of its maximum HP, rounded down, at the end of each turn.",
 		},
+	},
+	windpower: {
+		name: "Wind Power",
+		desc: "If Wind is active, this Pokemon's Special Attack is multiplied by 1.5 and it loses 1/8 of its maximum HP, rounded down, at the end of each turn. If this Pokemon is holding Utility Umbrella, its Special Attack remains the same and it does not lose any HP.",
+		shortDesc: "If Wind is active, this Pokemon's Sp. Atk is 1.5x; loses 1/8 max HP per turn.",
 	},
 	solidrock: {
 		name: "Solid Rock",

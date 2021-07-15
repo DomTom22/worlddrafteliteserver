@@ -169,6 +169,7 @@ export const TypeChart: {[k: string]: TypeData} = {
 	},
 	Flying: {
 		damageTaken: {
+			wind: 3,
 			Bug: 2,
 			Dark: 0,
 			Dragon: 0,

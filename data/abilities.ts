@@ -3564,7 +3564,7 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 	},
 	trickster: {
 		onStart(source) {
-			this.field.setpseudoWeather('trickroom');
+			this.field.setWeather('trickroom');
 		},
 		name: "Trickster",
 		rating: 4,

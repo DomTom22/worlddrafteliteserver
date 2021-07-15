@@ -19336,6 +19336,12 @@ export const Moves: {[moveid: string]: MoveData} = {
 			case 'hail':
 				move.type = 'Ice';
 				break;
+			case 'starynight':
+				move.type = 'Dark';
+				break;
+			case 'wind':
+				move.type = 'Flying';
+				break;
 			}
 		},
 		onModifyMove(move, pokemon) {

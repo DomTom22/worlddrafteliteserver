@@ -324,6 +324,14 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 		name: "Drought",
 		shortDesc: "On switch-in, this Pokemon summons Sunny Day.",
 	},
+	twilight: {
+		name: "Twilight",
+		shortDesc: "On switch-in, this Pokemon summons Stary Night.",
+	},
+	airstream: {
+		name: "Air Stream",
+		shortDesc: "On switch-in, this Pokemon summons Wind.",
+	},
 	dryskin: {
 		name: "Dry Skin",
 		desc: "This Pokemon is immune to Water-type moves and restores 1/4 of its maximum HP, rounded down, when hit by a Water-type move. The power of Fire-type moves is multiplied by 1.25 when used on this Pokemon. At the end of each turn, this Pokemon restores 1/8 of its maximum HP, rounded down, if the weather is Rain Dance, and loses 1/8 of its maximum HP, rounded down, if the weather is Sunny Day. If this Pokemon is holding Utility Umbrella, the effects of weather are nullified.",

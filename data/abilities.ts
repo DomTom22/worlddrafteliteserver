@@ -3509,6 +3509,22 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 4,
 		num: 117,
 	},
+	twilight: {
+		onStart(source) {
+			this.field.setWeather('starynight');
+		},
+		name: "Twilight",
+		rating: 4,
+		num: 272,
+	},
+	airstream: {
+		onStart(source) {
+			this.field.setWeather('wind');
+		},
+		name: "Air Stream",
+		rating: 4,
+		num: 273,
+	},
 	solarpower: {
 		onModifySpAPriority: 5,
 		onModifySpA(spa, pokemon) {

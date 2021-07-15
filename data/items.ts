@@ -2502,6 +2502,24 @@ export const Items: {[itemid: string]: ItemData} = {
 		num: 282,
 		gen: 4,
 	},
+	floatyrock: {
+		name: "Floaty Rock",
+		spritenum: 147,
+		fling: {
+			basePower: 40,
+		},
+		num: 282,
+		gen: 4,
+	},
+	pitchrock: {
+		name: "Pitch Rock",
+		spritenum: 295,
+		fling: {
+			basePower: 40,
+		},
+		num: 282,
+		gen: 4,
+	},
 	inciniumz: {
 		name: "Incinium Z",
 		spritenum: 651,

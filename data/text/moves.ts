@@ -4666,6 +4666,16 @@ export const MovesText: {[k: string]: MoveText} = {
 			desc: "For 5 turns, the weather becomes Rain Dance, even if the current weather is Rain Dance. The damage of Water-type attacks is multiplied by 1.5 and the damage of Fire-type attacks is multiplied by 0.5 during the effect.",
 		},
 	},
+	starynight: {
+		name: "Stary Night",
+		desc: "For 5 turns, the weather becomes Stary Night. The damage of Fairy-type attacks is multiplied by 0.5 during the effect. Lasts for 8 turns if the user is holding Pitch Rock. Fails if the current weather is Stary Night.",
+		shortDesc: "For 5 turns, sheer darkness weakens Fairy moves.",
+	},
+	wind: {
+		name: "Wind",
+		desc: "For 5 turns, the weather becomes Wind. At the end of each turn except the last, all active Pokemon lose 1/16 of their maximum HP, rounded down, unless they are an Flying type or have the  Magic Guard or Overcoat. Lasts for 8 turns if the user is holding Floaty Rock. Fails if the current weather is Hail.",
+		shortDesc: "For 5 turns, wind howls.",
+	},
 	rapidspin: {
 		name: "Rapid Spin",
 		desc: "If this move is successful and the user has not fainted, the effects of Leech Seed and binding moves end for the user, and all hazards are removed from the user's side of the field. Has a 100% chance to raise the user's Speed by 1 stage.",

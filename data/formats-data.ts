@@ -1247,6 +1247,90 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "RU",
 		doublesTier: "DUU",
 	},
+	pospheon: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
+	blaneon: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
+	aromeon: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
+	fureon: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
+	dynameon: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
+	radeon: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
+	obsideon: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
+	frosteon: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
+	blizzeon: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
+	eclipseon: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
+	cindereon: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
+	zereon: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
+	pulseon: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
+	pineon: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
+	noctiveon: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
+	mooreon: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
+	devileon: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
+	murkeon: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
+	isycleon: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
+	staticeon: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
+	sootheon: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
 	porygon: {
 		tier: "LC",
 	},
@@ -1938,7 +2022,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		isNonstandard: "CAP",
 		tier: "CAP",
 	},
-	scepitledb: {
+	sceptiledb: {
 		isNonstandard: "Custom",
 		tier: "Illegal",
 	},

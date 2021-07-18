@@ -278,6 +278,10 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "PU",
 		doublesTier: "(DUU)",
 	},
+	sandriger: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
 	nidoranf: {
 		tier: "LCUU",
 	},
@@ -1881,6 +1885,10 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "OU",
 		doublesTier: "DOU",
 	},
+	tyranitardb: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
 	lugia: {
 		randomBattleMoves: ["airslash", "earthquake", "roost", "substitute", "toxic"],
 		randomBattleLevel: 74,
@@ -1929,6 +1937,10 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	sceptilehfmega: {
 		isNonstandard: "CAP",
 		tier: "CAP",
+	},
+	scepitledb: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
 	},
 	torchic: {
 		tier: "LC",
@@ -2546,6 +2558,10 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	tropius: {
 		tier: "(PU)",
 	},
+	tropiusdb: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
 	chingling: {
 		isNonstandard: "Past",
 		tier: "Illegal",
@@ -3036,6 +3052,10 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "OU",
 		doublesTier: "DOU",
 	},
+	garchompdb: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
 	garchompmega: {
 		tier: "OU",
 		doublesTier: "DOU",
@@ -3068,6 +3088,10 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		randomDoubleBattleLevel: 88,
 		tier: "UU",
 		doublesTier: "(DUU)",
+	},
+	hippowdondb: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
 	},
 	skorupi: {
 		tier: "LC",
@@ -3464,6 +3488,10 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		randomDoubleBattleLevel: 88,
 		tier: "PU",
 		doublesTier: "DUU",
+	},
+	gigalithdb: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
 	},
 	gigalithhf: {
 		tier: "RU",
@@ -4348,6 +4376,10 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "OU",
 		doublesTier: "DUU",
 	},
+	greninjadb: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
 	bunnelby: {
 		tier: "LC",
 	},
@@ -4557,6 +4589,10 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		randomDoubleBattleLevel: 88,
 		tier: "NU",
 		doublesTier: "(DUU)",
+	},
+	helioliskmega: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
 	},
 	tyrunt: {
 		tier: "LC",

@@ -326,7 +326,7 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 	},
 	twilight: {
 		name: "Twilight",
-		shortDesc: "On switch-in, this Pokemon summons Stary Night.",
+		shortDesc: "On switch-in, this Pokemon summons Starry Night.",
 	},
 	airstream: {
 		name: "Air Stream",
@@ -1210,8 +1210,8 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 	},
 	shadeforce: {
 		name: "Shade Force",
-		desc: "If Stary Night is active, this Pokemon's Dark-, Ghost-, and Poison-type attacks have their power multiplied by 1.3.",
-		shortDesc: "This Pokemon's Dark/Ghost/Poison attacks do 1.3x in Stary Night.",
+		desc: "If Starry Night is active, this Pokemon's Dark-, Ghost-, and Poison-type attacks have their power multiplied by 1.3.",
+		shortDesc: "This Pokemon's Dark/Ghost/Poison attacks do 1.3x in Starry Night.",
 	},
 	sandrush: {
 		name: "Sand Rush",
@@ -1343,7 +1343,7 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 	},
 	shadowdancer: {
 		name: "Shadow Dancer",
-		shortDesc: "If Stary Night is active, this Pokemon's Speed is doubled.",
+		shortDesc: "If Starry Night is active, this Pokemon's Speed is doubled.",
 	},
 	windrider: {
 		name: "Wind Rider",

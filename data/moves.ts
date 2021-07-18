@@ -2979,7 +2979,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		flags: {protect: 1, reflectable: 1, mirror: 1},
 		onModifyMove(move, pokemon, target) {
 			switch (target?.effectiveWeather()) {
-			case 'starynight':
+			case 'starrynight':
 				move.accuracy = true;
 				break;
 			}
@@ -11619,7 +11619,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 			switch (pokemon.effectiveWeather()) {
 			case 'sunnyday':
 			case 'desolateland':
-			case 'starynight':
+			case 'starrynight':
 				factor = 0.667;
 				break;
 			case 'raindance':
@@ -11657,7 +11657,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 			case 'primordialsea':
 			case 'sandstorm':
 			case 'hail':
-			case 'starynight':
+			case 'starrynight':
 				factor = 0.25;
 				break;
 			}
@@ -13811,16 +13811,16 @@ export const Moves: {[moveid: string]: MoveData} = {
 		zMove: {boost: {spe: 1}},
 		contestType: "Beautiful",
 	},
-	starynight: {
+	starrynight: {
 		num: 834,
 		accuracy: true,
 		basePower: 0,
 		category: "Status",
-		name: "Stary Night",
+		name: "Starry Night",
 		pp: 5,
 		priority: 0,
 		flags: {},
-		weather: 'StaryNight',
+		weather: 'StarryNight',
 		secondary: null,
 		target: "all",
 		type: "Dark",
@@ -17691,7 +17691,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 			case 'primordialsea':
 			case 'sandstorm':
 			case 'hail':
-			case 'starynight':
+			case 'starrynight':
 				factor = 0.25;
 				break;
 			}
@@ -19336,7 +19336,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 			case 'hail':
 				move.type = 'Ice';
 				break;
-			case 'starynight':
+			case 'starrynight':
 				move.type = 'Dark';
 				break;
 			case 'wind':

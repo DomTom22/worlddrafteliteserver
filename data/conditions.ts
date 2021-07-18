@@ -580,8 +580,8 @@ export const Conditions: {[k: string]: ConditionData} = {
 			this.add('-weather', 'none');
 		},
 	},
-	starynight: {
-		name: 'StaryNight',
+	starrynight: {
+		name: 'StarryNight',
 		effectType: 'Weather',
 		duration: 5,
 		durationCallback(source, effect) {
@@ -593,21 +593,21 @@ export const Conditions: {[k: string]: ConditionData} = {
 		onWeatherModifyDamage(damage, attacker, defender, move) {
 			if (defender.hasItem('utilityumbrella')) return;
 			if (move.type === 'Fairy') {
-				this.debug('Stary Night fairy suppress');
+				this.debug('Starry Night fairy suppress');
 				return this.chainModify(0.5);
 			}
 		},
 		onStart(battle, source, effect) {
 			if (effect?.effectType === 'Ability') {
 				if (this.gen <= 5) this.effectData.duration = 0;
-				this.add('-weather', 'StaryNight', '[from] ability: ' + effect, '[of] ' + source);
+				this.add('-weather', 'StarryNight', '[from] ability: ' + effect, '[of] ' + source);
 			} else {
-				this.add('-weather', 'StaryNight');
+				this.add('-weather', 'StarryNight');
 			}
 		},
 		onResidualOrder: 1,
 		onResidual() {
-			this.add('-weather', 'StaryNight', '[upkeep]');
+			this.add('-weather', 'StarryNight', '[upkeep]');
 			this.eachEvent('Weather');
 		},
 		onEnd() {

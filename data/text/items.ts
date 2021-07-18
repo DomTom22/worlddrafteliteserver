@@ -811,7 +811,7 @@ export const ItemsText: {[k: string]: ItemText} = {
 	},
 	pitchrock: {
 		name: "Pitch Rock",
-		desc: "Holder's use of Stary Night lasts 8 turns instead of 5.",
+		desc: "Holder's use of Starry Night lasts 8 turns instead of 5.",
 	},
 	inciniumz: {
 		name: "Incinium Z",

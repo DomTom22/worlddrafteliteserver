@@ -4666,9 +4666,9 @@ export const MovesText: {[k: string]: MoveText} = {
 			desc: "For 5 turns, the weather becomes Rain Dance, even if the current weather is Rain Dance. The damage of Water-type attacks is multiplied by 1.5 and the damage of Fire-type attacks is multiplied by 0.5 during the effect.",
 		},
 	},
-	starynight: {
-		name: "Stary Night",
-		desc: "For 5 turns, the weather becomes Stary Night. The damage of Fairy-type attacks is multiplied by 0.5 during the effect. Lasts for 8 turns if the user is holding Pitch Rock. Fails if the current weather is Stary Night.",
+	starrynight: {
+		name: "Starry Night",
+		desc: "For 5 turns, the weather becomes Starry Night. The damage of Fairy-type attacks is multiplied by 0.5 during the effect. Lasts for 8 turns if the user is holding Pitch Rock. Fails if the current weather is Starry Night.",
 		shortDesc: "For 5 turns, sheer darkness weakens Fairy moves.",
 	},
 	wind: {

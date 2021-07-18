@@ -3123,7 +3123,7 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 	shadeforce: {
 		onBasePowerPriority: 21,
 		onBasePower(basePower, attacker, defender, move) {
-			if (this.field.isWeather('starynight')) {
+			if (this.field.isWeather('starrynight')) {
 				if (move.type === 'Dark' || move.type === 'Ghost' || move.type === 'Poison') {
 					this.debug('Shade Force boost');
 					return this.chainModify([5325, 4096]);
@@ -3131,7 +3131,7 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 			}
 		},
 		onImmunity(type, pokemon) {
-			if (type === 'starynight') return false;
+			if (type === 'starrynight') return false;
 		},
 		name: "Shade Force",
 		rating: 2,
@@ -3503,7 +3503,7 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 	},
 	shadowdancer: {
 		onModifySpe(spe, pokemon) {
-			if (this.field.isWeather('starynight')) {
+			if (this.field.isWeather('starrynight')) {
 				return this.chainModify(2);
 			}
 		},
@@ -3548,7 +3548,7 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 	},
 	twilight: {
 		onStart(source) {
-			this.field.setWeather('starynight');
+			this.field.setWeather('starrynight');
 		},
 		name: "Twilight",
 		rating: 4,

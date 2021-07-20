@@ -2374,32 +2374,6 @@ export const Items: {[itemid: string]: ItemData} = {
 		num: 744,
 		gen: 6,
 	},
-	laprasite: {
-		name: "Laprasite",
-		spritenum: 621,
-		megaStone: "Lapras-Mega",
-		megaEvolves: "Lapras",
-		itemUser: ["Lapras"],
-		onTakeItem(item, source) {
-			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
-			return true;
-		},
-		num: 744,
-		gen: 6,
-	},
-	metalynxite: {
-		name: "Metalynxite",
-		spritenum: 613,
-		megaStone: "Metalynx-Mega",
-		megaEvolves: "Metalynx",
-		itemUser: ["Metalynx"],
-		onTakeItem(item, source) {
-			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
-			return true;
-		},
-		num: 744,
-		gen: 6,
-	},
 	hfsceptilite: {
 		name: "HFSceptilite",
 		spritenum: 577,

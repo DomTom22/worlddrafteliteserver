@@ -6390,6 +6390,14 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "Uber",
 		doublesTier: "DUber",
 	},
+	metalynx: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
+	metalynxmega: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
 	missingno: {
 		isNonstandard: "Custom",
 		tier: "Illegal",

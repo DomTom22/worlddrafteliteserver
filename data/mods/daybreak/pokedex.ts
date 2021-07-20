@@ -2927,8 +2927,8 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		weightkg: 305,
 		color: "Blue",
 		eggGroups: ["Monster", "Dragon"],
-		requiredItem: "Heliolite",
-		battleOnly: "Heliolisk",
+		requiredItem: "Laprasite",
+		battleOnly: "Lapras",
 	},
 	laprasgmax: {
 		num: 131,

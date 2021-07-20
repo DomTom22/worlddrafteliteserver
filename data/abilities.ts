@@ -1519,6 +1519,19 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 1,
 		num: 115,
 	},
+	cryoshell: {
+		onWeather(target, source, effect) {
+			if (effect.id === 'raindance' || effect.id === 'hail') {
+				this.heal(target.baseMaxhp / 16);
+			}
+		},
+		onImmunity(type, pokemon) {
+			if (type === 'hail') return false;
+		},
+		name: "Cryo Shell",
+		rating: 1,
+		num: 279,
+	},
 	iceface: {
 		onStart(pokemon) {
 			if (this.field.isWeather('hail') && pokemon.species.id === 'eiscuenoice' && !pokemon.transformed) {

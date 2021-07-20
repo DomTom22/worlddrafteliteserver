@@ -1154,6 +1154,10 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "(PU)",
 		doublesTier: "(DUU)",
 	},
+	laprasmega: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
 	laprasgmax: {
 		randomBattleMoves: ["freezedry", "icebeam", "protect", "sparklingaria", "thunderbolt", "toxic"],
 		randomBattleLevel: 86,

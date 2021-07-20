@@ -574,6 +574,11 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 		name: "Hyper Cutter",
 		shortDesc: "Prevents other Pokemon from lowering this Pokemon's Attack stat stage.",
 	},
+	cryoshell: {
+		name: "Cryo Shell",
+	  desc: "If Rain or Hail is active, this Pokemon restores 1/16 of its maximum HP, rounded down, at the end of each turn. If this Pokemon is holding Utility Umbrella, its HP does not get restored.",
+	  shortDesc: "If Rain or Hail is active, this Pokemon heals 1/16 of its max HP each turn.",
+	},
 	icebody: {
 		name: "Ice Body",
 		desc: "If Hail is active, this Pokemon restores 1/16 of its maximum HP, rounded down, at the end of each turn. This Pokemon takes no damage from Hail.",

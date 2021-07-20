@@ -424,7 +424,7 @@ export const Formats: FormatList = [
 
 			mod: 'elite',
 			ruleset: ['[Gen 8] Elite OU'],
-			banlist: ['OU', 'UUBL'],
+			banlist: ['AG', 'Uber', 'OU', 'UUBL'],
 		},
 		{
 			name: "[Gen 8] Elite RU",
@@ -436,7 +436,7 @@ export const Formats: FormatList = [
 
 			mod: 'elite',
 			ruleset: ['[Gen 8] Elite UU'],
-			banlist: ['UU', 'RUBL'],
+			banlist: ['AG', 'Uber', 'OU', 'UUBL', 'UU', 'RUBL'],
 		},
 		{
 			name: "[Gen 8] Elite NU",
@@ -448,7 +448,7 @@ export const Formats: FormatList = [
 
 			mod: 'elite',
 			ruleset: ['[Gen 8] Elite RU'],
-			banlist: ['RU', 'NUBL'],
+			banlist: ['AG', 'Uber', 'OU', 'UUBL', 'UU', 'RUBL', 'RU', 'NUBL'],
 		},
 		{
 			name: "[Gen 8] Elite PU",
@@ -460,7 +460,7 @@ export const Formats: FormatList = [
 
 			mod: 'elite',
 			ruleset: ['[Gen 8] Elite NU'],
-			banlist: ['NU', 'PUBL'],
+			banlist: ['AG', 'Uber', 'OU', 'UUBL', 'UU', 'RUBL', 'RU', 'NUBL', 'NU', 'PUBL'],
 		},
 		{
 				section: "Daybreak Tiers",
@@ -487,7 +487,7 @@ export const Formats: FormatList = [
 
 				mod: 'daybreak',
 				ruleset: ['[Gen 8] Daybreak OU'],
-				banlist: ['OU', 'UUBL'],
+				banlist: ['AG', 'Uber', 'OU', 'UUBL'],
 			},
 	{
 			section: "National Dex",

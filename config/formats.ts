@@ -415,6 +415,54 @@ export const Formats: FormatList = [
 			banlist: ['Uber', 'OUBL', 'AG', 'Arena Trap', 'Moody', 'Power Construct', 'Shadow Tag', 'Baton Pass'],
 		},
 		{
+			name: "[Gen 8] Elite UU",
+			threads: [
+				`&bullet; <a href="https://www.smogon.com/forums/threads/3672210/">OU Metagame Discussion</a>`,
+				`&bullet; <a href="https://www.smogon.com/forums/threads/3672556/">OU Sample Teams</a>`,
+				`&bullet; <a href="https://www.smogon.com/forums/threads/3674058/">OU Viability Rankings</a>`,
+			],
+
+			mod: 'elite',
+			ruleset: ['[Gen 8] Elite OU'],
+			banlist: ['OU', 'UUBL'],
+		},
+		{
+			name: "[Gen 8] Elite RU",
+			threads: [
+				`&bullet; <a href="https://www.smogon.com/forums/threads/3672210/">OU Metagame Discussion</a>`,
+				`&bullet; <a href="https://www.smogon.com/forums/threads/3672556/">OU Sample Teams</a>`,
+				`&bullet; <a href="https://www.smogon.com/forums/threads/3674058/">OU Viability Rankings</a>`,
+			],
+
+			mod: 'elite',
+			ruleset: ['[Gen 8] Elite UU'],
+			banlist: ['UU', 'RUBL'],
+		},
+		{
+			name: "[Gen 8] Elite NU",
+			threads: [
+				`&bullet; <a href="https://www.smogon.com/forums/threads/3672210/">OU Metagame Discussion</a>`,
+				`&bullet; <a href="https://www.smogon.com/forums/threads/3672556/">OU Sample Teams</a>`,
+				`&bullet; <a href="https://www.smogon.com/forums/threads/3674058/">OU Viability Rankings</a>`,
+			],
+
+			mod: 'elite',
+			ruleset: ['[Gen 8] Elite RU'],
+			banlist: ['RU', 'NUBL'],
+		},
+		{
+			name: "[Gen 8] Elite PU",
+			threads: [
+				`&bullet; <a href="https://www.smogon.com/forums/threads/3672210/">OU Metagame Discussion</a>`,
+				`&bullet; <a href="https://www.smogon.com/forums/threads/3672556/">OU Sample Teams</a>`,
+				`&bullet; <a href="https://www.smogon.com/forums/threads/3674058/">OU Viability Rankings</a>`,
+			],
+
+			mod: 'elite',
+			ruleset: ['[Gen 8] Elite NU'],
+			banlist: ['NU', 'PUBL'],
+		},
+		{
 				section: "Daybreak Tiers",
 			},
 			{
@@ -428,6 +476,18 @@ export const Formats: FormatList = [
 				mod: 'daybreak',
 				ruleset: ['Standard', 'Obtainable', 'Dynamax Clause'],
 				banlist: ['Uber', 'OUBL', 'AG', 'Arena Trap', 'Moody', 'Power Construct', 'Shadow Tag', 'Baton Pass'],
+			},
+			{
+				name: "[Gen 8] Daybreak UU",
+				threads: [
+					`&bullet; <a href="https://www.smogon.com/forums/threads/3672210/">OU Metagame Discussion</a>`,
+					`&bullet; <a href="https://www.smogon.com/forums/threads/3672556/">OU Sample Teams</a>`,
+					`&bullet; <a href="https://www.smogon.com/forums/threads/3674058/">OU Viability Rankings</a>`,
+				],
+
+				mod: 'daybreak',
+				ruleset: ['[Gen 8] Daybreak OU'],
+				banlist: ['OU', 'UUBL'],
 			},
 	{
 			section: "National Dex",

@@ -3535,7 +3535,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	},
 	musharnahf: {
 		isNonstandard: "Custom",
-		tier: "Illegal",v
+		tier: "Illegal",
 	},
 	pidove: {
 		tier: "LC",

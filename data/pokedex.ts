@@ -898,17 +898,15 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		evoItem: "Ice Stone",
 		eggGroups: ["Field"],
 	},
-	sandriger: {
+	sandridger: {
 		num: 902,
-		name: "Sandriger",
+		name: "Sandridger",
 		types: ["Ground", "Steel"],
 		baseStats: {hp: 75, atk: 130, def: 130, spa: 45, spd: 85, spe: 85},
 		abilities: {0: "Guts", H: "Sand Rush"},
 		heightm: 1,
 		weightkg: 29.5,
 		color: "Yellow",
-		prevo: "Sandslash",
-		evoLevel: 22,
 		eggGroups: ["Field"],
 	},
 	nidoranf: {

@@ -2361,6 +2361,32 @@ export const Items: {[itemid: string]: ItemData} = {
 		num: 743,
 		gen: 6,
 	},
+	heliolite: {
+		name: "Heliolite",
+		spritenum: 602,
+		megaStone: "Heliolisk-Mega",
+		megaEvolves: "Heliolisk",
+		itemUser: ["Heliolisk"],
+		onTakeItem(item, source) {
+			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
+			return true;
+		},
+		num: 744,
+		gen: 6,
+	},
+	hfsceptilite: {
+		name: "HFSceptilite",
+		spritenum: 577,
+		megaStone: "Sceptile-HF-Mega",
+		megaEvolves: "Sceptile-HF",
+		itemUser: ["Sceptile-HF"],
+		onTakeItem(item, source) {
+			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
+			return true;
+		},
+		num: 753,
+		gen: 6,
+	},
 	hondewberry: {
 		name: "Hondew Berry",
 		spritenum: 213,
@@ -2483,6 +2509,24 @@ export const Items: {[itemid: string]: ItemData} = {
 	icyrock: {
 		name: "Icy Rock",
 		spritenum: 221,
+		fling: {
+			basePower: 40,
+		},
+		num: 282,
+		gen: 4,
+	},
+	floatyrock: {
+		name: "Floaty Rock",
+		spritenum: 147,
+		fling: {
+			basePower: 40,
+		},
+		num: 282,
+		gen: 4,
+	},
+	pitchrock: {
+		name: "Pitch Rock",
+		spritenum: 295,
 		fling: {
 			basePower: 40,
 		},

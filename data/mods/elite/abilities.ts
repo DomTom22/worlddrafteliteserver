@@ -922,6 +922,25 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 1,
 		num: 194,
 	},
+	evilize: {
+		onModifyTypePriority: -1,
+		onModifyType(move, pokemon) {
+			const noModifyType = [
+				'judgment', 'multiattack', 'naturalgift', 'revelationdance', 'technoblast', 'terrainpulse', 'weatherball',
+			];
+			if (move.type === 'Normal' && !noModifyType.includes(move.id) && !(move.isZ && move.category !== 'Status')) {
+				move.type = 'Dark';
+				move.chlorizeBoosted = true;
+			}
+		},
+		onBasePowerPriority: 23,
+		onBasePower(basePower, pokemon, target, move) {
+			if (move.chlorizeBoosted) return this.chainModify([4915, 4096]);
+		},
+		name: "Evilize",
+		rating: 4,
+		num: 270,
+	},
 	fairyaura: {
 		onStart(pokemon) {
 			this.add('-ability', pokemon, 'Fairy Aura');
@@ -1951,6 +1970,23 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		name: "Magic Guard",
 		rating: 4,
 		num: 98,
+	},
+	magicpull: {
+		onFoeTrapPokemon(pokemon) {
+			if (pokemon.hasType('Fairy') && this.isAdjacent(pokemon, this.effectData.target)) {
+				pokemon.tryTrap(true);
+			}
+		},
+		onFoeMaybeTrapPokemon(pokemon, source) {
+			if (!source) source = this.effectData.target;
+			if (!source || !this.isAdjacent(pokemon, source)) return;
+			if (!pokemon.knownType || pokemon.hasType('Fairy')) {
+				pokemon.maybeTrapped = true;
+			}
+		},
+		name: "Magic Pull",
+		rating: 4,
+		num: 271,
 	},
 	magician: {
 		onSourceHit(target, source, move) {
@@ -3084,6 +3120,23 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 2,
 		num: 159,
 	},
+	shadeforce: {
+		onBasePowerPriority: 21,
+		onBasePower(basePower, attacker, defender, move) {
+			if (this.field.isWeather('starrynight')) {
+				if (move.type === 'Dark' || move.type === 'Ghost' || move.type === 'Poison') {
+					this.debug('Shade Force boost');
+					return this.chainModify([5325, 4096]);
+				}
+			}
+		},
+		onImmunity(type, pokemon) {
+			if (type === 'starrynight') return false;
+		},
+		name: "Shade Force",
+		rating: 2,
+		num: 276,
+	},
 	sandrush: {
 		onModifySpe(spe, pokemon) {
 			if (this.field.isWeather('sandstorm')) {
@@ -3438,6 +3491,26 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 3,
 		num: 202,
 	},
+	windrider: {
+		onModifySpe(spe, pokemon) {
+			if (this.field.isWeather('wind')) {
+				return this.chainModify(2);
+			}
+		},
+		name: "Wind Rider",
+		rating: 3,
+		num: 274,
+	},
+	shadowdancer: {
+		onModifySpe(spe, pokemon) {
+			if (this.field.isWeather('starrynight')) {
+				return this.chainModify(2);
+			}
+		},
+		name: "Shadow Dancer",
+		rating: 3,
+		num: 275,
+	},
 	sniper: {
 		onModifyDamage(damage, source, target, move) {
 			if (target.getMoveHitData(move).crit) {
@@ -3473,6 +3546,30 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 4,
 		num: 117,
 	},
+	twilight: {
+		onStart(source) {
+			this.field.setWeather('starrynight');
+		},
+		name: "Twilight",
+		rating: 4,
+		num: 272,
+	},
+	airstream: {
+		onStart(source) {
+			this.field.setWeather('wind');
+		},
+		name: "Air Stream",
+		rating: 4,
+		num: 273,
+	},
+	trickster: {
+		onStart(source) {
+			this.field.setWeather('trickroom');
+		},
+		name: "Trickster",
+		rating: 4,
+		num: 278,
+	},
 	solarpower: {
 		onModifySpAPriority: 5,
 		onModifySpA(spa, pokemon) {
@@ -3489,6 +3586,23 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		name: "Solar Power",
 		rating: 2,
 		num: 94,
+	},
+	windpower: {
+		onModifySpAPriority: 5,
+		onModifySpA(spa, pokemon) {
+			if (['wind', 'deltastream'].includes(pokemon.effectiveWeather())) {
+				return this.chainModify(1.5);
+			}
+		},
+		onWeather(target, source, effect) {
+			if (target.hasItem('utilityumbrella')) return;
+			if (effect.id === 'wind' || effect.id === 'deltastream') {
+				this.damage(target.baseMaxhp / 8, target, target);
+			}
+		},
+		name: "Wind Power",
+		rating: 2,
+		num: 277,
 	},
 	solidrock: {
 		onSourceModifyDamage(damage, source, target, move) {

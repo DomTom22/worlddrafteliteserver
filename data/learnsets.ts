@@ -87837,6 +87837,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			workup: ["8M", "7M", "5M"],
 			yawn: ["8V"],
 			zapcannon: ["7V"],
+		},
 	},
 	staticeon: {
 		learnset: {

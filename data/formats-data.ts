@@ -158,6 +158,10 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	arbok: {
 		tier: "PU",
 	},
+	abrokmega: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
 	pichu: {
 		tier: "LCUU",
 	},
@@ -3700,6 +3704,10 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		randomBattleNoDynamaxMoves: ["defog", "encore", "energyball", "leechseed", "moonblast", "stunspore", "taunt", "uturn"],
 		tier: "PU",
 		doublesTier: "DOU",
+	},
+	whimsicottmega: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
 	},
 	petilil: {
 		tier: "LC",

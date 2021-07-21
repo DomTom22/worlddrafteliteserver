@@ -516,6 +516,18 @@ export const Formats: FormatList = [
 					ruleset: ['[Gen 8] Uranium OU'],
 					banlist: ['AG', 'Uber', 'OUBL', 'OU', 'UUBL'],
 				},
+				{
+					name: "[Gen 8] Uranium RU",
+					threads: [
+						`&bullet; <a href="https://www.smogon.com/forums/threads/3672210/">OU Metagame Discussion</a>`,
+						`&bullet; <a href="https://www.smogon.com/forums/threads/3672556/">OU Sample Teams</a>`,
+						`&bullet; <a href="https://www.smogon.com/forums/threads/3674058/">OU Viability Rankings</a>`,
+					],
+		
+					mod: 'uranium',
+					ruleset: ['[Gen 8] Uranium UU'],
+					banlist: ['AG', 'Uber', 'OUBL', 'OU', 'UUBL', 'UU', 'RUBL'],
+				},
 	{
 			section: "National Dex",
 		},

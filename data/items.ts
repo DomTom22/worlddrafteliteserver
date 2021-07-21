@@ -2517,32 +2517,6 @@ export const Items: {[itemid: string]: ItemData} = {
 		num: 744,
 		gen: 6,
 	},
-	arbokite: {
-		name: "Arbokite",
-		spritenum: 589,
-		megaStone: "Arbok-Mega",
-		megaEvolves: "Arbok",
-		itemUser: ["Arbok"],
-		onTakeItem(item, source) {
-			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
-			return true;
-		},
-		num: 744,
-		gen: 6,
-	},
-	whimsite: {
-		name: "Whimsite",
-		spritenum: 616,
-		megaStone: "Whimsicott-Mega",
-		megaEvolves: "Whimsicott",
-		itemUser: ["Whimsicott"],
-		onTakeItem(item, source) {
-			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
-			return true;
-		},
-		num: 744,
-		gen: 6,
-	},
 	hfsceptilite: {
 		name: "HFSceptilite",
 		spritenum: 577,

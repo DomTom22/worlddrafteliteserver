@@ -6406,6 +6406,90 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		isNonstandard: "Custom",
 		tier: "Illegal",
 	},
+	archilles: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
+	archillesmega: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
+	electruxo: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
+	electruxomega: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
+	kinetmunk: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
+	splendifowl: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
+	nimflora: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
+	baariette: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
+	baariettemega: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
+	drilgann: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
+	drilgannmega: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
+	s51: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
+	s51mega: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
+	inflagetah: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
+	inflagetahmega: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
+	syrentide: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
+	syrentidemega: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
+	dramsama: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
+	dramsamamega: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
+	kiricorn: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
+	kiricornmega: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
 	missingno: {
 		isNonstandard: "Custom",
 		tier: "Illegal",

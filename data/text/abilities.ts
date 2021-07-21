@@ -30,6 +30,14 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 
 		start: "  The effects of the weather disappeared.",
 	},
+	amplifier: {
+		name: "Amplifier",
+		shortDesc: "This Pokemon's Sound-based moves are boosted by 1.25x.",
+	},
+	soundboost: {
+		name: "Sound Boost",
+		shortDesc: "This Pokemon's Sound-based moves are boosted by 1.3x.",
+	},
 	analytic: {
 		name: "Analytic",
 		desc: "The power of this Pokemon's move is multiplied by 1.3 if it is the last to move in a turn. Does not affect Doom Desire and Future Sight.",
@@ -467,12 +475,24 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 		name: "Fur Coat",
 		shortDesc: "This Pokemon's Defense is doubled.",
 	},
+	sharpcoral: {
+		name: "Sharp Coral",
+		shortDesc: "This Pokemon's Atk and SpA is doubled, Def and SpD is halved.",
+	},
 	galewings: {
 		name: "Gale Wings",
 		shortDesc: "If this Pokemon is at full HP, its Flying-type moves have their priority increased by 1.",
 		gen6: {
 			shortDesc: "This Pokemon's Flying-type moves have their priority increased by 1.",
 		},
+	},
+	quickcharge: {
+		name: "Quick Charge",
+		shortDesc: "If this Pokemon is at full HP, its moves have their priority increased by 4.",
+	},
+	bloodlust: {
+		name: "Blood Lust",
+		shortDesc: "This Pokemon recovers 1/6 of damage dealt when using a contact move.",
 	},
 	galvanize: {
 		name: "Galvanize",
@@ -659,6 +679,10 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 		gen7: {
 			desc: "On switch-in, this Pokemon lowers the Sp. Atk of adjacent opposing Pokemon by 1 stage. Pokemon behind a substitute are immune.",
 		},
+	},
+	petrify: {
+		name: "Petrify",
+		shortDesc: "On switch-in, this Pokemon lowers the Speed of adjacent opponents by 1 stage.",
 	},
 	intrepidsword: {
 		name: "Intrepid Sword",
@@ -1247,6 +1271,10 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 		desc: "This Pokemon is immune to Grass-type moves and raises its Attack by 1 stage when hit by a Grass-type move.",
 		shortDesc: "This Pokemon's Attack is raised 1 stage if hit by a Grass move; Grass immunity.",
 	},
+	disenchant: {
+		name: "Disenchant",
+		shortDesc: "This Pokemon is immune to Fairy attacks.",
+	},
 	schooling: {
 		name: "Schooling",
 		desc: "On switch-in, if this Pokemon is a Wishiwashi that is level 20 or above and has more than 1/4 of its maximum HP left, it changes to School Form. If it is in School Form and its HP drops to 1/4 of its maximum HP or less, it changes to Solo Form at the end of the turn. If it is in Solo Form and its HP is greater than 1/4 its maximum HP at the end of the turn, it changes to School Form.",
@@ -1443,6 +1471,10 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 			shortDesc: "1/3 chance a Pokemon making contact with this Pokemon will be paralyzed.",
 		},
 	},
+	deepfreeze: {
+		name: "Deep Freeze",
+		shortDesc: "30% chance a Pokemon making contact with this Pokemon will be frozen.",
+	},
 	steadfast: {
 		name: "Steadfast",
 		shortDesc: "If this Pokemon flinches, its Speed is raised by 1 stage.",
@@ -1458,6 +1490,10 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 	steelyspirit: {
 		name: "Steely Spirit",
 		shortDesc: "This Pokemon and its allies' Steel-type moves have their power multiplied by 1.5.",
+	},
+	elementalist: {
+		name: "Elementalist",
+		shortDesc: "This Pokemon and its allies' Fire, Water, and Electric-type moves have their power multiplied by 1.5.",
 	},
 	stench: {
 		name: "Stench",
@@ -1710,6 +1746,11 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 			desc: "If a physical attack hits this Pokemon, its Defense is lowered by 1 stage and its Speed is raised by 1 stage.",
 			shortDesc: "If a physical attack hits this Pokemon, Defense is lowered by 1, Speed is raised by 1.",
 		},
+	},
+	infuriate: {
+		name: "Infuriate",
+		desc: "If a physical attack hits this Pokemon, its Attack is raised by 1 stage.",
+		shortDesc: "If a physical attack hits this Pokemon, its Attack is raised by 1 stage.",
 	},
 	whitesmoke: {
 		name: "White Smoke",

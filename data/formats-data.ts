@@ -158,7 +158,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	arbok: {
 		tier: "PU",
 	},
-	abrokmega: {
+	arbokmega: {
 		isNonstandard: "Custom",
 		tier: "Illegal",
 	},

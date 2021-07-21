@@ -92,6 +92,30 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 2,
 		num: 76,
 	},
+	amplifier: {
+		onBasePowerPriority: 7,
+		onBasePower(basePower, attacker, defender, move) {
+			if (move.flags['sound']) {
+				this.debug('Amplifier boost');
+				return this.chainModify(1.25);
+			}
+		},
+		name: "Amplifier",
+		rating: 3,
+		num: 283,
+	},
+	soundboost: {
+		onBasePowerPriority: 7,
+		onBasePower(basePower, attacker, defender, move) {
+			if (move.flags['sound']) {
+				this.debug('Soundboost boost');
+				return this.chainModify(1.3);
+			}
+		},
+		name: "Sound Boost",
+		rating: 3,
+		num: 284,
+	},
 	analytic: {
 		onBasePowerPriority: 21,
 		onBasePower(basePower, pokemon) {
@@ -1225,6 +1249,27 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 4,
 		num: 169,
 	},
+	sharpcoral: {
+		onModifyDefPriority: 6,
+		onModifyDef(def) {
+			return this.chainModify(-2);
+			},
+		onModifySpDPriority: 6,
+			onModifyDef(def) {
+				return this.chainModify(-2);
+			},
+		onModifyAtkPriority: 6,
+			onModifyDef(def) {
+				return this.chainModify(2);
+			},
+		onModifySpAPriority: 6,
+			onModifyDef(def) {
+				return this.chainModify(2);
+		},
+		name: "Sharp Coral",
+		rating: 4,
+		num: 286,
+	},
 	galewings: {
 		onModifyPriority(priority, pokemon, target, move) {
 			if (move?.type === 'Flying' && pokemon.hp === pokemon.maxhp) return priority + 1;
@@ -1232,6 +1277,14 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		name: "Gale Wings",
 		rating: 3,
 		num: 177,
+	},
+	quickcharge: {
+		onModifyPriority(priority, pokemon, target) {
+			if (pokemon.hp === pokemon.maxhp) return priority + 4;
+		},
+		name: "Quick Charge",
+		rating: 3,
+		num: 281,
 	},
 	galvanize: {
 		onModifyTypePriority: -1,
@@ -1519,6 +1572,19 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 1,
 		num: 115,
 	},
+	cryoshell: {
+		onWeather(target, source, effect) {
+			if (effect.id === 'raindance' || effect.id === 'hail') {
+				this.heal(target.baseMaxhp / 16);
+			}
+		},
+		onImmunity(type, pokemon) {
+			if (type === 'hail') return false;
+		},
+		name: "Cryo Shell",
+		rating: 1,
+		num: 279,
+	},
 	iceface: {
 		onStart(pokemon) {
 			if (this.field.isWeather('hail') && pokemon.species.id === 'eiscuenoice' && !pokemon.transformed) {
@@ -1726,6 +1792,26 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		name: "Intimidate",
 		rating: 3.5,
 		num: 22,
+	},
+	petrify: {
+		onStart(pokemon) {
+			let activated = false;
+			for (const target of pokemon.side.foe.active) {
+				if (!target || !this.isAdjacent(target, pokemon)) continue;
+				if (!activated) {
+					this.add('-ability', pokemon, 'Petrify', 'boost');
+					activated = true;
+				}
+				if (target.volatiles['substitute']) {
+					this.add('-immune', target);
+				} else {
+					this.boost({spe: -1}, target, pokemon, null, true);
+				}
+			}
+		},
+		name: "Petrify",
+		rating: 3.5,
+		num: 284,
 	},
 	envision: {
 		onStart(pokemon) {
@@ -3214,6 +3300,20 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 3,
 		num: 157,
 	},
+	disenchant: {
+		onTryHitPriority: 1,
+		onTryHit(target, source, move) {
+			if (target !== source && move.type === 'Fairy') {
+				if (!this.boost({atk: 1})) {
+					this.add('-immune', target, '[from] ability: Disenchant');
+				}
+				return null;
+			}
+		},
+		name: "Disenchant",
+		rating: 3,
+		num: 287,
+	},
 	schooling: {
 		onStart(pokemon) {
 			if (pokemon.baseSpecies.baseSpecies !== 'Wishiwashi' || pokemon.level < 20 || pokemon.transformed) return;
@@ -3720,6 +3820,18 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 2,
 		num: 9,
 	},
+	deepfreeze: {
+		onDamagingHit(damage, target, source, move) {
+			if (move.flags['contact']) {
+				if (this.randomChance(3, 10)) {
+					source.trySetStatus('frz', target);
+				}
+			}
+		},
+		name: "Deep Freeze",
+		rating: 2,
+		num: 285,
+	},
 	steadfast: {
 		onFlinch(pokemon) {
 			this.boost({spe: 1});
@@ -3768,6 +3880,18 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		name: "Steely Spirit",
 		rating: 3.5,
 		num: 252,
+	},
+	elementalist: {
+		onAllyBasePowerPriority: 22,
+		onAllyBasePower(basePower, attacker, defender, move) {
+			if (move.type === 'Fire' || move.type === 'Water' || move.type === 'Electric') {
+				this.debug('Elementalist boost');
+				return this.chainModify(1.5);
+			}
+		},
+		name: "Elementalist",
+		rating: 3.5,
+		num: 288,
 	},
 	stench: {
 		onModifyMovePriority: -1,
@@ -4252,6 +4376,22 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 2,
 		num: 260,
 	},
+	vampiric: {
+		onAfterMoveSecondarySelf(pokemon, target, move) {
+			if (move.flags['contact']) this.heal(pokemon.lastDamage / 4, pokemon);
+		},
+		name: "Vampiric",
+		rating: 3,
+		num: 281,
+	},
+	bloodlust: {
+		onAfterMoveSecondarySelf(pokemon, target, move) {
+			if (move.flags['contact']) this.heal(pokemon.lastDamage / 6, pokemon);
+		},
+		name: "Blood Lust",
+		rating: 3,
+		num: 282,
+	},
 	victorystar: {
 		onAnyModifyAccuracyPriority: -1,
 		onAnyModifyAccuracy(accuracy, target, source) {
@@ -4408,6 +4548,16 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		name: "Weak Armor",
 		rating: 1,
 		num: 133,
+	},
+	infuriate: {
+		onDamagingHit(damage, target, source, move) {
+			if (move.category === 'Physical') {
+				this.boost({atk: 1}, target, target);
+			}
+		},
+		name: "Infuriate",
+		rating: 1,
+		num: 280,
 	},
 	whitesmoke: {
 		onBoost(boost, target, source, effect) {

@@ -10306,7 +10306,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		formeOrder: ["Whisicott", "Whimsicott-Mega"],
 	},
 	whimsicottmega: {
-		num: 24,
+		num: 547,
 		name: "Whimsicott-Mega",
 		baseSpecies: "Whimsicott",
 		forme: "Mega",

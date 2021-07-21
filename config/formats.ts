@@ -424,7 +424,7 @@ export const Formats: FormatList = [
 
 			mod: 'elite',
 			ruleset: ['[Gen 8] Elite OU'],
-			banlist: ['AG', 'Uber', 'OU', 'UUBL'],
+			banlist: ['AG', 'Uber', 'OUBL', 'OU', 'UUBL'],
 		},
 		{
 			name: "[Gen 8] Elite RU",
@@ -436,7 +436,7 @@ export const Formats: FormatList = [
 
 			mod: 'elite',
 			ruleset: ['[Gen 8] Elite UU'],
-			banlist: ['AG', 'Uber', 'OU', 'UUBL', 'UU', 'RUBL'],
+			banlist: ['AG', 'Uber', 'OUBL', 'OU', 'UUBL', 'UU', 'RUBL'],
 		},
 		{
 			name: "[Gen 8] Elite NU",
@@ -448,7 +448,7 @@ export const Formats: FormatList = [
 
 			mod: 'elite',
 			ruleset: ['[Gen 8] Elite RU'],
-			banlist: ['AG', 'Uber', 'OU', 'UUBL', 'UU', 'RUBL', 'RU', 'NUBL'],
+			banlist: ['AG', 'Uber', 'OUBL', 'OU', 'UUBL', 'UU', 'RUBL', 'RU', 'NUBL'],
 		},
 		{
 			name: "[Gen 8] Elite PU",
@@ -460,7 +460,7 @@ export const Formats: FormatList = [
 
 			mod: 'elite',
 			ruleset: ['[Gen 8] Elite NU'],
-			banlist: ['AG', 'Uber', 'OU', 'UUBL', 'UU', 'RUBL', 'RU', 'NUBL', 'NU', 'PUBL'],
+			banlist: ['AG', 'Uber', 'OUBL', 'OU', 'UUBL', 'UU', 'RUBL', 'RU', 'NUBL', 'NU', 'PUBL'],
 		},
 		{
 				section: "Daybreak Tiers",
@@ -487,8 +487,35 @@ export const Formats: FormatList = [
 
 				mod: 'daybreak',
 				ruleset: ['[Gen 8] Daybreak OU'],
-				banlist: ['AG', 'Uber', 'OU', 'UUBL'],
+				banlist: ['AG', 'Uber', 'OUBL', 'OU', 'UUBL'],
 			},
+			{
+					section: "Uranium Tiers",
+				},
+				{
+					name: "[Gen 8] Uranium OU",
+					threads: [
+						`&bullet; <a href="https://www.smogon.com/forums/threads/3672210/">OU Metagame Discussion</a>`,
+						`&bullet; <a href="https://www.smogon.com/forums/threads/3672556/">OU Sample Teams</a>`,
+						`&bullet; <a href="https://www.smogon.com/forums/threads/3674058/">OU Viability Rankings</a>`,
+					],
+
+					mod: 'uranium',
+					ruleset: ['Standard', 'Obtainable', 'Dynamax Clause'],
+					banlist: ['Uber', 'OUBL', 'AG', 'Arena Trap', 'Moody', 'Power Construct', 'Shadow Tag', 'Baton Pass'],
+				},
+				{
+					name: "[Gen 8] Uranium UU",
+					threads: [
+						`&bullet; <a href="https://www.smogon.com/forums/threads/3672210/">OU Metagame Discussion</a>`,
+						`&bullet; <a href="https://www.smogon.com/forums/threads/3672556/">OU Sample Teams</a>`,
+						`&bullet; <a href="https://www.smogon.com/forums/threads/3674058/">OU Viability Rankings</a>`,
+					],
+
+					mod: 'uranium',
+					ruleset: ['[Gen 8] Uranium OU'],
+					banlist: ['AG', 'Uber', 'OUBL', 'OU', 'UUBL'],
+				},
 	{
 			section: "National Dex",
 		},

@@ -2543,6 +2543,17 @@ export const Items: {[itemid: string]: ItemData} = {
 		num: 744,
 		gen: 6,
 	},
+	aegisshield: {
+    name: "Aegis Shield",
+    spritenum: 671,
+    fling: {
+        basePower: 60,
+    },
+    forcedForme: "Bisharp-DB",
+    itemUser: ["Bisharp-DB"],
+    num: 1112,
+    gen: 4,
+  },
 	hfsceptilite: {
 		name: "HFSceptilite",
 		spritenum: 577,

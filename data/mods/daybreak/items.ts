@@ -7073,6 +7073,17 @@ export const Items: {[itemid: string]: ItemData} = {
 		gen: 2,
 		isNonstandard: "Past",
 	},
+	aegisshield: {
+    name: "Aegis Shield",
+    spritenum: 671,
+    fling: {
+        basePower: 60,
+    },
+    forcedForme: "Bisharp-DB",
+    itemUser: ["Bisharp-DB"],
+    num: 1112,
+    gen: 4,
+  },
 	przcureberry: {
 		name: "PRZ Cure Berry",
 		spritenum: 63,

@@ -1309,7 +1309,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		randomBattleLevel: 84,
 		randomDoubleBattleMoves: ["healbell", "icywind", "protect", "scald", "toxic", "wish"],
 		randomDoubleBattleLevel: 88,
-    tier: "RU",
+    tier: "UU",
 		doublesTier: "(DUU)",
 	},
 	jolteon: {
@@ -1317,7 +1317,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		randomBattleLevel: 82,
 		randomDoubleBattleMoves: ["faketears", "protect", "shadowball", "thunderbolt", "thunderwave", "voltswitch"],
 		randomDoubleBattleLevel: 86,
-    tier: "RU",
+    tier: "UU",
 		doublesTier: "(DUU)",
 	},
 	flareon: {
@@ -1333,7 +1333,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		randomBattleLevel: 82,
 		randomDoubleBattleMoves: ["calmmind", "dazzlinggleam", "morningsun", "protect", "psychic", "shadowball"],
 		randomDoubleBattleLevel: 84,
-    tier: "RU",
+    tier: "UU",
 		doublesTier: "(DUU)",
 	},
 	umbreon: {
@@ -7064,40 +7064,40 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "OU",
 	},
 	drilgann: {
-		tier: "OU",
+		tier: "UU",
 	},
 	drilgannmega: {
 		tier: "Uber",
 	},
 	s51: {
-		tier: "UU",
+		tier: "OU",
 	},
 	s51mega: {
 		tier: "OU",
 	},
 	inflagetah: {
-		tier: "UU",
+		tier: "OU",
 	},
 	inflagetahmega: {
-		tier: "OU",
+		tier: "Uber",
 	},
 	syrentide: {
-		tier: "UU",
+		tier: "RU",
 	},
 	syrentidemega: {
-		tier: "OU",
+		tier: "Uber",
 	},
 	dramsama: {
 		tier: "RU",
 	},
 	dramsamamega: {
-		tier: "OU",
+		tier: "UU",
 	},
 	kiricorn: {
-		tier: "OU",
+		tier: "UU",
 	},
 	kiricornmega: {
-		tier: "Uber",
+		tier: "OU",
 	},
 	gararewl: {
 		tier: "UU",
@@ -7105,8 +7105,191 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	terlard: {
 		tier: "RU",
 	},
-	Tofurang: {
+	tofurang: {
+		tier: "UU",
+	},
+	baitatao: {
+		tier: "Uber",
+	},
+	leviathao: {
+		tier: "Uber",
+	},
+	krakano: {
+		tier: "Uber",
+	},
+	lanthan: {
+		tier: "Uber",
+	},
+	actan: {
+		tier: "Uber",
+	},
+	dunseraph: {
 		tier: "OU",
+	},
+	cocancer: {
+		tier: "OU",
+	},
+	tubareel: {
+		tier: "OU",
+	},
+	escartress: {
+		tier: "OU",
+	},
+	tanscure: {
+		tier: "OU",
+	},
+	glavinug: {
+		tier: "OU",
+	},
+	paraboom: {
+		tier: "OU",
+	},
+	chimaconda: {
+		tier: "OU",
+	},
+	harptera: {
+		tier: "OU",
+	},
+	coatlith: {
+		tier: "OU",
+	},
+	tracton: {
+		tier: "OU",
+	},
+	theriamp: {
+		tier: "OU",
+	},
+	daikatuna: {
+		tier: "OU",
+	},
+	winotinger: {
+		tier: "OU",
+	},
+	raffiti: {
+		tier: "OU",
+	},
+	antarki: {
+		tier: "OU",
+	},
+	alpico: {
+		tier: "OU",
+	},
+	fafninter: {
+		tier: "OU",
+	},
+	frosthra: {
+		tier: "OU",
+	},
+	stenowatt: {
+		tier: "OU",
+	},
+	oblivicorn: {
+		tier: "OU",
+	},
+	luxelong: {
+		tier: "OU",
+	},
+	laissure: {
+		tier: "OU",
+	},
+	yatagaryu: {
+		tier: "OU",
+	},
+	belladdon: {
+		tier: "OU",
+	},
+	blubelrog: {
+		tier: "UU",
+	},
+	empirilla: {
+		tier: "UU",
+	},
+	astronite: {
+		tier: "UU",
+	},
+	herolune: {
+		tier: "UU",
+	},
+	vilucard: {
+		tier: "UU",
+	},
+	corsoreef: {
+		tier: "UU",
+	},
+	gellin: {
+		tier: "UU",
+	},
+	frikitiki: {
+		tier: "UU",
+	},
+	luchabra: {
+		tier: "UU",
+	},
+	anderind: {
+		tier: "UU",
+	},
+	lavent: {
+		tier: "UU",
+	},
+	navighast: {
+		tier: "UU",
+	},
+	majungold: {
+		tier: "UU",
+	},
+	haagross: {
+		tier: "UU",
+	},
+	neopunk: {
+		tier: "UU",
+	},
+	praseopunk: {
+		tier: "UU",
+	},
+	garlikid: {
+		tier: "UU",
+	},
+	eshouten: {
+		tier: "RU",
+	},
+	firoke: {
+		tier: "RU",
+	},
+	dermafrost: {
+		tier: "RU",
+	},
+	sponaree: {
+		tier: "RU",
+	},
+	jerbolta: {
+		tier: "RU",
+	},
+	pajay: {
+		tier: "RU",
+	},
+	hayrlect: {
+		tier: "RU",
+	},
+	trawpint: {
+		tier: "RU",
+	},
+	titanice: {
+		tier: "RU",
+	},
+	miasmedic: {
+		tier: "RU",
+	},
+	duplicat: {
+		tier: "RU",
+	},
+	gargryph: {
+		tier: "RU",
+	},
+	chainite: {
+		tier: "RU",
+	},
+	krilvolver: {
+		tier: "RU",
 	},
 	missingno: {
 		isNonstandard: "Custom",

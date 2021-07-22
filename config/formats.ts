@@ -493,6 +493,18 @@ export const Formats: FormatList = [
 					section: "Uranium Tiers",
 				},
 				{
+					name: "[Gen 8] Uranium Ubers",
+					threads: [
+						`&bullet; <a href="https://www.smogon.com/forums/threads/3676539/">Ubers Metagame Discussion</a>`,
+						`&bullet; <a href="https://www.smogon.com/forums/threads/3675564/">Ubers Sample Teams</a>`,
+						`&bullet; <a href="https://www.smogon.com/forums/threads/3675194/">Ubers Viability Rankings</a>`,
+					],
+
+					mod: 'uranium',
+					ruleset: ['Standard', 'Obtainable', 'Dynamax Clause'],
+					banlist: ['AG', 'Baton Pass', 'Moody'],
+				},
+				{
 					name: "[Gen 8] Uranium OU",
 					threads: [
 						`&bullet; <a href="https://www.smogon.com/forums/threads/3672210/">OU Metagame Discussion</a>`,
@@ -523,7 +535,7 @@ export const Formats: FormatList = [
 						`&bullet; <a href="https://www.smogon.com/forums/threads/3672556/">OU Sample Teams</a>`,
 						`&bullet; <a href="https://www.smogon.com/forums/threads/3674058/">OU Viability Rankings</a>`,
 					],
-		
+
 					mod: 'uranium',
 					ruleset: ['[Gen 8] Uranium UU'],
 					banlist: ['AG', 'Uber', 'OUBL', 'OU', 'UUBL', 'UU', 'RUBL'],

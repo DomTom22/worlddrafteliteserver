@@ -7048,6 +7048,9 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	electruxomega: {
 		tier: "OU",
 	},
+	brainoar: {
+		tier: "UU",
+	},
 	kinetmunk: {
 		tier: "RU",
 	},

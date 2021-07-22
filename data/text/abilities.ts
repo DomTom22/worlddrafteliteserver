@@ -1495,6 +1495,34 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 		name: "Elementalist",
 		shortDesc: "This Pokemon and its allies' Fire, Water, and Electric-type moves have their power multiplied by 1.5.",
 	},
+	hubris: {
+		name: "Hubris",
+		desc: "When a Pokemon with Hubris causes another Pokemon (including allies) to faint through direct damage, its Special Attack rises by one stage.",
+		shortDesc: "Boosts Special Attack after knocking out.",
+	},
+	noctem: {
+		name: "Noctem",
+		desc: "Noctem summons darkness in battle as soon as a Pokemon with Noctem enters the battle. Its effects are the same as the move New Moon.",
+		shortDesc: "The Pokemon summons darkness and blots out the sky as it enters the battle.",
+	},
+	spiritcall: {
+		name: "Spirit Call",
+		desc: "When a Pokemon with Spirit Call uses a Ghost-type movve, the power will increase by 1.5x if the user has less than or equal to 1/3 of its maximum HP remaining",
+		shortDesc: "Powers up Ghost-type moves in a pinch",
+	},
+	shadowcall: {
+		name: "Shadow Call",
+		desc: "When a Pokemon with Shadow Call uses a Dark-type movve, the power will increase by 1.5x if the user has less than or equal to 1/3 of its maximum HP remaining.",
+		shortDesc: "Powers up Dark-type moves in a pinch",
+	},
+	shadowdance: {
+		name: "Shadow Dance",
+		shortDesc: "During intense darkness, the Speed stat of Pokemon with this Ability is doubled.",
+	},
+	shadowsynergy: {
+		name: "Shadow Synergy",
+		shortDesc: "Boosts the power of the user's Dark-type moves by 50%.",
+	},
 	stench: {
 		name: "Stench",
 		desc: "This Pokemon's attacks without a chance to make the target flinch gain a 10% chance to make the target flinch.",

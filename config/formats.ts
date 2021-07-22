@@ -490,6 +490,69 @@ export const Formats: FormatList = [
 				banlist: ['AG', 'Uber', 'OUBL', 'OU', 'UUBL'],
 			},
 			{
+					section: "Insurgence Tiers",
+				},
+				{
+					name: "[Gen 8] Insurgence OU",
+					threads: [
+						`&bullet; <a href="https://www.smogon.com/forums/threads/3672210/">OU Metagame Discussion</a>`,
+						`&bullet; <a href="https://www.smogon.com/forums/threads/3672556/">OU Sample Teams</a>`,
+						`&bullet; <a href="https://www.smogon.com/forums/threads/3674058/">OU Viability Rankings</a>`,
+					],
+
+					mod: 'insurgence',
+					ruleset: ['Standard', 'Obtainable', 'Dynamax Clause'],
+					banlist: ['Uber', 'OUBL', 'AG', 'Arena Trap', 'Moody', 'Power Construct', 'Shadow Tag', 'Baton Pass'],
+				},
+				{
+					name: "[Gen 8] Insurgence UU",
+					threads: [
+						`&bullet; <a href="https://www.smogon.com/forums/threads/3672210/">OU Metagame Discussion</a>`,
+						`&bullet; <a href="https://www.smogon.com/forums/threads/3672556/">OU Sample Teams</a>`,
+						`&bullet; <a href="https://www.smogon.com/forums/threads/3674058/">OU Viability Rankings</a>`,
+					],
+
+					mod: 'insurgence',
+					ruleset: ['[Gen 8] Insurgence OU'],
+					banlist: ['AG', 'Uber', 'OUBL', 'OU', 'UUBL'],
+				},
+				{
+					name: "[Gen 8] Insurgence RU",
+					threads: [
+						`&bullet; <a href="https://www.smogon.com/forums/threads/3672210/">OU Metagame Discussion</a>`,
+						`&bullet; <a href="https://www.smogon.com/forums/threads/3672556/">OU Sample Teams</a>`,
+						`&bullet; <a href="https://www.smogon.com/forums/threads/3674058/">OU Viability Rankings</a>`,
+					],
+
+					mod: 'insurgence',
+					ruleset: ['[Gen 8] Insurgence UU'],
+					banlist: ['AG', 'Uber', 'OUBL', 'OU', 'UUBL', 'UU', 'RUBL'],
+				},
+				{
+					name: "[Gen 8] Insurgence NU",
+					threads: [
+						`&bullet; <a href="https://www.smogon.com/forums/threads/3672210/">OU Metagame Discussion</a>`,
+						`&bullet; <a href="https://www.smogon.com/forums/threads/3672556/">OU Sample Teams</a>`,
+						`&bullet; <a href="https://www.smogon.com/forums/threads/3674058/">OU Viability Rankings</a>`,
+					],
+
+					mod: 'insurgence',
+					ruleset: ['[Gen 8] Insurgence RU'],
+					banlist: ['AG', 'Uber', 'OUBL', 'OU', 'UUBL', 'UU', 'RUBL', 'RU', 'NUBL'],
+				},
+				{
+					name: "[Gen 8] Insurgence PU",
+					threads: [
+						`&bullet; <a href="https://www.smogon.com/forums/threads/3672210/">OU Metagame Discussion</a>`,
+						`&bullet; <a href="https://www.smogon.com/forums/threads/3672556/">OU Sample Teams</a>`,
+						`&bullet; <a href="https://www.smogon.com/forums/threads/3674058/">OU Viability Rankings</a>`,
+					],
+
+					mod: 'insurgence',
+					ruleset: ['[Gen 8] Insurgence NU'],
+					banlist: ['AG', 'Uber', 'OUBL', 'OU', 'UUBL', 'UU', 'RUBL', 'RU', 'NUBL', 'NU', 'PUBL'],
+				},
+			{
 					section: "Uranium Tiers",
 				},
 				{

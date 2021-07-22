@@ -6494,6 +6494,34 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		isNonstandard: "Custom",
 		tier: "Illegal",
 	},
+	maractusdelta: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	jirachimega: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	zebstrikamega: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	zoroarkmega: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	gothitellemega: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	spiritombmega: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	solipededelta: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
 	venusaurdelta: {
 		isNonstandard: "Past",
 		tier: "Illegal",
@@ -6519,6 +6547,14 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "Illegal",
 	},
 	bisharpdelta: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	bisharpdeltamega: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	steelixmegaf: {
 		isNonstandard: "Past",
 		tier: "Illegal",
 	},
@@ -6586,11 +6622,11 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		isNonstandard: "Past",
 		tier: "Illegal",
 	},
-	frosslassdelta: {
+	froslassdelta: {
 		isNonstandard: "Past",
 		tier: "Illegal",
 	},
-	frosslassdeltamega: {
+	froslassdeltamega: {
 		isNonstandard: "Past",
 		tier: "Illegal",
 	},
@@ -6834,11 +6870,11 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		isNonstandard: "Past",
 		tier: "Illegal",
 	},
-	metragrossdeltaspider: {
+	metagrossdeltaspider: {
 		isNonstandard: "Past",
 		tier: "Illegal",
 	},
-	metragrossdeltamegaspider: {
+	metagrossdeltaspidermega: {
 		isNonstandard: "Past",
 		tier: "Illegal",
 	},
@@ -6846,7 +6882,12 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		isNonstandard: "Past",
 		tier: "Illegal",
 	},
-	metagrossdeltamegaruin: {
+	metagrossdeltaruinmega: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+
+	shiftrymega: {
 		isNonstandard: "Past",
 		tier: "Illegal",
 	},
@@ -6866,7 +6907,16 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		isNonstandard: "Past",
 		tier: "Illegal",
 	},
-	toxicroarkdelta: {
+
+	poliwrathmega: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	marowakmega: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	toxicroakdelta: {
 		isNonstandard: "Past",
 		tier: "Illegal",
 	},
@@ -6875,6 +6925,62 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "Illegal",
 	},
 	lilligantdeltafairy: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	shadowmewtwo: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	shadowmewtwomega: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	sudowoodomega: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	politoedmega: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	dohphanmega: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	magcargomega: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	miltankmega: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	flygonmega: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	flygonarmored: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	cacturnemega: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	cryogonalmega: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	chatotmega: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	crawdauntmega: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	mewtwoarmored: {
 		isNonstandard: "Past",
 		tier: "Illegal",
 	},
@@ -6890,7 +6996,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		isNonstandard: "Past",
 		tier: "Illegal",
 	},
-	runiclusdelta: {
+	reuniclusdelta: {
 		isNonstandard: "Past",
 		tier: "Illegal",
 	},
@@ -6918,7 +7024,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		isNonstandard: "Past",
 		tier: "Illegal",
 	},
-	amoongusdelta: {
+	amoongussdelta: {
 		isNonstandard: "Past",
 		tier: "Illegal",
 	},
@@ -6930,7 +7036,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		isNonstandard: "Past",
 		tier: "Illegal",
 	},
-	haxrousdelta: {
+	haxorusdelta: {
 		isNonstandard: "Past",
 		tier: "Illegal",
 	},
@@ -6938,7 +7044,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		isNonstandard: "Past",
 		tier: "Illegal",
 	},
-	heatmoredelta: {
+	heatmordelta: {
 		isNonstandard: "Past",
 		tier: "Illegal",
 	},

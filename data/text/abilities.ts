@@ -1555,6 +1555,93 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 		desc: "Intoxicate causes all Normal-type moves used by the Pokémon to become Poison-type and receive a 30% power boost.",
 		shortDesc: "Normal-type moves become Poison-type moves.",
 	},
+	athenian: {
+		name: "Athenian",
+		shortDesc: "Doubles the Pokemon's Special Attack stat.",
+	},
+	blazeboost: {
+		name: "Blaze Boost",
+		desc: "Immediately before the user uses a Fire-type attack its Attack, Special Attack, and Speed are increased by 1 stage. When Blaze Boost is activated by Delta Emolga, its form changes. When in this form, there is a 10% chance that Pokémon using a contact move against Delta Emolga will become burned.",
+		shortDesc: "Fire moves up its stats. May burn on contact.",
+	},
+	chlorofury: {
+		name: "Chlorofury",
+		desc: "When Mega Evolving or on switch-in, Chlorofury raises the user's Speed by 1 stage and its Special Attack by X stages for 2 turns. X is equal to the number of fainted teammates on this Pokémon's team.",
+		shortDesc: "Boosts its stats to avenge its allies.",
+	},
+	etherealshroud: {
+		name: "Ethereal Shroud",
+		desc: "When this Pokemon has more than 1/2 its maximum HP and takes damage bringing it to 1/2 or less of its maximum HP, it immediately switches out to a chosen ally. This effect applies after all hits from a multi-hit move; Sheer Force prevents it from activating if the move has a secondary effect. This effect applies to both direct and indirect damage, except Curse and Substitute on use, Belly Drum, Pain Split, and confusion damage.",
+		shortDesc: "This Pokemon switches out when it reaches 1/2 or less of its maximum HP.",
+	},
+	eventhorizon: {
+		name: "Event Horizon",
+		shortDesc: "Any Pokemon that contacts this one can't escape.",
+	},
+	speedswap: {
+		name: "Speed Swap",
+		desc: "Speed Swap starts Trick Room in battle as soon as a Pokémon with Speed Swap enters the battle. If a Pokémon with Speed Swap enters the battle while Trick Room is already in effect, Trick Room will end immediately.",
+		shortDesc: "Activates the Trick Room effect on entering the battlefield.",
+	},
+	psychocall: {
+		name: "Psycho Call",
+		desc: "When a Pokemon with Psycho Call uses a Psychic-type movve, the power will increase by 1.5x if the user has less than or equal to 1/3 of its maximum HP remaining",
+		shortDesc: "Powers up Psychic-type moves in a pinch",
+	},
+	sleet: {
+		name: "Sleet",
+		desc: "Sleet summons and increases the damage of hail. Pokémon that are not immune to hail damage are damaged for 20% of their maximum HP at the end of each turn while Sleet is active. Sleet's effects are removed when Pokémon with Sleet are no longer on the field or hail stops. If hail stops but becomes active again while a Pokémon with Sleet is on the field, Sleet will immediately begin modifying the damage of hail.",
+		shortDesc: "On switch-in, this Pokemon summons Sleet.",
+	},
+	vaporization: {
+		name: "Vaporization",
+		desc: "Causes damage-dealing Water-type moves and targetable Water-type status moves to fail when used. Damages all Water-type Pokémon for ⅛ of their maximum HP at the end of each every turn.",
+		shortDesc: "Vaporizes Water Moves and damages water types.",
+	},
+	windforce: {
+		name: "Wind Force",
+		desc: "This Pokemon is immune to Flying-type moves and raises its Speed by 1 stage when hit by an Flying-type move.",
+		shortDesc: "Flying-type moves boost this Pokemon's speed; Flying immunity.",
+	},
+	winterjoy: {
+		name: "Winter Joy",
+		desc: "During the months of November, December, January, and February, the Attack and Special Attack of Pokémon with this Ability are increased by 40%. During the months of May, June, July, and August the Attack and Special Attack of Pokémon with this ability are decreased by 30%. During the remaining four months, stats are unchanged.",
+		shortDesc: "Strengthened in winter and weakened in summer.",
+	},
+	venomous: {
+		name: "Venomous",
+		desc: "This Pokemon always badly poisons",
+	},
+	unleafed: {
+		name: "Unleafed",
+		desc: "When Mega Evolving or on switch-in, boosts Attack, Defense, Special Attack, Special Defense, and Speed by one stage each. These boosts last X + 1 turns, where X is the number of fainted Pokémon on this Pokémon´s team at the time of the ability's activation. After X + 1 turns, the boosts disappear.",
+		shortDesc: "This Pokémon avenges its friends by unloading its power.",
+	},
+	pendulum: {
+		name: "Pendulum",
+		desc: "Boosts the power of moves used repeatedly. Each time a move is used consecutively, its power is boosted by 20% up to a maximum increase of 100%. Switching or using another move returns the move's power to normal. Multi-strike moves are counted by the number of turns on which they are used, not the number of hits made. It also stacks with Metronome, which offers an identical power boost for every consecutive usage.",
+		shortDesc: "Consecutively using the same move increases its damage.",
+	},
+	syntheticalloy: {
+		name: "Synthetic Alloy",
+		desc: "Pokemon with Synthetic Alloy take neutral damage from Fire-type attacks regardless of their type-specific weaknesses.",
+		shortDesc: "This Pokemon takes neutral damage from Fire-type attacks.",
+	},
+	periodicorbit: {
+		name: "Periodic Orbit",
+		desc: "When the moves Doom Desire, Future Sight, or Wish are used, they will activate twice after a single use. Wish will activate one and three turns after the move is originally used. Doom Desire and Future Sight will activate two and five turns after the move is originally used, and each will block further uses of Doom Desire or Future Sight until the second activation lands.",
+		shortDesc: "Delayed moves will orbit and activate twice.",
+	},
+	irrelephant: {
+		name: "Irrelephant",
+		desc: "Irrelephant ignores type-based immunities. For example, a Pokémon with Irrelephant can hit Flying-type foes with Earthquake. Therefore, both Talonflame and Skarmory will take super effective damage from a Ground-type move used by a Pokémon with Irrelephant.",
+		shortDesc: "Immunities are irrelephant to this Pokémon's attacks.",
+	},
+	phototroph: {
+		name: "Phototroph",
+		desc: "Pokémon with Phototroph restore 1/16 of their total HP at the end of each turn. The effects of Phototroph are doubled during harsh sunlight and are completely negated when the sky is dark or heavy rain is in effect.",
+		shortDesc: "The Pokémon gradually regains HP in sunny weather.",
+	},
 	stench: {
 		name: "Stench",
 		desc: "This Pokemon's attacks without a chance to make the target flinch gain a 10% chance to make the target flinch.",

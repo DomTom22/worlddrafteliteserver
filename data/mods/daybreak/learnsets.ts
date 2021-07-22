@@ -9099,7 +9099,6 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			metronome: ["8M", "7V", "3T"],
 			mimic: ["7V", "3T"],
 			miracleeye: ["7L23", "6L22", "5L22", "4L22"],
-			nastyplot: ["8M"],
 			naturalgift: ["4M"],
 			nightmare: ["7V", "3T"],
 			nightshade: ["8V"],

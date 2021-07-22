@@ -1286,7 +1286,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		randomDoubleBattleMoves: ["foulplay", "helpinghand", "moonlight", "protect", "snarl", "toxic"],
 		randomDoubleBattleLevel: 88,
 		isNonstandard: "Past",
-    tier: "Illegal",
+    tier: "RU",
 		doublesTier: "(DUU)",
 	},
 	leafeon: {
@@ -1328,67 +1328,67 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		doublesTier: "DOU",
 	},
 	dynameon: {
-		isNonstandard: "Custom",
-		tier: "Illegal",
+		tier: "RU",
+
 	},
 	radeon: {
 		tier: "UU",
 	},
 	obsideon: {
-		isNonstandard: "Custom",
-		tier: "Illegal",
+		tier: "RU",
+
 	},
 	frosteon: {
-		isNonstandard: "Custom",
-		tier: "Illegal",
+		tier: "RU",
+
 	},
 	blizzeon: {
-		isNonstandard: "Custom",
-		tier: "Illegal",
+		tier: "RU",
+
 	},
 	eclipseon: {
-		isNonstandard: "Custom",
-		tier: "Illegal",
+		tier: "RU",
+
 	},
 	cindereon: {
-		isNonstandard: "Custom",
-		tier: "Illegal",
+		tier: "RU",
+
 	},
 	zereon: {
-		isNonstandard: "Custom",
-		tier: "Illegal",
+		tier: "RU",
+
 	},
 	pulseon: {
 		tier: "UU",
 	},
 	pineon: {
-		isNonstandard: "Custom",
-		tier: "Illegal",
+		tier: "RU",
+
 	},
 	noctiveon: {
-		isNonstandard: "Custom",
-		tier: "Illegal",
+		tier: "RU",
+
 	},
 	mooreon: {
 		tier: "UU",
 	},
 	devileon: {
-		isNonstandard: "Custom",
-		tier: "Illegal",
+		tier: "RU",
+
 	},
 	murkeon: {
 		tier: "UU",
 	},
 	isycleon: {
-		isNonstandard: "Custom",
-		tier: "Illegal",
+		tier: "RU",
+
 	},
 	staticeon: {
 		tier: "UU",
 	},
 	sootheon: {
-		isNonstandard: "Custom",
-		tier: "Illegal",
+		tier: "RU",
+
 	},
 	porygon: {
 		tier: "LC",
@@ -1407,8 +1407,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		randomDoubleBattleMoves: ["darkpulse", "icebeam", "protect", "thunderbolt", "triattack", "trick"],
 		randomDoubleBattleLevel: 84,
 		randomBattleNoDynamaxMoves: ["icebeam", "nastyplot", "shadowball", "thunderbolt", "triattack", "trick"],
-		isNonstandard: "Past",
-    tier: "Illegal",
+    tier: "UU",
 		doublesTier: "(DUU)",
 	},
 	omanyte: {
@@ -3195,7 +3194,8 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		doublesTier: "(DUU)",
 	},
 	lopunnymega: {
-		tier: "OU",
+		isNonstandard: "Past",
+		tier: "Illegal",
 		doublesTier: "DUU",
 	},
 	glameow: {
@@ -5065,7 +5065,8 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		randomBattleLevel: 82,
 		randomDoubleBattleMoves: ["dragondance", "extremespeed", "irontail", "protect", "rockslide", "thousandarrows"],
 		randomDoubleBattleLevel: 76,
-		tier: "OU",
+		isNonstandard: "Past",
+		tier: "Illegal",
 		doublesTier: "DUU",
 	},
 	zygardecomplete: {

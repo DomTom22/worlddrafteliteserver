@@ -1523,6 +1523,11 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 		name: "Shadow Synergy",
 		shortDesc: "Boosts the power of the user's Dark-type moves by 50%.",
 	},
+	supercell: {
+		name: "Supercell",
+		desc: "During intense darkness or rain, Supercell increases the Special Attack stat of the Pokémon with this Ability by 1.5. Supercell changes Delta Typhlosion from its Inactive Mode to Active Mode during darkness or rain.",
+		shortDesc: "Special Attack surges in the rain and darkness.",
+	},
 	stench: {
 		name: "Stench",
 		desc: "This Pokemon's attacks without a chance to make the target flinch gain a 10% chance to make the target flinch.",

@@ -3966,6 +3966,34 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 2,
 		num: 294,
 	},
+	supercell: {
+		onUpdate(pokemon) {
+			if (pokemon.baseSpecies.baseSpecies !== 'Typhlosion' || pokemon.transformed) return;
+			let forme = null;
+			switch (pokemon.effectiveWeather()) {
+			case 'raindance':
+			case 'primordialsea':
+			case 'newmoon':
+				if (pokemon.species.id !== 'typhlosiondeltamegaactive') forme = 'Typhlosion-Delta-Mega-Active';
+				break;
+			default:
+				if (pokemon.species.id !== 'typhlosiondeltamega') forme = 'Typhlosion-Delta-Mega';
+				break;
+			}
+			if (pokemon.isActive && forme) {
+				pokemon.formeChange(forme, this.effect, false, '[msg]');
+			}
+		},
+		onModifySpA(SpA, pokemon) {
+			if (['raindance', 'primordialsea', 'newmoon'].includes(pokemon.effectiveWeather())) {
+				this.debug('Supercell boost');
+				return this.chainModify(1.5);
+			}
+		},
+		name: "Supercell",
+		rating: 3,
+		num: 295,
+	},
 	stench: {
 		onModifyMovePriority: -1,
 		onModifyMove(move) {

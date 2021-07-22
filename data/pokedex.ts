@@ -3692,6 +3692,8 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		weightkg: 122,
 		color: "Purple",
 		eggGroups: ["Undiscovered"],
+		otherFormes: [ "Shadow-Mewtwo-Mega"],
+		formeOrder: ["Shadow-Mewtwo", "Shadow-Mewtwo-Mega"],
 	},
 	shadowmewtwomega: {
 		num: 150,

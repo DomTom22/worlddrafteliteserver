@@ -1528,6 +1528,28 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 		desc: "During intense darkness or rain, Supercell increases the Special Attack stat of the Pokémon with this Ability by 1.5. Supercell changes Delta Typhlosion from its Inactive Mode to Active Mode during darkness or rain.",
 		shortDesc: "Special Attack surges in the rain and darkness.",
 	},
+	spectraljaws: {
+		name: "Spectral Jaws",
+		desc: "Spectral Jaws causes all biting moves used by the Pokémon to be reclassified as Special moves and receive a 30% boost.		",
+		shortDesc: "All biting moves are Special.",
+	},
+	prismguard: {
+		name: "Prism Guard",
+		desc: "Pokemon not making contact with this Pokemon lose 1/8 of their maximum HP, rounded down.",
+		shortDesc: "Pokemon not making contact with this Pokemon lose 1/8 of their max HP.",
+
+		damage: "  [POKEMON] was hurt!",
+	},
+	absolution: {
+		name: "Absolution",
+		desc: "If New Moon is active, this Pokemon's Special Attack is multiplied by 1.5 and it loses 1/8 of its maximum HP, rounded down, at the end of each turn. If this Pokemon is holding Utility Umbrella, its Special Attack remains the same and it does not lose any HP.",
+		shortDesc: "If New Moon is active, this Pokemon's Sp. Atk is 1.5x; loses 1/8 max HP per turn.",
+	},
+	foundry: {
+		name: "Foundry",
+		desc: "Foundry causes all Rock-type moves used by the Pokémon with this Ability to become Fire-type and receive a 30% damage boost, in addition to all other modifiers. Furthermore, Foundry also causes Stealth Rock to become a Fire-type entry hazard that stacks with the normal, Rock-type Stealth Rock.",
+		shortDesc: "Rock-type moves, when used, melt and become Fire Type.",
+	},
 	stench: {
 		name: "Stench",
 		desc: "This Pokemon's attacks without a chance to make the target flinch gain a 10% chance to make the target flinch.",

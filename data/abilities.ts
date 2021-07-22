@@ -3994,6 +3994,73 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 3,
 		num: 295,
 	},
+	spectraljaws: {
+		onBasePowerPriority: 7,
+		onBasePower(basePower, attacker, defender, move) {
+			if (move.flags['bite']) {
+				this.debug('Spectral Jaws Boost');
+				return this.chainModify(1.3);
+			}
+		},
+		onModifyMove(move, pokemon, target) {
+			if (move.flags['bite']) {
+				this.debug('Spectral Jaws Boost');
+				move.category = 'Special';
+			}
+		},
+		name: "Spectral Jaws",
+		rating: 1.5,
+		num: 296,
+	},
+	absolution: {
+		onModifySpAPriority: 5,
+		onModifySpA(spa, pokemon) {
+			if (['newmoon'].includes(pokemon.effectiveWeather())) {
+				return this.chainModify(1.5);
+			}
+		},
+		onWeather(target, source, effect) {
+			if (target.hasItem('utilityumbrella')) return;
+			if (effect.id === 'newmoon') {
+				this.damage(target.baseMaxhp / 8, target, target);
+			}
+		},
+		name: "Absolution",
+		rating: 2,
+		num: 94,
+	},
+	prismguard: {
+		onDamagingHitOrder: 1,
+		onDamagingHit(damage, target, source, move) {
+			if (!move.flags['contact'] && move.category !== 'Status') {
+				this.damage(source.baseMaxhp / 8, source, target);
+			}
+		},
+		name: "Prism Guard",
+		rating: 2.5,
+		num: 24,
+	},
+	foundry: {
+		onModifyMovePriority: -1,
+		onModifyMove(move, attacker) {
+			if (move.flags['foundry']) {
+				move.id == 'stealthrockfire';
+			}
+		},
+		onModifyType(move, source) {
+			if (move.type === 'Rock' && !(move.isZ && move.category !== 'Status')) {
+				move.type = 'Fire';
+				move.foundryBoosted = true;
+			}
+		},
+		onBasePowerPriority: 23,
+		onBasePower(basePower, pokemon, target, move) {
+			if (move.foundryBoosted) return this.chainModify([0x14CD, 0x1000]);
+		},
+		name: "Foundry",
+		rating: 3,
+		num: 108,
+	},
 	stench: {
 		onModifyMovePriority: -1,
 		onModifyMove(move) {

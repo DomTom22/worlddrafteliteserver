@@ -1550,6 +1550,11 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 		desc: "Foundry causes all Rock-type moves used by the Pokémon with this Ability to become Fire-type and receive a 30% damage boost, in addition to all other modifiers. Furthermore, Foundry also causes Stealth Rock to become a Fire-type entry hazard that stacks with the normal, Rock-type Stealth Rock.",
 		shortDesc: "Rock-type moves, when used, melt and become Fire Type.",
 	},
+	intoxicate: {
+		name: "Intoxicate",
+		desc: "Intoxicate causes all Normal-type moves used by the Pokémon to become Poison-type and receive a 30% power boost.",
+		shortDesc: "Normal-type moves become Poison-type moves.",
+	},
 	stench: {
 		name: "Stench",
 		desc: "This Pokemon's attacks without a chance to make the target flinch gain a 10% chance to make the target flinch.",

@@ -6494,6 +6494,502 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		isNonstandard: "Custom",
 		tier: "Illegal",
 	},
+	venusaurdelta: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
+	venusaurdeltamega: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
+	charizarddelta: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
+	charizarddeltamega: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
+	blastoisedelta: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
+	blastoisedeltamega: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
+	bisharpdelta: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
+	gardevoirdelta: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
+	gardevoirdeltamega: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
+	galladedelta: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
+	galladedeltamega: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
+	sunfloradelta: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
+	sunfloradeltamega: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
+	avaluggdelta: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
+	scizordelta: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
+	scizordeltamega: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
+	scraftydelta: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
+	vespiquendelta: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
+	weezingdelta: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
+	lieparddelta: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
+	trevenantdelta: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
+	glaliedelta: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
+	glaliedeltamega: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
+	frosslassdelta: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
+	frosslassdeltamega: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
+	luxraydelta: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
+	noiverndelta: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
+	roseradedelta: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
+	drifblimdelta: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
+	quagsiredelta: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
+	snorlaxdelta: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
+	mismagiusdelta: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
+	typhlosionmega: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
+	typhlosiondelta: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
+	typhlosiondeltamega: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
+	typhlosiondeltamegaactive: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
+	sceptiledelta: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
+	blazikendelta: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
+	torterradelta: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
+	serperiordelta: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
+	greninjadelta: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
+	pidgeotdelta: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
+	pidgeotdeltamega: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
+	dugtriodelta: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
+	arcaninedelta: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
+	golemdelta: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
+	tentacrueldelta: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
+	dodriodelta: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
+	tangrowthdelta: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
+	kabutopsdelta: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
+	dragonitedelta: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
+	noctowldelta: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
+	lanturndelta: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
+	raichudelta: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
+	ambipomdelta: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
+	yanmegadelta: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
+	girafarigmega: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
+	feraligatrmega: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
+	meganiummega: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
+	girafarigdelta: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
+	girafarigdeltamega: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
+	dunsparcedelta: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
+	shuckledelta: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
+	octillerydelta: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
+	electiviredelta: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
+	magmortardelta: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
+	ludicolodelta: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
+	shiftrydelta: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
+	sableyedelta: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
+	sableyedeltamega: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
+	mawiledelta: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
+	mawiledeltamega: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
+	bisharpmega: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
+	aggrondelta: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
+	medichamdelta: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
+	medichamdeltamega: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
+	cameruptdelta: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
+	cameruptdeltamega: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
+	frosslassmega: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
+	wailorddelta: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
+	miloticmega: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
+	miloticdelta: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
+	miloticdeltamega: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
+	huntaildelta: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
+	gorebyssdelta: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
+	metragrossdeltaspider: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
+	metragrossdeltamegaspider: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
+	metagrossdeltaruin: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
+	metagrossdeltamegaruin: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
+	lopunnydelta: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
+	lopunnydeltamega: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
+	lucariodelta: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
+	lucariodeltamega: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
+	toxicroarkdelta: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
+	lilligantdeltawater: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
+	lilligantdeltafairy: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
+	crustledeltacake: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
+	crustledeltaberry: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
+	reuniclusmega: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
+	runiclusdelta: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
+	darmanitandelta: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
+	sunfloramegam: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
+	sunfloramegaf: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
+	cofagrigusdelta: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
+	emolgadelta: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
+	escavalierdelta: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
+	amoongusdelta: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
+	chandeluredelta: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
+	haxorusmega: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
+	haxrousdelta: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
+	golurkdelta: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
+	heatmoredelta: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
+	hydreigondelta: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
+	volcaronadelta: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
+	volcaronadeltaarmored: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
+	aurorusdelta: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
+	goodradelta: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
+	regirockdelta: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
+	regicedelta: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
+	registeeldelta: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
+	meloettadelta: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
+	meloettadeltamagician: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
+	hoopadelta: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
+	hoopadeltaunleased: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
 	missingno: {
 		isNonstandard: "Custom",
 		tier: "Illegal",

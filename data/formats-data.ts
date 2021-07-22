@@ -6928,6 +6928,14 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		isNonstandard: "Past",
 		tier: "Illegal",
 	},
+	shadowmewtwo: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	shadowmewtwomega: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
 	sudowoodomega: {
 		isNonstandard: "Past",
 		tier: "Illegal",
@@ -6969,6 +6977,10 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "Illegal",
 	},
 	crawdauntmega: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	mewtwoarmored: {
 		isNonstandard: "Past",
 		tier: "Illegal",
 	},

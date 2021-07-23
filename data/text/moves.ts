@@ -4676,6 +4676,71 @@ export const MovesText: {[k: string]: MoveText} = {
 		desc: "For 5 turns, the weather becomes Wind. At the end of each turn except the last, all active Pokemon lose 1/16 of their maximum HP, rounded down, unless they are an Flying type or have the  Magic Guard or Overcoat. Lasts for 8 turns if the user is holding Floaty Rock. Fails if the current weather is Hail.",
 		shortDesc: "For 5 turns, wind howls.",
 	},
+	achillesheel: {
+		name: "Achilles Heel",
+		desc: "The user identifies a weaknesses in its target, dealing Super Effective damage to all that are not immune to this move.",
+		shortDesc: "Deals super effective damage, unless immune.",
+	},
+	ancientroar: {
+		name: "Ancient Roar",
+		desc: "The user's voice shakes with a primal roar, damaging its foes with pure fear.",
+		shortDesc: "No additional effect.",
+	},
+	corrode: {
+		name: "Corrode",
+		desc: "Corrode deals damage and has no secondary effect. If used on Steel type Pokémon, this move ignores the type effectiveness of this move's type against Steel and treats it as being super effective against Steel types instead (even during Inverse Battles or if Corrode's type is changed).",
+		shortDesc: "Super effective against Steel types.",
+	},
+	darkmatter: {
+		name: "Dark Matter",
+		desc: "Dark Matter inflicts damage. A recharge turn is required on the turn after damage is done, during which no action may be performed.",
+		shortDesc: "User cannot move next turn.",
+	},
+	dracojet: {
+		name: "Draco Jet",
+		desc: "If the target does not use an increased priority move during the round that it is used, Draco Jet will go first regardless of the user's or target's speed.",
+		shortDesc: "Usually goes first..",
+	},
+	dragonify: {
+		name: "Dragonify",
+		desc: "Dragonify changes the target's type to pure Dragon; the effect lasts as long as the target is in battle, and changing form or transforming will also remove the effect.",
+		shortDesc: "Changes the target's type to Dragon.",
+	},
+	drakonvoice: {
+		name: "Drakon Voice",
+		desc: "The sheer force of the user's voice obliterates everything in its path.",
+		shortDesc: "Has no secondary effect.",
+	},
+	jetstream: {
+			name: "Jet Stream",
+			desc: "The user creates a stream of supercharged air that allows their team to move first next round.",
+			shortDesc: "Increases team priority by 1 during the next turn.",
+	},
+	lunarcannon: {
+		name: "Low Sweep",
+		desc: "Lunar Cannon forces the user to charge on the first turn and then deals damage on the following turn. It will not need a turn to charge if used during a New Moon.",
+		shortDesc: "Charges turn 1. Hits turn 2. No charge in darkness.",
+	},
+	medusaray: {
+		name: "Medusaray",
+		desc: "Medusa Ray changes the target's type to pure Rock. The effect lasts as long as the target is in battle, although changing form or transforming will remove the effect.",
+		shortDesc: "Changes the target's type to Rock.",
+	},
+	newmoon: {
+		name: "New Moon",
+		desc: "For 5 turns, intense darkness powers Dark and Ghost moves.",
+		shortDesc: "For 5 turns, intense darkness powers Dark and Ghost moves.",
+	},
+	spiritaway: {
+		name: "Spirit Away",
+		desc: "On the turn it is selected, Spirit Away takes the target away. While away, the target cannot act. While away, both the user and the target avoid any move targeted at them. The next turn, the target is brought back and receives damage. Spirit Away will fail if the target is behind a substitute, or if used on a target that is already semi-invulnerable due to moves such as Fly, Bounce, Sky Drop, or another Spirit Away.",
+		shortDesc: "User and foe are taken away turn 1. Damages on turn 2.",
+	},
+	wildfire: {
+		name: "Wildfire",
+		desc: "Wildfire is a status move that inflicts burns on the target if it manages to hit them. It will hit both targets in double battles. Additionally, if the target is a Grass-type Pokémon, Wildfire will also burn every Pokémon in the target player's party that possesses a weakness to Fire-type attacks.",
+		shortDesc: "If foe is Grass, burns all Pokemon weak to fire.",
+	},
 	rapidspin: {
 		name: "Rapid Spin",
 		desc: "If this move is successful and the user has not fainted, the effects of Leech Seed and binding moves end for the user, and all hazards are removed from the user's side of the field. Has a 100% chance to raise the user's Speed by 1 stage.",

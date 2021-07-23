@@ -580,6 +580,56 @@ export const Conditions: {[k: string]: ConditionData} = {
 			this.add('-weather', 'none');
 		},
 	},
+	newmoon: {
+		name: 'NewMoon',
+		effectType: 'Weather',
+		duration: 5,
+		durationCallback(source, effect) {
+			if (source?.hasItem('darkrock')) {
+				return 8;
+			}
+			return 5;
+		},
+		onWeatherModifyDamage(damage, attacker, defender, move) {
+			if (defender.hasItem('utilityumbrella')) return;
+			if (move.type === 'Ghost') {
+				this.debug('New Moon Ghost boost');
+				return this.chainModify(1.35);
+			}
+			if (move.type === 'Dark') {
+				this.debug('New Moon Dark boost');
+				return this.chainModify(1.35);
+			}
+			if (move.type === 'Fairy') {
+				this.debug('New Moon Fairy suppress');
+				return this.chainModify(0.75);
+			}
+		},
+		onStart(battle, source, effect) {
+			if (effect?.effectType === 'Ability') {
+				if (this.gen <= 5) this.effectData.duration = 0;
+				this.add('-weather', 'NewMoon', '[from] ability: ' + effect, '[of] ' + source);
+			} else {
+				this.add('-weather', 'NewMoon');
+			}
+		},
+		onImmunity(type, pokemon) {
+			if (pokemon.hasItem('utilityumbrella')) return;
+		},
+		onModifySpe(spe, pokemon) {
+			if (pokemon.hasAbility('shadowdance') && !pokemon.hasItem('utilityumbrella')) {
+				this.chainModify(2);
+			}
+		},
+		onResidualOrder: 1,
+		onResidual() {
+			this.add('-weather', 'NewMoon', '[upkeep]');
+			this.eachEvent('Weather');
+		},
+		onEnd() {
+			this.add('-weather', 'none');
+		},
+	},
 	starrynight: {
 		name: 'StarryNight',
 		effectType: 'Weather',

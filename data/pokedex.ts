@@ -20948,6 +20948,18 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "Yellow",
 		eggGroups: ["Field"],
 	},
+	flairees: {
+		num: -1501,
+		name: "Flairees",
+		types: ["Fire", "Rock"],
+		genderRatio: {M: 0.875, F: 0.125},
+		baseStats: {hp: 80, atk: 120, def: 75, spa: 90, spd: 80, spe: 90},
+		abilities: { 0: "Blaze"},
+		heightm: 0.8,
+		weightkg: 182.3,
+		color: "Yellow",
+		eggGroups: ["Field"],
+	},
 	missingno: {
 		num: 0,
 		name: "MissingNo.",

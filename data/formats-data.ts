@@ -7100,6 +7100,10 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		isNonstandard: "Past",
 		tier: "Illegal",
 	},
+	flairees: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
 	missingno: {
 		isNonstandard: "Custom",
 		tier: "Illegal",

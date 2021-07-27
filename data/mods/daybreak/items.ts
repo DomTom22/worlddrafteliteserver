@@ -178,6 +178,7 @@ export const Items: {[itemid: string]: ItemData} = {
 		itemUser: ["Raichu-Alola"],
 		num: 803,
 		gen: 7,
+		isNonstandard: "CAP",
 	},
 	altarianite: {
 		name: "Altarianite",
@@ -595,6 +596,7 @@ export const Items: {[itemid: string]: ItemData} = {
 		forcedForme: "Arceus-Bug",
 		num: 787,
 		gen: 7,
+		isNonstandard: "CAP",
 	},
 	burndrive: {
 		name: "Burn Drive",
@@ -1067,6 +1069,7 @@ export const Items: {[itemid: string]: ItemData} = {
 		forcedForme: "Arceus-Dark",
 		num: 791,
 		gen: 7,
+		isNonstandard: "CAP",
 	},
 	dawnstone: {
 		name: "Dawn Stone",
@@ -1086,6 +1089,7 @@ export const Items: {[itemid: string]: ItemData} = {
 		itemUser: ["Decidueye"],
 		num: 798,
 		gen: 7,
+		isNonstandard: "CAP",
 	},
 	deepseascale: {
 		name: "Deep Sea Scale",
@@ -1262,6 +1266,7 @@ export const Items: {[itemid: string]: ItemData} = {
 		forcedForme: "Arceus-Dragon",
 		num: 790,
 		gen: 7,
+		isNonstandard: "CAP",
 	},
 	dreadplate: {
 		name: "Dread Plate",
@@ -1359,6 +1364,7 @@ export const Items: {[itemid: string]: ItemData} = {
 		itemUser: ["Eevee"],
 		num: 805,
 		gen: 7,
+		isNonstandard: "CAP",
 	},
 	ejectbutton: {
 		name: "Eject Button",
@@ -1483,6 +1489,7 @@ export const Items: {[itemid: string]: ItemData} = {
 		forcedForme: "Arceus-Electric",
 		num: 779,
 		gen: 7,
+		isNonstandard: "CAP",
 	},
 	energypowder: {
 		name: "Energy Powder",
@@ -1560,6 +1567,7 @@ export const Items: {[itemid: string]: ItemData} = {
 		forcedForme: "Arceus-Fairy",
 		num: 793,
 		gen: 7,
+		isNonstandard: "CAP",
 	},
 	fairygem: {
 		name: "Fairy Gem",
@@ -1634,6 +1642,7 @@ export const Items: {[itemid: string]: ItemData} = {
 		forcedForme: "Arceus-Fighting",
 		num: 782,
 		gen: 7,
+		isNonstandard: "CAP",
 	},
 	figyberry: {
 		name: "Figy Berry",
@@ -1708,6 +1717,7 @@ export const Items: {[itemid: string]: ItemData} = {
 		forcedForme: "Arceus-Fire",
 		num: 777,
 		gen: 7,
+		isNonstandard: "CAP",
 	},
 	fistplate: {
 		name: "Fist Plate",
@@ -1825,6 +1835,7 @@ export const Items: {[itemid: string]: ItemData} = {
 		forcedForme: "Arceus-Flying",
 		num: 785,
 		gen: 7,
+		isNonstandard: "CAP",
 	},
 	focusband: {
 		name: "Focus Band",
@@ -2039,6 +2050,7 @@ export const Items: {[itemid: string]: ItemData} = {
 		forcedForme: "Arceus-Ghost",
 		num: 789,
 		gen: 7,
+		isNonstandard: "CAP",
 	},
 	glalitite: {
 		name: "Glalitite",
@@ -2101,6 +2113,7 @@ export const Items: {[itemid: string]: ItemData} = {
 		forcedForme: "Arceus-Grass",
 		num: 780,
 		gen: 7,
+		isNonstandard: "CAP",
 	},
 	grassyseed: {
 		name: "Grassy Seed",
@@ -2215,6 +2228,7 @@ export const Items: {[itemid: string]: ItemData} = {
 		forcedForme: "Arceus-Ground",
 		num: 784,
 		gen: 7,
+		isNonstandard: "CAP",
 	},
 	gyaradosite: {
 		name: "Gyaradosite",
@@ -2518,6 +2532,7 @@ export const Items: {[itemid: string]: ItemData} = {
 		forcedForme: "Arceus-Ice",
 		num: 781,
 		gen: 7,
+		isNonstandard: "CAP",
 	},
 	icyrock: {
 		name: "Icy Rock",
@@ -2555,6 +2570,7 @@ export const Items: {[itemid: string]: ItemData} = {
 		itemUser: ["Incineroar"],
 		num: 799,
 		gen: 7,
+		isNonstandard: "CAP",
 	},
 	insectplate: {
 		name: "Insect Plate",
@@ -2770,6 +2786,7 @@ export const Items: {[itemid: string]: ItemData} = {
 		itemUser: ["Kommo-o", "Kommo-o-Totem"],
 		num: 926,
 		gen: 7,
+		isNonstandard: "CAP",
 	},
 	laggingtail: {
 		name: "Lagging Tail",
@@ -3092,6 +3109,7 @@ export const Items: {[itemid: string]: ItemData} = {
 		itemUser: ["Lunala", "Necrozma-Dawn-Wings"],
 		num: 922,
 		gen: 7,
+		isNonstandard: "CAP",
 	},
 	lureball: {
 		name: "Lure Ball",
@@ -3132,6 +3150,7 @@ export const Items: {[itemid: string]: ItemData} = {
 		itemUser: ["Lycanroc", "Lycanroc-Midnight", "Lycanroc-Dusk"],
 		num: 925,
 		gen: 7,
+		isNonstandard: "CAP",
 	},
 	machobrace: {
 		name: "Macho Brace",
@@ -3260,6 +3279,7 @@ export const Items: {[itemid: string]: ItemData} = {
 		itemUser: ["Marshadow"],
 		num: 802,
 		gen: 7,
+		isNonstandard: "CAP",
 	},
 	masterball: {
 		name: "Master Ball",
@@ -3444,6 +3464,7 @@ export const Items: {[itemid: string]: ItemData} = {
 		itemUser: ["Mew"],
 		num: 806,
 		gen: 7,
+		isNonstandard: "CAP",
 	},
 	mewtwonitex: {
 		name: "Mewtwonite X",
@@ -3511,6 +3532,7 @@ export const Items: {[itemid: string]: ItemData} = {
 		itemUser: ["Mimikyu", "Mimikyu-Busted", "Mimikyu-Totem", "Mimikyu-Busted-Totem"],
 		num: 924,
 		gen: 7,
+		isNonstandard: "CAP",
 	},
 	mindplate: {
 		name: "Mind Plate",
@@ -3694,6 +3716,7 @@ export const Items: {[itemid: string]: ItemData} = {
 		zMoveType: "Normal",
 		num: 776,
 		gen: 7,
+		isNonstandard: "CAP",
 	},
 	occaberry: {
 		name: "Occa Berry",
@@ -3924,6 +3947,7 @@ export const Items: {[itemid: string]: ItemData} = {
 		itemUser: ["Pikachu"],
 		num: 794,
 		gen: 7,
+		isNonstandard: "CAP",
 	},
 	pikashuniumz: {
 		name: "Pikashunium Z",
@@ -3934,6 +3958,7 @@ export const Items: {[itemid: string]: ItemData} = {
 		itemUser: ["Pikachu-Original", "Pikachu-Hoenn", "Pikachu-Sinnoh", "Pikachu-Unova", "Pikachu-Kalos", "Pikachu-Alola", "Pikachu-Partner"],
 		num: 836,
 		gen: 7,
+		isNonstandard: "CAP",
 	},
 	pinapberry: {
 		name: "Pinap Berry",
@@ -4044,6 +4069,7 @@ export const Items: {[itemid: string]: ItemData} = {
 		forcedForme: "Arceus-Poison",
 		num: 783,
 		gen: 7,
+		isNonstandard: "CAP",
 	},
 	pokeball: {
 		name: "Poke Ball",
@@ -4175,6 +4201,7 @@ export const Items: {[itemid: string]: ItemData} = {
 		itemUser: ["Primarina"],
 		num: 800,
 		gen: 7,
+		isNonstandard: "CAP",
 	},
 	prismscale: {
 		name: "Prism Scale",
@@ -4306,6 +4333,7 @@ export const Items: {[itemid: string]: ItemData} = {
 		forcedForme: "Arceus-Psychic",
 		num: 786,
 		gen: 7,
+		isNonstandard: "CAP",
 	},
 	qualotberry: {
 		name: "Qualot Berry",
@@ -4601,6 +4629,7 @@ export const Items: {[itemid: string]: ItemData} = {
 		forcedForme: "Arceus-Rock",
 		num: 788,
 		gen: 7,
+		isNonstandard: "CAP",
 	},
 	rockyhelmet: {
 		name: "Rocky Helmet",
@@ -5090,6 +5119,7 @@ export const Items: {[itemid: string]: ItemData} = {
 		itemUser: ["Snorlax"],
 		num: 804,
 		gen: 7,
+		isNonstandard: "CAP",
 	},
 	snowball: {
 		name: "Snowball",
@@ -5132,6 +5162,7 @@ export const Items: {[itemid: string]: ItemData} = {
 		itemUser: ["Solgaleo", "Necrozma-Dusk-Mane"],
 		num: 921,
 		gen: 7,
+		isNonstandard: "CAP",
 	},
 	souldew: {
 		name: "Soul Dew",
@@ -5319,6 +5350,7 @@ export const Items: {[itemid: string]: ItemData} = {
 		forcedForme: "Arceus-Steel",
 		num: 792,
 		gen: 7,
+		isNonstandard: "CAP",
 	},
 	stick: {
 		name: "Stick",
@@ -5464,6 +5496,7 @@ export const Items: {[itemid: string]: ItemData} = {
 		itemUser: ["Tapu Koko", "Tapu Lele", "Tapu Bulu", "Tapu Fini"],
 		num: 801,
 		gen: 7,
+		isNonstandard: "CAP",
 	},
 	tartapple: {
 		name: "Tart Apple",
@@ -6512,6 +6545,7 @@ export const Items: {[itemid: string]: ItemData} = {
 		itemUser: ["Necrozma-Ultra"],
 		num: 923,
 		gen: 7,
+		isNonstandard: "CAP",
 	},
 	upgrade: {
 		name: "Up-Grade",
@@ -6616,6 +6650,7 @@ export const Items: {[itemid: string]: ItemData} = {
 		forcedForme: "Arceus-Water",
 		num: 778,
 		gen: 7,
+		isNonstandard: "CAP",
 	},
 	watmelberry: {
 		name: "Watmel Berry",

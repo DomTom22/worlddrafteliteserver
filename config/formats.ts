@@ -513,7 +513,7 @@ export const Formats: FormatList = [
 					],
 
 					mod: 'insurgence',
-					ruleset: ['[Gen 8] Insurgence OU'],
+					ruleset: ['Standard', 'Obtainable', 'Dynamax Clause'],
 					banlist: ['AG', 'Uber', 'OUBL', 'OU', 'UUBL'],
 				},
 				{
@@ -525,7 +525,7 @@ export const Formats: FormatList = [
 					],
 
 					mod: 'insurgence',
-					ruleset: ['[Gen 8] Insurgence UU'],
+					ruleset: ['Standard', 'Obtainable', 'Dynamax Clause'],
 					banlist: ['AG', 'Uber', 'OUBL', 'OU', 'UUBL', 'UU', 'RUBL'],
 				},
 				{
@@ -537,7 +537,7 @@ export const Formats: FormatList = [
 					],
 
 					mod: 'insurgence',
-					ruleset: ['[Gen 8] Insurgence RU'],
+					ruleset: ['Standard', 'Obtainable', 'Dynamax Clause'],
 					banlist: ['AG', 'Uber', 'OUBL', 'OU', 'UUBL', 'UU', 'RUBL', 'RU', 'NUBL'],
 				},
 				{
@@ -549,7 +549,7 @@ export const Formats: FormatList = [
 					],
 
 					mod: 'insurgence',
-					ruleset: ['[Gen 8] Insurgence NU'],
+					ruleset: ['Standard', 'Obtainable', 'Dynamax Clause'],
 					banlist: ['AG', 'Uber', 'OUBL', 'OU', 'UUBL', 'UU', 'RUBL', 'RU', 'NUBL', 'NU', 'PUBL'],
 				},
 			{

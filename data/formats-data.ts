@@ -1207,6 +1207,14 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "NU",
 		doublesTier: "(DUU)",
 	},
+	jolteonhf: {
+		isNonstandard: "CAP",
+		tier: "CAP",
+	},
+	jolteonhfcorrupt: {
+		isNonstandard: "CAP",
+		tier: "CAP",
+	},
 	flareon: {
 		randomBattleMoves: ["facade", "flamecharge", "flareblitz", "quickattack", "superpower"],
 		randomBattleLevel: 86,

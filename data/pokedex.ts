@@ -21013,6 +21013,18 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "Yellow",
 		eggGroups: ["Field"],
 	},
+	aguanaut: {
+		num: -1502,
+		name: "Aguanaut",
+		types: ["Water", "Fighting"],
+		genderRatio: {M: 0.875, F: 0.125},
+		baseStats: {hp: 95, atk: 95, def: 113, spa: 75, spd: 75, spe: 75},
+		abilities: { 0: "Torrent"},
+		heightm: 0.8,
+		weightkg: 182.3,
+		color: "Yellow",
+		eggGroups: ["Field"],
+	},
 	missingno: {
 		num: 0,
 		name: "MissingNo.",

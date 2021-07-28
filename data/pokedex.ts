@@ -21025,6 +21025,18 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "Yellow",
 		eggGroups: ["Field"],
 	},
+	warquila: {
+		num: -1503,
+		name: "Warquila",
+		types: ["Water", "Fighting"],
+		genderRatio: {M: 0.50, F: 0.50},
+		baseStats: {hp: 80, atk: 105, def: 80, spa: 60, spd: 70, spe: 100},
+		abilities: { 0: "Keen Eye", H: "Moxie"},
+		heightm: 0.8,
+		weightkg: 24.9,
+		color: "Yellow",
+		eggGroups: ["Field"],
+	},
 	missingno: {
 		num: 0,
 		name: "MissingNo.",

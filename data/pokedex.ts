@@ -19911,7 +19911,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		types: ["Water", "Electric"],
 		genderRatio: {M: 0.875, F: 0.125},
 		baseStats: {hp: 95, atk: 80, def: 95, spa: 90, spd: 105, spe: 85},
-		abilities: { 0: "Staic", 1: "Torrent"},
+		abilities: { 0: "Static", 1: "Torrent"},
 		heightm: 0.8,
 		weightkg: 24.5,
 		color: "Yellow",
@@ -20345,7 +20345,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	s51mega: {
 		num: -1232,
 		name: "S51-Mega",
-		baseSpecies: "UFOite",
+		baseSpecies: "S51",
 		forme: "Mega",
 		types: ["Psychic", "Steel"],
 		baseStats: {hp: 105, atk: 95, def: 90, spa: 150, spd: 90, spe: 110},
@@ -20355,7 +20355,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "Blue",
 		eggGroups: ["Monster", "Dragon"],
 		requiredItem: "UFOite",
-		battleOnly: "s51",
+		battleOnly: "S51",
 	},
 	paraboom: {
 		num: -1233,
@@ -21028,7 +21028,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	warquila: {
 		num: -1503,
 		name: "Warquila",
-		types: ["Water", "Fighting"],
+		types: ["Normal", "Flying"],
 		genderRatio: {M: 0.50, F: 0.50},
 		baseStats: {hp: 80, atk: 105, def: 80, spa: 60, spd: 70, spe: 100},
 		abilities: { 0: "Keen Eye", H: "Moxie"},

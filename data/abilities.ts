@@ -3206,23 +3206,6 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 2,
 		num: 159,
 	},
-	shadeforce: {
-		onBasePowerPriority: 21,
-		onBasePower(basePower, attacker, defender, move) {
-			if (this.field.isWeather('starrynight')) {
-				if (move.type === 'Dark' || move.type === 'Ghost' || move.type === 'Poison') {
-					this.debug('Shade Force boost');
-					return this.chainModify([5325, 4096]);
-				}
-			}
-		},
-		onImmunity(type, pokemon) {
-			if (type === 'starrynight') return false;
-		},
-		name: "Shade Force",
-		rating: 2,
-		num: 276,
-	},
 	sandrush: {
 		onModifySpe(spe, pokemon) {
 			if (this.field.isWeather('sandstorm')) {
@@ -3601,16 +3584,6 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 3,
 		num: 274,
 	},
-	shadowdancer: {
-		onModifySpe(spe, pokemon) {
-			if (this.field.isWeather('starrynight')) {
-				return this.chainModify(2);
-			}
-		},
-		name: "Shadow Dancer",
-		rating: 3,
-		num: 275,
-	},
 	sniper: {
 		onModifyDamage(damage, source, target, move) {
 			if (target.getMoveHitData(move).crit) {
@@ -3645,14 +3618,6 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		name: "Snow Warning",
 		rating: 4,
 		num: 117,
-	},
-	twilight: {
-		onStart(source) {
-			this.field.setWeather('starrynight');
-		},
-		name: "Twilight",
-		rating: 4,
-		num: 272,
 	},
 	airstream: {
 		onStart(source) {

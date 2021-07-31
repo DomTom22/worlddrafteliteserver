@@ -400,6 +400,69 @@ export const Formats: FormatList = [
 	// National Dex
 	///////////////////////////////////////////////////////////////////
 	{
+			section: "Universal Tiers",
+		},
+		{
+			name: "[Gen 8] Universal OU",
+			threads: [
+				`&bullet; <a href="https://www.smogon.com/forums/threads/3672210/">OU Metagame Discussion</a>`,
+				`&bullet; <a href="https://www.smogon.com/forums/threads/3672556/">OU Sample Teams</a>`,
+				`&bullet; <a href="https://www.smogon.com/forums/threads/3674058/">OU Viability Rankings</a>`,
+			],
+
+			mod: 'universal',
+			ruleset: ['Standard', 'Obtainable', 'Dynamax Clause'],
+			banlist: ['Uber', 'OUBL', 'AG', 'Arena Trap', 'Moody', 'Power Construct', 'Shadow Tag', 'Baton Pass'],
+		},
+		{
+			name: "[Gen 8] Universal UU",
+			threads: [
+				`&bullet; <a href="https://www.smogon.com/forums/threads/3672210/">OU Metagame Discussion</a>`,
+				`&bullet; <a href="https://www.smogon.com/forums/threads/3672556/">OU Sample Teams</a>`,
+				`&bullet; <a href="https://www.smogon.com/forums/threads/3674058/">OU Viability Rankings</a>`,
+			],
+
+			mod: 'universal',
+			ruleset: ['Standard', 'Obtainable', 'Dynamax Clause'],
+			banlist: ['AG', 'Uber', 'OUBL', 'OU', 'UUBL'],
+		},
+		{
+			name: "[Gen 8] Universal RU",
+			threads: [
+				`&bullet; <a href="https://www.smogon.com/forums/threads/3672210/">OU Metagame Discussion</a>`,
+				`&bullet; <a href="https://www.smogon.com/forums/threads/3672556/">OU Sample Teams</a>`,
+				`&bullet; <a href="https://www.smogon.com/forums/threads/3674058/">OU Viability Rankings</a>`,
+			],
+
+			mod: 'universal',
+			ruleset: ['Standard', 'Obtainable', 'Dynamax Clause'],
+			banlist: ['AG', 'Uber', 'OUBL', 'OU', 'UUBL', 'UU', 'RUBL'],
+		},
+		{
+			name: "[Gen 8] Universal NU",
+			threads: [
+				`&bullet; <a href="https://www.smogon.com/forums/threads/3672210/">OU Metagame Discussion</a>`,
+				`&bullet; <a href="https://www.smogon.com/forums/threads/3672556/">OU Sample Teams</a>`,
+				`&bullet; <a href="https://www.smogon.com/forums/threads/3674058/">OU Viability Rankings</a>`,
+			],
+
+			mod: 'universal',
+			ruleset: ['Standard', 'Obtainable', 'Dynamax Clause'],
+			banlist: ['AG', 'Uber', 'OUBL', 'OU', 'UUBL', 'UU', 'RUBL', 'RU', 'NUBL'],
+		},
+		{
+			name: "[Gen 8] Universal PU",
+			threads: [
+				`&bullet; <a href="https://www.smogon.com/forums/threads/3672210/">OU Metagame Discussion</a>`,
+				`&bullet; <a href="https://www.smogon.com/forums/threads/3672556/">OU Sample Teams</a>`,
+				`&bullet; <a href="https://www.smogon.com/forums/threads/3674058/">OU Viability Rankings</a>`,
+			],
+
+			mod: 'universal',
+			ruleset: ['Standard', 'Obtainable', 'Dynamax Clause'],
+			banlist: ['AG', 'Uber', 'OUBL', 'OU', 'UUBL', 'UU', 'RUBL', 'RU', 'NUBL', 'NU', 'PUBL'],
+		},
+	{
 			section: "Elite Tiers",
 		},
 		{

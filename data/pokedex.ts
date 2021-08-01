@@ -20870,7 +20870,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	},
 	beliaddon: {
 		num: -1269,
-		name: "Beliadon",
+		name: "Beliaddon",
 		types: ["Fire", "Dark"],
 		genderRatio: {M: 0.875, F: 0.125},
 		baseStats: {hp: 115, atk: 145, def: 100, spa: 80, spd: 90, spe: 70},

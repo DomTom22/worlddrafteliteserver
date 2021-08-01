@@ -17584,7 +17584,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		types: ["Water", "Electric"],
 		genderRatio: {M: 0.875, F: 0.125},
 		baseStats: {hp: 95, atk: 80, def: 95, spa: 90, spd: 105, spe: 85},
-		abilities: { 0: "Staic", 1: "Torrent"},
+		abilities: { 0: "Static", 1: "Torrent"},
 		heightm: 0.8,
 		weightkg: 24.5,
 		color: "Yellow",
@@ -17621,7 +17621,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	},
 	splendifowl: {
 		num: -1204,
-		name: "Spledifowl",
+		name: "Splendifowl",
 		types: ["Normal", "Flying"],
 		genderRatio: {M: 0.875, F: 0.125},
 		baseStats: {hp: 80, atk: 65, def: 55, spa: 105, spd: 80, spe: 93},
@@ -17917,7 +17917,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	drilgannmega: {
 		num: -1225,
 		name: "Drilgann-Mega",
-		baseSpecies: "Baariette",
+		baseSpecies: "Drilgann",
 		forme: "Mega",
 		types: ["Ground", "Dark"],
 		baseStats: {hp: 75, atk: 180, def: 88, spa: 60, spd: 88, spe: 84},
@@ -18542,9 +18542,9 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "Yellow",
 		eggGroups: ["Field"],
 	},
-	belladdon: {
+	beliaddon: {
 		num: -1269,
-		name: "Belladon",
+		name: "Beliadon",
 		types: ["Fire", "Dark"],
 		genderRatio: {M: 0.875, F: 0.125},
 		baseStats: {hp: 115, atk: 145, def: 100, spa: 80, spd: 90, spe: 70},

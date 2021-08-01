@@ -20868,9 +20868,9 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "Yellow",
 		eggGroups: ["Field"],
 	},
-	belladdon: {
+	beliaddon: {
 		num: -1269,
-		name: "Belladon",
+		name: "Beliadon",
 		types: ["Fire", "Dark"],
 		genderRatio: {M: 0.875, F: 0.125},
 		baseStats: {hp: 115, atk: 145, def: 100, spa: 80, spd: 90, spe: 70},

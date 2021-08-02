@@ -19474,7 +19474,6 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	sharpedohf: {
 		num: 901,
 		name: "Sharpedo-HF",
-		baseSpecies: "Sharpedo",
 		types: ["Water", "Ground"],
 		baseStats: {hp: 70, atk: 120, def: 75, spa: 80, spd: 60, spe: 95},
 		abilities: {0: "Intimidate", H: "Hustle"},

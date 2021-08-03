@@ -403,6 +403,30 @@ export const Formats: FormatList = [
 			section: "Universal Tiers",
 		},
 		{
+			name: "[Gen 8] Universal Ubers",
+			threads: [
+				`&bullet; <a href="https://www.smogon.com/forums/threads/3672210/">OU Metagame Discussion</a>`,
+				`&bullet; <a href="https://www.smogon.com/forums/threads/3672556/">OU Sample Teams</a>`,
+				`&bullet; <a href="https://www.smogon.com/forums/threads/3674058/">OU Viability Rankings</a>`,
+			],
+
+			mod: 'universal',
+			ruleset: ['Standard', 'Obtainable', 'Dynamax Clause'],
+			banlist: ['AG', 'Arena Trap', 'Moody', 'Baton Pass'],
+		},
+		{
+			name: "[Gen 8] Universal OUBL",
+			threads: [
+				`&bullet; <a href="https://www.smogon.com/forums/threads/3672210/">OU Metagame Discussion</a>`,
+				`&bullet; <a href="https://www.smogon.com/forums/threads/3672556/">OU Sample Teams</a>`,
+				`&bullet; <a href="https://www.smogon.com/forums/threads/3674058/">OU Viability Rankings</a>`,
+			],
+
+			mod: 'universal',
+			ruleset: ['Standard', 'Obtainable', 'Dynamax Clause'],
+			banlist: ['Uber', 'AG', 'Arena Trap', 'Moody', 'Power Construct', 'Shadow Tag', 'Baton Pass'],
+		},
+		{
 			name: "[Gen 8] Universal OU",
 			threads: [
 				`&bullet; <a href="https://www.smogon.com/forums/threads/3672210/">OU Metagame Discussion</a>`,

@@ -1959,7 +1959,6 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		doublesTier: "DOU",
 	},
 	tyranitarelite: {
-
 		tier: "OU",
 	},
 	tyranitarmega: {
@@ -5495,7 +5494,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		randomBattleLevel: 78,
 		randomDoubleBattleMoves: ["haze", "healpulse", "moonblast", "muddywater", "naturesmadness", "protect", "taunt"],
 		randomDoubleBattleLevel: 80,
-		tier: "OU",
+		tier: "UU",
 		doublesTier: "DOU",
 	},
 	cosmog: {
@@ -6405,7 +6404,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "RU",
 	},
 	nimflora: {
-		tier: "OU",
+		tier: "UU",
 	},
 	baariette: {
 		tier: "UU",
@@ -6417,25 +6416,25 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "UU",
 	},
 	drilgannmega: {
-		tier: "Uber",
+		tier: "OUBL",
 	},
 	s51: {
-		tier: "OU",
+		tier: "UU",
 	},
 	s51mega: {
 		tier: "OU",
 	},
 	inflagetah: {
-		tier: "OU",
+		tier: "UU",
 	},
 	inflagetahmega: {
-		tier: "Uber",
+		tier: "OUBL",
 	},
 	syrentide: {
 		tier: "RU",
 	},
 	syrentidemega: {
-		tier: "Uber",
+		tier: "OUBL",
 	},
 	dramsama: {
 		tier: "RU",
@@ -6468,16 +6467,16 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "Uber",
 	},
 	lanthan: {
-		tier: "Uber",
+		tier: "OUBL",
 	},
 	actan: {
-		tier: "Uber",
+		tier: "OUBL",
 	},
 	dunseraph: {
 		tier: "OU",
 	},
 	cocancer: {
-		tier: "OU",
+		tier: "UU",
 	},
 	tubareel: {
 		tier: "OU",
@@ -6489,7 +6488,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "OU",
 	},
 	glavinug: {
-		tier: "OU",
+		tier: "UU",
 	},
 	paraboom: {
 		tier: "OU",
@@ -6498,7 +6497,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "OU",
 	},
 	harptera: {
-		tier: "OU",
+		tier: "UUBL",
 	},
 	coatlith: {
 		tier: "OU",
@@ -6528,13 +6527,13 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "OU",
 	},
 	frosthra: {
-		tier: "OU",
+		tier: "UU",
 	},
 	stenowatt: {
-		tier: "OU",
+		tier: "UU",
 	},
 	oblivicorn: {
-		tier: "OU",
+		tier: "UU",
 	},
 	luxelong: {
 		tier: "OU",
@@ -6903,7 +6902,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	cameruptdeltamega: {
 		tier: "RU",
 	},
-	frosslassmega: {
+	froslassmega: {
 		tier: "UU",
 	},
 	wailorddelta: {

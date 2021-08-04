@@ -279,8 +279,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		doublesTier: "(DUU)",
 	},
 	sandriger: {
-		isNonstandard: "Custom",
-		tier: "Illegal",
+		tier: "OU",
 	},
 	nidoranf: {
 		tier: "LCUU",
@@ -1566,7 +1565,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	},
 	ariadoselite: {
 
-		tier: "OU",
+		tier: "UUBL",
 	},
 	chinchou: {
 		tier: "LC",
@@ -2114,7 +2113,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "(PU)",
 	},
 	dustoxhf: {
-		tier: "UUBL",
+		tier: "UU",
 	},
 	lotad: {
 		tier: "LC",
@@ -2797,7 +2796,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		doublesTier: "(DUU)",
 	},
 	registeelhf: {
-		tier: "OU",
+		tier: "UU",
 		doublesTier: "DOU",
 	},
 	latias: {
@@ -4279,8 +4278,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		doublesTier: "(DUU)",
 	},
 	virizionelite: {
-
-		tier: "OU",
+		tier: "UU",
 	},
 	tornadus: {
 		randomBattleMoves: ["defog", "grassknot", "heatwave", "hurricane", "nastyplot"],
@@ -4455,7 +4453,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		doublesTier: "DUU",
 	},
 	greninjadb: {
-		tier: "UUBL",
+		tier: "UU",
 	},
 	bunnelby: {
 		tier: "LC",
@@ -6476,7 +6474,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "OUBL",
 	},
 	dunseraph: {
-		tier: "OU",
+		tier: "UU",
 	},
 	cocancer: {
 		tier: "UU",
@@ -6494,7 +6492,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "UU",
 	},
 	paraboom: {
-		tier: "OU",
+		tier: "UU",
 	},
 	chimaconda: {
 		tier: "OU",
@@ -6503,13 +6501,13 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "UUBL",
 	},
 	coatlith: {
-		tier: "OU",
+		tier: "UU",
 	},
 	tracton: {
-		tier: "OU",
+		tier: "UUBL",
 	},
 	theriamp: {
-		tier: "OU",
+		tier: "UUBL",
 	},
 	daikatuna: {
 		tier: "OU",
@@ -6518,16 +6516,16 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "OU",
 	},
 	raffiti: {
-		tier: "OU",
+		tier: "UUBL",
 	},
 	antarki: {
-		tier: "OU",
+		tier: "OUBL",
 	},
 	alpico: {
 		tier: "OU",
 	},
 	fafninter: {
-		tier: "OU",
+		tier: "Ubers",
 	},
 	frosthra: {
 		tier: "UU",

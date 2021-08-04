@@ -20381,7 +20381,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "Yellow",
 		eggGroups: ["Field"],
 	},
-	coathlith: {
+	coatlith: {
 		num: -1238,
 		name: "Coatlith",
 		types: ["Bug", "Flying"],

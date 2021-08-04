@@ -19858,7 +19858,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		types: ["Water", "Electric"],
 		genderRatio: {M: 0.875, F: 0.125},
 		baseStats: {hp: 95, atk: 80, def: 95, spa: 90, spd: 105, spe: 85},
-		abilities: { 0: "Staic", 1: "Torrent"},
+		abilities: { 0: "Static", 1: "Torrent"},
 		heightm: 0.8,
 		weightkg: 24.5,
 		color: "Yellow",
@@ -19895,7 +19895,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	},
 	splendifowl: {
 		num: -1204,
-		name: "Spledifowl",
+		name: "Splendifowl",
 		types: ["Normal", "Flying"],
 		genderRatio: {M: 0.875, F: 0.125},
 		baseStats: {hp: 80, atk: 65, def: 55, spa: 105, spd: 80, spe: 93},

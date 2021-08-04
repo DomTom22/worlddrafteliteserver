@@ -406,7 +406,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	},
 	parasectelite: {
 
-		tier: "RU",
+		tier: "NU",
 	},
 	venonat: {
 		tier: "LCUU",
@@ -1905,6 +1905,9 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	donphan: {
 		tier: "RU",
 	},
+	donphanmega: {
+		tier: "UU",
+	},
 	stantler: {
 		tier: "(PU)",
 	},
@@ -2430,7 +2433,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		randomBattleLevel: 86,
 		randomDoubleBattleMoves: ["bodypress", "earthpower", "fireblast", "heatwave", "protect", "solarbeam", "willowisp"],
 		randomDoubleBattleLevel: 84,
-		tier: "RUBL",
+		tier: "NU",
 		doublesTier: "DOU",
 	},
 	spoink: {
@@ -4518,7 +4521,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "Illegal",
 	},
 	florges: {
-		tier: "RU",
+		tier: "NU",
 	},
 	skiddo: {
 		isNonstandard: "Past",
@@ -6383,13 +6386,13 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "OU",
 	},
 	archilles: {
-		tier: "RU",
+		tier: "NU",
 	},
 	archillesmega: {
 		tier: "Uber",
 	},
 	electruxo: {
-		tier: "UU",
+		tier: "RU",
 	},
 	electruxomega: {
 		tier: "OU",
@@ -6398,10 +6401,10 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "RU",
 	},
 	kinetmunk: {
-		tier: "RU",
+		tier: "PU",
 	},
 	splendifowl: {
-		tier: "RU",
+		tier: "PU",
 	},
 	nimflora: {
 		tier: "UU",
@@ -6431,13 +6434,13 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "OUBL",
 	},
 	syrentide: {
-		tier: "RU",
+		tier: "NU",
 	},
 	syrentidemega: {
 		tier: "OUBL",
 	},
 	dramsama: {
-		tier: "RU",
+		tier: "NU",
 	},
 	dramsamamega: {
 		tier: "UU",
@@ -6599,43 +6602,43 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "UU",
 	},
 	eshouten: {
-		tier: "RU",
+		tier: "PU",
 	},
 	firoke: {
-		tier: "RU",
+		tier: "PU",
 	},
 	dermafrost: {
-		tier: "RU",
+		tier: "NU",
 	},
 	sponaree: {
-		tier: "RU",
+		tier: "PU",
 	},
 	jerbolta: {
-		tier: "RU",
+		tier: "PU",
 	},
 	pajay: {
-		tier: "RU",
+		tier: "NU",
 	},
-	hayrlect: {
-		tier: "RU",
+	harylect: {
+		tier: "PU",
 	},
 	trawpint: {
-		tier: "RU",
+		tier: "PU",
 	},
 	titanice: {
-		tier: "RU",
+		tier: "PU",
 	},
 	miasmedic: {
-		tier: "RU",
+		tier: "PU",
 	},
 	duplicat: {
-		tier: "RU",
+		tier: "PU",
 	},
 	gargryph: {
-		tier: "RU",
+		tier: "PU",
 	},
 	chainite: {
-		tier: "RU",
+		tier: "NU",
 	},
 	krilvolver: {
 		tier: "RU",

@@ -1347,7 +1347,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		randomDoubleBattleMoves: ["darkpulse", "icebeam", "protect", "thunderbolt", "triattack", "trick"],
 		randomDoubleBattleLevel: 84,
 		randomBattleNoDynamaxMoves: ["icebeam", "nastyplot", "shadowball", "thunderbolt", "triattack", "trick"],
-		tier: "RUBL",
+		tier: "RU",
 		doublesTier: "(DUU)",
 	},
 	omanyte: {
@@ -1464,7 +1464,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	},
 	dragonairelite: {
 
-		tier: "UU",
+		tier: "RU",
 	},
 	dragonite: {
 		randomBattleMoves: ["dragondance", "dualwingbeat", "earthquake", "extremespeed", "outrage"],
@@ -2223,7 +2223,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "(PU)",
 	},
 	slakinghf: {
-		tier: "UU",
+		tier: "RU",
 	},
 	nincada: {
 		tier: "LC",
@@ -4422,7 +4422,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "Illegal",
 	},
 	chesnaught: {
-		tier: "RUBL",
+		tier: "RU",
 	},
 	fennekin: {
 		isNonstandard: "Past",
@@ -5549,7 +5549,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		randomBattleLevel: 76,
 		randomDoubleBattleMoves: ["dazzlinggleam", "energyball", "thunderbolt", "voltswitch"],
 		randomDoubleBattleLevel: 80,
-		tier: "UU",
+		tier: "RU",
 		doublesTier: "DUU",
 	},
 	celesteela: {
@@ -6377,13 +6377,13 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		doublesTier: "DUber",
 	},
 	metalynx: {
-		tier: "UU",
+		tier: "RU",
 	},
 	metalynxmega: {
 		tier: "OU",
 	},
 	archilles: {
-		tier: "UU",
+		tier: "RU",
 	},
 	archillesmega: {
 		tier: "Uber",
@@ -6395,7 +6395,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "OU",
 	},
 	brainoar: {
-		tier: "UU",
+		tier: "RU",
 	},
 	kinetmunk: {
 		tier: "RU",
@@ -6443,13 +6443,13 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "UU",
 	},
 	kiricorn: {
-		tier: "UU",
+		tier: "RU",
 	},
 	kiricornmega: {
 		tier: "OU",
 	},
 	gararewl: {
-		tier: "UU",
+		tier: "RU",
 	},
 	terlard: {
 		tier: "RU",
@@ -6548,19 +6548,19 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "OU",
 	},
 	blubelrog: {
-		tier: "UU",
+		tier: "RU",
 	},
 	empirilla: {
-		tier: "UU",
+		tier: "RU",
 	},
 	astronite: {
 		tier: "UU",
 	},
 	herolune: {
-		tier: "UU",
+		tier: "RU",
 	},
 	vilucard: {
-		tier: "UU",
+		tier: "RU",
 	},
 	corsoreef: {
 		tier: "UU",
@@ -6569,7 +6569,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "UU",
 	},
 	frikitiki: {
-		tier: "UU",
+		tier: "RU",
 	},
 	luchabra: {
 		tier: "UU",
@@ -6578,22 +6578,22 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "UU",
 	},
 	lavent: {
-		tier: "UU",
+		tier: "RU",
 	},
 	navighast: {
-		tier: "UU",
+		tier: "RU",
 	},
 	majungold: {
-		tier: "UU",
+		tier: "RU",
 	},
 	haagross: {
 		tier: "UU",
 	},
 	neopunk: {
-		tier: "UU",
+		tier: "NU",
 	},
 	praseopunk: {
-		tier: "UU",
+		tier: "NU",
 	},
 	garlikid: {
 		tier: "UU",

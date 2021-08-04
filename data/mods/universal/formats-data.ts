@@ -278,7 +278,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "PU",
 		doublesTier: "(DUU)",
 	},
-	sandriger: {
+	sandridger: {
 		tier: "OU",
 	},
 	nidoranf: {
@@ -3590,7 +3590,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		randomBattleLevel: 78,
 		randomDoubleBattleMoves: ["highhorsepower", "ironhead", "protect", "rapidspin", "rockslide", "swordsdance"],
 		randomDoubleBattleLevel: 80,
-		tier: "OU",
+		tier: "UUBL",
 		doublesTier: "DUU",
 	},
 	audino: {
@@ -6423,7 +6423,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "UU",
 	},
 	s51mega: {
-		tier: "OU",
+		tier: "OUBL",
 	},
 	inflagetah: {
 		tier: "UU",
@@ -6657,7 +6657,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "UU",
 	},
 	spiritombmega: {
-		tier: "OU",
+		tier: "UUBL",
 	},
 	scolipededelta: {
 		tier: "NU",
@@ -6750,7 +6750,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "RU",
 	},
 	roseradedelta: {
-		tier: "OU",
+		tier: "UUBL",
 	},
 	drifblimdelta: {
 		tier: "PU",

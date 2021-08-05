@@ -504,6 +504,7 @@ export const Conditions: {[k: string]: ConditionData} = {
 	},
 	thunderstorm: {
 		name: 'Thunderstorm',
+		type: "Electric",
 		effectType: 'Weather',
 		duration: 5,
 		onWeatherModifyDamage(damage, attacker, defender, move) {
@@ -526,10 +527,10 @@ export const Conditions: {[k: string]: ConditionData} = {
 			this.add('-weather', 'Thunderstorm', '[upkeep]');
 			this.eachEvent('Weather');
 		},
-		type: "Electric",
 		onWeather(target) {
 			this.damage(target.maxhp * Math.pow(2, typeMod) / 8);
 		},
+		type: "Electric",
 		onEnd() {
 			this.add('-weather', 'none');
 		},

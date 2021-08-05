@@ -528,9 +528,10 @@ export const Conditions: {[k: string]: ConditionData} = {
 			this.eachEvent('Weather');
 		},
 		onWeather(target) {
+			if (target.hasItem('utilityumbrella')) return;
+			const typeMod = this.clampIntRange(target.runEffectiveness(this.dex.getActiveMove('thunderstorm')), -6, 6);
 			this.damage(target.maxhp * Math.pow(2, typeMod) / 8);
 		},
-		type: "Electric",
 		onEnd() {
 			this.add('-weather', 'none');
 		},

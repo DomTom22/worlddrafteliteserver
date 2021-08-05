@@ -527,7 +527,7 @@ export const Conditions: {[k: string]: ConditionData} = {
 			this.eachEvent('Weather');
 		},
 		onWeather(target) {
-			this.damage(pokemon.maxhp * Math.pow(2, typeMod) / 8);
+			this.damage(target.maxhp * Math.pow(2, typeMod) / 8);
 		},
 		onEnd() {
 			this.add('-weather', 'none');

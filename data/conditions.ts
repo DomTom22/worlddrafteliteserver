@@ -527,6 +527,19 @@ export const Conditions: {[k: string]: ConditionData} = {
 			this.add('-weather', 'Thunderstorm', '[upkeep]');
 			this.eachEvent('Weather');
 		},
+		onWeather: 1,
+		onWeather(target) {
+			if (target.hasItem('utilityumbrella')) return;
+			const typeMod = this.clampIntRange(target.runEffectiveness(this.dex.getActiveMove('thunderstorm')), -6, 6);
+			this.damage(target.maxhp * Math.pow(2, typeMod) / 8);
+		},
+		onWeather: 3,
+		onWeather(target) {
+			if (target.hasItem('utilityumbrella')) return;
+			const typeMod = this.clampIntRange(target.runEffectiveness(this.dex.getActiveMove('thunderstorm')), -6, 6);
+			this.damage(target.maxhp * Math.pow(2, typeMod) / 8);
+		},
+		onWeather: 5,
 		onWeather(target) {
 			if (target.hasItem('utilityumbrella')) return;
 			const typeMod = this.clampIntRange(target.runEffectiveness(this.dex.getActiveMove('thunderstorm')), -6, 6);

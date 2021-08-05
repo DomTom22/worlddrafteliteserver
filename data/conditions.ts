@@ -526,6 +526,7 @@ export const Conditions: {[k: string]: ConditionData} = {
 			this.add('-weather', 'Thunderstorm', '[upkeep]');
 			this.eachEvent('Weather');
 		},
+		type: "Electric",
 		onWeather(target) {
 			this.damage(target.maxhp * Math.pow(2, typeMod) / 8);
 		},

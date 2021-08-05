@@ -3247,6 +3247,14 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 4,
 		num: 45,
 	},
+	stormbringer: {
+		onStart(source) {
+			this.field.setWeather('thunderstorm');
+		},
+		name: "Stormbringer",
+		rating: 4,
+		num: 45,
+	},
 	sandveil: {
 		onImmunity(type, pokemon) {
 			if (type === 'sandstorm') return false;

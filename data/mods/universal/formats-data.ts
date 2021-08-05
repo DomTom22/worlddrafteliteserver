@@ -6525,7 +6525,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "OU",
 	},
 	fafninter: {
-		tier: "Ubers",
+		tier: "Uber",
 	},
 	frosthra: {
 		tier: "UU",
@@ -6543,7 +6543,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "OU",
 	},
 	yatagaryu: {
-		tier: "OU",
+		tier: "Uber",
 	},
 	beliaddon: {
 		tier: "OU",

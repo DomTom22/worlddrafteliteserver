@@ -20435,7 +20435,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	coathlith: {
 		num: -1238,
 		name: "Coatlith",
-		types: ["Bug", "Flying"],
+		types: ["Grass", "Dragon"],
 		genderRatio: {M: 0.875, F: 0.125},
 		baseStats: {hp: 110, atk: 50, def: 70, spa: 100, spd: 70, spe: 100},
 		abilities: { 0: "Levitate", H: "Chlorophyll"},
@@ -20861,7 +20861,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		types: ["Electric", "Dragon"],
 		genderRatio: {M: 0.875, F: 0.125},
 		baseStats: {hp: 90, atk: 90, def: 85, spa: 130, spd: 85, spe: 120},
-		abilities: { 0: "Thunderstorm"},
+		abilities: { 0: "Stormbringer"},
 		heightm: 0.8,
 		weightkg: 24.5,
 		color: "Yellow",

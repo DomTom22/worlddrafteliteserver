@@ -1261,6 +1261,10 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 		name: "Sand Stream",
 		shortDesc: "On switch-in, this Pokemon summons Sandstorm.",
 	},
+	stormbringer: {
+		name: "Stormbringer",
+		shortDesc: "On switch-in, this Pokemon summons Thunderstorms.",
+	},
 	sandveil: {
 		name: "Sand Veil",
 		desc: "If Sandstorm is active, this Pokemon's evasiveness is multiplied by 1.25. This Pokemon takes no damage from Sandstorm.",

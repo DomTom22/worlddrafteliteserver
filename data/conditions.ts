@@ -502,6 +502,37 @@ export const Conditions: {[k: string]: ConditionData} = {
 			this.add('-weather', 'none');
 		},
 	},
+	thunderstorm: {
+		name: 'Thunderstorm',
+		effectType: 'Weather',
+		duration: 5,
+		onWeatherModifyDamage(damage, attacker, defender, move) {
+			if (defender.hasItem('utilityumbrella')) return;
+			if (move.type === 'Electric') {
+				this.debug('thunderstorm electric boost');
+				return this.chainModify(1.5);
+			}
+		},
+		onStart(battle, source, effect) {
+			if (effect?.effectType === 'Ability') {
+				if (this.gen <= 5) this.effectData.duration = 0;
+				this.add('-weather', 'Thunderstorm', '[from] ability: ' + effect, '[of] ' + source);
+			} else {
+				this.add('-weather', 'Thunderstorm');
+			}
+		},
+		onResidualOrder: 1,
+		onResidual() {
+			this.add('-weather', 'Thunderstorm', '[upkeep]');
+			this.eachEvent('Weather');
+		},
+		onWeather(target) {
+			this.damage(pokemon.maxhp * Math.pow(2, typeMod) / 8);
+		},
+		onEnd() {
+			this.add('-weather', 'none');
+		},
+	},
 	sunnyday: {
 		name: 'SunnyDay',
 		effectType: 'Weather',

@@ -529,7 +529,7 @@ export const Conditions: {[k: string]: ConditionData} = {
 		},
 		onWeather(target) {
 			if (target.hasItem('utilityumbrella')) return;
-			if (this.damage(this.effectdata.duration, 2) === 0) return;
+			if (this.gen <= 8(this.effectdata.duration, 2) === 0) return;
 			const typeMod = this.clampIntRange(target.runEffectiveness(this.dex.getActiveMove('thunderstorm')), -6, 6);
 			this.damage(target.maxhp * Math.pow(2, typeMod) / 8);
 		},

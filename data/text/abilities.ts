@@ -1261,6 +1261,10 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 		name: "Sand Stream",
 		shortDesc: "On switch-in, this Pokemon summons Sandstorm.",
 	},
+	fallout: {
+		name: "Fallout",
+		shortDesc: "On switch-in, this Pokemon creates a Wasteland.",
+	},
 	stormbringer: {
 		name: "Stormbringer",
 		shortDesc: "On switch-in, this Pokemon summons Thunderstorms.",

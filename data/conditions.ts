@@ -757,15 +757,15 @@ export const Conditions: {[k: string]: ConditionData} = {
 		onStart(battle, source, effect) {
 			if (effect?.effectType === 'Ability') {
 				if (this.gen <= 5) this.effectData.duration = 0;
-				this.add('-weather', 'Sandstorm', '[from] ability: ' + effect, '[of] ' + source);
+				this.add('-weather', 'Wasteland', '[from] ability: ' + effect, '[of] ' + source);
 			} else {
-				this.add('-weather', 'Sandstorm');
+				this.add('-weather', 'Wasteland');
 			}
 		},
 		onResidualOrder: 1,
 		onResidual() {
-			this.add('-weather', 'Sandstorm', '[upkeep]');
-			if (this.field.isWeather('sandstorm')) this.eachEvent('Weather');
+			this.add('-weather', 'Wasteland', '[upkeep]');
+			if (this.field.isWeather('wasteland')) this.eachEvent('Weather');
 		},
 		onWeather(target) {
 			this.damage(target.baseMaxhp / 16);

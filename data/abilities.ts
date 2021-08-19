@@ -5017,6 +5017,13 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 2,
 		num: 162,
 	},
+	leadingstar: {
+		onResidualOrder: 5,
+		onResidualSubOrder: 5,
+		name: "Leading Star",
+		rating: 2,
+		num: 162,
+	},
 	vitalspirit: {
 		onUpdate(pokemon) {
 			if (pokemon.status === 'slp') {

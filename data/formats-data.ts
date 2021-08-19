@@ -91,6 +91,9 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "(PU)",
 		doublesTier: "(DUU)",
 	},
+	butterfreeelite: {
+		tier: "CAP",
+	},
 	butterfreegmax: {
 		randomBattleMoves: ["airslash", "bugbuzz", "quiverdance", "sleeppowder"],
 		randomBattleLevel: 86,
@@ -109,6 +112,9 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	},
 	beedrill: {
 		tier: "(PU)",
+	},
+	beedrillelite: {
+		tier: "CAP",
 	},
 	beedrillmega: {
 		tier: "UU",
@@ -157,6 +163,9 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	},
 	arbok: {
 		tier: "PU",
+	},
+	arbok: {
+		tier: "CAP",
 	},
 	arbokmega: {
 		isNonstandard: "Custom",
@@ -329,6 +338,9 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		randomDoubleBattleLevel: 86,
 		tier: "OU",
 		doublesTier: "(DUU)",
+	},
+	clefablelite: {
+		tier: "CAP",
 	},
 	vulpix: {
 		tier: "LC",
@@ -728,6 +740,12 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "PUBL",
 		doublesTier: "(DUU)",
 	},
+	sirfetchdcavalry: {
+		tier: "CAP",
+	},
+	sirfetchdvalkyrie: {
+		tier: "CAP",
+	},
 	doduo: {
 		isNonstandard: "Past",
 		tier: "Illegal",
@@ -814,6 +832,9 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	},
 	hypno: {
 		tier: "(PU)",
+	},
+	hypnoelite: {
+		tier: "CAP",
 	},
 	krabby: {
 		tier: "LC",
@@ -1888,6 +1909,9 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "(PU)",
 		doublesTier: "(DUU)",
 	},
+	delibirdelite: {
+		tier: "CAP",
+	},
 	mantyke: {
 		tier: "LC",
 	},
@@ -1906,6 +1930,9 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		randomDoubleBattleLevel: 84,
 		tier: "UU",
 		doublesTier: "(DUU)",
+	},
+	skarmoryelite: {
+		tier: "CAP",
 	},
 	houndour: {
 		isNonstandard: "Past",
@@ -2911,6 +2938,9 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	torterra: {
 		tier: "PU",
 	},
+	torterraelite: {
+		tier: "CAP",
+	},
 	chimchar: {
 		isNonstandard: "Past",
 		tier: "Illegal",
@@ -3373,8 +3403,10 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		doublesTier: "DOU",
 	},
 	phione: {
-		isNonstandard: "Past",
-		tier: "Illegal",
+		tier: "(PU)",
+	},
+	phioneelite: {
+		tier: "CAP",
 	},
 	manaphy: {
 		tier: "UUBL",
@@ -3433,6 +3465,9 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		randomDoubleBattleLevel: 82,
 		tier: "OU",
 		doublesTier: "DOU",
+	},
+	victinielite: {
+		tier: "CAP",
 	},
 	snivy: {
 		isNonstandard: "Past",
@@ -3757,6 +3792,9 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		randomDoubleBattleLevel: 84,
 		tier: "UU",
 		doublesTier: "DUU",
+	},
+	krookodileelite: {
+		tier: "CAP",
 	},
 	darumaka: {
 		tier: "LC",
@@ -4222,6 +4260,9 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		randomDoubleBattleLevel: 82,
 		tier: "PU",
 		doublesTier: "(DUU)",
+	},
+	braviaryelite: {
+		tier: "CAP",
 	},
 	vullaby: {
 		tier: "LC",
@@ -5953,6 +5994,9 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		randomBattleLevel: 84,
 		tier: "PU",
 		doublesTier: "(DUU)",
+	},
+	sandacondaelite: {
+		tier: "CAP",
 	},
 	sandacondagmax: {
 		randomDoubleBattleMoves: ["coil", "glare", "highhorsepower", "protect", "stoneedge"],

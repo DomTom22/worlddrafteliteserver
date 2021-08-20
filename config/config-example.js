@@ -3,7 +3,7 @@
 /**
  * The server port - the port to run Pokemon Showdown under
  */
-exports.port = null;
+exports.port = 80;
 
 /**
  * The server address - the address at which Pokemon Showdown should be hosting

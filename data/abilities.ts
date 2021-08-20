@@ -932,6 +932,25 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 3.5,
 		num: 263,
 	},
+	aquaticspirit: {
+		onModifyAtkPriority: 5,
+		onModifyAtk(atk, attacker, defender, move) {
+			if (move.type === 'Water') {
+				this.debug('Aquatic Spirit boost');
+				return this.chainModify(1.5);
+			}
+		},
+		onModifySpAPriority: 5,
+		onModifySpA(atk, attacker, defender, move) {
+			if (move.type === 'Water') {
+				this.debug('Aquatic Spirit boost');
+				return this.chainModify(1.5);
+			}
+		},
+		name: "Aquatic Spirit",
+		rating: 3.5,
+		num: 263,
+	},
 	drizzle: {
 		onStart(source) {
 			for (const action of this.queue) {

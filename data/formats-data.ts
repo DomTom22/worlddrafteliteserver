@@ -501,6 +501,9 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "(PU)",
 		doublesTier: "(DUU)",
 	},
+	golduckelite: {
+		tier: "CAP",
+	},
 	mankey: {
 		isNonstandard: "Past",
 		tier: "Illegal",
@@ -6067,6 +6070,9 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		randomDoubleBattleLevel: 88,
 		tier: "(PU)",
 		doublesTier: "(DUU)",
+	},
+	centiskorchelite: {
+		tier: "CAP",
 	},
 	centiskorchgmax: {
 		randomDoubleBattleMoves: ["coil", "firelash", "knockoff", "leechlife", "powerwhip", "protect"],

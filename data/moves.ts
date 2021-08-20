@@ -17171,23 +17171,64 @@ export const Moves: {[moveid: string]: MoveData} = {
 		name: "Stealth Rock",
 		pp: 20,
 		priority: 0,
-		flags: {reflectable: 1},
+		flags: {reflectable: 1, foundry: 1},
 		sideCondition: 'stealthrock',
+		onTry(source, target, move) {
+			if ((move.hasBounced && target.hasAbility('foundry')) || source.hasAbility('foundry') && !target.hasAbility('magicbounce') && !target.volatiles['magiccoat']) {
+				this.debug('The stealth rocks heated up due to Foundry!');
+				source.side.foe.addSideCondition('stealthrockfire');
+				return null;
+			}
+		},
 		condition: {
-			// this is a side condition
-			onStart(side) {
+			onStart(side, source) {
+				source.side.foe.addSideCondition('stealthrock');
 				this.add('-sidestart', side, 'move: Stealth Rock');
 			},
 			onSwitchIn(pokemon) {
 				if (pokemon.hasItem('heavydutyboots')) return;
-				const typeMod = this.clampIntRange(pokemon.runEffectiveness(this.dex.getActiveMove('stealthrock')), -6, 6);
-				this.damage(pokemon.maxhp * Math.pow(2, typeMod) / 8);
+				if (pokemon.side.getSideCondition('Stealth Rock')) {
+					const typeMod = this.clampIntRange(pokemon.runEffectiveness(this.dex.getActiveMove('stealthrock')), -6, 6);
+					this.damage(pokemon.maxhp * Math.pow(2, typeMod) / 8);
+				}
 			},
 		},
 		secondary: null,
 		target: "foeSide",
 		type: "Rock",
 		zMove: {boost: {def: 1}},
+		contestType: "Cool",
+	},
+	stealthrockfire: {
+		num: 446,
+		accuracy: true,
+		basePower: 0,
+		category: "Status",
+		name: "Stealth Rock Fire",
+		pp: 20,
+		priority: 0,
+		flags: {reflectable: 1},
+		sideCondition: 'stealthrockfire',
+		condition: {
+			onStart(side, source) {
+				source.side.foe.addSideCondition('stealthrockfire');
+				this.add('-sidestart', side, 'move: Stealth Rock Fire');
+			},
+			onSwitchIn(pokemon) {
+				if (pokemon.hasItem('heavydutyboots')) return;
+				// Ice Face and Disguise correctly get typed damage from Stealth Rock
+				// because Stealth Rock bypasses Substitute.
+				// They don't get typed damage from Stealth Rock Fire because Stealth Rock Fire doesn't,
+				// so we're going to test the damage of a Fire-type Stealth Rock instead.
+				const fireHazard = this.dex.getActiveMove('Stealth Rock Fire');
+				fireHazard.type = 'Fire';
+				const typeMod = this.clampIntRange(pokemon.runEffectiveness(fireHazard), -6, 6);
+				this.damage(pokemon.maxhp * Math.pow(2, typeMod) / 8);
+			},
+		},
+		secondary: null,
+		target: "foeSide",
+		type: "Fire",
 		contestType: "Cool",
 	},
 	steameruption: {

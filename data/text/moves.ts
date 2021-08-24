@@ -1367,6 +1367,11 @@ export const MovesText: {[k: string]: MoveText} = {
 		desc: "Raises the user's Attack and Speed by 1 stage.",
 		shortDesc: "Raises the user's Attack and Speed by 1.",
 	},
+	dragonaria: {
+		name: "Dragon Aria",
+		desc: "Raises the user's SpA and Speed by 1 stage.",
+		shortDesc: "Raises the user's SpA and Speed by 1.",
+	},
 	dragondarts: {
 		name: "Dragon Darts",
 		desc: "Hits twice. If the first hit breaks the target's substitute, it will take damage for the second hit. In Double Battles, this move attempts to hit the targeted Pokemon and its ally once each. If hitting one of these Pokemon would be prevented by immunity, protection, semi-invulnerability, an Ability, or accuracy, it attempts to hit the other Pokemon twice instead. If this move is redirected, it hits that target twice.",
@@ -1409,6 +1414,14 @@ export const MovesText: {[k: string]: MoveText} = {
 	},
 	drainpunch: {
 		name: "Drain Punch",
+		desc: "The user recovers 1/2 the HP lost by the target, rounded half up. If Big Root is held by the user, the HP recovered is 1.3x normal, rounded half down.",
+		shortDesc: "User recovers 50% of the damage dealt.",
+		gen4: {
+			desc: "The user recovers 1/2 the HP lost by the target, rounded down. If Big Root is held by the user, the HP recovered is 1.3x normal, rounded down.",
+		},
+	},
+	soulpunch: {
+		name: "Soul Punch",
 		desc: "The user recovers 1/2 the HP lost by the target, rounded half up. If Big Root is held by the user, the HP recovered is 1.3x normal, rounded half down.",
 		shortDesc: "User recovers 50% of the damage dealt.",
 		gen4: {
@@ -1755,6 +1768,11 @@ export const MovesText: {[k: string]: MoveText} = {
 		desc: "Has a 50% chance to raise the user's Special Attack by 1 stage.",
 		shortDesc: "50% chance to raise the user's Sp. Atk by 1.",
 	},
+	frostwave: {
+		name: "Frost Wave",
+		desc: "Has a 50% chance to raise the user's Special Attack by 1 stage.",
+		shortDesc: "50% chance to raise the user's Sp. Atk by 1.",
+	},
 	fierywrath: {
 		name: "Fiery Wrath",
 		desc: "Has a 20% chance to make the target flinch.",
@@ -1970,6 +1988,11 @@ export const MovesText: {[k: string]: MoveText} = {
 		name: "Flying Press",
 		desc: "This move combines Flying in its type effectiveness against the target. Damage doubles and no accuracy check is done if the target has used Minimize while active.",
 		shortDesc: "Combines Flying in its type effectiveness.",
+	},
+	chainstrike: {
+		name: "Chain Strike",
+		desc: "This move combines Steel in its type effectiveness against the target. Damage doubles and no accuracy check is done if the target has used Minimize while active.",
+		shortDesc: "Combines Steel in its type effectiveness.",
 	},
 	focusblast: {
 		name: "Focus Blast",
@@ -2787,6 +2810,29 @@ export const MovesText: {[k: string]: MoveText} = {
 	},
 	highjumpkick: {
 		name: "High Jump Kick",
+		desc: "If this attack is not successful, the user loses half of its maximum HP, rounded down, as crash damage. Pokemon with the Magic Guard Ability are unaffected by crash damage.",
+		shortDesc: "User is hurt by 50% of its max HP if it misses.",
+		gen4: {
+			desc: "If this attack is not successful, the user loses HP equal to half the target's maximum HP if the target was immune, rounded down, otherwise half of the damage the target would have taken, rounded down, but no less than 1 HP and no more than half of the target's maximum HP, as crash damage. Pokemon with the Magic Guard Ability are unaffected by crash damage.",
+			shortDesc: "If miss, user takes 1/2 damage it would've dealt.",
+		},
+		gen3: {
+			desc: "If this attack is not successful and the target was not immune, the user loses HP equal to half of the damage the target would have taken, rounded down, but no less than 1 HP and no more than half of the target's maximum HP, as crash damage.",
+			shortDesc: "If miss, user takes 1/2 damage it would've dealt.",
+		},
+		gen2: {
+			desc: "If this attack is not successful and the target was not immune, the user loses HP equal to 1/8 the damage the target would have taken, rounded down, but not less than 1 HP, as crash damage.",
+			shortDesc: "If miss, user takes 1/8 damage it would've dealt.",
+		},
+		gen1: {
+			desc: "If this attack misses the target, the user takes 1 HP of crash damage. If the user has a substitute, the crash damage is dealt to the target's substitute if it has one, otherwise no crash damage is dealt.",
+			shortDesc: "User takes 1 HP of damage if it misses.",
+		},
+
+		damage: "#crash",
+	},
+	lethalcharge: {
+		name: "Lethal Charge",
 		desc: "If this attack is not successful, the user loses half of its maximum HP, rounded down, as crash damage. Pokemon with the Magic Guard Ability are unaffected by crash damage.",
 		shortDesc: "User is hurt by 50% of its max HP if it misses.",
 		gen4: {
@@ -4450,6 +4496,11 @@ export const MovesText: {[k: string]: MoveText} = {
 			shortDesc: "33% chance to lower the target's Special by 1.",
 		},
 	},
+	necroblast: {
+		name: "Necroblast",
+		desc: "Has a 20% chance to lower the target's Special Defense by 1 stage.",
+		shortDesc: "20% chance to lower the target's Sp. Def by 1.",
+	},
 	psychicfangs: {
 		name: "Psychic Fangs",
 		desc: "If this attack does not miss, the effects of Reflect, Light Screen, and Aurora Veil end for the target's side of the field before damage is calculated.",
@@ -4614,6 +4665,81 @@ export const MovesText: {[k: string]: MoveText} = {
 		gen2: {
 			desc: "For 5 turns, the weather becomes Rain Dance, even if the current weather is Rain Dance. The damage of Water-type attacks is multiplied by 1.5 and the damage of Fire-type attacks is multiplied by 0.5 during the effect.",
 		},
+	},
+	starrynight: {
+		name: "Starry Night",
+		desc: "For 5 turns, the weather becomes Starry Night. The damage of Fairy-type attacks is multiplied by 0.5 during the effect. Lasts for 8 turns if the user is holding Pitch Rock. Fails if the current weather is Starry Night.",
+		shortDesc: "For 5 turns, sheer darkness weakens Fairy moves.",
+	},
+	wind: {
+		name: "Wind",
+		desc: "For 5 turns, the weather becomes Wind. At the end of each turn except the last, all active Pokemon lose 1/16 of their maximum HP, rounded down, unless they are an Flying type or have the  Magic Guard or Overcoat. Lasts for 8 turns if the user is holding Floaty Rock. Fails if the current weather is Hail.",
+		shortDesc: "For 5 turns, wind howls.",
+	},
+	achillesheel: {
+		name: "Achilles Heel",
+		desc: "The user identifies a weaknesses in its target, dealing Super Effective damage to all that are not immune to this move.",
+		shortDesc: "Deals super effective damage, unless immune.",
+	},
+	ancientroar: {
+		name: "Ancient Roar",
+		desc: "The user's voice shakes with a primal roar, damaging its foes with pure fear.",
+		shortDesc: "No additional effect.",
+	},
+	corrode: {
+		name: "Corrode",
+		desc: "Corrode deals damage and has no secondary effect. If used on Steel type Pokémon, this move ignores the type effectiveness of this move's type against Steel and treats it as being super effective against Steel types instead (even during Inverse Battles or if Corrode's type is changed).",
+		shortDesc: "Super effective against Steel types.",
+	},
+	darkmatter: {
+		name: "Dark Matter",
+		desc: "Dark Matter inflicts damage. A recharge turn is required on the turn after damage is done, during which no action may be performed.",
+		shortDesc: "User cannot move next turn.",
+	},
+	dracojet: {
+		name: "Draco Jet",
+		desc: "If the target does not use an increased priority move during the round that it is used, Draco Jet will go first regardless of the user's or target's speed.",
+		shortDesc: "Usually goes first..",
+	},
+	dragonify: {
+		name: "Dragonify",
+		desc: "Dragonify changes the target's type to pure Dragon; the effect lasts as long as the target is in battle, and changing form or transforming will also remove the effect.",
+		shortDesc: "Changes the target's type to Dragon.",
+	},
+	drakonvoice: {
+		name: "Drakon Voice",
+		desc: "The sheer force of the user's voice obliterates everything in its path.",
+		shortDesc: "Has no secondary effect.",
+	},
+	jetstream: {
+			name: "Jet Stream",
+			desc: "The user creates a stream of supercharged air that allows their team to move first next round.",
+			shortDesc: "Increases team priority by 1 during the next turn.",
+	},
+	lunarcannon: {
+		name: "Low Sweep",
+		desc: "Lunar Cannon forces the user to charge on the first turn and then deals damage on the following turn. It will not need a turn to charge if used during a New Moon.",
+		shortDesc: "Charges turn 1. Hits turn 2. No charge in darkness.",
+	},
+	medusaray: {
+		name: "Medusaray",
+		desc: "Medusa Ray changes the target's type to pure Rock. The effect lasts as long as the target is in battle, although changing form or transforming will remove the effect.",
+		shortDesc: "Changes the target's type to Rock.",
+	},
+	newmoon: {
+		name: "New Moon",
+		desc: "For 5 turns, intense darkness powers Dark and Ghost moves.",
+		shortDesc: "For 5 turns, intense darkness powers Dark and Ghost moves.",
+	},
+	spiritaway: {
+		name: "Spirit Away",
+		desc: "On the turn it is selected, Spirit Away takes the target away. While away, the target cannot act. While away, both the user and the target avoid any move targeted at them. The next turn, the target is brought back and receives damage. Spirit Away will fail if the target is behind a substitute, or if used on a target that is already semi-invulnerable due to moves such as Fly, Bounce, Sky Drop, or another Spirit Away.",
+		shortDesc: "User and foe are taken away turn 1. Damages on turn 2.",
+	},
+	wildfire: {
+		name: "Wildfire",
+		desc: "Wildfire is a status move that inflicts burns on the target if it manages to hit them. It will hit both targets in double battles. Additionally, if the target is a Grass-type Pokémon, Wildfire will also burn every Pokémon in the target player's party that possesses a weakness to Fire-type attacks.",
+		shortDesc: "If foe is Grass, burns all Pokemon weak to fire.",
 	},
 	rapidspin: {
 		name: "Rapid Spin",
@@ -5769,6 +5895,11 @@ export const MovesText: {[k: string]: MoveText} = {
 	},
 	stoneedge: {
 		name: "Stone Edge",
+		desc: "Has a higher chance for a critical hit.",
+		shortDesc: "High critical hit ratio.",
+	},
+	glacialcrush: {
+		name: "Glacial Crush",
 		desc: "Has a higher chance for a critical hit.",
 		shortDesc: "High critical hit ratio.",
 	},

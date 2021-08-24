@@ -502,6 +502,40 @@ export const Conditions: {[k: string]: ConditionData} = {
 			this.add('-weather', 'none');
 		},
 	},
+	thunderstorm: {
+		name: 'Thunderstorm',
+		type: "Electric",
+		effectType: 'Weather',
+		duration: 5,
+		onWeatherModifyDamage(damage, attacker, defender, move) {
+			if (defender.hasItem('utilityumbrella')) return;
+			if (move.type === 'Electric') {
+				this.debug('thunderstorm electric boost');
+				return this.chainModify(1.5);
+			}
+		},
+		onStart(battle, source, effect) {
+			if (effect?.effectType === 'Ability') {
+				if (this.gen <= 5) this.effectData.duration = 0;
+				this.add('-weather', 'Thunderstorm', '[from] ability: ' + effect, '[of] ' + source);
+			} else {
+				this.add('-weather', 'Thunderstorm');
+			}
+		},
+		onResidualOrder: 1,
+		onResidual() {
+			this.add('-weather', 'Thunderstorm', '[upkeep]');
+			this.eachEvent('Weather');
+		},
+		onWeather(target) {
+			if (target.hasItem('utilityumbrella')) return;
+			const typeMod = this.clampIntRange(target.runEffectiveness(this.dex.getActiveMove('thunderstorm')), -6, 6);
+			this.damage(target.maxhp * Math.pow(2, typeMod) / 8);
+		},
+		onEnd() {
+			this.add('-weather', 'none');
+		},
+	},
 	sunnyday: {
 		name: 'SunnyDay',
 		effectType: 'Weather',
@@ -580,6 +614,90 @@ export const Conditions: {[k: string]: ConditionData} = {
 			this.add('-weather', 'none');
 		},
 	},
+	newmoon: {
+		name: 'NewMoon',
+		effectType: 'Weather',
+		duration: 5,
+		durationCallback(source, effect) {
+			if (source?.hasItem('darkrock')) {
+				return 8;
+			}
+			return 5;
+		},
+		onWeatherModifyDamage(damage, attacker, defender, move) {
+			if (defender.hasItem('utilityumbrella')) return;
+			if (move.type === 'Ghost') {
+				this.debug('New Moon Ghost boost');
+				return this.chainModify(1.35);
+			}
+			if (move.type === 'Dark') {
+				this.debug('New Moon Dark boost');
+				return this.chainModify(1.35);
+			}
+			if (move.type === 'Fairy') {
+				this.debug('New Moon Fairy suppress');
+				return this.chainModify(0.75);
+			}
+		},
+		onStart(battle, source, effect) {
+			if (effect?.effectType === 'Ability') {
+				if (this.gen <= 5) this.effectData.duration = 0;
+				this.add('-weather', 'NewMoon', '[from] ability: ' + effect, '[of] ' + source);
+			} else {
+				this.add('-weather', 'NewMoon');
+			}
+		},
+		onImmunity(type, pokemon) {
+			if (pokemon.hasItem('utilityumbrella')) return;
+		},
+		onModifySpe(spe, pokemon) {
+			if (pokemon.hasAbility('shadowdance') && !pokemon.hasItem('utilityumbrella')) {
+				this.chainModify(2);
+			}
+		},
+		onResidualOrder: 1,
+		onResidual() {
+			this.add('-weather', 'NewMoon', '[upkeep]');
+			this.eachEvent('Weather');
+		},
+		onEnd() {
+			this.add('-weather', 'none');
+		},
+	},
+	starrynight: {
+		name: 'StarryNight',
+		effectType: 'Weather',
+		duration: 5,
+		durationCallback(source, effect) {
+			if (source?.hasItem('pitchrock')) {
+				return 8;
+			}
+			return 5;
+		},
+		onWeatherModifyDamage(damage, attacker, defender, move) {
+			if (defender.hasItem('utilityumbrella')) return;
+			if (move.type === 'Fairy') {
+				this.debug('Starry Night fairy suppress');
+				return this.chainModify(0.5);
+			}
+		},
+		onStart(battle, source, effect) {
+			if (effect?.effectType === 'Ability') {
+				if (this.gen <= 5) this.effectData.duration = 0;
+				this.add('-weather', 'StarryNight', '[from] ability: ' + effect, '[of] ' + source);
+			} else {
+				this.add('-weather', 'StarryNight');
+			}
+		},
+		onResidualOrder: 1,
+		onResidual() {
+			this.add('-weather', 'StarryNight', '[upkeep]');
+			this.eachEvent('Weather');
+		},
+		onEnd() {
+			this.add('-weather', 'none');
+		},
+	},
 	sandstorm: {
 		name: 'Sandstorm',
 		effectType: 'Weather',
@@ -618,6 +736,44 @@ export const Conditions: {[k: string]: ConditionData} = {
 			this.add('-weather', 'none');
 		},
 	},
+	wasteland: {
+		name: 'Wasteland',
+		effectType: 'Weather',
+		duration: 5,
+		durationCallback(source, effect) {
+			if (source?.hasItem('meltedrock')) {
+				return 8;
+			}
+			return 5;
+		},
+		// This should be applied directly to the stat before any of the other modifiers are chained
+		// So we give it increased priority.
+		onModifySpDPriority: 10,
+		onModifySpD(spd, pokemon) {
+			if (pokemon.hasType('Poison') && this.field.isWeather('wasteland')) {
+				return this.modify(def, 1.5);
+			}
+		},
+		onStart(battle, source, effect) {
+			if (effect?.effectType === 'Ability') {
+				if (this.gen <= 5) this.effectData.duration = 0;
+				this.add('-weather', 'Wasteland', '[from] ability: ' + effect, '[of] ' + source);
+			} else {
+				this.add('-weather', 'Wasteland');
+			}
+		},
+		onResidualOrder: 1,
+		onResidual() {
+			this.add('-weather', 'Wasteland', '[upkeep]');
+			if (this.field.isWeather('wasteland')) this.eachEvent('Weather');
+		},
+		onWeather(target) {
+			this.damage(target.baseMaxhp / 16);
+		},
+		onEnd() {
+			this.add('-weather', 'none');
+		},
+	},
 	hail: {
 		name: 'Hail',
 		effectType: 'Weather',
@@ -640,6 +796,36 @@ export const Conditions: {[k: string]: ConditionData} = {
 		onResidual() {
 			this.add('-weather', 'Hail', '[upkeep]');
 			if (this.field.isWeather('hail')) this.eachEvent('Weather');
+		},
+		onWeather(target) {
+			this.damage(target.baseMaxhp / 16);
+		},
+		onEnd() {
+			this.add('-weather', 'none');
+		},
+	},
+	wind: {
+		name: 'Wind',
+		effectType: 'Weather',
+		duration: 5,
+		durationCallback(source, effect) {
+			if (source?.hasItem('floatyrock')) {
+				return 8;
+			}
+			return 5;
+		},
+		onStart(battle, source, effect) {
+			if (effect?.effectType === 'Ability') {
+				if (this.gen <= 5) this.effectData.duration = 0;
+				this.add('-weather', 'Wind', '[from] ability: ' + effect, '[of] ' + source);
+			} else {
+				this.add('-weather', 'Wind');
+			}
+		},
+		onResidualOrder: 1,
+		onResidual() {
+			this.add('-weather', 'Wind', '[upkeep]');
+			if (this.field.isWeather('wind')) this.eachEvent('Weather');
 		},
 		onWeather(target) {
 			this.damage(target.baseMaxhp / 16);

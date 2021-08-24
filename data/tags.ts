@@ -112,6 +112,10 @@ export const Tags: {[id: string]: TagData} = {
 		name: "Uber",
 		pokemonFilter: species => species.tier === 'Uber',
 	},
+	oubl: {
+		name: "OUBL",
+		pokemonFilter: species => species.tier === 'OUBL',
+	},
 	ou: {
 		name: "OU",
 		pokemonFilter: species => species.tier === 'OU',
@@ -148,9 +152,17 @@ export const Tags: {[id: string]: TagData} = {
 		name: "PU",
 		pokemonFilter: species => species.tier === 'PU',
 	},
+	zubl: {
+		name: "ZUBL",
+		pokemonFilter: species => species.tier === 'ZUBL',
+	},
 	zu: {
 		name: "ZU",
-		pokemonFilter: species => species.tier === '(PU)',
+		pokemonFilter: species => species.tier === 'ZU',
+	},
+	xu: {
+		name: "XU",
+		pokemonFilter: species => species.tier === '(ZU)',
 	},
 	nfe: {
 		name: "NFE",
@@ -158,7 +170,11 @@ export const Tags: {[id: string]: TagData} = {
 	},
 	lc: {
 		name: "LC",
-		pokemonFilter: species => species.doublesTier === 'LC',
+		pokemonFilter: species => species.tier === 'LC',
+	},
+	lcuu: {
+		name: "LCUU",
+		pokemonFilter: species => species.tier === 'LCUU',
 	},
 	cap: {
 		name: "CAP",
@@ -176,6 +192,21 @@ export const Tags: {[id: string]: TagData} = {
 		name: "AG",
 		pokemonFilter: species => species.tier === 'AG',
 	},
+nduubl: {
+	name: "ND UUBL",
+	speciesFilter: species => [
+		'Aerodactyl-Mega', 'Azumarill', 'Blacephalon', 'Diancie-Mega', 'Gallade-Mega', 'Gardevoir-Mega', 'Gengar', 'Gyarados', 'Hawlucha',
+		'Heracross-Mega', 'Hoopa-Unbound', 'Hydreigon', 'Latias', 'Latias-Mega', 'Latios', 'Latios-Mega', 'Manaphy', 'Pinsir-Mega', 'Slowbro-Mega',
+		'Thundurus', 'Thundurus-Therian', 'Venusaur-Mega', 'Xurkitree', 'Zapdos-Galar',
+	].includes(species.name),
+},
+ndrubl: {
+	name: "ND RUBL",
+	speciesFilter: species => [
+		'Alakazam',
+	].includes(species.name),
+},
+
 
 	// Doubles tiers
 	// -------------

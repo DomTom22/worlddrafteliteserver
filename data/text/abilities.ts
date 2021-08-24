@@ -30,6 +30,14 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 
 		start: "  The effects of the weather disappeared.",
 	},
+	amplifier: {
+		name: "Amplifier",
+		shortDesc: "This Pokemon's Sound-based moves are boosted by 1.25x.",
+	},
+	soundboost: {
+		name: "Sound Boost",
+		shortDesc: "This Pokemon's Sound-based moves are boosted by 1.3x.",
+	},
 	analytic: {
 		name: "Analytic",
 		desc: "The power of this Pokemon's move is multiplied by 1.3 if it is the last to move in a turn. Does not affect Doom Desire and Future Sight.",
@@ -324,6 +332,14 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 		name: "Drought",
 		shortDesc: "On switch-in, this Pokemon summons Sunny Day.",
 	},
+	twilight: {
+		name: "Twilight",
+		shortDesc: "On switch-in, this Pokemon summons Starry Night.",
+	},
+	airstream: {
+		name: "Air Stream",
+		shortDesc: "On switch-in, this Pokemon summons Wind.",
+	},
 	dryskin: {
 		name: "Dry Skin",
 		desc: "This Pokemon is immune to Water-type moves and restores 1/4 of its maximum HP, rounded down, when hit by a Water-type move. The power of Fire-type moves is multiplied by 1.25 when used on this Pokemon. At the end of each turn, this Pokemon restores 1/8 of its maximum HP, rounded down, if the weather is Rain Dance, and loses 1/8 of its maximum HP, rounded down, if the weather is Sunny Day. If this Pokemon is holding Utility Umbrella, the effects of weather are nullified.",
@@ -459,6 +475,10 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 		name: "Fur Coat",
 		shortDesc: "This Pokemon's Defense is doubled.",
 	},
+	sharpcoral: {
+		name: "Sharp Coral",
+		shortDesc: "This Pokemon's Atk and SpA is doubled, Def and SpD is halved.",
+	},
 	galewings: {
 		name: "Gale Wings",
 		shortDesc: "If this Pokemon is at full HP, its Flying-type moves have their priority increased by 1.",
@@ -466,10 +486,28 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 			shortDesc: "This Pokemon's Flying-type moves have their priority increased by 1.",
 		},
 	},
+	quickcharge: {
+		name: "Quick Charge",
+		shortDesc: "If this Pokemon is at full HP, its moves have their priority increased by 4.",
+	},
+	bloodlust: {
+		name: "Blood Lust",
+		shortDesc: "This Pokemon recovers 1/6 of damage dealt when using a contact move.",
+	},
 	galvanize: {
 		name: "Galvanize",
 		desc: "This Pokemon's Normal-type moves become Electric-type moves and have their power multiplied by 1.2. This effect comes after other effects that change a move's type, but before Ion Deluge and Electrify's effects.",
 		shortDesc: "This Pokemon's Normal-type moves become Electric type and have 1.2x power.",
+	},
+	chlorize: {
+		name: "Chlorize",
+		desc: "This Pokemon's Normal-type moves become Grass-type moves and have their power multiplied by 1.2.",
+		shortDesc: "This Pokemon's Normal-type moves become Grass type and have 1.2x power.",
+	},
+	evilize: {
+		name: "Evilize",
+		desc: "This Pokemon's Normal-type moves become Dark-type moves and have their power multiplied by 1.2.",
+		shortDesc: "This Pokemon's Normal-type moves become Dark type and have 1.2x power.",
 	},
 	gluttony: {
 		name: "Gluttony",
@@ -556,6 +594,11 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 		name: "Hyper Cutter",
 		shortDesc: "Prevents other Pokemon from lowering this Pokemon's Attack stat stage.",
 	},
+	cryoshell: {
+		name: "Cryo Shell",
+	  desc: "If Rain or Hail is active, this Pokemon restores 1/16 of its maximum HP, rounded down, at the end of each turn. If this Pokemon is holding Utility Umbrella, its HP does not get restored.",
+	  shortDesc: "If Rain or Hail is active, this Pokemon heals 1/16 of its max HP each turn.",
+	},
 	icebody: {
 		name: "Ice Body",
 		desc: "If Hail is active, this Pokemon restores 1/16 of its maximum HP, rounded down, at the end of each turn. This Pokemon takes no damage from Hail.",
@@ -628,6 +671,18 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 		gen7: {
 			desc: "On switch-in, this Pokemon lowers the Attack of adjacent opposing Pokemon by 1 stage. Pokemon behind a substitute are immune.",
 		},
+	},
+	envision: {
+		name: "Envision",
+		desc: "On switch-in, this Pokemon lowers the Sp. Atk of adjacent opposing Pokemon by 1 stage. Pokemon behind a substitute are immune.",
+		shortDesc: "On switch-in, this Pokemon lowers the Sp. Atk of adjacent opponents by 1 stage.",
+		gen7: {
+			desc: "On switch-in, this Pokemon lowers the Sp. Atk of adjacent opposing Pokemon by 1 stage. Pokemon behind a substitute are immune.",
+		},
+	},
+	petrify: {
+		name: "Petrify",
+		shortDesc: "On switch-in, this Pokemon lowers the Speed of adjacent opponents by 1 stage.",
 	},
 	intrepidsword: {
 		name: "Intrepid Sword",
@@ -763,6 +818,11 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 		name: "Magnet Pull",
 		desc: "Prevents adjacent opposing Steel-type Pokemon from choosing to switch out unless they are immune to trapping.",
 		shortDesc: "Prevents adjacent Steel-type foes from choosing to switch.",
+	},
+	magicpull: {
+		name: "Magic Pull",
+		desc: "Prevents adjacent opposing Fairy-type Pokemon from choosing to switch out unless they are immune to trapping.",
+		shortDesc: "Prevents adjacent Fairy-type foes from choosing to switch.",
 	},
 	marvelscale: {
 		name: "Marvel Scale",
@@ -1177,6 +1237,11 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 		desc: "If Sandstorm is active, this Pokemon's Ground-, Rock-, and Steel-type attacks have their power multiplied by 1.3. This Pokemon takes no damage from Sandstorm.",
 		shortDesc: "This Pokemon's Ground/Rock/Steel attacks do 1.3x in Sandstorm; immunity to it.",
 	},
+	shadeforce: {
+		name: "Shade Force",
+		desc: "If Starry Night is active, this Pokemon's Dark-, Ghost-, and Poison-type attacks have their power multiplied by 1.3.",
+		shortDesc: "This Pokemon's Dark/Ghost/Poison attacks do 1.3x in Starry Night.",
+	},
 	sandrush: {
 		name: "Sand Rush",
 		desc: "If Sandstorm is active, this Pokemon's Speed is doubled. This Pokemon takes no damage from Sandstorm.",
@@ -1187,9 +1252,22 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 		desc: "When this Pokemon is hit by an attack, Sandstorm begins. This effect happens after the effects of Max and G-Max Moves.",
 		shortDesc: "When this Pokemon is hit, Sandstorm begins.",
 	},
+	splashalot: {
+		name: "Splash A Lot",
+		desc: "When this Pokemon is hit by an attack, Rain begins. This effect happens after the effects of Max and G-Max Moves.",
+		shortDesc: "When this Pokemon is hit, Rain begins.",
+	},
 	sandstream: {
 		name: "Sand Stream",
 		shortDesc: "On switch-in, this Pokemon summons Sandstorm.",
+	},
+	fallout: {
+		name: "Fallout",
+		shortDesc: "On switch-in, this Pokemon creates a Wasteland.",
+	},
+	stormbringer: {
+		name: "Stormbringer",
+		shortDesc: "On switch-in, this Pokemon summons Thunderstorms.",
 	},
 	sandveil: {
 		name: "Sand Veil",
@@ -1200,6 +1278,10 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 		name: "Sap Sipper",
 		desc: "This Pokemon is immune to Grass-type moves and raises its Attack by 1 stage when hit by a Grass-type move.",
 		shortDesc: "This Pokemon's Attack is raised 1 stage if hit by a Grass move; Grass immunity.",
+	},
+	disenchant: {
+		name: "Disenchant",
+		shortDesc: "This Pokemon is immune to Fairy attacks.",
 	},
 	schooling: {
 		name: "Schooling",
@@ -1300,6 +1382,14 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 		name: "Slush Rush",
 		shortDesc: "If Hail is active, this Pokemon's Speed is doubled.",
 	},
+	shadowdancer: {
+		name: "Shadow Dancer",
+		shortDesc: "If Starry Night is active, this Pokemon's Speed is doubled.",
+	},
+	windrider: {
+		name: "Wind Rider",
+		shortDesc: "If Wind is active, this Pokemon's Speed is doubled.",
+	},
 	sniper: {
 		name: "Sniper",
 		shortDesc: "If this Pokemon strikes with a critical hit, the damage is multiplied by 1.5.",
@@ -1313,6 +1403,10 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 		name: "Snow Warning",
 		shortDesc: "On switch-in, this Pokemon summons Hail.",
 	},
+	trickster: {
+		name: "Trickster",
+		shortDesc: "On switch-in, this Pokemon summons Trickroom.",
+	},
 	solarpower: {
 		name: "Solar Power",
 		desc: "If Sunny Day is active, this Pokemon's Special Attack is multiplied by 1.5 and it loses 1/8 of its maximum HP, rounded down, at the end of each turn. If this Pokemon is holding Utility Umbrella, its Special Attack remains the same and it does not lose any HP.",
@@ -1320,6 +1414,11 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 		gen7: {
 			desc: "If Sunny Day is active, this Pokemon's Special Attack is multiplied by 1.5 and it loses 1/8 of its maximum HP, rounded down, at the end of each turn.",
 		},
+	},
+	windpower: {
+		name: "Wind Power",
+		desc: "If Wind is active, this Pokemon's Special Attack is multiplied by 1.5 and it loses 1/8 of its maximum HP, rounded down, at the end of each turn. If this Pokemon is holding Utility Umbrella, its Special Attack remains the same and it does not lose any HP.",
+		shortDesc: "If Wind is active, this Pokemon's Sp. Atk is 1.5x; loses 1/8 max HP per turn.",
 	},
 	solidrock: {
 		name: "Solid Rock",
@@ -1380,6 +1479,10 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 			shortDesc: "1/3 chance a Pokemon making contact with this Pokemon will be paralyzed.",
 		},
 	},
+	deepfreeze: {
+		name: "Deep Freeze",
+		shortDesc: "30% chance a Pokemon making contact with this Pokemon will be frozen.",
+	},
 	steadfast: {
 		name: "Steadfast",
 		shortDesc: "If this Pokemon flinches, its Speed is raised by 1 stage.",
@@ -1395,6 +1498,157 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 	steelyspirit: {
 		name: "Steely Spirit",
 		shortDesc: "This Pokemon and its allies' Steel-type moves have their power multiplied by 1.5.",
+	},
+	elementalist: {
+		name: "Elementalist",
+		shortDesc: "This Pokemon and its allies' Fire, Water, and Electric-type moves have their power multiplied by 1.5.",
+	},
+	hubris: {
+		name: "Hubris",
+		desc: "When a Pokemon with Hubris causes another Pokemon (including allies) to faint through direct damage, its Special Attack rises by one stage.",
+		shortDesc: "Boosts Special Attack after knocking out.",
+	},
+	noctem: {
+		name: "Noctem",
+		desc: "Noctem summons darkness in battle as soon as a Pokemon with Noctem enters the battle. Its effects are the same as the move New Moon.",
+		shortDesc: "The Pokemon summons darkness and blots out the sky as it enters the battle.",
+	},
+	spiritcall: {
+		name: "Spirit Call",
+		desc: "When a Pokemon with Spirit Call uses a Ghost-type movve, the power will increase by 1.5x if the user has less than or equal to 1/3 of its maximum HP remaining",
+		shortDesc: "Powers up Ghost-type moves in a pinch",
+	},
+	shadowcall: {
+		name: "Shadow Call",
+		desc: "When a Pokemon with Shadow Call uses a Dark-type movve, the power will increase by 1.5x if the user has less than or equal to 1/3 of its maximum HP remaining.",
+		shortDesc: "Powers up Dark-type moves in a pinch",
+	},
+	shadowdance: {
+		name: "Shadow Dance",
+		shortDesc: "During intense darkness, the Speed stat of Pokemon with this Ability is doubled.",
+	},
+	shadowsynergy: {
+		name: "Shadow Synergy",
+		shortDesc: "Boosts the power of the user's Dark-type moves by 50%.",
+	},
+	supercell: {
+		name: "Supercell",
+		desc: "During intense darkness or rain, Supercell increases the Special Attack stat of the Pokémon with this Ability by 1.5. Supercell changes Delta Typhlosion from its Inactive Mode to Active Mode during darkness or rain.",
+		shortDesc: "Special Attack surges in the rain and darkness.",
+	},
+	spectraljaws: {
+		name: "Spectral Jaws",
+		desc: "Spectral Jaws causes all biting moves used by the Pokémon to be reclassified as Special moves and receive a 30% boost.		",
+		shortDesc: "All biting moves are Special.",
+	},
+	prismguard: {
+		name: "Prism Guard",
+		desc: "Pokemon not making contact with this Pokemon lose 1/8 of their maximum HP, rounded down.",
+		shortDesc: "Pokemon not making contact with this Pokemon lose 1/8 of their max HP.",
+
+		damage: "  [POKEMON] was hurt!",
+	},
+	absolution: {
+		name: "Absolution",
+		desc: "If New Moon is active, this Pokemon's Special Attack is multiplied by 1.5 and it loses 1/8 of its maximum HP, rounded down, at the end of each turn. If this Pokemon is holding Utility Umbrella, its Special Attack remains the same and it does not lose any HP.",
+		shortDesc: "If New Moon is active, this Pokemon's Sp. Atk is 1.5x; loses 1/8 max HP per turn.",
+	},
+	foundry: {
+		name: "Foundry",
+		desc: "Foundry causes all Rock-type moves used by the Pokémon with this Ability to become Fire-type and receive a 30% damage boost, in addition to all other modifiers. Furthermore, Foundry also causes Stealth Rock to become a Fire-type entry hazard that stacks with the normal, Rock-type Stealth Rock.",
+		shortDesc: "Rock-type moves, when used, melt and become Fire Type.",
+	},
+	intoxicate: {
+		name: "Intoxicate",
+		desc: "Intoxicate causes all Normal-type moves used by the Pokémon to become Poison-type and receive a 30% power boost.",
+		shortDesc: "Normal-type moves become Poison-type moves.",
+	},
+	athenian: {
+		name: "Athenian",
+		shortDesc: "Doubles the Pokemon's Special Attack stat.",
+	},
+	blazeboost: {
+		name: "Blaze Boost",
+		desc: "Immediately before the user uses a Fire-type attack its Attack, Special Attack, and Speed are increased by 1 stage. When Blaze Boost is activated by Delta Emolga, its form changes. When in this form, there is a 10% chance that Pokémon using a contact move against Delta Emolga will become burned.",
+		shortDesc: "Fire moves up its stats. May burn on contact.",
+	},
+	chlorofury: {
+		name: "Chlorofury",
+		desc: "When Mega Evolving or on switch-in, Chlorofury raises the user's Speed by 1 stage and its Special Attack by X stages for 2 turns. X is equal to the number of fainted teammates on this Pokémon's team.",
+		shortDesc: "Boosts its stats to avenge its allies.",
+	},
+	etherealshroud: {
+		name: "Ethereal Shroud",
+		desc: "When this Pokemon has more than 1/2 its maximum HP and takes damage bringing it to 1/2 or less of its maximum HP, it immediately switches out to a chosen ally. This effect applies after all hits from a multi-hit move; Sheer Force prevents it from activating if the move has a secondary effect. This effect applies to both direct and indirect damage, except Curse and Substitute on use, Belly Drum, Pain Split, and confusion damage.",
+		shortDesc: "This Pokemon switches out when it reaches 1/2 or less of its maximum HP.",
+	},
+	eventhorizon: {
+		name: "Event Horizon",
+		shortDesc: "Any Pokemon that contacts this one can't escape.",
+	},
+	speedswap: {
+		name: "Speed Swap",
+		desc: "Speed Swap starts Trick Room in battle as soon as a Pokémon with Speed Swap enters the battle. If a Pokémon with Speed Swap enters the battle while Trick Room is already in effect, Trick Room will end immediately.",
+		shortDesc: "Activates the Trick Room effect on entering the battlefield.",
+	},
+	psychocall: {
+		name: "Psycho Call",
+		desc: "When a Pokemon with Psycho Call uses a Psychic-type movve, the power will increase by 1.5x if the user has less than or equal to 1/3 of its maximum HP remaining",
+		shortDesc: "Powers up Psychic-type moves in a pinch",
+	},
+	sleet: {
+		name: "Sleet",
+		desc: "Sleet summons and increases the damage of hail. Pokémon that are not immune to hail damage are damaged for 20% of their maximum HP at the end of each turn while Sleet is active. Sleet's effects are removed when Pokémon with Sleet are no longer on the field or hail stops. If hail stops but becomes active again while a Pokémon with Sleet is on the field, Sleet will immediately begin modifying the damage of hail.",
+		shortDesc: "On switch-in, this Pokemon summons Sleet.",
+	},
+	vaporization: {
+		name: "Vaporization",
+		desc: "Causes damage-dealing Water-type moves and targetable Water-type status moves to fail when used. Damages all Water-type Pokémon for ⅛ of their maximum HP at the end of each every turn.",
+		shortDesc: "Vaporizes Water Moves and damages water types.",
+	},
+	windforce: {
+		name: "Wind Force",
+		desc: "This Pokemon is immune to Flying-type moves and raises its Speed by 1 stage when hit by an Flying-type move.",
+		shortDesc: "Flying-type moves boost this Pokemon's speed; Flying immunity.",
+	},
+	winterjoy: {
+		name: "Winter Joy",
+		desc: "During the months of November, December, January, and February, the Attack and Special Attack of Pokémon with this Ability are increased by 40%. During the months of May, June, July, and August the Attack and Special Attack of Pokémon with this ability are decreased by 30%. During the remaining four months, stats are unchanged.",
+		shortDesc: "Strengthened in winter and weakened in summer.",
+	},
+	venomous: {
+		name: "Venomous",
+		desc: "This Pokemon always badly poisons",
+	},
+	unleafed: {
+		name: "Unleafed",
+		desc: "When Mega Evolving or on switch-in, boosts Attack, Defense, Special Attack, Special Defense, and Speed by one stage each. These boosts last X + 1 turns, where X is the number of fainted Pokémon on this Pokémon´s team at the time of the ability's activation. After X + 1 turns, the boosts disappear.",
+		shortDesc: "This Pokémon avenges its friends by unloading its power.",
+	},
+	pendulum: {
+		name: "Pendulum",
+		desc: "Boosts the power of moves used repeatedly. Each time a move is used consecutively, its power is boosted by 20% up to a maximum increase of 100%. Switching or using another move returns the move's power to normal. Multi-strike moves are counted by the number of turns on which they are used, not the number of hits made. It also stacks with Metronome, which offers an identical power boost for every consecutive usage.",
+		shortDesc: "Consecutively using the same move increases its damage.",
+	},
+	syntheticalloy: {
+		name: "Synthetic Alloy",
+		desc: "Pokemon with Synthetic Alloy take neutral damage from Fire-type attacks regardless of their type-specific weaknesses.",
+		shortDesc: "This Pokemon takes neutral damage from Fire-type attacks.",
+	},
+	periodicorbit: {
+		name: "Periodic Orbit",
+		desc: "When the moves Doom Desire, Future Sight, or Wish are used, they will activate twice after a single use. Wish will activate one and three turns after the move is originally used. Doom Desire and Future Sight will activate two and five turns after the move is originally used, and each will block further uses of Doom Desire or Future Sight until the second activation lands.",
+		shortDesc: "Delayed moves will orbit and activate twice.",
+	},
+	irrelephant: {
+		name: "Irrelephant",
+		desc: "Irrelephant ignores type-based immunities. For example, a Pokémon with Irrelephant can hit Flying-type foes with Earthquake. Therefore, both Talonflame and Skarmory will take super effective damage from a Ground-type move used by a Pokémon with Irrelephant.",
+		shortDesc: "Immunities are irrelephant to this Pokémon's attacks.",
+	},
+	phototroph: {
+		name: "Phototroph",
+		desc: "Pokémon with Phototroph restore 1/16 of their total HP at the end of each turn. The effects of Phototroph are doubled during harsh sunlight and are completely negated when the sky is dark or heavy rain is in effect.",
+		shortDesc: "The Pokémon gradually regains HP in sunny weather.",
 	},
 	stench: {
 		name: "Stench",
@@ -1647,6 +1901,11 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 			desc: "If a physical attack hits this Pokemon, its Defense is lowered by 1 stage and its Speed is raised by 1 stage.",
 			shortDesc: "If a physical attack hits this Pokemon, Defense is lowered by 1, Speed is raised by 1.",
 		},
+	},
+	infuriate: {
+		name: "Infuriate",
+		desc: "If a physical attack hits this Pokemon, its Attack is raised by 1 stage.",
+		shortDesc: "If a physical attack hits this Pokemon, its Attack is raised by 1 stage.",
 	},
 	whitesmoke: {
 		name: "White Smoke",

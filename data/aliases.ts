@@ -2,6 +2,7 @@ export const Aliases: {[alias: string]: string} = {
 	// formats
 	randbats: "[Gen 8] Random Battle",
 	uber: "[Gen 8] Ubers",
+	oubl: "[Gen 8] OUBL",
 	mono: "[Gen 8] Monotype",
 	ag: "[Gen 8] Anything Goes",
 	bss: "[Gen 8] Battle Stadium Singles",

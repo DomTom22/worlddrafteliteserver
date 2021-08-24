@@ -392,6 +392,12 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "RU",
 		doublesTier: "DUU",
 	},
+	arcaninehf: {
+		randomBattleMoves: ["closecombat", "crunch", "extremespeed", "flareblitz", "morningsun", "roar", "toxic", "wildcharge", "willowisp"],
+		randomDoubleBattleMoves: ["closecombat", "extremespeed", "flareblitz", "protect", "snarl", "wildcharge", "willowisp"],
+		tier: "RU",
+		doublesTier: "DUU",
+	},
 	poliwag: {
 		tier: "LC",
 	},

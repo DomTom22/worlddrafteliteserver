@@ -9347,6 +9347,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		},
 		secondary: null,
 		target: "allies",
+		type: "Electric",
 	},
 	karatechop: {
 		num: 2,

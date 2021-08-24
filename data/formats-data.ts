@@ -339,7 +339,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "OU",
 		doublesTier: "(DUU)",
 	},
-	clefablelite: {
+	clefableelite: {
 		tier: "CAP",
 	},
 	vulpix: {
@@ -2955,6 +2955,10 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	infernape: {
 		tier: "UU",
 	},
+	infernapeelite: {
+		isNonstandard: "CAP",
+		tier: "CAP",
+	},
 	piplup: {
 		isNonstandard: "Past",
 		tier: "Illegal",
@@ -2965,6 +2969,10 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	},
 	empoleon: {
 		tier: "RU",
+	},
+	empoleonelite: {
+		isNonstandard: "CAP",
+		tier: "CAP",
 	},
 	starly: {
 		isNonstandard: "Past",

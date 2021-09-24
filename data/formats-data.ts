@@ -1562,6 +1562,10 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	typhlosion: {
 		tier: "PU",
 	},
+	typhlosionfrante: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
 	totodile: {
 		isNonstandard: "Past",
 		tier: "Illegal",

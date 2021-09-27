@@ -609,17 +609,4 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 		inherit: true,
 		baseStats: {hp: 100, atk: 100, def: 100, spa: 100, spd: 100, spe: 100},
 	},
-	chikorita: {
-		num: 152,
-		name: "Chikorita",
-		types: ["Grass"],
-		genderRatio: {M: 0.875, F: 0.125},
-		baseStats: {hp: 45, atk: 49, def: 65, spa: 49, spd: 65, spe: 45},
-		abilities: {0: "Overgrow", H: "Leaf Guard"},
-		heightm: 0.9,
-		weightkg: 6.4,
-		color: "Green",
-		evos: ["Bayleef"],
-		eggGroups: ["Monster", "Grass"],
-	},
 };

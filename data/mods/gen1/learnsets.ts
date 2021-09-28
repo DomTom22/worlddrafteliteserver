@@ -6216,7 +6216,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	zubat: {
 		learnset: {
-			absorb: ["1M", "8L1", "8V", "7L1"],
+			absorb: ["8L1", "8V", "7L1", "1T"],
 			acrobatics: ["8M", "7M", "6M", "6L30", "5M", "5L33"],
 			aerialace: ["7M", "6M", "5M", "4M", "3M"],
 			agility: ["8M"],

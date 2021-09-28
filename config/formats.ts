@@ -23,7 +23,7 @@ export const Formats: FormatList = [
 	///////////////////////////////////////////////////////////////////
 
 	{
-		section: "Hallowed Fantasy Singles",
+		section: "Fantasmal Singles",
 	},
 	{
 		name: "[Gen 8] Random Battle",

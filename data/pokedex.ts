@@ -19704,7 +19704,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "Gray",
 		evoLevel: 42,
 		eggGroups: ["Fairy", "Mineral"],
-		otherFormes: ["GlalieHF-Mega"],
+		otherFormes: ["Glalie-HF-Mega"],
 		formeOrder: ["Glalie-HF", "GlalieHF-Mega"],
 	},
 	glaliehfmega: {

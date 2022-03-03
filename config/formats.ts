@@ -714,6 +714,57 @@ export const Formats: FormatList = [
 					ruleset: ['[Gen 8] Uranium UU'],
 					banlist: ['AG', 'Uber', 'OUBL', 'OU', 'UUBL', 'UU', 'RUBL'],
 				},
+				{
+						section: "Sage Tiers",
+					},
+					{
+						name: "[Gen 8] Sage Ubers",
+						threads: [
+							`&bullet; <a href="https://www.smogon.com/forums/threads/3676539/">Ubers Metagame Discussion</a>`,
+							`&bullet; <a href="https://www.smogon.com/forums/threads/3675564/">Ubers Sample Teams</a>`,
+							`&bullet; <a href="https://www.smogon.com/forums/threads/3675194/">Ubers Viability Rankings</a>`,
+						],
+
+						mod: 'Sage',
+						ruleset: ['Standard', 'Obtainable', 'Dynamax Clause'],
+						banlist: ['AG', 'Baton Pass', 'Moody'],
+					},
+					{
+						name: "[Gen 8] Sage OU",
+						threads: [
+							`&bullet; <a href="https://www.smogon.com/forums/threads/3672210/">OU Metagame Discussion</a>`,
+							`&bullet; <a href="https://www.smogon.com/forums/threads/3672556/">OU Sample Teams</a>`,
+							`&bullet; <a href="https://www.smogon.com/forums/threads/3674058/">OU Viability Rankings</a>`,
+						],
+
+						mod: 'uranium',
+						ruleset: ['Standard', 'Obtainable', 'Dynamax Clause'],
+						banlist: ['Uber', 'OUBL', 'AG', 'Arena Trap', 'Moody', 'Power Construct', 'Shadow Tag', 'Baton Pass'],
+					},
+					{
+						name: "[Gen 8] Sage UU",
+						threads: [
+							`&bullet; <a href="https://www.smogon.com/forums/threads/3672210/">OU Metagame Discussion</a>`,
+							`&bullet; <a href="https://www.smogon.com/forums/threads/3672556/">OU Sample Teams</a>`,
+							`&bullet; <a href="https://www.smogon.com/forums/threads/3674058/">OU Viability Rankings</a>`,
+						],
+
+						mod: 'sage',
+						ruleset: ['[Gen 8] Sage OU'],
+						banlist: ['AG', 'Uber', 'OUBL', 'OU', 'UUBL'],
+					},
+					{
+						name: "[Gen 8] Sage RU",
+						threads: [
+							`&bullet; <a href="https://www.smogon.com/forums/threads/3672210/">OU Metagame Discussion</a>`,
+							`&bullet; <a href="https://www.smogon.com/forums/threads/3672556/">OU Sample Teams</a>`,
+							`&bullet; <a href="https://www.smogon.com/forums/threads/3674058/">OU Viability Rankings</a>`,
+						],
+
+						mod: 'sage',
+						ruleset: ['[Gen 8] Uranium UU'],
+						banlist: ['AG', 'Uber', 'OUBL', 'OU', 'UUBL', 'UU', 'RUBL'],
+					},
 	{
 			section: "National Dex",
 		},

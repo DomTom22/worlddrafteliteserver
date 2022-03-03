@@ -1382,6 +1382,10 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 		name: "Slush Rush",
 		shortDesc: "If Hail is active, this Pokemon's Speed is doubled.",
 	},
+	iceslick: {
+		name: "Ice Slick",
+		shortDesc: "If Hail is active, this Pokemon's Speed is doubled.",
+	},
 	shadowdancer: {
 		name: "Shadow Dancer",
 		shortDesc: "If Starry Night is active, this Pokemon's Speed is doubled.",

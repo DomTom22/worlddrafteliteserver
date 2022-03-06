@@ -1353,26 +1353,20 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		num: 169,
 	},
 	sharpcoral: {
-		onModifyDefPriority: 6,
-		onModifyDef(def) {
-			return this.chainModify(-2);
-			},
-		onModifySpDPriority: 6,
-			onModifyDef(def) {
-				return this.chainModify(-2);
-			},
-		onModifyAtkPriority: 6,
-			onModifyDef(def) {
-				return this.chainModify(2);
-			},
-		onModifySpAPriority: 6,
-			onModifyDef(def) {
-				return this.chainModify(2);
+		onBasePowerPriority: 5,
+		onBasePower(basePower) {
+      this.debug('Sharp Coral boost');
+      return this.chainModify(2);
 		},
-		name: "Sharp Coral",
-		rating: 4,
-		num: 286,
-	},
+		onSourceModifyDamage(damage) {
+      this.debug('Sharp Coral boost');
+			return this.chainModify(2);
+		},
+		isBreakable: true,
+    name: "Sharp Coral",
+    rating: 1,
+    num: -101,
+  },
 	galewings: {
 		onModifyPriority(priority, pokemon, target, move) {
 			if (move?.type === 'Flying' && pokemon.hp === pokemon.maxhp) return priority + 1;
@@ -5209,6 +5203,41 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 1,
 		num: 280,
 	},
+	lazy: {
+		onStart(pokemon) {
+      if (!pokemon.status && pokemon.setStatus('slp', pokemon)) {
+        pokemon.statusState.time = 3;
+			  pokemon.statusState.startTime = 3;
+      }
+		},
+		name: "Lazy",
+		rating: -1,
+		num: -102,
+	},
+	rebuild: {
+		onStart(pokemon) {
+			pokemon.addVolatile('rebuild');
+		},
+    condition: {
+			onHit(pokemon, source, move) {
+				if (move.category !== 'Status') {
+					pokemon.volatiles['rebuild'].lostFocus = true;
+          this.debug('Rebuild lost focus');
+				}
+			},
+    },
+		onResidualOrder: 5,
+		onResidualSubOrder: 5,
+		onResidual(pokemon) {
+      if (pokemon.volatiles['rebuild'] && !pokemon.volatiles['rebuild'].lostFocus) {
+        this.heal(pokemon.baseMaxhp / 8);
+      }
+      pokemon.volatiles['rebuild'].lostFocus = false;
+    },
+		name: "Rebuild",
+		rating: 3,
+		num: -103,
+	},
 	whitesmoke: {
 		onBoost(boost, target, source, effect) {
 			if (source && target === source) return;
@@ -5332,6 +5361,17 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 3,
 		num: -2,
 	},
+	acceleration: {
+		onBasePowerPriority: 30,
+		onBasePower(basePower, attacker, defender, move) {
+			if (move.priority > 0) {
+				return this.chainModify(1.5);
+			}
+		},
+		name: "Acceleration",
+		rating: 4,
+		num: -108,
+	},
 	rebound: {
 		isNonstandard: "CAP",
 		name: "Rebound",
@@ -5370,5 +5410,6 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		// implemented in the corresponding move
 		rating: 3,
 		num: -4,
+
 	},
 };

@@ -41,6 +41,42 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	snogre: {
 		tier: "OU",
 	},
+	orangutao: {
+		tier: "OU",
+	},
+	caranox: {
+		tier: "OU",
+	},
+	carajoule: {
+		tier: "OU",
+	},
+	caracrust: {
+		tier: "OU",
+	},
+	musbushel: {
+		tier: "OU",
+	},
+	berratel: {
+		tier: "OU",
+	},
+	montegrew: {
+		tier: "OU",
+	},
+	capulilly: {
+		tier: "OU",
+	},
+	dreamdery: {
+		tier: "OU",
+	},
+	macabra: {
+		tier: "OU",
+	},
+	volcoalder: {
+		tier: "OU",
+	},
+	jaguile: {
+		tier: "OU",
+	},
 	bulbasaur: {
 		tier: "LCUU",
 	},

@@ -7222,6 +7222,54 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		isNonstandard: "Past",
 		tier: "Illegal",
 	},
+	orangutao: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	caranox: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	carajoule: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	caracrust: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	musbushel: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	berratel: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	montegrew: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	capulilly: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	dreamdery: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	macabra: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	volcoalder: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	jaguile: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
 	missingno: {
 		isNonstandard: "Custom",
 		tier: "Illegal",

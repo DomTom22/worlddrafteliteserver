@@ -152,6 +152,81 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	orbatom: {
 		tier: "OU",
 	},
+	squidrift: {
+		tier: "OU",
+	},
+	boarealis: {
+		tier: "OU",
+	},
+	galaxagos: {
+		tier: "OU",
+	},
+	magnitogre: {
+		tier: "OU",
+	},
+	trenchula: {
+		tier: "OU",
+	},
+	terrorcotta: {
+		tier: "OU",
+	},
+	cahokisect: {
+		tier: "OU",
+	},
+	charmbra: {
+		tier: "OU",
+	},
+	kairoglyph: {
+		tier: "OU",
+	},
+	gravollum: {
+		tier: "OU",
+	},
+	pangoslash: {
+		tier: "OU",
+	},
+	flarrapin: {
+		tier: "OU",
+	},
+	vultergyst: {
+		tier: "OU",
+	},
+	dunkywunkr: {
+		tier: "OU",
+	},
+	indrolith: {
+		tier: "OU",
+	},
+	nurshary: {
+		tier: "OU",
+	},
+	solacari: {
+		tier: "OU",
+	},
+	forthorn: {
+		tier: "OU",
+	},
+	fantasmare: {
+		tier: "OU",
+	},
+	howlequin: {
+		tier: "OU",
+	},
+	cheshade: {
+		tier: "OU",
+	},
+	artfish: {
+		tier: "OU",
+	},
+	thoraxe: {
+		tier: "OU",
+	},
+	hyekuza: {
+		tier: "OU",
+	},
+	leukoon: {
+		tier: "OU",
+	},
 	bulbasaur: {
 		tier: "LCUU",
 	},

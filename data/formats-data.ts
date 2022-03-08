@@ -7370,6 +7370,106 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		isNonstandard: "Past",
 		tier: "Illegal",
 	},
+	squidrift: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	boarealis: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	galaxagos: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	magnitogre: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	trenchula: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	terrorcotta: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	cahokisect: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	charmbra: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	kairoglyph: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	gravollum: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	pangoslash: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	flarrapin: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	vultergyst: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	dunkywunkr: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	indrolith: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	nurshary: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	solacari: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	forthorn: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	fantasmare: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	howlequin: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	cheshade: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	artfish: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	thoraxe: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	hyekuza: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	leukoon: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
 	missingno: {
 		isNonstandard: "Custom",
 		tier: "Illegal",

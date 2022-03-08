@@ -77,6 +77,81 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	jaguile: {
 		tier: "OU",
 	},
+	cerebrulb: {
+		tier: "OU",
+	},
+	scovalope: {
+		tier: "OU",
+	},
+	hurricanine: {
+		tier: "OU",
+	},
+	mortasque: {
+		tier: "OU",
+	},
+	vectol2: {
+		tier: "OU",
+	},
+	scubug: {
+		tier: "OU",
+	},
+	lutrajet: {
+		tier: "OU",
+	},
+	forusk: {
+		tier: "OU",
+	},
+	platikhao: {
+		tier: "OU",
+	},
+	fettlekish: {
+		tier: "OU",
+	},
+	shibalbat: {
+		tier: "OU",
+	},
+	nobunata: {
+		tier: "OU",
+	},
+	gnuru: {
+		tier: "OU",
+	},
+	bullotus: {
+		tier: "OU",
+	},
+	burrowl: {
+		tier: "OU",
+	},
+	magowl: {
+		tier: "OU",
+	},
+	crawglock: {
+		tier: "OU",
+	},
+	chlorofin: {
+		tier: "OU",
+	},
+	turkistador: {
+		tier: "OU",
+	},
+	condesa: {
+		tier: "OU",
+	},
+	chardinal: {
+		tier: "OU",
+	},
+	skurrow: {
+		tier: "OU",
+	},
+	somberado: {
+		tier: "OU",
+	},
+	fumighast: {
+		tier: "OU",
+	},
+	orbatom: {
+		tier: "OU",
+	},
 	bulbasaur: {
 		tier: "LCUU",
 	},

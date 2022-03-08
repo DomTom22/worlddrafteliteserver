@@ -7270,6 +7270,106 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		isNonstandard: "Past",
 		tier: "Illegal",
 	},
+	cerebrulb: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	scovalope: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	hurricanine: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	mortasque: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	vectol2: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	scubug: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	lutrajet: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	forusk: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	platikhao: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	fettlekish: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	shibalbat: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	nobunata: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	gnuru: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	bullotus: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	burrowl: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	magowl: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	crawglock: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	chlorofin: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	turkistador: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	condesa: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	chardinal: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	skurrow: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	somberado: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	fumighast: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	orbatom: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
 	missingno: {
 		isNonstandard: "Custom",
 		tier: "Illegal",

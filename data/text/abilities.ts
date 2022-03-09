@@ -1486,8 +1486,6 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 	conundrum: {
 		name: "Conundrum",
 		shortDesc: "30% chance a Pokemon making contact with this Pokemon will be confused.",
-		gen4: {
-			desc: "30% chance a Pokemon making contact with this Pokemon will be confused. This effect does not happen if this Pokemon did not lose HP from the attack.",
 	},
 	deepfreeze: {
 		name: "Deep Freeze",

@@ -3908,6 +3908,18 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 2,
 		num: 9,
 	},
+	conundrum: {
+		onDamagingHit(damage, target, source, move) {
+			if (move.flags['contact']) {
+				if (this.randomChance(3, 10)) {
+					source.trySetStatus('confusion', target);
+				}
+			}
+		},
+		name: "Conundrum",
+		rating: 2,
+		num: 2000,
+	},
 	deepfreeze: {
 		onDamagingHit(damage, target, source, move) {
 			if (move.flags['contact']) {

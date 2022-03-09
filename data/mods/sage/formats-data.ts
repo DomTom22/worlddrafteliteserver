@@ -227,6 +227,51 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	leukoon: {
 		tier: "OU",
 	},
+	sanguito: {
+		tier: "OU",
+	},
+	magroplex: {
+		tier: "OU",
+	},
+	soakoth: {
+		tier: "OU",
+	},
+	macuarrior: {
+		tier: "OU",
+	},
+	ocerumi: {
+		tier: "OU",
+	},
+	oarwish: {
+		tier: "OU",
+	},
+	smashiary: {
+		tier: "OU",
+	},
+	chameleohm: {
+		tier: "OU",
+	},
+	hydranticus: {
+		tier: "OU",
+	},
+	paramoth: {
+		tier: "OU",
+	},
+	mawasite: {
+		tier: "OU",
+	},
+	monkezuma: {
+		tier: "OU",
+	},
+	enigmantis: {
+		tier: "OU",
+	},
+	royjibiv: {
+		tier: "OU",
+	},
+	jawgodon: {
+		tier: "OU",
+	},
 	bulbasaur: {
 		tier: "LCUU",
 	},

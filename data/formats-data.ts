@@ -7470,6 +7470,66 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		isNonstandard: "Past",
 		tier: "Illegal",
 	},
+	sanguito: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	magroplex: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	soakoth: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	macuarrior: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	ocerumi: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	oarwish: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	smashiary: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	chameleohm: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	hydranticus: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	paramoth: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	mawasite: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	monkezuma: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	enigmantis: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	royjibiv: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	jawgodon: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
 	missingno: {
 		isNonstandard: "Custom",
 		tier: "Illegal",

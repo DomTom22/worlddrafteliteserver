@@ -22180,18 +22180,6 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "Yellow",
 		eggGroups: ["Field"],
 	},
-	hyekuza: {
-		num: -1575,
-		name: "Hyekuza",
-		types: ["Dark", "Fighting"],
-		genderRatio: {M: 0.50, F: 0.50},
-		baseStats: {hp: 63, atk: 114, def: 72, spa: 70, spd: 70, spe: 91},
-		abilities: { 0: "Technician", 1: "Rivalry"},
-		heightm: 0.8,
-		weightkg: 52.3,
-		color: "Yellow",
-		eggGroups: ["Field"],
-	},
 	leukoon: {
 		num: -1577,
 		name: "Leukoon",

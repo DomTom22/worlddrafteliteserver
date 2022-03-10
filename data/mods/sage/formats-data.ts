@@ -272,6 +272,81 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	jawgodon: {
 		tier: "OU",
 	},
+	sunduke: {
+		tier: "OU",
+	},
+	phantern: {
+		tier: "OU",
+	},
+	lavoon: {
+		tier: "OU",
+	},
+	ankillosore: {
+		tier: "OU",
+	},
+	dilophlora: {
+		tier: "OU",
+	},
+	baboom: {
+		tier: "OU",
+	},
+	chillnobyl: {
+		tier: "OU",
+	},
+	carnibal: {
+		tier: "OU",
+	},
+	eluchadon: {
+		tier: "OU",
+	},
+	comossus: {
+		tier: "OU",
+	},
+	basilect: {
+		tier: "OU",
+	},
+	diamat: {
+		tier: "OU",
+	},
+	tozecko: {
+		tier: "OU",
+	},
+	fuelong: {
+		tier: "OU",
+	},
+	ragnarow: {
+		tier: "OU",
+	},
+	eronze: {
+		tier: "OU",
+	},
+	erion: {
+		tier: "OU",
+	},
+	erace: {
+		tier: "OU",
+	},
+	patama: {
+		tier: "OU",
+	},
+	machima: {
+		tier: "OU",
+	},
+	yacuma: {
+		tier: "OU",
+	},
+	quetzar: {
+		tier: "Uber",
+	},
+	quetzarspace: {
+		tier: "Uber",
+	},
+	xochi: {
+		tier: "OU",
+	},
+	xotec: {
+		tier: "OU",
+	},
 	bulbasaur: {
 		tier: "LCUU",
 	},

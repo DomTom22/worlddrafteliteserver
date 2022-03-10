@@ -7530,6 +7530,106 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		isNonstandard: "Past",
 		tier: "Illegal",
 	},
+	sunduke: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	phantern: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	lavoon: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	ankillosore: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	dilophlora: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	baboom: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	chillnobyl: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	carnibal: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	eluchadon: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	comossus: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	basilect: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	diamat: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	tozecko: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	fuelong: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	ragnarow: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	eronze: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	erion: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	erace: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	patama: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	machima: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	yacuma: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	quetzar: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	quetzarspace: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	xochi: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	xotec: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
 	missingno: {
 		isNonstandard: "Custom",
 		tier: "Illegal",

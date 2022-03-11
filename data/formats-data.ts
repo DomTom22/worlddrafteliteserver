@@ -7410,7 +7410,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		isNonstandard: "Past",
 		tier: "Illegal",
 	},
-	pangoslash: {
+	pangolash: {
 		isNonstandard: "Past",
 		tier: "Illegal",
 	},

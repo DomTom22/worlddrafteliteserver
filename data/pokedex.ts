@@ -22000,9 +22000,9 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "Yellow",
 		eggGroups: ["Field"],
 	},
-	pangoslash: {
+	pangolash: {
 		num: -1561,
-		name: "Pangoslash",
+		name: "Pangolash",
 		types: ["Grass", "Steel"],
 		genderRatio: {M: 0.50, F: 0.50},
 		baseStats: {hp: 80, atk: 85, def: 100, spa: 65, spd: 80, spe: 60},
@@ -22506,7 +22506,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	},
 	tozecko: {
 		num: -1605,
-		name: "Diamat",
+		name: "Tozecko",
 		types: ["Grass", "Dragon"],
 		genderRatio: {M: 0.50, F: 0.50},
 		baseStats: {hp: 85, atk: 100, def: 65, spa: 100, spd: 75, spe: 100},

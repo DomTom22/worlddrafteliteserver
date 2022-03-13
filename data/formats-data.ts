@@ -522,7 +522,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "RU",
 		doublesTier: "DUU",
 	},
-	arcaninehf: {
+	arcanineelite: {
 		randomBattleMoves: ["scorchingsands", "scald", "icebeam", "slackoff"],
 		randomBattleLevel: 80,
 		tier: "UUBL",
@@ -598,7 +598,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	victreebel: {
 		tier: "(PU)",
 	},
-	victreebelhf: {
+	victreebelelite: {
 		tier: "RUBL",
 	},
 	tentacool: {
@@ -612,7 +612,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "RU",
 		doublesTier: "(DUU)",
 	},
-	tentacruelhf: {
+	tentacruelelite: {
 		tier: "OU",
 		doublesTier: "DUber",
 	},
@@ -638,7 +638,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	golemalola: {
 		tier: "(PU)",
 	},
-	golemhf: {
+	golemelite: {
 		tier: "UU",
 		doublesTier: "DUU",
 	},
@@ -664,7 +664,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "(PU)",
 		doublesTier: "(DUU)",
 	},
-	rapidashhf: {
+	rapidashelite: {
 		tier: "UU",
 		doublesTier: "DUU",
 	},
@@ -1231,11 +1231,11 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "NU",
 		doublesTier: "(DUU)",
 	},
-	jolteonhf: {
+	jolteonelite: {
 		isNonstandard: "CAP",
 		tier: "CAP",
 	},
-	jolteonhfcorrupt: {
+	jolteonelitecorrupt: {
 		isNonstandard: "CAP",
 		tier: "CAP",
 	},
@@ -1413,7 +1413,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "(PU)",
 		doublesTier: "(DUU)",
 	},
-	kabutopshf: {
+	kabutopselite: {
 		isNonstandard:"CAP",
 		tier: "CAP",
 	},
@@ -1810,7 +1810,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "(PU)",
 		doublesTier: "(DUU)",
 	},
-	qwilfishhf: {
+	qwilfishelite: {
 		tier: "UU",
 		doublesTier: "DUU",
 	},
@@ -2061,14 +2061,14 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "PUBL",
 		doublesTier: "(DUU)",
 	},
-	sceptilehf: {
+	sceptileelite: {
 		isNonstandard: "CAP",
 		tier: "CAP",
 	},
 	sceptilemega: {
 		tier: "RU",
 	},
-	sceptilehfmega: {
+	sceptileelitemega: {
 		isNonstandard: "CAP",
 		tier: "CAP",
 	},
@@ -2167,7 +2167,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	dustox: {
 		tier: "(PU)",
 	},
-	dustoxhf: {
+	dustoxelite: {
 		tier: "UUBL",
 	},
 	lotad: {
@@ -2279,7 +2279,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	slaking: {
 		tier: "(PU)",
 	},
-	slakinghf: {
+	slakingelite: {
 		tier: "UU",
 	},
 	nincada: {
@@ -2447,13 +2447,13 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "NUBL",
 		doublesTier: "(DUU)",
 	},
-	sharpedohf: {
+	sharpedoelite: {
 		tier: "UU",
 	},
 	sharpedomega: {
 		tier: "RU",
 	},
-	sharpedohfmega: {
+	sharpedoelitemega: {
 		tier: "OU",
 	},
 	wailmer: {
@@ -2536,7 +2536,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "(PU)",
 		doublesTier: "(DUU)",
 	},
-	altariahf: {
+	altariaelite: {
 		tier: "RU",
 		doublesTier: "(DUU)",
 	},
@@ -2544,7 +2544,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		isNonstandard: "Past",
 		tier: "UU",
 	},
-	altariahfmega: {
+	altariaelitemega: {
 		tier: "UUBL",
 		doublesTier: "DOU",
 	},
@@ -2673,7 +2673,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "NFE",
 		doublesTier: "DOU",
 	},
-	dusclopshf: {
+	dusclopselite: {
 		tier: "UU",
 		doublesTier: "DUber",
 	},
@@ -2685,7 +2685,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "(PU)",
 		doublesTier: "(DUU)",
 	},
-	dusknoirhf: {
+	dusknoirelite: {
 		tier: "OU",
 		doublesTier: "DOU",
 	},
@@ -2726,14 +2726,14 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "(PU)",
 		doublesTier: "(DUU)",
 	},
-	glaliehf: {
+	glalieelite: {
 		tier: "OU",
 		doublesTier: "DOU",
 	},
 	glaliemega: {
 		tier: "PUBL",
 	},
-	glaliehfmega: {
+	glalieelitemega: {
 		tier: "OU",
 	},
 	froslass: {
@@ -2828,7 +2828,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "PU",
 		doublesTier: "(DUU)",
 	},
-	regirockhf: {
+	regirockelite: {
 		tier: "UU",
 		doublesTier: "DOU",
 	},
@@ -2840,7 +2840,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "(PU)",
 		doublesTier: "(DUU)",
 	},
-	regicehf: {
+	regiceelite: {
 		tier: "UUBL",
 		doublesTier: "DOU",
 	},
@@ -2852,7 +2852,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "RU",
 		doublesTier: "(DUU)",
 	},
-	registeelhf: {
+	registeelelite: {
 		tier: "OU",
 		doublesTier: "DOU",
 	},
@@ -3069,7 +3069,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "(PU)",
 		doublesTier: "(DUU)",
 	},
-	vespiquenhf: {
+	vespiquenelite: {
 		randomBattleMoves: ["airslash", "defog", "roost", "toxic", "uturn"],
 		randomBattleLevel: 96,
 		randomDoubleBattleMoves: ["airslash", "roost", "tailwind", "toxicspikes"],
@@ -3388,7 +3388,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "(PU)",
 		doublesTier: "(DUU)",
 	},
-	regigigashf: {
+	regigigaselite: {
 		isNonstandard: "CAP",
 		tier: "CAP",
 	},
@@ -3596,7 +3596,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "(PU)",
 		doublesTier: "(DUU)",
 	},
-	musharnahf: {
+	musharnaelite: {
 		isNonstandard: "CAP",
 		tier: "CAP",
 	},
@@ -3621,7 +3621,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	zebstrika: {
 		tier: "(PU)",
 	},
-	zebstrikahf: {
+	zebstrikaelite: {
 		tier: "OU",
 		doublesTier: "DOU",
 	},
@@ -3643,7 +3643,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		isNonstandard: "Custom",
 		tier: "Illegal",
 	},
-	gigalithhf: {
+	gigalithelite: {
 		tier: "RU",
 		doublesTier: "DUU",
 	},
@@ -3944,7 +3944,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "NU",
 		doublesTier: "(DUU)",
 	},
-	zoroarkhf: {
+	zoroarkelite: {
 		tier: "OU",
 		doublesTier: "DOU",
 	},
@@ -4015,7 +4015,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	sawsbuck: {
 		tier: "(PU)",
 	},
-	sawsbuckhf: {
+	sawsbuckelite: {
 		tier: "RUBL",
 		doublesTier: "DOU",
 	},
@@ -4149,7 +4149,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "RU",
 		doublesTier: "(DUU)",
 	},
-	haxorushf: {
+	haxoruselite: {
 		isNonstandard: "CAP",
 		tier: "CAP",
 	},
@@ -4184,7 +4184,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "(PU)",
 		doublesTier: "(DUU)",
 	},
-	accelgorhf: {
+	accelgorelite: {
 		tier: "OU",
 		doublesTier: "DUU",
 	},
@@ -4728,7 +4728,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "NU",
 		doublesTier: "(DUU)",
 	},
-	dragalgehf: {
+	dragalgeelite: {
 		tier: "OU",
 		doublesTier: "(DUU)",
 	},
@@ -4826,7 +4826,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		isNonstandard: "CAP",
 		tier: "CAP",
 	},
-	goodrahf: {
+	goodraelite: {
 		tier: "UU",
 		doublesTier: "DUU",
 	},
@@ -4849,7 +4849,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "(PU)",
 		doublesTier: "(DUU)",
 	},
-	trevenanthf: {
+	trevenantelite: {
 		tier: "UU",
 		doublesTier: "DUU",
 	},

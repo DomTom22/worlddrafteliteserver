@@ -236,7 +236,7 @@ export const Formats: FormatList = [
 	///////////////////////////////////////////////////////////////////
 
 	{
-		section: "Hallowed Fantasy Doubles",
+		section: "Fantasmal Doubles",
 	},
 	{
 		name: "[Gen 8] Random Doubles Battle",

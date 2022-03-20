@@ -7630,6 +7630,78 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		isNonstandard: "Past",
 		tier: "Illegal",
 	},
+	syleafid: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	astignite: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	correncid: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	aurostice: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	strawna: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	kinegasus: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	yunesis: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	feroceros: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	wisplode: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	grissly: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	hantama: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	rotillo: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	hantama: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	serplant: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	necrosia: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	goabalt: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	solarisen: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	blakjak: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
 	missingno: {
 		isNonstandard: "Custom",
 		tier: "Illegal",

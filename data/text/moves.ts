@@ -866,6 +866,11 @@ export const MovesText: {[k: string]: MoveText} = {
 		desc: "Has a 10% chance to confuse the target.",
 		shortDesc: "10% chance to confuse the target.",
 	},
+	psychopunch: {
+		name: "Psycho Punch",
+		desc: "Has a 10% chance to confuse the target.",
+		shortDesc: "10% chance to confuse the target.",
+	},
 	constrict: {
 		name: "Constrict",
 		desc: "Has a 10% chance to lower the target's Speed by 1 stage.",
@@ -1479,6 +1484,21 @@ export const MovesText: {[k: string]: MoveText} = {
 		name: "Earth Power",
 		desc: "Has a 10% chance to lower the target's Special Defense by 1 stage.",
 		shortDesc: "10% chance to lower the target's Sp. Def by 1.",
+	},
+	diamondblast: {
+		name: "Diamond Blast",
+		desc: "Has a 20% chance to lower the user's Special Defense by 1 stage.",
+		shortDesc: "20% chance to lower the user's Sp. Def by 1.",
+	},
+	dragonbeat: {
+		name: "Dragon Beat",
+		desc: "Has a 40% chance to raise the target's Attack by 2 stages.",
+		shortDesc: "40% chance to raise the target's Attack by 2.",
+	},
+	devastate: {
+		name: "Devastate",
+		desc: "Has a 10% chance to lower the target's Defense by 1 stage.",
+		shortDesc: "10% chance to lower the target's Def by 1.",
 	},
 	earthquake: {
 		name: "Earthquake",
@@ -5127,6 +5147,11 @@ export const MovesText: {[k: string]: MoveText} = {
 			shortDesc: "30% chance to burn the target.",
 		},
 	},
+	aquabolt: {
+		name: "Aqua Bolt",
+		desc: "Has a 30% chance to paralyze the target.",
+		shortDesc: "30% chance to paralyze the target.",
+	},
 	scaleshot: {
 		name: "Scale Shot",
 		desc: "Hits two to five times. Lowers the user's Defense by 1 stage and raises the user's Speed by 1 stage after the last hit. Has a 35% chance to hit two or three times and a 15% chance to hit four or five times. If one of the hits breaks the target's substitute, it will take damage for the remaining hits. If the user has the Skill Link Ability, this move will always hit five times.",
@@ -6645,6 +6670,11 @@ export const MovesText: {[k: string]: MoveText} = {
 		desc: "No additional effect.",
 		shortDesc: "Usually goes first.",
 	},
+	instantcrush: {
+		name: "Instant Crush",
+		desc: "No additional effect.",
+		shortDesc: "Usually goes first.",
+	},
 	vcreate: {
 		name: "V-create",
 		desc: "Lowers the user's Speed, Defense, and Special Defense by 1 stage.",
@@ -6836,6 +6866,11 @@ export const MovesText: {[k: string]: MoveText} = {
 	},
 	wildcharge: {
 		name: "Wild Charge",
+		desc: "If the target lost HP, the user takes recoil damage equal to 1/4 the HP lost by the target, rounded half up, but not less than 1 HP.",
+		shortDesc: "Has 1/4 recoil.",
+	},
+	razeearth: {
+		name: "Raze Earth",
 		desc: "If the target lost HP, the user takes recoil damage equal to 1/4 the HP lost by the target, rounded half up, but not less than 1 HP.",
 		shortDesc: "Has 1/4 recoil.",
 	},

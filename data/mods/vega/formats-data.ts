@@ -157,7 +157,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "OU",
 	},
 	coruda: {
-		tier: "OU
+		tier: "OU",
 	},
 	coraga: {
 		tier: "OU",

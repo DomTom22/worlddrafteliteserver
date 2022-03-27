@@ -19942,8 +19942,8 @@ export const Moves: {[moveid: string]: MoveData} = {
 			case 'hail':
 				move.type = 'Ice';
 				break;
-			case 'starrynight':
-				move.type = 'Dark';
+			case 'newmoon':
+				move.type = 'Ghost';
 				break;
 			case 'wind':
 				move.type = 'Flying';

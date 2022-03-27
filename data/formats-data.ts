@@ -7986,6 +7986,98 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		isNonstandard: "Past",
 		tier: "Illegal",
 	},
+	machu: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	dizasol: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	folifarig: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	pachirikku: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	rougella: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	conductot: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	ledybulk: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	tentyrant: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	sphericoil: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	sableater: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	jawile: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	pinchor: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	adnokana: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	cheauking: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	relicore: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	sandrill: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	ranconette: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	carnivice: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	valentide: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	blizentork: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	galavagos: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	auldsparce: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	rduckulus: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
 	missingno: {
 		isNonstandard: "Custom",
 		tier: "Illegal",

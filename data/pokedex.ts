@@ -23038,7 +23038,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	},
 	yunesis: {
 		num: -2005,
-		name: "Kinegasus",
+		name: "Yunesis",
 		types: ["Psychic", "Steel"],
 		genderRatio: {M: 0.50, F: 0.50},
 		baseStats: {hp: 70, atk: 104, def: 76, spa: 89, spd: 61, spe: 95},
@@ -23924,9 +23924,9 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "Yellow",
 		eggGroups: ["Field"],
 	},
-	roystar: {
+	roytsar: {
 		num: -2079,
-		name: "Roystar",
+		name: "Roytsar",
 		types: ["Normal", "Dragon"],
 		gender: "N",
 		baseStats: {hp: 93, atk: 120, def: 92, spa: 101, spd: 82, spe: 112},

@@ -10,7 +10,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "OU",
 	},
 	correncid: {
-		tier: "OU",
+		tier: "UU",
 	},
 	aurostice: {
 		tier: "UU",
@@ -28,10 +28,10 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "RU",
 	},
 	wisplode: {
-		tier: "OU",
+		tier: "UU",
 	},
 	grissly: {
-		tier: "OU",
+		tier: "UU",
 	},
 	hantama: {
 		tier: "UU",
@@ -130,10 +130,10 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "NU",
 	},
 	komoragon: {
-		tier: "OU",
+		tier: "UU",
 	},
 	kaminary: {
-		tier: "OU",
+		tier: "UU",
 	},
 	scorment: {
 		tier: "OU",
@@ -142,7 +142,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "UU",
 	},
 	phantonate: {
-		tier: "Ubers",
+		tier: "Uber",
 	},
 	strawicked: {
 		tier: "OU",
@@ -151,7 +151,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "OU",
 	},
 	corenom: {
-		tier: "OU",
+		tier: "UU",
 	},
 	coropper: {
 		tier: "OU",
@@ -160,7 +160,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "OU",
 	},
 	coraga: {
-		tier: "OU",
+		tier: "UU",
 	},
 	drizzlob: {
 		tier: "OU",
@@ -178,7 +178,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "NU",
 	},
 	billserk: {
-		tier: "OU",
+		tier: "UU",
 	},
 	diaduna: {
 		tier: "OU",
@@ -241,7 +241,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "UU",
 	},
 	mercenade: {
-		tier: "OU",
+		tier: "UU",
 	},
 	roystar: {
 		tier: "OU",
@@ -1591,14 +1591,14 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
     tier: "LC",
 	},
 	magneton: {
-    tier: "UU",
+    tier: "RU",
 	},
 	magnezone: {
 		randomBattleMoves: ["bodypress", "flashcannon", "mirrorcoat", "thunderbolt", "voltswitch"],
 		randomBattleLevel: 84,
 		randomDoubleBattleMoves: ["allyswitch", "bodypress", "electroweb", "flashcannon", "protect", "thunderbolt", "voltswitch"],
 		randomDoubleBattleLevel: 88,
-    tier: "OU",
+    tier: "UU",
 		doublesTier: "(DUU)",
 	},
 	farfetchd: {
@@ -2330,7 +2330,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		randomBattleLevel: 82,
 		randomDoubleBattleMoves: ["aquatail", "dragondance", "dualwingbeat", "earthquake", "rockslide"],
 		randomDoubleBattleLevel: 83,
-    tier: "UU",
+    tier: "OU",
 		doublesTier: "(DUU)",
 	},
 	aerodactylmega: {

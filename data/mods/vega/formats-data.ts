@@ -19,7 +19,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "RU",
 	},
 	kinegasus: {
-		tier: "NU",
+		tier: "RU",
 	},
 	yunesis: {
 		tier: "UU",
@@ -274,13 +274,13 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "RU",
 	},
 	pachirikku: {
-		tier: "NU",
+		tier: "RU",
 	},
 	rougella: {
 		tier: "RU",
 	},
 	conductot: {
-		tier: "RU",
+		tier: "UU",
 	},
 	ledybulk: {
 		tier: "RU",
@@ -295,7 +295,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "RU",
 	},
 	jawile: {
-		tier: "NU",
+		tier: "RU",
 	},
 	pinchor: {
 		tier: "RU",
@@ -2028,7 +2028,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		randomBattleLevel: 82,
 		randomDoubleBattleMoves: ["crosschop", "flamethrower", "icepunch", "stompingtantrum", "wildcharge"],
 		randomDoubleBattleLevel: 88,
-    tier: "NU",
+    tier: "RU",
 		doublesTier: "(DUU)",
 	},
 	magby: {
@@ -2082,7 +2082,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
     tier: "Illegal",
 	},
 	lapras: {
-    tier: "NU",
+    tier: "RU",
 		doublesTier: "(DUU)",
 	},
 	laprasmega: {
@@ -2778,7 +2778,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
     tier: "Illegal",
 	},
 	sneasel: {
-    tier: "NU",
+    tier: "RU",
 	},
 	weavile: {
 		randomBattleMoves: ["iceshard", "iciclecrash", "knockoff", "lowkick", "swordsdance"],
@@ -3185,7 +3185,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "Illegal",
 	},
 	swellow: {
-    tier: "NU",
+    tier: "RU",
 	},
 	wingull: {
 		isNonstandard: "Past",

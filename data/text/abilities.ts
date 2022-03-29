@@ -3,6 +3,11 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 		name: "No Ability",
 		shortDesc: "Does nothing.",
 	},
+	acceleration: {
+		name: "Acceleration",
+		desc: "The power of this Pokemon's priority moves is multiplied by 1.5.",
+		shortDesc: "This Pokemon's priority moves have 1.5x power.",
+	},
 	adaptability: {
 		name: "Adaptability",
 		desc: "This Pokemon's moves that match one of its types have a same-type attack bonus (STAB) of 2 instead of 1.5.",
@@ -1949,6 +1954,15 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 
 		transform: "Zen Mode triggered!",
 		transformEnd: "Zen Mode ended!",
+	},
+	lazy: {
+		name: "Lazy",
+		shortDesc: "On switch-in, this Pokemon falls asleep for 2 turns.",
+	},
+	rebuild: {
+		name: "Rebuild",
+		desc: "It it wasn't hit by a damaging move, this Pokemon restores 1/8 of its maximum HP, rounded down, at the end of each turn.",
+		shortDesc: "If unhit, this Pokemon heals 1/8 of its max HP each turn.",
 	},
 
 	// CAP

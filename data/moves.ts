@@ -20425,4 +20425,562 @@ export const Moves: {[moveid: string]: MoveData} = {
 		type: "Electric",
 		contestType: "Cool",
 	},
+	coralbreak: {
+		num: -1,
+		accuracy: 95,
+		basePower: 80,
+		category: "Special",
+		overrideDefensiveStat: 'def',
+		name: "Coral Break",
+		pp: 15,
+		priority: 0,
+		flags: {contact: 1, protect: 1, mirror: 1},
+		secondary: null,
+		target: "normal",
+		type: "Water",
+		contestType: "Cool",
+	},
+	atomicpunch: {
+		num: -2,
+		accuracy: 95,
+		basePower: 80,
+		category: "Physical",
+		name: "Atomic Punch",
+		pp: 15,
+		priority: 0,
+		flags: {contact: 1, protect: 1, mirror: 1, punch: 1}, // yeah its a punching move now, screw you
+		secondary: {
+			chance: 15,
+			status: 'par',
+		},
+		target: "normal",
+		type: "Nuclear",
+		contestType: "Cool",
+	},
+	metalwhip: {
+		num: -3,
+		accuracy: 90,
+		basePower: 50,
+		category: "Physical",
+		name: "Metal Whip",
+		pp: 10,
+		priority: 0,
+		flags: {contact: 1, protect: 1, mirror: 1},
+		volatileStatus: 'partiallytrapped',
+		secondary: null,
+		target: "normal",
+		type: "Steel",
+		contestType: "Cool",
+	},
+	nuclearwaste: {
+		num: -4,
+		accuracy: 85,
+		basePower: 0,
+		category: "Status",
+		name: "Nuclear Waste",
+		pp: 10,
+		priority: 0,
+		flags: {protect: 1, reflectable: 1, mirror: 1},
+		status: 'tox',
+		secondary: null,
+		target: "normal",
+		type: "Nuclear",
+		contestType: "Cool",
+	},
+	gammaray: {
+		num: -5,
+		accuracy: 100,
+		basePower: 40,
+		category: "Special",
+		name: "Gamma Ray",
+		pp: 30,
+		priority: 0,
+		flags: {protect: 1, mirror: 1},
+		secondary: null,
+		target: "normal",
+		type: "Nuclear",
+		contestType: "Cool",
+	},
+	radioacid: {
+		num: -6,
+		accuracy: 100,
+		basePower: 60,
+		category: "Special",
+		name: "Radioacid",
+		pp: 15,
+		priority: 0,
+		flags: {protect: 1, mirror: 1},
+		secondary: {
+			chance: 30,
+			status: 'brn',
+		},
+		target: "normal",
+		type: "Nuclear",
+		contestType: "Cool",
+	},
+	skyfall: {
+		num: -7,
+		accuracy: 100,
+		basePower: 85,
+		category: "Special",
+		name: "Sky Fall",
+		pp: 15,
+		priority: 0,
+		flags: {contact: 1, protect: 1, mirror: 1},
+		secondary: {
+			chance: 30,
+			status: 'par',
+		},
+		target: "normal",
+		type: "Flying",
+		contestType: "Cool",
+	},
+	flameimpact: {
+		num: -8,
+		accuracy: 100,
+		basePower: 65,
+		category: "Physical",
+		name: "Flame Impact",
+		pp: 15,
+		priority: 2,
+		flags: {contact: 1, protect: 1, mirror: 1, defrost: 1},
+		secondary: null,
+		target: "normal",
+		type: "Fire",
+		contestType: "Cool",
+	},
+	subduction: {
+		num: -9,
+		accuracy: 90,
+		basePower: 140,
+		category: "Physical",
+		name: "Subduction",
+		pp: 5,
+		priority: 0,
+		flags: {protect: 1, mirror: 1, sound: 1, bypasssub: 1}, // why the FUCK is it sound based
+		secondary: {
+			chance: 100,
+			boosts: {
+				spe: -2,
+			},
+		},
+		onHit(target, source) {
+			source.addVolatile('confusion'); // hardcoded in because stupid sheer force interaction
+		},
+		target: "allAdjacent",
+		type: "Ground",
+		contestType: "Cool",
+	},
+	instantcrush: {
+		num: -10,
+		accuracy: 100,
+		basePower: 60,
+		category: "Special",
+		name: "Instant Crush",
+		pp: 15,
+		priority: 1,
+		flags: {protect: 1, mirror: 1},
+		secondary: null,
+		target: "normal",
+		type: "Psychic",
+		contestType: "Cool",
+	},
+	getlucky: {
+		num: -11,
+		accuracy: 100,
+		basePower: 70,
+		category: "Special",
+		name: "Get Lucky",
+		pp: 5,
+		priority: 0,
+		flags: {protect: 1, mirror: 1},
+    self: {
+      volatileStatus: 'focusenergy',
+    },
+		secondary: null,
+		target: "normal",
+		type: "Psychic",
+		contestType: "Cool",
+	},
+	laserpulse: {
+		num: -12,
+		accuracy: 100,
+		basePower: 90,
+		category: "Special",
+		name: "Laser Pulse",
+		pp: 20,
+		flags: {protect: 1, pulse: 1, mirror: 1},
+		onModifyMove(move) {
+      const laserPulseTypes = ["Fire", "Electric", "Ice"]; // stupid mechanic btw
+			move.type = this.sample(laserPulseTypes);
+		},
+		priority: 0,
+		secondary: null,
+		target: "normal",
+		type: "Normal",
+		contestType: "Cool",
+	},
+	halflife: {
+		num: -13,
+		accuracy: 90,
+		basePower: 0,
+		damageCallback(pokemon, target) {
+			return this.clampIntRange(target.getUndynamaxedHP() / 2, 1);
+		},
+		category: "Special",
+		name: "Half-life",
+		pp: 10,
+		priority: 0,
+		flags: {protect: 1}, // not mirrorable because reasons
+		secondary: null,
+		target: "normal",
+		type: "Nuclear",
+		contestType: "Cool",
+	},
+	fissionburst: {
+		num: -14,
+		accuracy: 100,
+		basePower: 150,
+		category: "Physical",
+		name: "Fission Burst",
+		pp: 5,
+		priority: 0,
+		flags: {protect: 1, mirror: 1},
+		selfdestruct: "always",
+		secondary: null,
+		target: "allAdjacent",
+		type: "Nuclear",
+		contestType: "Cool",
+	},
+	causticbreath: {
+		num: -15,
+		accuracy: 100,
+		basePower: 60,
+		category: "Special",
+		name: "Caustic Breath",
+		pp: 10,
+		priority: 0,
+		flags: {protect: 1, mirror: 1},
+		secondary: {
+			chance: 100,
+			boosts: {
+				def: -1,
+				spd: -1,
+			},
+		},
+		target: "allAdjacentFoes",
+		type: "Dragon",
+		contestType: "Cool",
+	},
+	nuclearslash: {
+		num: -16,
+		accuracy: 90,
+		basePower: 55,
+		category: "Physical",
+		name: "Nuclear Slash",
+		pp: 20,
+		priority: 0,
+		flags: {contact: 1, protect: 1, mirror: 1},
+		critRatio: 2,
+		secondary: null,
+		target: "normal",
+		type: "Nuclear",
+		contestType: "Cool",
+	},
+	thunderstorm: {
+		num: -17,
+		accuracy: true,
+		basePower: 0,
+		category: "Status",
+		name: "Thunderstorm",
+		pp: 10,
+		priority: 0,
+		flags: {},
+		weather: 'Thunderstorm',
+		secondary: null,
+		target: "all",
+		type: "Electric",
+		contestType: "Cool",
+	},
+	suddenstrike: {
+		num: -18,
+		accuracy: 100,
+		basePower: 40,
+		category: "Physical",
+		name: "Sudden Strike",
+		pp: 30,
+		priority: 1,
+		flags: {contact: 1, protect: 1, mirror: 1},
+		secondary: null,
+		target: "normal",
+		type: "Dark",
+		contestType: "Cool",
+	},
+	expunge: {
+		num: -19,
+		accuracy: 70,
+		basePower: 110,
+		category: "Special",
+		name: "Expunge",
+		pp: 5,
+		priority: 0,
+		flags: {protect: 1, mirror: 1},
+		onEffectiveness(typeMod, target, type) {
+			if (type === 'Nuclear') return 1;
+		},
+		onModifyMove(move) {
+			if (this.field.isWeather('fallout')) move.accuracy = true;
+		},
+		secondary: null,
+		target: "normal",
+		type: "Nuclear",
+		contestType: "Cool",
+	},
+	fallout: {
+		num: -20,
+		accuracy: true,
+		basePower: 0,
+		category: "Status",
+		name: "Fallout",
+		pp: 10,
+		priority: 0,
+		flags: {},
+		weather: 'fallout',
+		secondary: null,
+		target: "all",
+		type: "Nuclear",
+		contestType: "Cool",
+	},
+	protonbeam: {
+		num: -21,
+		accuracy: 90,
+		basePower: 100,
+		category: "Special",
+		name: "Proton Beam",
+		pp: 5,
+		priority: 0,
+		flags: {protect: 1, mirror: 1},
+		self: {
+			boosts: {
+				spa: -2,
+			},
+		},
+		secondary: null,
+		target: "normal",
+		type: "Nuclear",
+		contestType: "Cool",
+	},
+	infernalblade: {
+		num: -22,
+		accuracy: 95,
+		basePower: 90,
+		category: "Physical",
+		name: "Infernal Blade",
+		pp: 10,
+		priority: 0,
+		flags: {contact: 1, protect: 1, mirror: 1, defrost: 1},
+		onEffectiveness(typeMod, target, type) {
+      if (type === 'Fairy') return 2; // stupid
+      /*
+			if (type === 'Fairy') {
+        return 1; // not quite what it does ingame but its bugged ingame and this is what everone *thinks* it does so...
+      } else if (target.hasType('Fairy')) {
+        return 0;
+      }
+      */
+		},
+		secondary: {
+			chance: 10,
+			status: 'brn',
+		},
+		target: "normal",
+		type: "Fire",
+		contestType: "Cool",
+	},
+	quantumleap: {
+		num: -23,
+		accuracy: 100,
+		basePower: 100,
+		category: "Physical",
+		name: "Quantum Leap",
+		pp: 5,
+		priority: 0,
+		flags: {contact: 1, charge: 1, mirror: 1},
+		breaksProtect: true, // code copypasted from phantom force and this part is probably still accurate
+		onTryMove(attacker, defender, move) {
+			if (attacker.removeVolatile(move.id)) {
+				return;
+			}
+			this.add('-prepare', attacker, move.name);
+			if (!this.runEvent('ChargeMove', attacker, defender, move)) {
+				return;
+			}
+			attacker.addVolatile('twoturnmove', defender);
+			return null;
+		},
+		condition: {
+			duration: 2,
+			onInvulnerability: false,
+		},
+		secondary: null,
+		target: "normal",
+		type: "Nuclear",
+		contestType: "Cool",
+	},
+	metalcruncher: {
+		num: -24,
+		accuracy: 85,
+		basePower: 120,
+		category: "Physical",
+		name: "Metal Cruncher",
+		pp: 5,
+		priority: 0,
+		flags: {contact: 1, protect: 1, mirror: 1},
+		secondary: {
+			chance: 70,
+			boosts: {
+				def: -1,
+			},
+		},
+		target: "normal",
+		type: "Steel",
+		contestType: "Cool",
+	},
+	drainlife: {
+		num: -25,
+		accuracy: 100,
+		basePower: 75,
+		category: "Physical",
+		name: "Drain Life",
+		pp: 10,
+		priority: 0,
+		flags: {contact: 1, protect: 1, mirror: 1, heal: 1},
+		drain: [1, 2],
+		secondary: null,
+		target: "normal",
+		type: "Dark",
+		contestType: "Cool",
+	},
+	stickyterrain: {
+		num: -26,
+		accuracy: true,
+		basePower: 0,
+		category: "Status",
+		name: "Sticky Terrain",
+		pp: 10,
+		priority: 0,
+		flags: {nonsky: 1},
+		terrain: 'stickyterrain',
+		condition: {
+			duration: 5,
+			durationCallback(source, effect) {
+				if (source?.hasItem('terrainextender')) {
+					return 8;
+				}
+				return 5;
+			},
+			onTryHitPriority: 4,
+			onTryHit(target, source, effect) {
+				if (effect && (effect.priority <= 0.1 || effect.target === 'self')) {
+					return;
+				}
+				if (target.isSemiInvulnerable() || target.isAlly(source)) return;
+				if (!source.isGrounded()) {
+					const baseMove = this.dex.moves.get(effect.id);
+					if (baseMove.priority > 0) {
+						this.hint("Sticky Terrain doesn't affect attackers immune to Ground.");
+					}
+					return;
+				}
+        if (!target.isGrounded()) {
+          const baseMove = this.dex.moves.get(effect.id);
+          if (baseMove.priority > 0) {
+            this.hint("Unlike Psychic Terrain, Sticky Terrain protects non-grounded targets.")
+          }
+        }
+				this.add('-activate', target, 'move: Sticky Terrain');
+				return null;
+			},
+			onFieldStart(field, source, effect) {
+				this.add('-fieldstart', 'move: Sticky Terrain');
+			},
+			onFieldResidualOrder: 27,
+			onFieldResidualSubOrder: 7,
+			onFieldEnd() {
+				this.add('-fieldend', 'move: Sticky Terrain');
+			},
+		},
+		secondary: null,
+		target: "all",
+		type: "Poison",
+		contestType: "Cool",
+	},
+	nuclearwind: {
+		num: -27,
+		accuracy: 95,
+		basePower: 65,
+		category: "Special",
+		name: "Nuclear Wind",
+		pp: 10,
+		priority: 0,
+		flags: {protect: 1, mirror: 1},
+		secondary: {
+			chance: 5,
+			weather: 'fallout', // why does this exist in the game
+		},
+		target: "normal",
+		type: "Nuclear",
+		contestType: "Cool",
+	},
+	gemstoneglimmer: {
+		num: -28,
+		accuracy: 95,
+		basePower: 75,
+		category: "Special",
+		name: "Gemstone Glimmer",
+		pp: 15,
+		priority: 0,
+		flags: {protect: 1, mirror: 1},
+		secondary: {
+			chance: 25,
+			boosts: {
+				accuracy: -1,
+			},
+		},
+		target: "normal",
+		type: "Rock",
+		contestType: "Cool",
+	},
+	oceanswrath: {
+		num: -29,
+		accuracy: 100,
+		basePower: 90,
+		category: "Special",
+		name: "Ocean's Wrath",
+		pp: 20,
+		priority: 0,
+		flags: {protect: 1, mirror: 1},
+		volatileStatus: 'partiallytrapped',
+		secondary: null,
+		target: "normal",
+		type: "Water",
+		contestType: "Cool",
+	},
+	goldenfist: {
+		num: -30,
+		accuracy: 100,
+		basePower: 70,
+		category: "Physical",
+		name: "Golden Fist",
+		pp: 20,
+		priority: 0,
+		flags: {protect: 1, mirror: 1},
+		onHit() {
+			this.add('-fieldactivate', 'move: Pay Day');
+		},
+		secondary: null,
+		target: "normal",
+		type: "Fighting",
+		contestType: "Cool",
+	},
 };

@@ -6213,7 +6213,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		baseSpecies: "Mightyena",
 		types: ["Ground", "Fighting"],
 		baseStats: {hp: 85, atk: 110, def: 75, spa: 60, spd: 60, spe: 117},
-		abilities: {0: "Intimidate", 1: "Blood Lust" H: "Reckless"},
+		abilities: {0: "Intimidate", 1: "Blood Lust", H: "Reckless"},
 		heightm: 1,
 		weightkg: 37,
 		color: "Gray",

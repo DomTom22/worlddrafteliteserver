@@ -502,12 +502,6 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "RU",
 		doublesTier: "DUU",
 	},
-	arcanineelite: {
-		randomBattleMoves: ["scorchingsands", "scald", "icebeam", "slackoff"],
-		randomBattleLevel: 80,
-		tier: "UUBL",
-		doublesTier: "DOU",
-	},
 	poliwag: {
 		tier: "LC",
 	},

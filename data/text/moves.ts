@@ -4991,6 +4991,23 @@ export const MovesText: {[k: string]: MoveText} = {
 			shortDesc: "30% chance to make the target flinch.",
 		},
 	},
+	grandboulder: {
+		name: "Grand Boulder",
+		desc: "Has a 30% chance to make the target flinch.",
+		shortDesc: "30% chance to make the foe(s) flinch.",
+		gen1: {
+			desc: "No additional effect.",
+			shortDesc: "No additional effect.",
+		},
+		gen2: {
+			shortDesc: "30% chance to make the target flinch.",
+		},
+	},
+	ragingflame: {
+		name: "Raging Flame",
+		desc: "Has a 10% chance to confuse the user.",
+		shortDesc: "Has a 10% chance to confuse the user.",
+	},
 	rocksmash: {
 		name: "Rock Smash",
 		desc: "Has a 50% chance to lower the target's Defense by 1 stage.",

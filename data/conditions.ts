@@ -737,8 +737,8 @@ export const Conditions: {[k: string]: ConditionData} = {
 			this.add('-weather', 'none');
 		},
 	},
-	wasteland: {
-		name: 'Wasteland',
+	sporestorm: {
+		name: 'Spore Storm',
 		effectType: 'Weather',
 		duration: 5,
 		durationCallback(source, effect) {
@@ -751,22 +751,22 @@ export const Conditions: {[k: string]: ConditionData} = {
 		// So we give it increased priority.
 		onModifySpDPriority: 10,
 		onModifySpD(spd, pokemon) {
-			if (pokemon.hasType('Poison') && this.field.isWeather('wasteland')) {
+			if (pokemon.hasType('Grass') && this.field.isWeather('sporestorm')) {
 				return this.modify(def, 1.5);
 			}
 		},
 		onStart(battle, source, effect) {
 			if (effect?.effectType === 'Ability') {
 				if (this.gen <= 5) this.effectData.duration = 0;
-				this.add('-weather', 'Wasteland', '[from] ability: ' + effect, '[of] ' + source);
+				this.add('-weather', 'Spore Storm', '[from] ability: ' + effect, '[of] ' + source);
 			} else {
-				this.add('-weather', 'Wasteland');
+				this.add('-weather', 'Spore Storm');
 			}
 		},
 		onResidualOrder: 1,
 		onResidual() {
-			this.add('-weather', 'Wasteland', '[upkeep]');
-			if (this.field.isWeather('wasteland')) this.eachEvent('Weather');
+			this.add('-weather', 'Spore Storm', '[upkeep]');
+			if (this.field.isWeather('sporestorm')) this.eachEvent('Weather');
 		},
 		onWeather(target) {
 			this.damage(target.baseMaxhp / 16);
@@ -797,6 +797,36 @@ export const Conditions: {[k: string]: ConditionData} = {
 		onResidual() {
 			this.add('-weather', 'Hail', '[upkeep]');
 			if (this.field.isWeather('hail')) this.eachEvent('Weather');
+		},
+		onWeather(target) {
+			this.damage(target.baseMaxhp / 16);
+		},
+		onEnd() {
+			this.add('-weather', 'none');
+		},
+	},
+	acidrain: {
+		name: 'Acid Rain',
+		effectType: 'Weather',
+		duration: 5,
+		durationCallback(source, effect) {
+			if (source?.hasItem('corrodedrock')) {
+				return 8;
+			}
+			return 5;
+		},
+		onStart(battle, source, effect) {
+			if (effect?.effectType === 'Ability') {
+				if (this.gen <= 5) this.effectData.duration = 0;
+				this.add('-weather', 'Acid Rain', '[from] ability: ' + effect, '[of] ' + source);
+			} else {
+				this.add('-weather', 'Acid Rain');
+			}
+		},
+		onResidualOrder: 1,
+		onResidual() {
+			this.add('-weather', 'Acid Rain', '[upkeep]');
+			if (this.field.isWeather('acidrain')) this.eachEvent('Weather');
 		},
 		onWeather(target) {
 			this.damage(target.baseMaxhp / 16);

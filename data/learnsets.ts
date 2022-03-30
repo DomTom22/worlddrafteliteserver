@@ -63702,6 +63702,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			hydropump: ["7M"],
 			liquidation: ["7M"],
 			coralbreak: ["7M"],
+			aquabolt: ["7M"],
 		},
 	},
 	stunfiskgalar: {

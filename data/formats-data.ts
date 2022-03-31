@@ -7999,6 +7999,146 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		isNonstandard: "Past",
 		tier: "Illegal",
 	},
+	lukagon: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	kokismash: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	psysteed: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	godfrogger: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	reaptide: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	snosquatch: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	grasquatch: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	gigantusk: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	glacieros: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	mockroach: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	ceregal: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	dragoyle: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	oculeus: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	arkhaos: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	venusauregho: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	charizardegho: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	blastoiseegho: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	mukegho: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	oozma: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	fearowegho: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	noctowlegho: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	azumarillegho: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	garbodoregho: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	altariaegho: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	ludicoloegho: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	magnetonegho: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	magnezoneegho: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	tangrowthegho: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	chanseyegho: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	blisseyegho: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	gorochu: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	nidorook: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	quezsparce: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	faeralynx: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	grimfowl: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
 	missingno: {
 		isNonstandard: "Custom",
 		tier: "Illegal",

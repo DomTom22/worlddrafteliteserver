@@ -333,6 +333,10 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 		name: "Drizzle",
 		shortDesc: "On switch-in, this Pokemon summons Rain Dance.",
 	},
+	pollution: {
+		name: "Pollution",
+		shortDesc: "On switch-in, this Pokemon summons Acid Rain.",
+	},
 	drought: {
 		name: "Drought",
 		shortDesc: "On switch-in, this Pokemon summons Sunny Day.",
@@ -1578,6 +1582,10 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 	},
 	athenian: {
 		name: "Athenian",
+		shortDesc: "Doubles the Pokemon's Special Attack stat.",
+	},
+	purefocus: {
+		name: "Pure Focus",
 		shortDesc: "Doubles the Pokemon's Special Attack stat.",
 	},
 	blazeboost: {

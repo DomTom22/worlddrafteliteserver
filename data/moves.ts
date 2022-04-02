@@ -21074,7 +21074,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 			},
 			onResidualOrder: 6,
 			onResidual(pokemon) {
-				this.boost({atk: 1, spa: 1}, target);
+				this.boost({atk: 1, spa: 1}, pokemon);
 			},
 		},
 		secondary: null,

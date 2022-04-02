@@ -8139,6 +8139,78 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		isNonstandard: "Past",
 		tier: "Illegal",
 	},
+	skullkraken: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	omeon: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	champeon: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	lepideon: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	guardeon: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	obsideoni: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	scorpeon: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	sphynxeon: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	nimbeon: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	draconeon: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	terathwack: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	sunflorid: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	sorcerice: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	kecleodon: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	wereyena: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	jollibird: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	kablowfish: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	porygonx: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
 	missingno: {
 		isNonstandard: "Custom",
 		tier: "Illegal",

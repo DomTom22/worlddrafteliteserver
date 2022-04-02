@@ -108,6 +108,60 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	grimfowl: {
 		tier: "OU",
 	},
+	skullkraken: {
+		tier: "OU",
+	},
+	omeon: {
+		tier: "OU",
+	},
+	champeon: {
+		tier: "OU",
+	},
+	lepideon: {
+		tier: "OU",
+	},
+	guardeon: {
+		tier: "OU",
+	},
+	obsideoni: {
+		tier: "OU",
+	},
+	scorpeon: {
+		tier: "OU",
+	},
+	sphynxeon: {
+		tier: "OU",
+	},
+	nimbeon: {
+		tier: "OU",
+	},
+	draconeon: {
+		tier: "OU",
+	},
+	terathwack: {
+		tier: "OU",
+	},
+	sunflorid: {
+		tier: "OU",
+	},
+	sorcerice: {
+		tier: "OU",
+	},
+	kecleodon: {
+		tier: "OU",
+	},
+	wereyena: {
+		tier: "OU",
+	},
+	jollibird: {
+		tier: "OU",
+	},
+	kablowfish: {
+		tier: "OU",
+	},
+	porygonx: {
+		tier: "OU",
+	},
 	syleafid: {
 		isNonstandard: "Past",
     tier: "Illegal",

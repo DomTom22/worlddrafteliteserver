@@ -10420,7 +10420,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	togekiss: {
 		num: 468,
 		name: "Togekiss",
-		types: ["Fairy", "Flying"],
+		types: ["Normal", "Flying"],
 		genderRatio: {M: 0.875, F: 0.125},
 		baseStats: {hp: 85, atk: 50, def: 95, spa: 120, spd: 115, spe: 80},
 		abilities: {0: "Hustle", 1: "Serene Grace", H: "Super Luck"},

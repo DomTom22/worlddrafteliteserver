@@ -21068,7 +21068,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		flags: {snatch: 1},
 		volatileStatus: 'candescence',
 		condition: {
-			duration: 3,
+			duration: 4,
 			onStart(pokemon) {
 				this.add('-start', pokemon, 'Candescence');
 			},

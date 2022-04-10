@@ -2887,8 +2887,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		doublesTier: "(DUU)",
 	},
 	houndour: {
-		isNonstandard: "Past",
-		tier: "Illegal",
+		tier: "LC",
 	},
 	houndoom: {
     tier: "NU",
@@ -3181,8 +3180,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "CAP",
 	},
 	taillow: {
-		isNonstandard: "Past",
-		tier: "Illegal",
+		tier: "LC",
 	},
 	swellow: {
     tier: "RU",
@@ -4294,8 +4292,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		doublesTier: "DOU",
 	},
 	riolu: {
-		isNonstandard: "Past",
-    tier: "Illegal",
+    tier: "LC",
 	},
 	lucario: {
 		randomBattleMoves: ["closecombat", "extremespeed", "icepunch", "meteormash", "swordsdance"],

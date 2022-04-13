@@ -6813,7 +6813,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "UUBL",
 	},
 	meganiummega: {
-		tier: "UU",
+		tier: "RU",
 	},
 	girafarigdelta: {
 		tier: "ZU",

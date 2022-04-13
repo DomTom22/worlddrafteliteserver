@@ -7299,7 +7299,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "ZU",
 	},
 	magroplex: {
-		tier: "RU",
+		tier: "NU",
 	},
 	soakoth: {
 		tier: "XU",

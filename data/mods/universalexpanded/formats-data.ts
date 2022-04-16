@@ -7350,7 +7350,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "ZU",
 	},
 	chillnobyl: {
-		tier: "UU",
+		tier: "UUBL",
 	},
 	carnibal: {
 		tier: "ZU",

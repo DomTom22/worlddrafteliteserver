@@ -878,6 +878,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "Yellow",
 		prevo: "Sandshrew",
 		evoLevel: 22,
+		evos: ["Sandridger"],
 		eggGroups: ["Field"],
 		otherFormes: ["Sandslash-Alola"],
 		formeOrder: ["Sandslash", "Sandslash-Alola"],
@@ -907,6 +908,8 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		heightm: 1,
 		weightkg: 29.5,
 		color: "Yellow",
+		prevo: "Sandslash",
+		evoLevel: 32,
 		eggGroups: ["Field"],
 	},
 	nidoranf: {

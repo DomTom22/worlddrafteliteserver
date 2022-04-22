@@ -1225,7 +1225,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	clefairy: {
 		num: 35,
 		name: "Clefairy",
-		types: ["Fairy"],
+		types: ["Fairy", "Cosmic"],
 		genderRatio: {M: 0.25, F: 0.75},
 		baseStats: {hp: 70, atk: 45, def: 48, spa: 60, spd: 65, spe: 35},
 		abilities: {0: "Cute Charm", 1: "Magic Guard", H: "Friend Guard"},
@@ -1240,7 +1240,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	clefable: {
 		num: 36,
 		name: "Clefable",
-		types: ["Fairy"],
+		types: ["Fairy", "Cosmic"],
 		genderRatio: {M: 0.25, F: 0.75},
 		baseStats: {hp: 95, atk: 70, def: 73, spa: 95, spd: 90, spe: 60},
 		abilities: {0: "Cute Charm", 1: "Magic Guard", H: "Unaware"},
@@ -1335,7 +1335,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	jigglypuff: {
 		num: 39,
 		name: "Jigglypuff",
-		types: ["Normal", "Fairy"],
+		types: ["Sound", "Fairy"],
 		genderRatio: {M: 0.25, F: 0.75},
 		baseStats: {hp: 115, atk: 45, def: 20, spa: 45, spd: 25, spe: 20},
 		abilities: {0: "Cute Charm", 1: "Competitive", H: "Friend Guard"},
@@ -1350,7 +1350,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	wigglytuff: {
 		num: 40,
 		name: "Wigglytuff",
-		types: ["Normal", "Fairy"],
+		types: ["Sound", "Fairy"],
 		genderRatio: {M: 0.25, F: 0.75},
 		baseStats: {hp: 140, atk: 70, def: 45, spa: 85, spd: 50, spe: 45},
 		abilities: {0: "Cute Charm", 1: "Competitive", H: "Frisk"},
@@ -3125,7 +3125,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	starmie: {
 		num: 121,
 		name: "Starmie",
-		types: ["Water", "Psychic"],
+		types: ["Water", "Cosmic"],
 		gender: "N",
 		baseStats: {hp: 60, atk: 75, def: 85, spa: 100, spd: 85, spe: 115},
 		abilities: {0: "Illuminate", 1: "Natural Cure", H: "Analytic"},
@@ -3202,7 +3202,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	jynx: {
 		num: 124,
 		name: "Jynx",
-		types: ["Ice", "Psychic"],
+		types: ["Sound", "Psychic"],
 		gender: "F",
 		baseStats: {hp: 65, atk: 50, def: 35, spa: 115, spd: 95, spe: 95},
 		abilities: {0: "Oblivious", 1: "Forewarn", H: "Dry Skin"},
@@ -3216,7 +3216,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	rougella: {
 		num: -2090,
 		name: "Rougella",
-		types: ["Ice", "Psychic"],
+		types: ["Sound", "Psychic"],
 		baseStats: {hp: 75, atk: 90, def: 55, spa: 135, spd: 95, spe: 90},
 		abilities: {0: "Oblivious"},
 		heightm: 1.2,
@@ -4540,7 +4540,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	bellossom: {
 		num: 182,
 		name: "Bellossom",
-		types: ["Grass"],
+		types: ["Grass", "Sound"],
 		baseStats: {hp: 75, atk: 80, def: 95, spa: 90, spd: 100, spe: 50},
 		abilities: {0: "Chlorophyll", H: "Healer"},
 		heightm: 0.4,
@@ -4631,7 +4631,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		name: "Politoed-Mega",
 		baseSpecies: "Politoed",
 		forme: "Mega",
-		types: ["Water"],
+		types: ["Water", "Sound"],
 		baseStats: {hp: 90, atk: 75, def: 95, spa: 120, spd: 140, spe: 80},
 		abilities: {0: "Drizzle"},
 		heightm: 1.1,
@@ -4910,7 +4910,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	misdreavus: {
 		num: 200,
 		name: "Misdreavus",
-		types: ["Ghost"],
+		types: ["Ghost", "Sound"],
 		baseStats: {hp: 60, atk: 60, def: 60, spa: 85, spd: 85, spe: 85},
 		abilities: {0: "Levitate"},
 		heightm: 0.7,
@@ -5726,7 +5726,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	smoochum: {
 		num: 238,
 		name: "Smoochum",
-		types: ["Ice", "Psychic"],
+		types: ["Sound", "Psychic"],
 		gender: "F",
 		baseStats: {hp: 45, atk: 30, def: 15, spa: 85, spd: 65, spe: 65},
 		abilities: {0: "Oblivious", 1: "Forewarn", H: "Hydration"},
@@ -6778,7 +6778,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	whismur: {
 		num: 293,
 		name: "Whismur",
-		types: ["Normal"],
+		types: ["Sound"],
 		baseStats: {hp: 64, atk: 51, def: 23, spa: 51, spd: 23, spe: 28},
 		abilities: {0: "Soundproof", H: "Rattled"},
 		heightm: 0.6,
@@ -6790,7 +6790,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	loudred: {
 		num: 294,
 		name: "Loudred",
-		types: ["Normal"],
+		types: ["Sound"],
 		baseStats: {hp: 84, atk: 71, def: 43, spa: 71, spd: 43, spe: 48},
 		abilities: {0: "Soundproof", H: "Scrappy"},
 		heightm: 1,
@@ -6804,7 +6804,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	exploud: {
 		num: 295,
 		name: "Exploud",
-		types: ["Normal"],
+		types: ["Sound"],
 		baseStats: {hp: 104, atk: 91, def: 63, spa: 91, spd: 73, spe: 68},
 		abilities: {0: "Soundproof", H: "Scrappy"},
 		heightm: 1.5,
@@ -7023,7 +7023,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	jawile: {
 		num: -2096,
 		name: "Jawile",
-		types: ["Steel"],
+		types: ["Steel", "Fairy"],
 		baseStats: {hp: 60, atk: 115, def: 90, spa: 60, spd: 75, spe: 80},
 		abilities: {0: "Hyper Cutter", 1: "Intimidate"},
 		heightm: 1.2,
@@ -7345,7 +7345,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	wailmer: {
 		num: 320,
 		name: "Wailmer",
-		types: ["Water"],
+		types: ["Water", "Sound"],
 		baseStats: {hp: 130, atk: 70, def: 35, spa: 70, spd: 35, spe: 60},
 		abilities: {0: "Water Veil", 1: "Oblivious", H: "Pressure"},
 		heightm: 2,
@@ -7357,7 +7357,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	wailord: {
 		num: 321,
 		name: "Wailord",
-		types: ["Water"],
+		types: ["Water", "Sound"],
 		baseStats: {hp: 170, atk: 90, def: 45, spa: 90, spd: 45, spe: 60},
 		abilities: {0: "Water Veil", 1: "Oblivious", H: "Pressure"},
 		heightm: 14.5,
@@ -7704,7 +7704,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	lunatone: {
 		num: 337,
 		name: "Lunatone",
-		types: ["Rock", "Psychic"],
+		types: ["Rock", "Cosmic"],
 		gender: "N",
 		baseStats: {hp: 90, atk: 55, def: 65, spa: 95, spd: 85, spe: 70},
 		abilities: {0: "Levitate"},
@@ -7716,7 +7716,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	solrock: {
 		num: 338,
 		name: "Solrock",
-		types: ["Rock", "Psychic"],
+		types: ["Rock", "Cosmic"],
 		gender: "N",
 		baseStats: {hp: 90, atk: 95, def: 85, spa: 55, spd: 65, spe: 70},
 		abilities: {0: "Levitate"},
@@ -8137,7 +8137,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	chimecho: {
 		num: 358,
 		name: "Chimecho",
-		types: ["Psychic"],
+		types: ["Sound"],
 		baseStats: {hp: 75, atk: 50, def: 80, spa: 95, spd: 90, spe: 65},
 		abilities: {0: "Levitate"},
 		heightm: 0.6,
@@ -8916,7 +8916,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	jirachi: {
 		num: 385,
 		name: "Jirachi",
-		types: ["Steel", "Psychic"],
+		types: ["Steel", "Cosmic"],
 		gender: "N",
 		baseStats: {hp: 100, atk: 100, def: 100, spa: 100, spd: 100, spe: 100},
 		abilities: {0: "Serene Grace"},
@@ -8932,7 +8932,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		name: "Jirachi-Mega",
 		baseSpecies: "Jirachi",
 		forme: "Mega",
-		types: ["Steel", "Psychic"],
+		types: ["Steel", "Cosmic"],
 		baseStats: {hp: 100, atk: 100, def: 140, spa: 130, spd: 115, spe: 115},
 		abilities: {0: "Periodic Orbit"},
 		heightm: .3,
@@ -8945,7 +8945,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		num: 386,
 		name: "Deoxys",
 		baseForme: "Normal",
-		types: ["Psychic"],
+		types: ["Cosmic"],
 		gender: "N",
 		baseStats: {hp: 50, atk: 150, def: 50, spa: 150, spd: 50, spe: 150},
 		abilities: {0: "Pressure"},
@@ -8961,7 +8961,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		name: "Deoxys-Attack",
 		baseSpecies: "Deoxys",
 		forme: "Attack",
-		types: ["Psychic"],
+		types: ["Cosmic"],
 		gender: "N",
 		baseStats: {hp: 50, atk: 180, def: 20, spa: 180, spd: 20, spe: 150},
 		abilities: {0: "Pressure"},
@@ -8976,7 +8976,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		name: "Deoxys-Defense",
 		baseSpecies: "Deoxys",
 		forme: "Defense",
-		types: ["Psychic"],
+		types: ["Cosmic"],
 		gender: "N",
 		baseStats: {hp: 50, atk: 70, def: 160, spa: 70, spd: 160, spe: 90},
 		abilities: {0: "Pressure"},
@@ -8991,7 +8991,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		name: "Deoxys-Speed",
 		baseSpecies: "Deoxys",
 		forme: "Speed",
-		types: ["Psychic"],
+		types: ["Cosmic"],
 		gender: "N",
 		baseStats: {hp: 50, atk: 95, def: 90, spa: 95, spd: 90, spe: 180},
 		abilities: {0: "Pressure"},
@@ -9252,7 +9252,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	kricketot: {
 		num: 401,
 		name: "Kricketot",
-		types: ["Bug"],
+		types: ["Bug", "Sound"],
 		baseStats: {hp: 37, atk: 25, def: 41, spa: 25, spd: 41, spe: 25},
 		abilities: {0: "Shed Skin", H: "Run Away"},
 		heightm: 0.3,
@@ -9264,7 +9264,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	kricketune: {
 		num: 402,
 		name: "Kricketune",
-		types: ["Bug"],
+		types: ["Bug", "Sound"],
 		baseStats: {hp: 77, atk: 85, def: 51, spa: 55, spd: 51, spe: 65},
 		abilities: {0: "Swarm", H: "Technician"},
 		heightm: 1,
@@ -9854,7 +9854,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	mismagius: {
 		num: 429,
 		name: "Mismagius",
-		types: ["Ghost"],
+		types: ["Ghost", "Sound"],
 		baseStats: {hp: 60, atk: 60, def: 60, spa: 105, spd: 105, spe: 105},
 		abilities: {0: "Levitate"},
 		heightm: 0.9,
@@ -9924,7 +9924,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	chingling: {
 		num: 433,
 		name: "Chingling",
-		types: ["Psychic"],
+		types: ["Sound"],
 		baseStats: {hp: 45, atk: 30, def: 50, spa: 65, spd: 50, spe: 45},
 		abilities: {0: "Levitate"},
 		heightm: 0.2,
@@ -9962,7 +9962,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	bronzor: {
 		num: 436,
 		name: "Bronzor",
-		types: ["Steel", "Psychic"],
+		types: ["Steel", "Sound"],
 		gender: "N",
 		baseStats: {hp: 57, atk: 24, def: 86, spa: 24, spd: 86, spe: 23},
 		abilities: {0: "Levitate", 1: "Heatproof", H: "Heavy Metal"},
@@ -9975,7 +9975,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	bronzong: {
 		num: 437,
 		name: "Bronzong",
-		types: ["Steel", "Psychic"],
+		types: ["Steel", "Sound"],
 		gender: "N",
 		baseStats: {hp: 67, atk: 89, def: 116, spa: 79, spd: 116, spe: 33},
 		abilities: {0: "Levitate", 1: "Heatproof", H: "Heavy Metal"},
@@ -10029,7 +10029,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	chatot: {
 		num: 441,
 		name: "Chatot",
-		types: ["Normal", "Flying"],
+		types: ["Sound", "Flying"],
 		baseStats: {hp: 76, atk: 65, def: 45, spa: 92, spd: 42, spe: 91},
 		abilities: {0: "Keen Eye", 1: "Tangled Feet", H: "Big Pecks"},
 		heightm: 0.5,
@@ -10044,7 +10044,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		name: "Chatot-Mega",
 		baseSpecies: "Chatot",
 		forme: "Mega",
-		types: ["Normal", "Flying"],
+		types: ["Sound", "Flying"],
 		baseStats: {hp: 76, atk: 65, def: 55, spa: 147, spd: 52, spe: 116},
 		abilities: {0: "Amplifier"},
 		heightm: .5,
@@ -10056,7 +10056,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	conductot: {
 		num: -2091,
 		name: "Conductot",
-		types: ["Psychic", "Flying"],
+		types: ["Sound", "Flying"],
 		baseStats: {hp: 101, atk: 80, def: 60, spa: 120, spd: 57, spe: 111},
 		abilities: {0: "Keen Eye"},
 		heightm: 1.2,
@@ -10656,7 +10656,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	yanmega: {
 		num: 469,
 		name: "Yanmega",
-		types: ["Bug", "Flying"],
+		types: ["Bug", "Sound"],
 		baseStats: {hp: 86, atk: 76, def: 86, spa: 116, spd: 56, spe: 95},
 		abilities: {0: "Speed Boost", 1: "Tinted Lens", H: "Frisk"},
 		heightm: 1.9,
@@ -11067,7 +11067,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	palkia: {
 		num: 484,
 		name: "Palkia",
-		types: ["Water", "Dragon"],
+		types: ["Cosmic", "Dragon"],
 		gender: "N",
 		baseStats: {hp: 90, atk: 120, def: 100, spa: 150, spd: 120, spe: 100},
 		abilities: {0: "Pressure", H: "Telepathy"},
@@ -11146,7 +11146,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	cresselia: {
 		num: 488,
 		name: "Cresselia",
-		types: ["Psychic"],
+		types: ["Psychic", "Cosmic"],
 		gender: "F",
 		baseStats: {hp: 120, atk: 70, def: 120, spa: 75, spd: 130, spe: 85},
 		abilities: {0: "Levitate"},
@@ -12129,7 +12129,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	woobat: {
 		num: 527,
 		name: "Woobat",
-		types: ["Psychic", "Flying"],
+		types: ["Sound", "Flying"],
 		baseStats: {hp: 65, atk: 45, def: 43, spa: 55, spd: 43, spe: 72},
 		abilities: {0: "Unaware", 1: "Klutz", H: "Simple"},
 		heightm: 0.4,
@@ -12141,7 +12141,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	swoobat: {
 		num: 528,
 		name: "Swoobat",
-		types: ["Psychic", "Flying"],
+		types: ["Sound", "Flying"],
 		baseStats: {hp: 67, atk: 57, def: 55, spa: 77, spd: 55, spe: 114},
 		abilities: {0: "Unaware", 1: "Klutz", H: "Simple"},
 		heightm: 0.9,
@@ -12179,7 +12179,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	audino: {
 		num: 531,
 		name: "Audino",
-		types: ["Normal"],
+		types: ["Sound"],
 		baseStats: {hp: 103, atk: 60, def: 86, spa: 60, spd: 86, spe: 50},
 		abilities: {0: "Healer", 1: "Regenerator", H: "Klutz"},
 		heightm: 1.1,
@@ -12194,7 +12194,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		name: "Audino-Mega",
 		baseSpecies: "Audino",
 		forme: "Mega",
-		types: ["Normal", "Fairy"],
+		types: ["Sound", "Fairy"],
 		baseStats: {hp: 103, atk: 60, def: 126, spa: 80, spd: 126, spe: 50},
 		abilities: {0: "Healer"},
 		heightm: 1.5,
@@ -12249,7 +12249,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	tympole: {
 		num: 535,
 		name: "Tympole",
-		types: ["Water"],
+		types: ["Water", "Sound"],
 		baseStats: {hp: 50, atk: 50, def: 40, spa: 50, spd: 40, spe: 64},
 		abilities: {0: "Swift Swim", 1: "Hydration", H: "Water Absorb"},
 		heightm: 0.5,
@@ -12261,7 +12261,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	palpitoad: {
 		num: 536,
 		name: "Palpitoad",
-		types: ["Water", "Ground"],
+		types: ["Water", "Sound"],
 		baseStats: {hp: 75, atk: 65, def: 55, spa: 65, spd: 55, spe: 69},
 		abilities: {0: "Swift Swim", 1: "Hydration", H: "Water Absorb"},
 		heightm: 0.8,
@@ -12275,7 +12275,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	seismitoad: {
 		num: 537,
 		name: "Seismitoad",
-		types: ["Water", "Ground"],
+		types: ["Water", "Sound"],
 		baseStats: {hp: 105, atk: 95, def: 75, spa: 85, spd: 75, spe: 74},
 		abilities: {0: "Swift Swim", 1: "Poison Touch", H: "Water Absorb"},
 		heightm: 1.5,
@@ -12690,7 +12690,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	maractus: {
 		num: 556,
 		name: "Maractus",
-		types: ["Grass"],
+		types: ["Grass", "Sound"],
 		baseStats: {hp: 75, atk: 86, def: 67, spa: 106, spd: 67, spe: 60},
 		abilities: {0: "Water Absorb", 1: "Chlorophyll", H: "Storm Drain"},
 		heightm: 1,
@@ -13089,7 +13089,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	gothitelle: {
 		num: 576,
 		name: "Gothitelle",
-		types: ["Psychic"],
+		types: ["Psychic", "Cosmic"],
 		genderRatio: {M: 0.25, F: 0.75},
 		baseStats: {hp: 70, atk: 55, def: 95, spa: 95, spd: 110, spe: 65},
 		abilities: {0: "Frisk", 1: "Competitive", H: "Shadow Tag"},
@@ -13588,7 +13588,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	elgyem: {
 		num: 605,
 		name: "Elgyem",
-		types: ["Psychic"],
+		types: ["Cosmic"],
 		baseStats: {hp: 55, atk: 55, def: 55, spa: 85, spd: 55, spe: 30},
 		abilities: {0: "Telepathy", 1: "Synchronize", H: "Analytic"},
 		heightm: 0.5,
@@ -13600,7 +13600,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	beheeyem: {
 		num: 606,
 		name: "Beheeyem",
-		types: ["Psychic"],
+		types: ["Cosmic"],
 		baseStats: {hp: 75, atk: 75, def: 75, spa: 125, spd: 95, spe: 40},
 		abilities: {0: "Telepathy", 1: "Synchronize", H: "Analytic"},
 		heightm: 1,
@@ -14568,7 +14568,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		num: 648,
 		name: "Meloetta",
 		baseForme: "Aria",
-		types: ["Normal", "Psychic"],
+		types: ["Sound", "Psychic"],
 		gender: "N",
 		baseStats: {hp: 100, atk: 77, def: 77, spa: 128, spd: 128, spe: 90},
 		abilities: {0: "Serene Grace"},
@@ -14584,7 +14584,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		name: "Meloetta-Pirouette",
 		baseSpecies: "Meloetta",
 		forme: "Pirouette",
-		types: ["Normal", "Fighting"],
+		types: ["Sound", "Fighting"],
 		gender: "N",
 		baseStats: {hp: 100, atk: 128, def: 90, spa: 77, spd: 77, spe: 128},
 		abilities: {0: "Serene Grace"},
@@ -15048,7 +15048,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	pyroar: {
 		num: 668,
 		name: "Pyroar",
-		types: ["Fire", "Normal"],
+		types: ["Fire", "Sound"],
 		genderRatio: {M: 0.125, F: 0.875},
 		baseStats: {hp: 86, atk: 68, def: 72, spa: 109, spd: 66, spe: 106},
 		abilities: {0: "Rivalry", 1: "Unnerve", H: "Moxie"},
@@ -15955,7 +15955,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	noibat: {
 		num: 714,
 		name: "Noibat",
-		types: ["Flying", "Dragon"],
+		types: ["Sound", "Dragon"],
 		baseStats: {hp: 40, atk: 30, def: 35, spa: 45, spd: 40, spe: 55},
 		abilities: {0: "Frisk", 1: "Infiltrator", H: "Telepathy"},
 		heightm: 0.5,
@@ -15967,7 +15967,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	noivern: {
 		num: 715,
 		name: "Noivern",
-		types: ["Flying", "Dragon"],
+		types: ["Sound", "Dragon"],
 		baseStats: {hp: 85, atk: 70, def: 80, spa: 97, spd: 80, spe: 123},
 		abilities: {0: "Frisk", 1: "Infiltrator", H: "Telepathy"},
 		heightm: 1.5,
@@ -16116,7 +16116,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		num: 720,
 		name: "Hoopa",
 		baseForme: "Confined",
-		types: ["Psychic", "Ghost"],
+		types: ["Cosmic", "Ghost"],
 		gender: "N",
 		baseStats: {hp: 80, atk: 110, def: 60, spa: 150, spd: 130, spe: 70},
 		abilities: {0: "Magician"},
@@ -16132,7 +16132,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		name: "Hoopa-Unbound",
 		baseSpecies: "Hoopa",
 		forme: "Unbound",
-		types: ["Psychic", "Dark"],
+		types: ["Cosmic", "Dark"],
 		gender: "N",
 		baseStats: {hp: 80, atk: 160, def: 60, spa: 170, spd: 130, spe: 80},
 		abilities: {0: "Magician"},
@@ -16316,7 +16316,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	primarina: {
 		num: 730,
 		name: "Primarina",
-		types: ["Water", "Fairy"],
+		types: ["Water", "Sound"],
 		genderRatio: {M: 0.875, F: 0.125},
 		baseStats: {hp: 80, atk: 74, def: 74, spa: 126, spd: 116, spe: 60},
 		abilities: {0: "Torrent", H: "Liquid Voice"},
@@ -17372,7 +17372,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		num: 774,
 		name: "Minior",
 		baseForme: "Red",
-		types: ["Rock", "Flying"],
+		types: ["Rock", "Cosmic"],
 		gender: "N",
 		baseStats: {hp: 60, atk: 100, def: 60, spa: 100, spd: 60, spe: 120},
 		abilities: {0: "Shields Down"},
@@ -17393,7 +17393,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		name: "Minior-Meteor",
 		baseSpecies: "Minior",
 		forme: "Meteor",
-		types: ["Rock", "Flying"],
+		types: ["Rock", "Cosmic"],
 		gender: "N",
 		baseStats: {hp: 60, atk: 60, def: 100, spa: 60, spd: 100, spe: 60},
 		abilities: {0: "Shields Down"},
@@ -17677,7 +17677,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	cosmog: {
 		num: 789,
 		name: "Cosmog",
-		types: ["Psychic"],
+		types: ["Cosmic"],
 		gender: "N",
 		baseStats: {hp: 43, atk: 29, def: 31, spa: 29, spd: 31, spe: 37},
 		abilities: {0: "Unaware"},
@@ -17690,7 +17690,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	cosmoem: {
 		num: 790,
 		name: "Cosmoem",
-		types: ["Psychic"],
+		types: ["Cosmic"],
 		gender: "N",
 		baseStats: {hp: 43, atk: 29, def: 131, spa: 29, spd: 131, spe: 37},
 		abilities: {0: "Sturdy"},
@@ -17705,7 +17705,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	solgaleo: {
 		num: 791,
 		name: "Solgaleo",
-		types: ["Psychic", "Steel"],
+		types: ["Cosmic", "Steel"],
 		gender: "N",
 		baseStats: {hp: 137, atk: 137, def: 107, spa: 113, spd: 89, spe: 97},
 		abilities: {0: "Full Metal Body"},
@@ -17719,7 +17719,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	lunala: {
 		num: 792,
 		name: "Lunala",
-		types: ["Psychic", "Ghost"],
+		types: ["Cosmic", "Ghost"],
 		gender: "N",
 		baseStats: {hp: 137, atk: 113, def: 89, spa: 137, spd: 107, spe: 97},
 		abilities: {0: "Shadow Shield"},
@@ -18034,7 +18034,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	thwackey: {
 		num: 811,
 		name: "Thwackey",
-		types: ["Grass"],
+		types: ["Grass", "Sound"],
 		genderRatio: {M: 0.875, F: 0.125},
 		baseStats: {hp: 70, atk: 85, def: 70, spa: 55, spd: 60, spe: 80},
 		abilities: {0: "Overgrow", H: "Grassy Surge"},
@@ -18049,7 +18049,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	rillaboom: {
 		num: 812,
 		name: "Rillaboom",
-		types: ["Grass"],
+		types: ["Grass", "Sound"],
 		genderRatio: {M: 0.875, F: 0.125},
 		baseStats: {hp: 100, atk: 125, def: 90, spa: 60, spd: 70, spe: 85},
 		abilities: {0: "Overgrow", H: "Grassy Surge"},
@@ -18286,7 +18286,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	dottler: {
 		num: 825,
 		name: "Dottler",
-		types: ["Bug", "Psychic"],
+		types: ["Bug", "Cosmic"],
 		baseStats: {hp: 50, atk: 35, def: 80, spa: 50, spd: 90, spe: 30},
 		abilities: {0: "Swarm", 1: "Compound Eyes", H: "Telepathy"},
 		heightm: 0.4,
@@ -18300,7 +18300,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	orbeetle: {
 		num: 826,
 		name: "Orbeetle",
-		types: ["Bug", "Psychic"],
+		types: ["Bug", "Cosmic"],
 		baseStats: {hp: 60, atk: 45, def: 110, spa: 80, spd: 120, spe: 90},
 		abilities: {0: "Swarm", 1: "Frisk", H: "Telepathy"},
 		heightm: 0.4,
@@ -18316,7 +18316,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		name: "Orbeetle-Gmax",
 		baseSpecies: "Orbeetle",
 		forme: "Gmax",
-		types: ["Bug", "Psychic"],
+		types: ["Bug", "Cosmic"],
 		baseStats: {hp: 60, atk: 45, def: 110, spa: 80, spd: 120, spe: 90},
 		abilities: {0: "Swarm", 1: "Frisk", H: "Telepathy"},
 		heightm: 14,
@@ -18758,7 +18758,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		num: 849,
 		name: "Toxtricity",
 		baseForme: "Amped",
-		types: ["Electric", "Poison"],
+		types: ["Electric", "Sound"],
 		baseStats: {hp: 75, atk: 98, def: 70, spa: 114, spd: 70, spe: 75},
 		abilities: {0: "Punk Rock", 1: "Plus", H: "Technician"},
 		heightm: 1.6,
@@ -18792,7 +18792,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		name: "Toxtricity-Gmax",
 		baseSpecies: "Toxtricity",
 		forme: "Gmax",
-		types: ["Electric", "Poison"],
+		types: ["Electric", "Sound"],
 		baseStats: {hp: 75, atk: 98, def: 70, spa: 114, spd: 70, spe: 75},
 		abilities: {0: "Punk Rock", 1: "Plus", H: "Technician"},
 		heightm: 24,
@@ -19095,7 +19095,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	obstagoon: {
 		num: 862,
 		name: "Obstagoon",
-		types: ["Dark", "Normal"],
+		types: ["Dark", "Sound"],
 		baseStats: {hp: 93, atk: 90, def: 101, spa: 60, spd: 81, spe: 95},
 		abilities: {0: "Reckless", 1: "Guts", H: "Defiant"},
 		heightm: 1.6,
@@ -19182,7 +19182,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	mrrime: {
 		num: 866,
 		name: "Mr. Rime",
-		types: ["Ice", "Psychic"],
+		types: ["Ice", "Sound"],
 		baseStats: {hp: 80, atk: 85, def: 75, spa: 110, spd: 100, spe: 70},
 		abilities: {0: "Tangled Feet", 1: "Screen Cleaner", H: "Ice Body"},
 		heightm: 1.5,
@@ -19620,7 +19620,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	eternatus: {
 		num: 890,
 		name: "Eternatus",
-		types: ["Poison", "Dragon"],
+		types: ["Cosmic", "Dragon"],
 		gender: "N",
 		baseStats: {hp: 140, atk: 85, def: 95, spa: 145, spd: 95, spe: 130},
 		abilities: {0: "Pressure"},
@@ -20386,7 +20386,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	splendifowl: {
 		num: -1204,
 		name: "Splendifowl",
-		types: ["Normal", "Flying"],
+		types: ["Sound", "Flying"],
 		genderRatio: {M: 0.875, F: 0.125},
 		baseStats: {hp: 80, atk: 65, def: 55, spa: 105, spd: 80, spe: 93},
 		abilities: { 0: "Big Pecks", 1: "Analytic", H: "Moody"},
@@ -20578,7 +20578,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	astronite: {
 		num: -1220,
 		name: "Astronite",
-		types: ["Rock", "Psychic"],
+		types: ["Rock", "Cosmic"],
 		genderRatio: {M: 0.875, F: 0.125},
 		baseStats: {hp: 80, atk: 85, def: 85, spa: 115, spd: 75, spe: 105},
 		abilities: { 0: "Technician", 1: "Sturdy", H: "Trace"},
@@ -20768,7 +20768,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	s51: {
 		num: -1232,
 		name: "S51",
-		types: ["Psychic", "Steel"],
+		types: ["Cosmic", "Steel"],
 		genderRatio: {M: 0.875, F: 0.125},
 		baseStats: {hp: 105, atk: 65, def: 90, spa: 115, spd: 90, spe: 75},
 		abilities: { 0: "Levitate", H: "Analytic"},
@@ -20784,7 +20784,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		name: "S51-Mega",
 		baseSpecies: "S51",
 		forme: "Mega",
-		types: ["Psychic", "Steel"],
+		types: ["Cosmic", "Steel"],
 		baseStats: {hp: 105, atk: 95, def: 90, spa: 150, spd: 90, spe: 110},
 		abilities: {0: "Mega Launcher"},
 		heightm: 6.5,
@@ -20797,7 +20797,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	paraboom: {
 		num: -1233,
 		name: "Paraboom",
-		types: ["Normal", "Psychic"],
+		types: ["Sound", "Psychic"],
 		genderRatio: {M: 0.875, F: 0.125},
 		baseStats: {hp: 90, atk: 65, def: 75, spa: 105, spd: 75, spe: 80},
 		abilities: { 0: "Soundproof", H: "Sound Boost"},
@@ -21405,7 +21405,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	neopunk: {
 		num: -1276,
 		name: "Neopunk",
-		types: ["Psychic", "Electric"],
+		types: ["Sound", "Electric"],
 		genderRatio: {M: 0.875, F: 0.125},
 		baseStats: {hp: 65, atk: 100, def: 65, spa: 120, spd: 60, spe: 90},
 		abilities: { 0: "Minus"},
@@ -21417,7 +21417,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	praseopunk: {
 		num: -1277,
 		name: "Praseopunk",
-		types: ["Psychic", "Electric"],
+		types: ["Sound", "Electric"],
 		genderRatio: {M: 0.875, F: 0.125},
 		baseStats: {hp: 85, atk: 80, def: 85, spa: 100, spd: 70, spe: 80},
 		abilities: { 0: "Plus"},
@@ -22053,7 +22053,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	boarealis: {
 		num: -1552,
 		name: "Boarealis",
-		types: ["Dark", "Psychic"],
+		types: ["Dark", "Cosmic"],
 		genderRatio: {M: 0.50, F: 0.50},
 		baseStats: {hp: 83, atk: 64, def: 54, spa: 95, spd: 135, spe: 58},
 		abilities: { 0: "Pressure", 1: "Magic Bounce"},
@@ -22065,7 +22065,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	galaxagos: {
 		num: -1553,
 		name: "Galaxagos",
-		types: ["Rock", "Psychic"],
+		types: ["Rock", "Cosmic"],
 		genderRatio: {M: 0.50, F: 0.50},
 		baseStats: {hp: 75, atk: 65, def: 101, spa: 70, spd: 155, spe: 29},
 		abilities: { 0: "Orbital Tide", 1: "Shell Armor"},
@@ -22789,7 +22789,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		name: "Quetzar-Space",
 		baseSpecies: "Quetzar",
 		forme: "Space",
-		types: ["Dragon", "Psychic"],
+		types: ["Dragon", "Cosmic"],
 		gender: "N",
 		baseStats: {hp: 105, atk: 85, def: 105, spa: 160, spd: 125, spe: 90},
 		abilities: { 0: "Pressure"},
@@ -22861,7 +22861,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	aurostice: {
 		num: -2003,
 		name: "Aurostice",
-		types: ["Ice"],
+		types: ["Ice", "Fairy"],
 		genderRatio: {M: 0.00, F: 1.00},
 		baseStats: {hp: 80, atk: 70, def: 75, spa: 120, spd: 85, spe: 100},
 		abilities: { 0: "Clear Body", 1: "Inner Focus"},
@@ -23041,7 +23041,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	blitzune: {
 		num: -2017,
 		name: "Blitzune",
-		types: ["Electric"],
+		types: ["Electric", "Fairy"],
 		genderRatio: {M: 0.50, F: 0.50},
 		baseStats: {hp: 50, atk: 90, def: 70, spa: 105, spd: 75, spe: 90},
 		abilities: { 0: "Static", 1: "Lightning Rod"},
@@ -23089,7 +23089,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	baizeast: {
 		num: -2021,
 		name: "Baizeast",
-		types: ["Psychic"],
+		types: ["Psychic", "Fairy"],
 		genderRatio: {M: 0.50, F: 0.50},
 		baseStats: {hp: 65, atk: 82, def: 60, spa: 115, spd: 90, spe: 63},
 		abilities: { 0: "Pressure", 1: "Synchronize"},
@@ -23125,7 +23125,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	lylapse: {
 		num: -2024,
 		name: "Lylapse",
-		types: ["Ground"],
+		types: ["Ground", "Cosmic"],
 		genderRatio: {M: 0.50, F: 0.50},
 		baseStats: {hp: 85, atk: 95, def: 75, spa: 110, spd: 80, spe: 135},
 		abilities: { 0: "Pressure"},
@@ -23137,7 +23137,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	ganimede: {
 		num: -2025,
 		name: "Ganimede",
-		types: ["Flying"],
+		types: ["Flying", "Cosmic"],
 		genderRatio: {M: 0.50, F: 0.50},
 		baseStats: {hp: 75, atk: 110, def: 80, spa: 135, spd: 85, spe: 95},
 		abilities: { 0: "Pressure"},
@@ -23149,7 +23149,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	nemea: {
 		num: -2026,
 		name: "Nemea",
-		types: ["Steel"],
+		types: ["Steel", "Cosmic"],
 		genderRatio: {M: 0.50, F: 0.50},
 		baseStats: {hp: 80, atk: 135, def: 95, spa: 85, spd: 110, spe: 75},
 		abilities: { 0: "Pressure"},
@@ -23233,7 +23233,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	wikkin: {
 		num: -2033,
 		name: "Wikkin",
-		types: ["Grass", "Ghost"],
+		types: ["Grass", "Fairy"],
 		genderRatio: {M: 0.50, F: 0.50},
 		baseStats: {hp: 90, atk: 50, def: 61, spa: 105, spd: 110, spe: 84},
 		abilities: { 0: "Levitate", 1: "Insomnia"},
@@ -23593,7 +23593,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	yulfoe: {
 		num: -2063,
 		name: "Yulfoe",
-		types: ["Electric", "Psychic"],
+		types: ["Electric", "Cosmic"],
 		genderRatio: {M: 0.50, F: 0.50},
 		baseStats: {hp: 65, atk: 50, def: 77, spa: 125, spd: 82, spe: 90},
 		abilities: { 0: "Limber", 1: "Static"},
@@ -23629,7 +23629,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	glamarde: {
 		num: -2066,
 		name: "Glamarde",
-		types: ["Psychic"],
+		types: ["Psychic", "Fairy"],
 		genderRatio: {M: 0.50, F: 0.50},
 		baseStats: {hp: 108, atk: 35, def: 125, spa: 80, spd: 130, spe: 40},
 		abilities: { 0: "Battle Armor", 1: "Trace"},
@@ -23822,7 +23822,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	almaria: {
 		num: -2082,
 		name: "Almaria",
-		types: ["Ghost"],
+		types: ["Ghost", "Fairy"],
 		gender: "N",
 		baseStats: {hp: 100, atk: 120, def: 100, spa: 120, spd: 100, spe: 120},
 		abilities: { 0: "Levitate"},

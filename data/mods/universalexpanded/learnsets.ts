@@ -93368,6 +93368,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
       toxic: ["6L53", "6M"],
       toxicspikes: ["6T"],
       trickroom: ["6M"],
+			playrough: ["6M"],
     },
   },
 	syrentide: {
@@ -101821,6 +101822,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			hydrocannon: ["8L1"],
 			waterpledge: ["8L1"],
 			waterpulse: ["8L1"],
+			flipturn: ["8M"],
 		},
 	},
 	lieparddelta: {

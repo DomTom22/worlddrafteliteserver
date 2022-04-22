@@ -8211,6 +8211,118 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		isNonstandard: "Past",
 		tier: "Illegal",
 	},
+	shyleon: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	trishout: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	shulong: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	harrowk: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	kungfur: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	hangead: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	whisteract: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	blingrudge: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	mylomute: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	honchen: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	koinkoin: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	hercurcules: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	grudako: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	sabolt: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	gachigachoo: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	wystearia: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	scovile: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	troglolith: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	nebyura: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	birigiri: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	goombear: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	fatail: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	reindigo: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	snosqwatch: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	skravroom: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	rexquiem: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	scarphasmo: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	donanas: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
 	missingno: {
 		isNonstandard: "Custom",
 		tier: "Illegal",

@@ -16173,6 +16173,53 @@ export const Moves: {[moveid: string]: MoveData} = {
 		zMove: {boost: {atk: 1, def: 1, spa: 1, spd: 1, spe: 1}},
 		contestType: "Clever",
 	},
+	raid: {
+		num: 949,
+		accuracy: 100,
+		basePower: 100,
+		category: "Physical",
+		name: "Raid",
+		pp: 10,
+		priority: 0,
+		flags: {protect: 1, mirror: 1},
+		onModifyMove(move, pokemon) {
+			if (!move.secondaries) move.secondaries = [];
+			switch (pokemon.effectiveWeather()) {
+			case 'sunnyday':
+			case 'desolateland':
+				move.secondaries.push({
+					chance: 20,
+					status: 'brn',
+				});
+				break;
+			case 'raindance':
+			case 'primordialsea':
+				move.secondaries.push({
+					chance: 20,
+					status: 'slp',
+				});
+				break;
+			case 'sandstorm':
+				move.secondaries.push({
+					chance: 20,
+					volatileStatus: 'flinch',
+				});
+				break;
+			case 'hail':
+				move.secondaries.push({
+					chance: 20,
+					status: 'frz',
+				});
+				break;
+			}
+		},
+		secondary: null,
+		target: "normal",
+		type: "Bug",
+		zMove: {basePower: 160},
+		maxMove: {basePower: 130},
+		contestType: "Beautiful",
+	},
 	skillswap: {
 		num: 285,
 		accuracy: true,

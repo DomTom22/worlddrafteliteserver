@@ -160,7 +160,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "OU",
 	},
 	coraga: {
-		tier: "UU",
+		tier: "Uber",
 	},
 	drizzlob: {
 		tier: "OU",
@@ -187,7 +187,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "RU",
 	},
 	trojalmon: {
-		tier: "OU",
+		tier: "UU",
 	},
 	combound: {
 		tier: "UU",
@@ -247,10 +247,10 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "OU",
 	},
 	gatanoia: {
-		tier: "OU",
+		tier: "Uber",
 	},
 	aldina: {
-		tier: "OU",
+		tier: "Uber",
 	},
 	almaria: {
 		tier: "Uber",

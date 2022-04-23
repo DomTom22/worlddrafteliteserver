@@ -23452,7 +23452,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		types: ["Ground"],
 		genderRatio: {M: 0.50, F: 0.50},
 		baseStats: {hp: 95, atk: 135, def: 105, spa: 60, spd: 65, spe: 70},
-		abilities: { 0: "Sand Veil", 1: "Petrify", H: "Venomous"},
+		abilities: { 0: "Sand Veil", 1: "Moxie", H: "Petrify"},
 		heightm: 0.8,
 		weightkg: 80.5,
 		color: "Yellow",

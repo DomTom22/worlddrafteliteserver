@@ -24063,7 +24063,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		types: ["Rock", "Flying"],
 		genderRatio: {M: 0.50, F: 0.50},
 		baseStats: {hp: 60, atk: 130, def: 75, spa: 55, spd: 60, spe: 95},
-		abilities: { 0: "Intimidate", 1: "Strudy"},
+		abilities: { 0: "Intimidate", 1: "Sturdy"},
 		heightm: 0.8,
 		weightkg: 224.6,
 		color: "Yellow",
@@ -24474,7 +24474,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	},
 	obsideoni: {
 		num: -2524,
-		name: "Obsideon ",
+		name: "Obsideon-I",
 		types: ["Rock"],
 		genderRatio: {M: 0.50, F: 0.50},
 		baseStats: {hp: 75, atk: 120, def: 75, spa: 60, spd: 115, spe: 80},

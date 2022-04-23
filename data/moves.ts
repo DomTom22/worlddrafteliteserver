@@ -302,6 +302,23 @@ export const Moves: {[moveid: string]: MoveData} = {
 		type: "Flying",
 		contestType: "Cool",
 	},
+	cosmicray: {
+		num: 403,
+		accuracy: 100,
+		basePower: 95,
+		category: "Special",
+		name: "Cosmic Ray",
+		pp: 10,
+		priority: 0,
+		flags: {protect: 1, mirror: 1, distance: 1, pulse: 1},
+		secondary: {
+			chance: 15,
+			volatileStatus: 'flinch',
+		},
+		target: "any",
+		type: "Cosmic",
+		contestType: "Cool",
+	},
 	alloutpummeling: {
 		num: 624,
 		accuracy: true,
@@ -5330,6 +5347,23 @@ export const Moves: {[moveid: string]: MoveData} = {
 		},
 		target: "normal",
 		type: "Fire",
+		contestType: "Beautiful",
+	},
+	hypnopulse: {
+		num: 53,
+		accuracy: 90,
+		basePower: 55,
+		category: "Special",
+		name: "Hypnopulse",
+		pp: 25,
+		priority: 0,
+		flags: {protect: 1, mirror: 1},
+		secondary: {
+			chance: 10,
+			status: 'slp',
+		},
+		target: "normal",
+		type: "Psychic",
 		contestType: "Beautiful",
 	},
 	flareblitz: {
@@ -14450,6 +14484,47 @@ export const Moves: {[moveid: string]: MoveData} = {
 		type: "Normal",
 		contestType: "Cool",
 	},
+	engulf: {
+		num: 229,
+		accuracy: 100,
+		basePower: 40,
+		category: "Special",
+		name: "Engulf",
+		pp: 40,
+		priority: 0,
+		flags: {contact: 1, protect: 1, mirror: 1},
+		onAfterHit(target, pokemon) {
+			if (pokemon.hp && pokemon.removeVolatile('leechseed')) {
+				this.add('-end', pokemon, 'Leech Seed', '[from] move: Rapid Spin', '[of] ' + pokemon);
+			}
+			const sideConditions = ['spikes', 'toxicspikes', 'stealthrock', 'stickyweb', 'gmaxsteelsurge'];
+			for (const condition of sideConditions) {
+				if (pokemon.hp && pokemon.side.removeSideCondition(condition)) {
+					this.add('-sideend', pokemon.side, this.dex.getEffect(condition).name, '[from] move: Rapid Spin', '[of] ' + pokemon);
+				}
+			}
+			if (pokemon.hp && pokemon.volatiles['partiallytrapped']) {
+				pokemon.removeVolatile('partiallytrapped');
+			}
+		},
+		onAfterSubDamage(damage, target, pokemon) {
+			if (pokemon.hp && pokemon.removeVolatile('leechseed')) {
+				this.add('-end', pokemon, 'Leech Seed', '[from] move: Rapid Spin', '[of] ' + pokemon);
+			}
+			const sideConditions = ['spikes', 'toxicspikes', 'stealthrock', 'stickyweb', 'gmaxsteelsurge'];
+			for (const condition of sideConditions) {
+				if (pokemon.hp && pokemon.side.removeSideCondition(condition)) {
+					this.add('-sideend', pokemon.side, this.dex.getEffect(condition).name, '[from] move: Rapid Spin', '[of] ' + pokemon);
+				}
+			}
+			if (pokemon.hp && pokemon.volatiles['partiallytrapped']) {
+				pokemon.removeVolatile('partiallytrapped');
+			}
+		},
+		target: "normal",
+		type: "Ghost",
+		contestType: "Cool",
+	},
 	razorleaf: {
 		num: 75,
 		accuracy: 95,
@@ -19311,6 +19386,32 @@ export const Moves: {[moveid: string]: MoveData} = {
 		type: "Normal",
 		contestType: "Beautiful",
 	},
+	bigbang: {
+		num: 161,
+		accuracy: 100,
+		basePower: 105,
+		category: "Special",
+		name: "Big Bang",
+		pp: 5,
+		priority: 0,
+		flags: {protect: 1, mirror: 1},
+		secondary: {
+			chance: 50,
+			onHit(target, source) {
+				const result = this.random(3);
+				if (result === 0) {
+					target.trySetStatus('brn', source);
+				} else if (result === 1) {
+					target.trySetStatus('par', source);
+				} else {
+					target.trySetStatus('frz', source);
+				}
+			},
+		},
+		target: "allAdjacent",
+		type: "Cosmic",
+		contestType: "Beautiful",
+	},
 	trick: {
 		num: 271,
 		accuracy: 100,
@@ -19655,6 +19756,48 @@ export const Moves: {[moveid: string]: MoveData} = {
 		secondary: null,
 		target: "normal",
 		type: "Fighting",
+		contestType: "Cool",
+	},
+	astralshot: {
+		num: 410,
+		accuracy: 100,
+		basePower: 50,
+		category: "Special",
+		name: "Astral Shot",
+		pp: 30,
+		priority: 1,
+		flags: {protect: 1, mirror: 1},
+		secondary: null,
+		target: "normal",
+		type: "Cosmic",
+		contestType: "Cool",
+	},
+	machbolt: {
+		num: 410,
+		accuracy: 100,
+		basePower: 40,
+		category: "Special",
+		name: "Mach Bolt",
+		pp: 30,
+		priority: 1,
+		flags: {protect: 1, mirror: 1},
+		secondary: null,
+		target: "normal",
+		type: "Electric",
+		contestType: "Cool",
+	},
+	flashflood: {
+		num: 410,
+		accuracy: 100,
+		basePower: 40,
+		category: "Special",
+		name: "Flash Flood",
+		pp: 30,
+		priority: 1,
+		flags: {protect: 1, mirror: 1},
+		secondary: null,
+		target: "normal",
+		type: "Water",
 		contestType: "Cool",
 	},
 	instantcrush: {
@@ -20505,6 +20648,23 @@ export const Moves: {[moveid: string]: MoveData} = {
 		},
 		target: "normal",
 		type: "Psychic",
+		contestType: "Clever",
+	},
+	cometshower: {
+		num: 428,
+		accuracy: 95,
+		basePower: 80,
+		category: "Physical",
+		name: "Comet Shower",
+		pp: 15,
+		priority: 0,
+		flags: {protect: 1, mirror: 1},
+		secondary: {
+			chance: 25,
+			volatileStatus: 'flinch',
+		},
+		target: "normal",
+		type: "Cosmic",
 		contestType: "Clever",
 	},
 	zingzap: {

@@ -24350,7 +24350,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	},
 	arkhaos: {
 		num: -2513,
-		name: "Oculeus",
+		name: "Arkhaos",
 		types: ["Cosmic"],
 		genderRatio: {M: 0.50, F: 0.50},
 		baseStats: {hp: 140, atk: 136, def: 100, spa: 136, spd: 100, spe: 188},

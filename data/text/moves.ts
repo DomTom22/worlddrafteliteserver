@@ -99,6 +99,11 @@ export const MovesText: {[k: string]: MoveText} = {
 		desc: "Has a 30% chance to make the target flinch.",
 		shortDesc: "30% chance to make the target flinch.",
 	},
+	cosmicray: {
+		name: "Cosmic Ray",
+		desc: "Has a 15% chance to make the target flinch.",
+		shortDesc: "15% chance to make the target flinch.",
+	},
 	alloutpummeling: {
 		name: "All-Out Pummeling",
 		shortDesc: "Power is equal to the base move's Z-Power.",
@@ -1922,6 +1927,11 @@ export const MovesText: {[k: string]: MoveText} = {
 		name: "Flamethrower",
 		desc: "Has a 10% chance to burn the target.",
 		shortDesc: "10% chance to burn the target.",
+	},
+	hypnopulse: {
+		name: "Hypnopulse",
+		desc: "Has a 10% chance to put the target to sleep.",
+		shortDesc: "10% chance to put the target to sleep.",
 	},
 	flareblitz: {
 		name: "Flare Blitz",
@@ -4776,6 +4786,11 @@ export const MovesText: {[k: string]: MoveText} = {
 			desc: "If this move is successful, the effects of Leech Seed and binding moves end for the user, and Spikes are removed from the user's side of the field.",
 		},
 	},
+	engulf: {
+		name: "Engulf",
+		desc: "If this move is successful and the user has not fainted, the effects of Leech Seed and binding moves end for the user, and all hazards are removed from the user's side of the field.",
+		shortDesc: "Free user from hazards/bind/Leech Seed",
+	},
 	razorleaf: {
 		name: "Razor Leaf",
 		desc: "Has a higher chance for a critical hit.",
@@ -6551,6 +6566,11 @@ export const MovesText: {[k: string]: MoveText} = {
 			shortDesc: "No additional effect.",
 		},
 	},
+	triattack: {
+		name: "Tri Attack",
+		desc: "Has a 50% chance to either burn, freeze, or paralyze the target.",
+		shortDesc: "50% chance to paralyze or burn or freeze target.",
+	},
 	trick: {
 		name: "Trick",
 		desc: "The user swaps its held item with the target's held item. Fails if either the user or the target is holding a Mail or Z-Crystal, if neither is holding an item, if the user is trying to give or take a Mega Stone to or from the species that can Mega Evolve with it, or if the user is trying to give or take a Blue Orb, a Red Orb, a Griseous Orb, a Plate, a Drive, or a Memory to or from a Kyogre, a Groudon, a Giratina, an Arceus, a Genesect, or a Silvally, respectively. The target is immune to this move if it has the Sticky Hold Ability.",
@@ -6684,6 +6704,21 @@ export const MovesText: {[k: string]: MoveText} = {
 	},
 	vacuumwave: {
 		name: "Vacuum Wave",
+		desc: "No additional effect.",
+		shortDesc: "Usually goes first.",
+	},
+	astralshot: {
+		name: "Astral Shot",
+		desc: "No additional effect.",
+		shortDesc: "Usually goes first.",
+	},
+	machbolt: {
+		name: "Mach Bolt",
+		desc: "No additional effect.",
+		shortDesc: "Usually goes first.",
+	},
+	flashflood: {
+		name: "Flash Flood",
 		desc: "No additional effect.",
 		shortDesc: "Usually goes first.",
 	},
@@ -7009,6 +7044,11 @@ export const MovesText: {[k: string]: MoveText} = {
 		name: "Zen Headbutt",
 		desc: "Has a 20% chance to make the target flinch.",
 		shortDesc: "20% chance to make the target flinch.",
+	},
+	cometshower: {
+		name: "Comet Shower",
+		desc: "Has a 25% chance to make the target flinch.",
+		shortDesc: "25% chance to make the target flinch.",
 	},
 	zingzap: {
 		name: "Zing Zap",

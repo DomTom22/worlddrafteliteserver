@@ -2481,6 +2481,9 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "NUBL",
 		doublesTier: "(DUU)",
 	},
+	flygonelite: {
+		tier: "CAP",
+	},
 	cacnea: {
 		isNonstandard: "Past",
 		tier: "Illegal",

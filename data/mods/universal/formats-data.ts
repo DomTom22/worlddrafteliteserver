@@ -6972,7 +6972,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "Illegal",
 	},
 	crustledeltacake: {
-		tier: "Uber",
+		tier: "OUBL",
 	},
 	crustledeltaberry: {
 		tier: "ZU",
@@ -7077,7 +7077,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "ZU",
 	},
 	buckston: {
-		tier: "ZU",
+		tier: "XU",
 	},
 	penglacier: {
 		tier: "XU",
@@ -7680,7 +7680,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "XU",
 	},
 	rougella: {
-		tier: "NUBL",
+		tier: "NU",
 	},
 	conductot: {
 		tier: "ZUBL",
@@ -7722,7 +7722,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "NU",
 	},
 	valentide: {
-		tier: "ZU",
+		tier: "XU",
 	},
 	blizentork: {
 		tier: "NUBL",
@@ -7749,32 +7749,25 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "PU",
 	},
 	reaptide: {
-		isNonstandard: "Past",
-		tier: "Illegal",
+		tier: "AG",
 	},
 	snosquatch: {
-		isNonstandard: "Past",
-		tier: "Illegal",
+		tier: "NU",
 	},
 	grasquatch: {
-		isNonstandard: "Past",
-		tier: "Illegal",
+		tier: "ZU",
 	},
 	gigantusk: {
-		isNonstandard: "Past",
-		tier: "Illegal",
+		tier: "OUBL",
 	},
 	glacieros: {
-		isNonstandard: "Past",
-		tier: "Illegal",
+		tier: "RU",
 	},
 	mockroach: {
-		isNonstandard: "Past",
-		tier: "Illegal",
+		tier: "PU",
 	},
 	ceregal: {
-		isNonstandard: "Past",
-		tier: "Illegal",
+		tier: "RUBL",
 	},
 	dragoyle: {
 		isNonstandard: "Past",
@@ -7861,11 +7854,10 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "UU",
 	},
 	faeralynx: {
-		tier: "RU",
+		tier: "NU",
 	},
 	grimfowl: {
-		isNonstandard: "Past",
-		tier: "Illegal",
+		tier: "NUBL",
 	},
 	skullkraken: {
 		tier: "UU",
@@ -7901,32 +7893,25 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "NU",
 	},
 	sunflorid: {
-		isNonstandard: "Past",
-		tier: "Illegal",
+		tier: "UU",
 	},
 	sorcerice: {
-		isNonstandard: "Past",
-		tier: "Illegal",
+		tier: "RUBL",
 	},
 	kecleodon: {
-		isNonstandard: "Past",
-		tier: "Illegal",
+		tier: "PUBL",
 	},
 	wereyena: {
-		isNonstandard: "Past",
-		tier: "Illegal",
+		tier: "RU",
 	},
 	jollibird: {
-		isNonstandard: "Past",
-		tier: "Illegal",
+		tier: "PUBL",
 	},
 	kablowfish: {
-		isNonstandard: "Past",
-		tier: "Illegal",
+		tier: "NU",
 	},
 	porygonx: {
-		isNonstandard: "Past",
-		tier: "Illegal",
+		tier: "UUBL",
 	},
 	shyleon: {
 		isNonstandard: "Past",

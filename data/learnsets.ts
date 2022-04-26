@@ -1122,7 +1122,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			{generation: 7, level: 9},
 		],
 	},
-	butterfreeelite: {
+	butterfreechromatic: {
 		learnset: {
 			acrobatics: ["8M", "7M", "6M", "5M"],
 			aerialace: ["7M", "6M", "5M", "4M", "3M", "3S0"],
@@ -1345,7 +1345,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			{generation: 4, level: 6},
 		],
 	},
-	beedrillelite: {
+	beedrillchromatic: {
 		learnset: {
 			acrobatics: ["7M", "6M", "5M"],
 			aerialace: ["7M", "6M", "5M", "4M", "3M"],
@@ -2057,7 +2057,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 		],
 		eventOnly: true,
 	},
-	raticateelite: {
+	raticatechromatic: {
 		learnset: {
 			assurance: ["7L19", "6L29", "5L29", "4L29"],
 			attract: ["7M", "7V", "6M", "5M", "4M", "3M"],
@@ -2505,7 +2505,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			{generation: 4, level: 10},
 		],
 	},
-	arbokelite: {
+	arbokchromatic: {
 		learnset: {
 			acid: ["8V", "7L20", "7V", "6L20", "5L20", "4L20", "3L38"],
 			acidspray: ["7L32", "6L32", "5L32"],
@@ -5348,7 +5348,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			zenheadbutt: ["8M", "7T", "6T", "5T", "4T"],
 		},
 	},
-	clefableelite: {
+	clefablechromatic: {
 		learnset: {
 			afteryou: ["8L1", "7T", "6T", "5T"],
 			allyswitch: ["8M"],
@@ -6973,7 +6973,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			{generation: 2, level: 5},
 		],
 	},
-	parasectelite: {
+	parasectchromatic: {
 		learnset: {
 			absorb: ["8V", "7L1"],
 			aerialace: ["7M", "6M", "5M", "4M", "3M"],
@@ -8294,7 +8294,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			{generation: 4, level: 10},
 		],
 	},
-	golduckelite: {
+	golduckchromatic: {
 		learnset: {
 			aerialace: ["7M", "6M", "5M", "4M", "3M"],
 			amnesia: ["8M", "8L36", "8V", "7L41", "6L49", "5L56", "4L50"],
@@ -10094,7 +10094,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			wrap: ["8V", "7V"],
 		},
 	},
-	victreebelelite: {
+	victreebelchromatic: {
 		learnset: {
 			acid: ["8V", "7V"],
 			attract: ["7M", "7V", "6M", "5M", "4M", "3M"],
@@ -10359,7 +10359,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			{generation: 6, level: 21, maxEggMoves: 1},
 		],
 	},
-	tentacruelelite: {
+	tentacruelchromatic: {
 		learnset: {
 			darkpulse: ["8M"],
 			thundershock: ["8M"],
@@ -10885,7 +10885,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			wildcharge: ["7M"],
 		},
 	},
-	golemelite: {
+	golemchromatic: {
 		learnset: {
 			ancientpower: ["4T"],
 			attract: ["7M", "7V", "6M", "5M", "4M", "3M"],
@@ -11110,7 +11110,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			{generation: 8, level: 15, isHidden: true, moves: ["tackle", "growl", "confusion", "fairywind"], pokeball: "cherishball"},
 		],
 	},
-	ponytaelite: {
+	ponytachromatic: {
 		learnset: {
 			coralbreak: ["8M"],
 			toxic: ["8M"],
@@ -11326,7 +11326,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			zenheadbutt: ["8M"],
 		},
 	},
-	rapidashelite: {
+	rapidashchromatic: {
 		learnset: {
 			toxic: ["8M"],
 			coralbreak: ["8M"],
@@ -14274,7 +14274,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			{generation: 4, level: 16},
 		],
 	},
-	hypnoelite: {
+	hypnochromatic: {
 		learnset: {
 			allyswitch: ["7T"],
 			attract: ["7M", "7V", "6M", "5M", "4M", "3M"],
@@ -17836,7 +17836,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			{generation: 3, level: 41, moves: ["refresh", "waterfall", "icebeam", "recover"]},
 		],
 	},
-	starmieelite: {
+	starmiechromatic: {
 		learnset: {
 			autotomize: ["8M"],
 			allyswitch: ["8M", "7T"],
@@ -18155,7 +18155,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			{generation: 1, level: 6},
 		],
 	},
-	mrmimeelite: {
+	mrmimechromatic: {
 		learnset: {
 			aerialace: ["7M", "6M", "5M", "4M"],
 			allyswitch: ["8M", "7T"],
@@ -21349,7 +21349,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			xscissor: ["8M", "8V", "7M", "6M", "5M", "4M"],
 		},
 	},
-	kabutopselite: {
+	kabutopschromatic: {
 		learnset: {
 			absorb: ["8L1", "8V", "7L1", "7V", "6L1", "5L1", "4L1", "3L1"],
 			aerialace: ["7M", "6M", "5M", "4M", "3M"],
@@ -22447,7 +22447,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			{generation: 7, level: 10},
 		],
 	},
-	dragonairelite: {
+	dragonairchromatic: {
 		learnset: {
 			agility: ["8M", "8L20", "8V", "7L25", "7V", "6L25", "5L25", "4L25", "3L38"],
 			aquatail: ["8L33", "7T", "7L39", "6T", "6L39", "5T", "5L39", "4T", "4L33"],
@@ -24762,7 +24762,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			{generation: 6, level: 19, maxEggMoves: 1},
 		],
 	},
-	ariadoselite: {
+	ariadoschromatic: {
 		learnset: {
 			absorb: ["7L1"],
 			agility: ["7L37", "7V", "6L37", "5L37", "4L37", "3L53"],
@@ -25549,7 +25549,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			{generation: 7, level: 21},
 		],
 	},
-	xatuelite: {
+	xatuchromatic: {
 		learnset: {
 			aerialace: ["7M", "6M", "5M", "4M", "3M"],
 			aircutter: ["4T"],
@@ -27645,7 +27645,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			zenheadbutt: ["7T", "7L32", "6T", "6L32", "5T", "5L41", "4T", "4L41"],
 		},
 	},
-	girafarigelite: {
+	girafarigchromatic: {
 		learnset: {
 			agility: ["7L23", "7V", "6L14", "5L14", "4L14", "3L31"],
 			allyswitch: ["7T"],
@@ -28503,7 +28503,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			{generation: 3, level: 10, gender: "M", moves: ["tackle", "poisonsting", "harden", "minimize"], pokeball: "pokeball"},
 		],
 	},
-	qwilfishelite: {
+	qwilfishchromatic: {
 		learnset: {
 			spark: ["8M"],
 			ember: ["8M"],
@@ -30290,7 +30290,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			xscissor: ["8M", "7M", "6M", "5M", "4M"],
 		},
 	},
-	skarmoryelite: {
+	skarmorychromatic: {
 		learnset: {
 			aerialace: ["7M", "6M", "5M", "4M", "3M"],
 			agility: ["8M", "8L16", "7L31", "7V", "6L12", "5L12", "4L12", "3L16"],
@@ -31674,7 +31674,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			eruption: ["8M"],
 		},
 	},
-	tyranitarelite: {
+	tyranitarchromatic: {
 		learnset: {
 			aerialace: ["7M", "6M", "5M", "4M", "3M"],
 			ancientpower: ["4T"],
@@ -32598,7 +32598,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			{generation: 5, level: 50, shiny: 1, moves: ["leafstorm", "dragonpulse", "focusblast", "rockslide"], pokeball: "cherishball"},
 		],
 	},
-	sceptileelite: {
+	sceptilechromatic: {
 		learnset: {
 			acrobatics: ["8M", "7M", "6M", "5M"],
 			aerialace: ["7M", "6M", "5M", "4M", "3M"],
@@ -33437,7 +33437,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			{generation: 7, level: 64, gender: "M", abilities: ["intimidate"], moves: ["crunch", "firefang", "icefang", "thunderfang"], pokeball: "cherishball"},
 		],
 	},
-	mightyenaelite: {
+	mightyenachromatic: {
 		learnset: {
 			assurance: ["7L24", "6L24", "5L32", "4L32"],
 			attract: ["7M", "6M", "5M", "4M", "3M"],
@@ -34094,7 +34094,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			whirlwind: ["7L30", "6L27", "5L27", "4L27", "3L27"],
 		},
 	},
-	dustoxelite: {
+	dustoxchromatic: {
 		learnset: {
 			acrobatics: ["7M", "6M", "5M"],
 			aerialace: ["7M", "6M", "5M", "4M", "3M"],
@@ -35622,7 +35622,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			{generation: 6, level: 21, maxEggMoves: 1},
 		],
 	},
-	masquerainelite: {
+	masquerainchromatic: {
 		learnset: {
 			aerialace: ["7M", "6M", "5M", "4M", "3M"],
 			aircutter: ["7L22", "6L22", "4T"],
@@ -36111,7 +36111,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			{generation: 4, level: 50, gender: "M", nature: "Adamant", moves: ["gigaimpact", "return", "shadowclaw", "aerialace"], pokeball: "cherishball"},
 		],
 	},
-	slakingelite: {
+	slakingchromatic: {
 		learnset: {
 			aerialace: ["7M", "6M", "5M", "4M", "4S0", "3M"],
 			afteryou: ["7T", "6T", "5T"],
@@ -38971,7 +38971,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			{generation: 7, level: 10},
 		],
 	},
-	sharpedoelite: {
+	sharpedochromatic: {
 		learnset: {
 			agility: ["8M", "8L40", "7L45", "6L45", "5L45", "4L45", "3L53"],
 			ancientpower: ["4T"],
@@ -39219,7 +39219,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			{generation: 7, level: 10},
 		],
 	},
-	wailordelite: {
+	wailordchromatic: {
 		learnset: {
 			amnesia: ["8M", "8L44", "7L37", "6L37", "5L37", "4L37", "3L52", "3S0"],
 			astonish: ["8L1", "7L16", "6L16", "5L17", "4L17", "3L23"],
@@ -39724,7 +39724,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			{generation: 6, level: 30},
 		],
 	},
-	grumpigelite: {
+	grumpigchromatic: {
 		learnset: {
 			allyswitch: ["7T"],
 			attract: ["7M", "6M", "5M", "4M", "3M"],
@@ -40193,7 +40193,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			{generation: 4, level: 50, gender: "M", nature: "Naive", moves: ["dracometeor", "uturn", "earthquake", "dragonclaw"], pokeball: "cherishball"},
 		],
 	},
-	flygonelite: {
+	flygonchromatic: {
 		learnset: {
 			aerialace: ["7M", "6M", "5M", "4M"],
 			aircutter: ["4T"],
@@ -40658,7 +40658,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			{generation: 6, level: 100, nature: "Modest", isHidden: true, moves: ["hypervoice", "fireblast", "protect", "agility"], pokeball: "cherishball"},
 		],
 	},
-	altariaelite: {
+	altariachromatic: {
 		learnset: {
 			aerialace: ["7M", "6M", "5M", "4M", "3M", "3S1"],
 			agility: ["8M", "6S3"],
@@ -42704,7 +42704,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			{generation: 6, level: 30},
 		],
 	},
-	dusclopselite: {
+	dusclopschromatic: {
 		learnset: {
 			allyswitch: ["8M", "7T"],
 			astonish: ["8L1", "7L1", "6L1", "5L14", "4L14"],
@@ -42907,7 +42907,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			wonderroom: ["8M", "7T", "6T"],
 		},
 	},
-	dusknoirelite: {
+	dusknoirchromatic: {
 		learnset: {
 			allyswitch: ["8M", "7T"],
 			astonish: ["8L1", "7L1", "6L1", "5L14", "4L14"],
@@ -43526,7 +43526,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			weatherball: ["8M"],
 		},
 	},
-	glalieelite: {
+	glaliechromatic: {
 		learnset: {
 			roar: ["8M"],
 			toxic: ["8M"],
@@ -44679,7 +44679,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			{generation: 7, level: 50, nature: "Jolly", ivs: {hp: 31, atk: 31, def: 31, spa: 31, spd: 31, spe: 31}, moves: ["ironhead", "icepunch", "bulletpunch", "stompingtantrum"], pokeball: "cherishball"},
 		],
 	},
-	metagrosselite: {
+	metagrosschromatic: {
 		learnset: {
 			aerialace: ["7M", "6M", "5M", "4M", "3M"],
 			allyswitch: ["8M", "7T"],
@@ -44871,7 +44871,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 		],
 		eventOnly: true,
 	},
-	regirockelite: {
+	regirockchromatic: {
 		learnset: {
 			ancientpower: ["8L12", "7L31", "6L31", "6S4", "5L33", "4T", "4L33", "3L33", "3S0", "3S1"],
 			block: ["7T", "6T", "5T", "4T"],
@@ -45055,7 +45055,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 		],
 		eventOnly: true,
 	},
-	regiceelite: {
+	regicechromatic: {
 		learnset: {
 			amnesia: ["8M", "8L36", "8S7", "7L37", "6L37", "6S4", "6S5", "5L41", "5S3", "4L41", "3L41"],
 			ancientpower: ["8L12", "7L31", "6L31", "6S4", "5L33", "4T", "4L33", "3L33", "3S0", "3S1"],
@@ -45239,7 +45239,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 		],
 		eventOnly: true,
 	},
-	registeelelite: {
+	registeelchromatic: {
 		learnset: {
 			aerialace: ["7M", "6M", "5M", "4M", "3M"],
 			amnesia: ["8M", "8L36", "7L37", "6L37", "6S4", "5L41", "5S3", "4L41", "3L41"],
@@ -46400,7 +46400,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			{generation: 5, level: 100, gender: "M", moves: ["woodhammer", "earthquake", "outrage", "stoneedge"], pokeball: "cherishball"},
 		],
 	},
-	torterraelite: {
+	torterrachromatic: {
 		learnset: {
 			absorb: ["7L1", "6L1", "5L1", "4L1"],
 			attract: ["7M", "6M", "5M", "4M"],
@@ -46762,7 +46762,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			{generation: 6, level: 88, isHidden: true, moves: ["fireblast", "closecombat", "firepunch", "focuspunch"], pokeball: "cherishball"},
 		],
 	},
-	infernapeelite: {
+	infernapechromatic: {
 		learnset: {
 			acrobatics: ["7M", "7L52", "6M", "6L52", "5M", "5L52"],
 			aerialace: ["7M", "6M", "5M", "4M"],
@@ -47091,7 +47091,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			{generation: 5, level: 100, gender: "M", moves: ["hydropump", "icebeam", "aquajet", "grassknot"], pokeball: "cherishball"},
 		],
 	},
-	empoleonelite: {
+	empoleonchromatic: {
 		learnset: {
 			aerialace: ["7M", "6M", "5M", "4M"],
 			bulletpunch: ["7L1", "6L36", "5L36", "5S0", "4L36"],
@@ -47974,7 +47974,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			zenheadbutt: ["7T", "7L43", "6T", "6L43", "5T", "5L43", "4T", "4L36"],
 		},
 	},
-	rampardoselite: {
+	rampardoschromatic: {
 		learnset: {
 			ancientpower: ["7L36", "6L36", "5L36", "4T", "4L28"],
 			assurance: ["7L24", "6L24", "5L24", "4L24"],
@@ -48207,7 +48207,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			toxic: ["7M", "6M", "5M", "4M"],
 		},
 	},
-	bastiodonelite: {
+	bastiodonchromatic: {
 		learnset: {
 			ancientpower: ["7L28", "6L28", "5L28", "4T", "4L28"],
 			attract: ["7M", "6M", "5M", "4M"],
@@ -48651,7 +48651,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			xscissor: ["8M", "7M", "6M", "5M", "4M"],
 		},
 	},
-	vespiquenelite: {
+	vespiquenchromatic: {
 		learnset: {
 			acrobatics: ["8M", "7M", "6M", "5M"],
 			aerialace: ["7M", "6M", "5M", "4M"],
@@ -50273,7 +50273,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			{generation: 5, level: 61, gender: "F", nature: "Quiet", ivs: {hp: 30, atk: 30, def: 30, spa: 30, spd: 30, spe: 30}, moves: ["darkpulse", "psychic", "silverwind", "embargo"], pokeball: "cherishball"},
 		],
 	},
-	spiritombelite: {
+	spiritombchromatic: {
 		learnset: {
 			allyswitch: ["8M", "7T"],
 			attract: ["8M", "7M", "6M", "5M", "4M"],
@@ -50906,7 +50906,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			{generation: 7, level: 40, gender: "M", nature: "Serious", abilities: ["steadfast"], moves: ["aurasphere", "highjumpkick", "dragonpulse", "extremespeed"], pokeball: "pokeball"},
 		],
 	},
-	lucarioelite: {
+	lucariochromatic: {
 		learnset: {
 			agility: ["8M"],
 			attract: ["8M", "7M", "6M", "5M", "4M"],
@@ -51605,7 +51605,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			{generation: 6, level: 30},
 		],
 	},
-	toxicroakelite: {
+	toxicroakchromatic: {
 		learnset: {
 			assurance: ["8M"],
 			astonish: ["8L1", "7L1", "6L1", "5L1", "4L1"],
@@ -52898,7 +52898,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 		],
 		eventOnly: true,
 	},
-	regigigaselite: {
+	regigigaschromatic: {
 		learnset: {
 			ancientpower: ["4T"],
 			avalanche: ["8M", "4M"],
@@ -53794,7 +53794,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 		],
 		eventOnly: true,
 	},
-	victinielite: {
+	victinichromatic: {
 		learnset: {
 			batonpass: ["8M"],
 			blueflare: ["5S2"],
@@ -55031,7 +55031,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			{generation: 5, level: 20, gender: "F", nature: "Jolly", isHidden: true, moves: ["fakeout", "foulplay", "encore", "swagger"]},
 		],
 	},
-	liepardelite: {
+	liepardchromatic: {
 		learnset: {
 			aerialace: ["7M", "6M", "5M"],
 			assist: ["7L1", "6L1", "5L1"],
@@ -55264,7 +55264,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			worryseed: ["7T", "6T", "5T"],
 		},
 	},
-	simisageelite: {
+	simisagechromatic: {
 		learnset: {
 			acrobatics: ["7M", "6M", "5M"],
 			attract: ["7M", "6M", "5M"],
@@ -55487,7 +55487,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			{generation: 6, level: 5, perfectIVs: 2, moves: ["workup", "honeclaws", "poweruppunch", "gigaimpact"], pokeball: "cherishball"},
 		],
 	},
-	simisearelite: {
+	simisearchromatic: {
 		learnset: {
 			acrobatics: ["7M", "6M", "5M"],
 			attract: ["7M", "6M", "5M"],
@@ -55712,7 +55712,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			workup: ["7M", "5M"],
 		},
 	},
-	simipourelite: {
+	simipourchromatic: {
 		learnset: {
 			acrobatics: ["7M", "6M", "5M"],
 			aquatail: ["7T", "6T", "5T"],
@@ -55946,7 +55946,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			{generation: 5, level: 50, isHidden: true, moves: ["defensecurl", "luckychant", "psybeam", "hypnosis"]},
 		],
 	},
-	musharnaelite: {
+	musharnachromatic: {
 		learnset: {
 			afteryou: ["7T", "6T", "5T"],
 			allyswitch: ["8M", "7T"],
@@ -56288,7 +56288,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			wildcharge: ["7M", "7L47", "6M", "6L47", "5M", "5L47"],
 		},
 	},
-	zebstrikaelite: {
+	zebstrikachromatic: {
 		learnset: {
 			agility: ["7L42", "6L42", "5L42"],
 			allyswitch: ["7T"],
@@ -56585,7 +56585,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			weatherball: ["8M"],
 		},
 	},
-	gigalithelite: {
+	gigalithchromatic: {
 		learnset: {
 			attract: ["8M", "7M", "6M", "5M"],
 			block: ["7T", "6T", "5T"],
@@ -58606,7 +58606,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			uproar: ["8M", "7T", "6T", "5T"],
 		},
 	},
-	krookodileelite: {
+	krookodilechromatic: {
 		learnset: {
 			aerialace: ["7M", "6M", "5M"],
 			aquatail: ["7T", "6T", "5T"],
@@ -60402,7 +60402,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			{generation: 5, level: 25},
 		],
 	},
-	zoroarkelite: {
+	zoroarkchromatic: {
 		learnset: {
 			aerialace: ["7M", "6M", "5M"],
 			agility: ["8M", "8L34", "7L39", "6L39", "5L39", "5S0"],
@@ -61557,7 +61557,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			{generation: 6, level: 30},
 		],
 	},
-	sawsbuckelite: {
+	sawsbuckchromatic: {
 		learnset: {
 			aromatherapy: ["7L28", "6L28", "5L28"],
 			attract: ["7M", "6M", "5M"],
@@ -63391,7 +63391,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			{generation: 5, level: 59, gender: "F", nature: "Naive", ivs: {hp: 30, atk: 30, def: 30, spa: 30, spd: 30, spe: 30}, abilities: ["moldbreaker"], moves: ["earthquake", "dualchop", "xscissor", "dragondance"], pokeball: "cherishball"},
 		],
 	},
-	haxoruselite: {
+	haxoruschromatic: {
 		learnset: {
 			aerialace: ["7M", "6M", "5M"],
 			aquatail: ["7T", "6T", "5T"],
@@ -63821,7 +63821,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			yawn: ["8L1"],
 		},
 	},
-	accelgorelite: {
+	accelgorchromatic: {
 		learnset: {
 			absorb: ["8L1", "7L1"],
 			acid: ["8L1"],
@@ -63974,7 +63974,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			yawn: ["8E", "7E", "6E", "5E", "5D"],
 		},
 	},
-	stunfiskelite: {
+	stunfiskchromatic: {
 		learnset: {
 			aquatail: ["7T", "6T", "5T"],
 			astonish: ["8E", "7E", "6E", "5E"],
@@ -65816,7 +65816,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 		],
 		eventOnly: true,
 	},
-	cobalionelite: {
+	cobalionchromatic: {
 		learnset: {
 			aerialace: ["7M", "6M", "5M"],
 			airslash: ["8M"],
@@ -65973,7 +65973,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 		],
 		eventOnly: true,
 	},
-	terrakionelite: {
+	terrakionchromatic: {
 		learnset: {
 			aerialace: ["7M", "6M", "5M"],
 			airslash: ["8M"],
@@ -66134,7 +66134,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 		],
 		eventOnly: true,
 	},
-	virizionelite: {
+	virizionchromatic: {
 		learnset: {
 			aerialace: ["7M", "6M", "5M"],
 			airslash: ["8M"],
@@ -67040,7 +67040,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	keldeoresolute: {
 		eventOnly: true,
 	},
-	keldeoelite: {
+	keldeochromatic: {
 		learnset: {
 			aerialace: ["7M", "6M", "5M"],
 			airslash: ["8M"],
@@ -68819,7 +68819,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			{generation: 6, level: 30},
 		],
 	},
-	pyroarelite: {
+	pyroarchromatic: {
 		learnset: {
 			attract: ["7M", "6M"],
 			bounce: ["7T", "6T"],
@@ -70655,7 +70655,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			waterpulse: ["8L30", "7T", "7L25", "6T", "6L25"],
 		},
 	},
-	skrelpelite: {
+	skrelpchromatic: {
 		learnset: {
 			acid: ["8L1", "7L15", "6L15"],
 			aquatail: ["8L45", "7T", "7L35", "6T", "6L35"],
@@ -70790,7 +70790,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			{generation: 6, level: 35},
 		],
 	},
-	dragalgeelite: {
+	dragalgechromatic: {
 		learnset: {
 			acid: ["8L1", "7L15", "6L15"],
 			aquatail: ["8L45", "7T", "7L35", "6T", "6L35"],
@@ -71466,7 +71466,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			zenheadbutt: ["8M", "7T", "6T"],
 		},
 	},
-	auroruselite: {
+	auroruschromatic: {
 		learnset: {
 			ancientpower: ["8L1", "7L26", "6L26"],
 			aquatail: ["7T", "6T"],
@@ -72051,7 +72051,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			weatherball: ["8M"],
 		},
 	},
-	goodraelite: {
+	goodrachromatic: {
 		learnset: {
 			absorb: ["8L1", "7L1", "6L5"],
 			acidspray: ["8L1"],
@@ -72368,7 +72368,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			xscissor: ["8M", "7M", "6M"],
 		},
 	},
-	trevenantelite: {
+	trevenantchromatic: {
 		learnset: {
 			allyswitch: ["8M", "7T"],
 			astonish: ["8L1", "7L1", "6L5"],
@@ -73464,7 +73464,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 		],
 		eventOnly: true,
 	},
-	volcanionelite: {
+	volcanionchromatic: {
 		learnset: {
 			bodypress: ["8M"],
 			bodyslam: ["8M", "7L46", "6L46"],
@@ -75341,7 +75341,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			zenheadbutt: ["8M", "7T"],
 		},
 	},
-	lycanrocelite: {
+	lycanrocchromatic: {
 		learnset: {
 			accelerock: ["8L1", "7L1"],
 			agility: ["8M"],
@@ -75492,7 +75492,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			{generation: 7, level: 50, isHidden: true, moves: ["stoneedge", "firefang", "suckerpunch", "swordsdance"], pokeball: "cherishball"},
 		],
 	},
-	lycanrocmidnightelite: {
+	lycanrocmidnightchromatic: {
 		learnset: {
 			attract: ["8M", "7M"],
 			bite: ["8L20", "7L1"],
@@ -77834,7 +77834,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			zenheadbutt: ["7T"],
 		},
 	},
-	komalaelite: {
+	komalachromatic: {
 		learnset: {
 			acrobatics: ["7M"],
 			attract: ["7M"],
@@ -78540,7 +78540,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			wrap: ["8L8", "7L9"],
 		},
 	},
-	dhelmiseelite: {
+	dhelmisechromatic: {
 		learnset: {
 			absorb: ["8L1", "7L1"],
 			aerialace: ["7M"],
@@ -82007,7 +82007,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			whirlpool: ["8M"],
 		},
 	},
-	drednawelite: {
+	drednawchromatic: {
 		learnset: {
 			assurance: ["8M"],
 			attract: ["8M"],
@@ -82164,7 +82164,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			wildcharge: ["8M", "8L48"],
 		},
 	},
-	boltundelite: {
+	boltundchromatic: {
 		learnset: {
 			agility: ["8M"],
 			attract: ["8M"],
@@ -82550,7 +82550,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			zenheadbutt: ["8M"],
 		},
 	},
-	sandacondaelite: {
+	sandacondachromatic: {
 		learnset: {
 			attract: ["8M"],
 			brutalswing: ["8M", "8L1"],
@@ -82991,7 +82991,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			xscissor: ["8M"],
 		},
 	},
-	centiskorchelite: {
+	centiskorchchromatic: {
 		learnset: {
 			attract: ["8M"],
 			bite: ["8L1"],
@@ -83151,7 +83151,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			workup: ["8M"],
 		},
 	},
-	grapploctelite: {
+	grapploctchromatic: {
 		learnset: {
 			attract: ["8M"],
 			coralbreak: ["8M"],

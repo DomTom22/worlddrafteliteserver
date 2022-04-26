@@ -142,7 +142,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		isNonstandard: "Past",
 		tier: "Illegal",
 	},
-	raticateelite: {
+	raticatechromatic: {
 		isNonstandard: "CAP",
 		tier: "CAP",
 	},
@@ -408,7 +408,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	parasect: {
 		tier: "(PU)",
 	},
-	parasectelite: {
+	parasectchromatic: {
 		isNonstandard: "CAP",
 		tier: "CAP",
 	},
@@ -507,7 +507,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "RU",
 		doublesTier: "DUU",
 	},
-	arcanineelite: {
+	arcaninechromatic: {
 		randomBattleMoves: ["scorchingsands", "scald", "icebeam", "slackoff"],
 		randomBattleLevel: 80,
 		isNonstandard: "Past",
@@ -583,7 +583,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	victreebel: {
 		tier: "(PU)",
 	},
-	victreebelelite: {
+	victreebelchromatic: {
 		isNonstandard: "Past",
 		tier: "Illegal",
 	},
@@ -598,7 +598,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "RU",
 		doublesTier: "(DUU)",
 	},
-	tentacruelelite: {
+	tentacruelchromatic: {
 		isNonstandard: "Past",
 		tier: "Illegal",
 	},
@@ -624,7 +624,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	golemalola: {
 		tier: "(PU)",
 	},
-	golemelite: {
+	golemchromatic: {
 		isNonstandard: "Past",
 		tier: "Illegal",
 	},
@@ -650,7 +650,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "(PU)",
 		doublesTier: "(DUU)",
 	},
-	rapidashelite: {
+	rapidashchromatic: {
 		isNonstandard: "Past",
 		tier: "Illegal",
 	},
@@ -1032,7 +1032,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "NUBL",
 		doublesTier: "(DUU)",
 	},
-	starmieelite: {
+	starmiechromatic: {
 		isNonstandard: "CAP",
 		tier: "CAP",
 	},
@@ -1382,7 +1382,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "(PU)",
 		doublesTier: "(DUU)",
 	},
-	kabutopselite: {
+	kabutopschromatic: {
 		isNonstandard: "Past",
 		tier: "Illegal",
 	},
@@ -1473,7 +1473,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	dragonair: {
 		tier: "NFE",
 	},
-	dragonairelite: {
+	dragonairchromatic: {
 		isNonstandard: "CAP",
 		tier: "CAP",
 	},
@@ -1575,7 +1575,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	ariados: {
 		tier: "PU",
 	},
-	ariadoselite: {
+	ariadoschromatic: {
 		isNonstandard: "CAP",
 		tier: "CAP",
 	},
@@ -1615,7 +1615,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "PU",
 		doublesTier: "(DUU)",
 	},
-	xatuelite: {
+	xatuchromatic: {
 		isNonstandard: "CAP",
 		tier: "CAP",
 	},
@@ -1735,7 +1735,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	girafarig: {
 		tier: "(PU)",
 	},
-	girafarigelite: {
+	girafarigchromatic: {
 		isNonstandard: "CAP",
 		tier: "CAP",
 	},
@@ -1775,7 +1775,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "(PU)",
 		doublesTier: "(DUU)",
 	},
-	qwilfishelite: {
+	qwilfishchromatic: {
 		isNonstandard: "Past",
 		tier: "Illegal",
 	},
@@ -1823,7 +1823,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	magcargo: {
 		tier: "(PU)",
 	},
-	magcargoelite: {
+	magcargochromatic: {
 		isNonstandard: "CAP",
 		tier: "CAP",
 	},
@@ -1970,7 +1970,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "OU",
 		doublesTier: "DOU",
 	},
-	tyranitarelite: {
+	tyranitarchromatic: {
 		isNonstandard: "CAP",
 		tier: "CAP",
 	},
@@ -2020,14 +2020,14 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "PUBL",
 		doublesTier: "(DUU)",
 	},
-	sceptileelite: {
+	sceptilechromatic: {
 		isNonstandard: "CAP",
 		tier: "CAP",
 	},
 	sceptilemega: {
 		tier: "RU",
 	},
-	sceptileelitemega: {
+	sceptilechromaticmega: {
 		isNonstandard: "CAP",
 		tier: "CAP",
 	},
@@ -2078,7 +2078,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	mightyena: {
 		tier: "(PU)",
 	},
-	mightyenaelite: {
+	mightyenachromatic: {
 		isNonstandard: "CAP",
 		tier: "CAP",
 	},
@@ -2126,7 +2126,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	dustox: {
 		tier: "(PU)",
 	},
-	dustoxelite: {
+	dustoxchromatic: {
 		isNonstandard: "Past",
 		tier: "Illegal",
 	},
@@ -2159,7 +2159,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "(PU)",
 		doublesTier: "(DUU)",
 	},
-	shiftryelite: {
+	shiftrychromatic: {
 		isNonstandard: "CAP",
 		tier: "CAP",
 	},
@@ -2217,7 +2217,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	masquerain: {
 		tier: "PU",
 	},
-	masquerainelite: {
+	masquerainchromatic: {
 		isNonstandard: "CAP",
 		tier: "CAP",
 	},
@@ -2239,7 +2239,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	slaking: {
 		tier: "(PU)",
 	},
-	slakingelite: {
+	slakingchromatic: {
 		isNonstandard: "Past",
 		tier: "Illegal",
 	},
@@ -2408,7 +2408,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "NUBL",
 		doublesTier: "(DUU)",
 	},
-	sharpedoelite: {
+	sharpedochromatic: {
 		isNonstandard: "Past",
 		tier: "Illegal",
 	},
@@ -2416,7 +2416,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		isNonstandard: "Past",
 		tier: "Illegal",
 	},
-	sharpedoelitemega: {
+	sharpedochromaticmega: {
 		tier: "OU",
 	},
 	wailmer: {
@@ -2430,7 +2430,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "(PU)",
 		doublesTier: "(DUU)",
 	},
-	wailordelite: {
+	wailordchromatic: {
 		isNonstandard: "CAP",
 		tier: "CAP",
 	},
@@ -2460,7 +2460,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	grumpig: {
 		tier: "(PU)",
 	},
-	grumpigelite: {
+	grumpigchromatic: {
 		isNonstandard: "CAP",
 		tier: "CAP",
 	},
@@ -2499,14 +2499,14 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "(PU)",
 		doublesTier: "(DUU)",
 	},
-	altariaelite: {
+	altariachromatic: {
 		isNonstandard: "Past",
 		tier: "Illegal",		doublesTier: "(DUU)",
 	},
 	altariamega: {
 		tier: "UU",
 	},
-	altariaelitemega: {
+	altariachromaticmega: {
 		isNonstandard: "Past",
 		tier: "Illegal",
 	},
@@ -2635,7 +2635,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "NFE",
 		doublesTier: "DOU",
 	},
-	dusclopselite: {
+	dusclopschromatic: {
 		isNonstandard: "Past",
 		tier: "Illegal",
 	},
@@ -2647,7 +2647,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "(PU)",
 		doublesTier: "(DUU)",
 	},
-	dusknoirelite: {
+	dusknoirchromatic: {
 		isNonstandard: "Past",
 		tier: "Illegal",
 	},
@@ -2688,14 +2688,14 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "(PU)",
 		doublesTier: "(DUU)",
 	},
-	glalieelite: {
+	glaliechromatic: {
 		isNonstandard: "Past",
 		tier: "Illegal",
 	},
 	glaliemega: {
 		tier: "PUBL",
 	},
-	glalieelitemega: {
+	glaliechromaticmega: {
 		isNonstandard: "Past",
 		tier: "Illegal",
 	},
@@ -2776,7 +2776,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "RU",
 		doublesTier: "DUU",
 	},
-	metagrosselite: {
+	metagrosschromatic: {
 		isNonstandard: "CAP",
 		tier: "CAP",
 	},
@@ -2791,7 +2791,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "PU",
 		doublesTier: "(DUU)",
 	},
-	regirockelite: {
+	regirockchromatic: {
 		isNonstandard: "Past",
 		tier: "Illegal",
 	},
@@ -2803,7 +2803,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "(PU)",
 		doublesTier: "(DUU)",
 	},
-	regiceelite: {
+	regicechromatic: {
 		isNonstandard: "Past",
 		tier: "Illegal",
 	},
@@ -2815,7 +2815,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "RU",
 		doublesTier: "(DUU)",
 	},
-	registeelelite: {
+	registeelchromatic: {
 		isNonstandard: "Past",
 		tier: "Illegal",
 	},
@@ -2976,7 +2976,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	rampardos: {
 		tier: "(PU)",
 	},
-	rampardoselite: {
+	rampardoschromatic: {
 		isNonstandard: "CAP",
 		tier: "CAP",
 	},
@@ -2987,7 +2987,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	bastiodon: {
 		tier: "(PU)",
 	},
-	bastiodonelite: {
+	bastiodonchromatic: {
 		isNonstandard: "CAP",
 		tier: "CAP",
 	},
@@ -3021,7 +3021,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "(PU)",
 		doublesTier: "(DUU)",
 	},
-	vespiquenelite: {
+	vespiquenchromatic: {
 		randomBattleMoves: ["airslash", "defog", "roost", "toxic", "uturn"],
 		randomBattleLevel: 96,
 		randomDoubleBattleMoves: ["airslash", "roost", "tailwind", "toxicspikes"],
@@ -3131,7 +3131,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "(PU)",
 		doublesTier: "(DUU)",
 	},
-	spiritombelite: {
+	spiritombchromatic: {
 		isNonstandard: "CAP",
 		tier: "CAP",
 	},
@@ -3168,7 +3168,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "NUBL",
 		doublesTier: "(DUU)",
 	},
-	lucarioelite: {
+	lucariochromatic: {
 		isNonstandard: "CAP",
 		tier: "CAP",
 	},
@@ -3340,7 +3340,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "(PU)",
 		doublesTier: "(DUU)",
 	},
-	regigigaselite: {
+	regigigaschromatic: {
 		isNonstandard: "CAP",
 		tier: "CAP",
 	},
@@ -3496,7 +3496,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "(PU)",
 		doublesTier: "(DUU)",
 	},
-	liepardelite: {
+	liepardchromatic: {
 		isNonstandard: "CAP",
 		tier: "CAP",
 	},
@@ -3507,7 +3507,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	simisage: {
 		tier: "(PU)",
 	},
-	simisageelite: {
+	simisagechromatic: {
 		isNonstandard: "CAP",
 		tier: "CAP",
 	},
@@ -3517,7 +3517,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	simisear: {
 		tier: "(PU)",
 	},
-	simisearelite: {
+	simisearchromatic: {
 		isNonstandard: "CAP",
 		tier: "CAP",
 	},
@@ -3528,7 +3528,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	simipour: {
 		tier: "(PU)",
 	},
-	simipourelite: {
+	simipourchromatic: {
 		isNonstandard: "CAP",
 		tier: "CAP",
 	},
@@ -3543,7 +3543,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "(PU)",
 		doublesTier: "(DUU)",
 	},
-	musharnaelite: {
+	musharnachromatic: {
 		isNonstandard: "CAP",
 		tier: "CAP",
 	},
@@ -3568,7 +3568,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	zebstrika: {
 		tier: "(PU)",
 	},
-	zebstrikaelite: {
+	zebstrikachromatic: {
 		isNonstandard: "Past",
 		tier: "Illegal",
 	},
@@ -3590,7 +3590,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		isNonstandard: "Custom",
 		tier: "Illegal",
 	},
-	gigalithelite: {
+	gigalithchromatic: {
 		isNonstandard: "Past",
 		tier: "Illegal",
 	},
@@ -3888,7 +3888,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "NU",
 		doublesTier: "(DUU)",
 	},
-	zoroarkelite: {
+	zoroarkchromatic: {
 		isNonstandard: "Past",
 		tier: "Illegal",
 	},
@@ -3959,7 +3959,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	sawsbuck: {
 		tier: "(PU)",
 	},
-	sawsbuckelite: {
+	sawsbuckchromatic: {
 		isNonstandard: "Past",
 		tier: "Illegal",
 	},
@@ -4093,7 +4093,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "RU",
 		doublesTier: "(DUU)",
 	},
-	haxoruselite: {
+	haxoruschromatic: {
 		isNonstandard: "Past",
 		tier: "Illegal",
 	},
@@ -4128,7 +4128,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "(PU)",
 		doublesTier: "(DUU)",
 	},
-	accelgorelite: {
+	accelgorchromatic: {
 		isNonstandard: "Past",
 		tier: "Illegal",
 	},
@@ -4140,7 +4140,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "(PU)",
 		doublesTier: "(DUU)",
 	},
-	stunfiskelite: {
+	stunfiskchromatic: {
 		isNonstandard: "CAP",
 		tier: "CAP",
 	},
@@ -4182,7 +4182,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "PU",
 		doublesTier: "(DUU)",
 	},
-	golurkelite: {
+	golurkchromatic: {
 		isNonstandard: "CAP",
 		tier: "CAP",
 	},
@@ -4280,7 +4280,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "RU",
 		doublesTier: "(DUU)",
 	},
-	cobalionelite: {
+	cobalionchromatic: {
 		isNonstandard: "CAP",
 		tier: "CAP",
 	},
@@ -4292,7 +4292,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "UU",
 		doublesTier: "DUU",
 	},
-	terrakionelite: {
+	terrakionchromatic: {
 		isNonstandard: "CAP",
 		tier: "CAP",
 	},
@@ -4305,7 +4305,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "PU",
 		doublesTier: "(DUU)",
 	},
-	virizionelite: {
+	virizionchromatic: {
 		isNonstandard: "CAP",
 		tier: "CAP",
 	},
@@ -4408,7 +4408,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		randomBattleMoves: ["airslash", "calmmind", "hydropump", "icywind", "scald", "secretsword", "substitute"],
 		randomBattleLevel: 80,
 	},
-	keldeoelite: {
+	keldeochromatic: {
 		isNonstandard: "CAP",
 		tier: "CAP",
 	},
@@ -4532,7 +4532,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	pyroar: {
 		tier: "PU",
 	},
-	pyroarelite: {
+	pyroarchromatic: {
 		isNonstandard: "CAP",
 		tier: "CAP",
 	},
@@ -4669,7 +4669,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "NU",
 		doublesTier: "(DUU)",
 	},
-	dragalgeelite: {
+	dragalgechromatic: {
 		isNonstandard: "Past",
 		tier: "Illegal",
 	},
@@ -4721,7 +4721,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "(PU)",
 		doublesTier: "(DUU)",
 	},
-	auroruselite: {
+	auroruschromatic: {
 		isNonstandard: "CAP",
 		tier: "CAP",
 	},
@@ -4763,11 +4763,11 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "NUBL",
 		doublesTier: "(DUU)",
 	},
-	goodraelite: {
+	goodrachromatic: {
 		isNonstandard: "CAP",
 		tier: "CAP",
 	},
-	goodraelite: {
+	goodrachromatic: {
 		isNonstandard: "Past",
 		tier: "Illegal",
 	},
@@ -4790,7 +4790,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "(PU)",
 		doublesTier: "(DUU)",
 	},
-	trevenantelite: {
+	trevenantchromatic: {
 		isNonstandard: "Past",
 		tier: "Illegal",
 	},
@@ -4927,7 +4927,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "RU",
 		doublesTier: "DOU",
 	},
-	volcanionelite: {
+	volcanionchromatic: {
 		isNonstandard: "CAP",
 		tier: "CAP",
 	},
@@ -5066,7 +5066,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "(PU)",
 		doublesTier: "(DUU)",
 	},
-	lycanrocelite: {
+	lycanrocchromatic: {
 		isNonstandard: "CAP",
 		tier: "CAP",
 	},
@@ -5078,7 +5078,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "(PU)",
 		doublesTier: "(DUU)",
 	},
-	lycanrocmidnightelite: {
+	lycanrocmidnightchromatic: {
 		isNonstandard: "CAP",
 		tier: "CAP",
 	},
@@ -5415,7 +5415,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	komala: {
 		tier: "(PU)",
 	},
-	komalaelite: {
+	komalachromatic: {
 		isNonstandard: "CAP",
 		tier: "CAP",
 	},
@@ -5474,7 +5474,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "NU",
 		doublesTier: "(DUU)",
 	},
-	dhelmiseelite: {
+	dhelmisechromatic: {
 		isNonstandard: "CAP",
 		tier: "CAP",
 	},
@@ -5868,7 +5868,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "(PU)",
 		doublesTier: "(DUU)",
 	},
-	drednawelite: {
+	drednawchromatic: {
 		isNonstandard: "CAP",
 		tier: "CAP",
 	},
@@ -5888,7 +5888,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "(PU)",
 		doublesTier: "(DUU)",
 	},
-	boltundelite: {
+	boltundchromatic: {
 		isNonstandard: "CAP",
 		tier: "CAP",
 	},
@@ -5986,7 +5986,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "NU",
 		doublesTier: "(DUU)",
 	},
-	toxtricityelite: {
+	toxtricitychromatic: {
 		isNonstandard: "CAP",
 		tier: "CAP",
 	},
@@ -6039,7 +6039,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "(PU)",
 		doublesTier: "(DUU)",
 	},
-	grapploctelite: {
+	grapploctchromatic: {
 		isNonstandard: "CAP",
 		tier: "CAP",
 	},
@@ -6371,7 +6371,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "NUBL",
 		doublesTier: "DOU",
 	},
-	glastrierelite: {
+	glastrierchromatic: {
 		isNonstandard: "CAP",
 		tier: "CAP",
 	},

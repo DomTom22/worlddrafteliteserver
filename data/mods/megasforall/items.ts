@@ -535,8 +535,8 @@ export const Items: {[itemid: string]: ModdedItemData} = {
 		gen: 8,
 		desc: "If held by a Gothitelle, this item allows it to Mega Evolve in battle.",
 	},
-	chandelite: {
-		name: "Chandelite",
+	chandchromatic: {
+		name: "Chandchromatic",
 		spritenum: 578,
 		megaStone: "Chandelure-Mega",
 		megaEvolves: "Chandelure",
@@ -661,8 +661,8 @@ export const Items: {[itemid: string]: ModdedItemData} = {
 		gen: 8,
 		desc: "If held by a Staraptor, this item allows it to Mega Evolve in battle.",
 	},
-	bibarelite: {
-		name: "Bibarelite",
+	bibarchromatic: {
+		name: "Bibarchromatic",
 		spritenum: 578,
 		megaStone: "Bibarel-Mega",
 		megaEvolves: "Bibarel",
@@ -1361,8 +1361,8 @@ export const Items: {[itemid: string]: ModdedItemData} = {
 		gen: 8,
 		desc: "If held by a Falinks, this item allows it to Mega Evolve in battle.",
 	},
-	floatzelite: {
-		name: "Floatzelite",
+	floatzchromatic: {
+		name: "Floatzchromatic",
 		spritenum: 578,
 		megaStone: "Floatzel-Mega",
 		megaEvolves: "Floatzel",

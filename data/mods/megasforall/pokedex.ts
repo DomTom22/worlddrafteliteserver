@@ -659,7 +659,7 @@ export const Pokedex: {[speciesid: string]: ModdedSpeciesData} = {
 		weightkg: 31.5,
 		color: "Brown",
 		eggGroups: ["Water 1", "Field"],
-		requiredItem: "Bibarelite",
+		requiredItem: "Bibarchromatic",
 	},
 	kricketune: {
 		inherit: true,
@@ -736,7 +736,7 @@ export const Pokedex: {[speciesid: string]: ModdedSpeciesData} = {
 		weightkg: 33.5,
 		color: "Brown",
 		eggGroups: ["Water 1", "Field"],
-		requiredItem: "Floatzelite",
+		requiredItem: "Floatzchromatic",
 	},
 	mismagius: {
 		inherit: true,
@@ -1253,7 +1253,7 @@ export const Pokedex: {[speciesid: string]: ModdedSpeciesData} = {
 		weightkg: 34.3,
 		color: "Black",
 		eggGroups: ["Amorphous"],
-		requiredItem: "Chandelite",
+		requiredItem: "Chandchromatic",
 	},
 	bisharp: {
 		inherit: true,

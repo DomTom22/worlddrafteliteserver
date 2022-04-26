@@ -23,7 +23,7 @@ export const Formats: FormatList = [
 	///////////////////////////////////////////////////////////////////
 
 	{
-		section: "Elite Singles",
+		section: "Chromatic Singles",
 	},
 	{
 		name: "[Gen 8] Random Battle",
@@ -236,7 +236,7 @@ export const Formats: FormatList = [
 	///////////////////////////////////////////////////////////////////
 
 	{
-		section: "Elite Doubles",
+		section: "Chromatic Doubles",
 	},
 	{
 		name: "[Gen 8] Random Doubles Battle",

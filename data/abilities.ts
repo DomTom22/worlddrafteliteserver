@@ -971,7 +971,7 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 			}
 			this.field.setWeather('acidrain');
 		},
-		name: "Acid Rain",
+		name: "Pollution",
 		rating: 4,
 		num: 2,
 	},
@@ -3292,6 +3292,24 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		name: "Rough Skin",
 		rating: 2.5,
 		num: 24,
+	},
+	acidicthorns: {
+		onDamagingHitOrder: 1,
+		onDamagingHit(damage, target, source, move) {
+			if (move.flags['contact']) {
+				this.damage(source.baseMaxhp / 8, source, target);
+			}
+		},
+		onDamagingHit(damage, target, source, move) {
+			if (move.flags['contact']) {
+				if (this.randomChance(2, 10)) {
+					source.trySetStatus('psn', target);
+				}
+			}
+		},
+		name: "Acidic Thorns",
+		rating: 2.5,
+		num: 38,
 	},
 	runaway: {
 		name: "Run Away",

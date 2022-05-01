@@ -1237,6 +1237,12 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 
 		damage: "  [POKEMON] was hurt!",
 	},
+	acidthorns: {
+		name: "Acid Thorns",
+		desc: "Pokemon making contact with this Pokemon lose 1/8 of their maximum HP, rounded down.",
+		shortDesc: "Pokemon making contact with this Pokemon lose 1/8 of their max HP and 20% chance to Poison",
+		damage: "  [POKEMON] was hurt!",
+	},
 	runaway: {
 		name: "Run Away",
 		shortDesc: "No competitive use.",

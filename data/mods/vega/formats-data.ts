@@ -1591,7 +1591,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
     tier: "LC",
 	},
 	magneton: {
-    tier: "RU",
+    tier: "UU",
 	},
 	magnezone: {
 		randomBattleMoves: ["bodypress", "flashcannon", "mirrorcoat", "thunderbolt", "voltswitch"],

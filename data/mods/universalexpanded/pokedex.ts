@@ -2646,7 +2646,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		baseSpecies: "Hypno",
 		types: ["Psychic"],
 		baseStats: {hp: 85, atk: 73, def: 70, spa: 73, spd: 115, spe: 67},
-		abilities: {0: "Insomnia", 1: "Forewarn", H: "Inner Focus"},
+		abilities: {0: "Insomnia", 1: "Pendulum", H: "No Guard"},
 		heightm: 1.6,
 		weightkg: 75.6,
 		color: "Yellow",

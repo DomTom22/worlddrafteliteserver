@@ -6489,7 +6489,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	},
 	wereyena: {
 		num: -2534,
-		name: "Whereyena",
+		name: "Wereyena",
 		types: ["Dark", "Fairy"],
 		baseStats: {hp: 80, atk: 136, def: 70, spa: 77, spd: 70, spe: 102},
 		abilities: {0: "Intimidate", 1: "Quick Feet", H: "Moxie"},
@@ -9400,7 +9400,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		types: ["Poison", "Ground"],
 		genderRatio: {M: 0.875, F: 0.125},
 		baseStats: {hp: 95, atk: 109, def: 75, spa: 105, spd: 85, spe: 56},
-		abilities: {0: "Levitate", H: "Fallout"},
+		abilities: {0: "Levitate", H: "Spore Storm"},
 		heightm: 2.2,
 		weightkg: 310,
 		color: "Green",

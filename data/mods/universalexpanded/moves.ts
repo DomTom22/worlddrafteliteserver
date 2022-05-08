@@ -8709,7 +8709,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		breaksProtect: true,
 		secondary: null,
 		target: "normal",
-		type: "Cosmic",
+		type: "Sound",
 		contestType: "Clever",
 	},
 	hypervoice: {

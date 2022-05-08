@@ -126,6 +126,11 @@ export const MovesText: {[k: string]: MoveText} = {
 			shortDesc: "Raises the user's Special by 2.",
 		},
 	},
+	pressurize: {
+		name: "Pressurize",
+		desc: "Raises the user's Special Defense by 2 stages.",
+		shortDesc: "Raises the user's Sp. Def by 2.",
+	},
 	anchorshot: {
 		name: "Anchor Shot",
 		desc: "Prevents the target from switching out. The target can still switch out if it is holding Shed Shell or uses Baton Pass, Flip Turn, Parting Shot, Teleport, U-turn, or Volt Switch. If the target leaves the field using Baton Pass, the replacement will remain trapped. The effect ends if the user leaves the field.",
@@ -149,6 +154,11 @@ export const MovesText: {[k: string]: MoveText} = {
 		desc: "No additional effect.",
 		shortDesc: "Usually goes first.",
 	},
+	jetstrike: {
+		name: "Jet Strike",
+		desc: "No additional effect.",
+		shortDesc: "Usually goes first.",
+	},
 	aquaring: {
 		name: "Aqua Ring",
 		desc: "The user has 1/16 of its maximum HP, rounded down, restored at the end of each turn while it remains active. If Big Root is held by the user, the HP recovered is 1.3x normal, rounded half down. If the user uses Baton Pass, the replacement will receive the healing effect.",
@@ -156,6 +166,13 @@ export const MovesText: {[k: string]: MoveText} = {
 
 		start: "  [POKEMON] surrounded itself with a veil of water!",
 		heal: "  A veil of water restored [POKEMON]'s HP!",
+	},
+	asteroidbelt: {
+		name: "Asteroid Belt",
+		desc: "Foe takes 1/8 damage from contact moves",
+		shortDesc: "Foe takes 1/8 damage from contact moves",
+
+		start: "  [POKEMON] surrounded itself with asteroids!",
 	},
 	aquatail: {
 		name: "Aqua Tail",
@@ -443,6 +460,11 @@ export const MovesText: {[k: string]: MoveText} = {
 			shortDesc: "10% chance to make the target flinch.",
 		},
 	},
+	faengrush: {
+		name: "Faeng Rush",
+		desc: "Has a 30% chance to make the target flinch.",
+		shortDesc: "30% chance to make the target flinch.",
+	},
 	blackholeeclipse: {
 		name: "Black Hole Eclipse",
 		shortDesc: "Power is equal to the base move's Z-Power.",
@@ -497,6 +519,11 @@ export const MovesText: {[k: string]: MoveText} = {
 	},
 	bodypress: {
 		name: "Body Press",
+		desc: "Damage is calculated using the user's Defense stat as its Attack, including stat stage changes. Other effects that modify the Attack stat are used as normal.",
+		shortDesc: "Uses user's Def stat as Atk in damage calculation.",
+	},
+	shieldbash: {
+		name: "Shield Bash",
 		desc: "Damage is calculated using the user's Defense stat as its Attack, including stat stage changes. Other effects that modify the Attack stat are used as normal.",
 		shortDesc: "Uses user's Def stat as Atk in damage calculation.",
 	},
@@ -611,6 +638,20 @@ export const MovesText: {[k: string]: MoveText} = {
 
 		activate: "  [POKEMON] shattered [TEAM]'s protections!",
 	},
+	batteringram: {
+		name: "Brick Break",
+		desc: "If this attack does not miss, the effects of Reflect, Light Screen, and Aurora Veil end for the target's side of the field before damage is calculated.",
+		shortDesc: "Destroys screens, unless the target is immune.",
+		gen6: {
+			desc: "If this attack does not miss, the effects of Reflect and Light Screen end for the target's side of the field before damage is calculated.",
+		},
+		gen4: {
+			desc: "If this attack does not miss and whether or not the target is immune, the effects of Reflect and Light Screen end for the target's side of the field before damage is calculated.",
+			shortDesc: "Destroys screens, even if the target is immune.",
+		},
+
+		activate: "  [POKEMON] shattered [TEAM]'s protections!",
+	},
 	brine: {
 		name: "Brine",
 		desc: "Power doubles if the target has less than or equal to half of its maximum HP remaining.",
@@ -666,6 +707,16 @@ export const MovesText: {[k: string]: MoveText} = {
 		name: "Bulldoze",
 		desc: "Has a 100% chance to lower the target's Speed by 1 stage.",
 		shortDesc: "100% chance lower adjacent Pkmn Speed by 1.",
+	},
+	webball: {
+		name: "Web Ball",
+		desc: "Has a 100% chance to lower the target's Speed by 1 stage.",
+		shortDesc: "100% chance lower adjacent Pkmn Speed by 1.",
+	},
+	tartantrum: {
+		name: "Tar-Tantrum",
+		desc: "Has a 30% chance to lower the target's Speed by 1 stage.",
+		shortDesc: "30% chance lower the target's Speed by 1.",
 	},
 	bulletpunch: {
 		name: "Bullet Punch",
@@ -871,6 +922,11 @@ export const MovesText: {[k: string]: MoveText} = {
 		desc: "Has a 10% chance to confuse the target.",
 		shortDesc: "10% chance to confuse the target.",
 	},
+	terrorize: {
+		name: "Terrorize",
+		desc: "Has a 10% chance to confuse the target.",
+		shortDesc: "10% chance to confuse the target.",
+	},
 	psychopunch: {
 		name: "Psycho Punch",
 		desc: "Has a 10% chance to confuse the target.",
@@ -969,6 +1025,11 @@ export const MovesText: {[k: string]: MoveText} = {
 		name: "Cotton Guard",
 		desc: "Raises the user's Defense by 3 stages.",
 		shortDesc: "Raises the user's Defense by 3.",
+	},
+	groomguard: {
+		name: "Groom Guard",
+		desc: "Raises the user's Special Defense by 3 stages.",
+		shortDesc: "Raises the user's Sp. Def by 3.",
 	},
 	cottonspore: {
 		name: "Cotton Spore",
@@ -1305,6 +1366,11 @@ export const MovesText: {[k: string]: MoveText} = {
 			desc: "If the target lost HP, the user takes recoil damage equal to 1/4 the HP lost by the target, rounded down, but not less than 1 HP. If this move breaks the target's substitute, the user does not take any recoil damage.",
 		},
 	},
+	doubleedge: {
+		name: "Double-Edge",
+		desc: "If the target lost HP, the user takes recoil damage equal to 33% the HP lost by the target, rounded half up, but not less than 1 HP.",
+		shortDesc: "Has 33% recoil.",
+	},
 	doublehit: {
 		name: "Double Hit",
 		desc: "Hits twice. If the first hit breaks the target's substitute, it will take damage for the second hit.",
@@ -1526,6 +1592,11 @@ export const MovesText: {[k: string]: MoveText} = {
 			shortDesc: "Power doubles on Dig.",
 		},
 	},
+	bonesweep: {
+		name: "Earthquake",
+		desc: "Hits adjacent Foes.",
+		shortDesc: "Hits adjacent Foes.",
+	},
 	echoedvoice: {
 		name: "Echoed Voice",
 		desc: "For every consecutive turn that this move is used by at least one Pokemon, this move's power is multiplied by the number of turns to pass, but not more than 5.",
@@ -1696,6 +1767,16 @@ export const MovesText: {[k: string]: MoveText} = {
 			desc: "The user faints after using this move, unless this move broke the target's substitute. The target's Defense is halved during damage calculation.",
 		},
 	},
+	atomsplit: {
+		name: "Atom Split",
+		desc: "The user faints after using this move, even if this move fails for having no target. This move is prevented from executing if any active Pokemon has the Damp Ability.",
+		shortDesc: "Hits adjacent Pokemon. The user faints.",
+	},
+	meltdown: {
+		name: "Melt Down",
+		desc: "The user faints after using this move, even if this move fails for having no target. This move is prevented from executing if any active Pokemon has the Damp Ability.",
+		shortDesc: "Hits adjacent Pokemon. The user faints.",
+	},
 	extrasensory: {
 		name: "Extrasensory",
 		desc: "Has a 10% chance to make the target flinch.",
@@ -1741,6 +1822,11 @@ export const MovesText: {[k: string]: MoveText} = {
 	},
 	fakeout: {
 		name: "Fake Out",
+		desc: "Has a 100% chance to make the target flinch. Fails unless it is the user's first turn on the field.",
+		shortDesc: "Hits first. First turn out only. 100% flinch chance.",
+	},
+	ambush: {
+		name: "Ambush",
 		desc: "Has a 100% chance to make the target flinch. Fails unless it is the user's first turn on the field.",
 		shortDesc: "Hits first. First turn out only. 100% flinch chance.",
 	},
@@ -1872,6 +1958,14 @@ export const MovesText: {[k: string]: MoveText} = {
 		start: "  [POKEMON] became trapped in the fiery vortex!",
 		move: "#wrap", // gen 1 only
 	},
+	magmaring: {
+		name: "Magma Ring",
+		desc: "Prevents the target from switching for four or five turns (seven turns if the user is holding Grip Claw). Causes damage to the target equal to 1/8 of its maximum HP (1/6 if the user is holding Binding Band), rounded down, at the end of each turn during effect. The target can still switch out if it is holding Shed Shell or uses Baton Pass, Flip Turn, Parting Shot, Teleport, U-turn, or Volt Switch. The effect ends if either the user or the target leaves the field, or if the target uses Rapid Spin or Substitute successfully. This effect is not stackable or reset by using this or another binding move.",
+		shortDesc: "Negative Priority. Traps the target.",
+
+		start: "  [POKEMON] became trapped in the volcanic ring!",
+		move: "#wrap", // gen 1 only
+	},
 	firstimpression: {
 		name: "First Impression",
 		desc: "Fails unless it is the user's first turn on the field.",
@@ -1923,6 +2017,16 @@ export const MovesText: {[k: string]: MoveText} = {
 		desc: "Has a 100% chance to raise the user's Speed by 1 stage.",
 		shortDesc: "100% chance to raise the user's Speed by 1.",
 	},
+	magmarush: {
+		name: "Magma Rush",
+		desc: "Has a 30% chance to sharply raise the user's Speed.",
+		shortDesc: "30% chance to sharply raise the user's Speed",
+	},
+	wavesplash: {
+		name: "Wave Splash",
+		desc: "Has a 10% chance to raise the user's Evasion by 1 stage.",
+		shortDesc: "10% chance to raise the user's Evasion by 1.",
+	},
 	flamewheel: {
 		name: "Flame Wheel",
 		desc: "Has a 10% chance to burn the target.",
@@ -1946,6 +2050,20 @@ export const MovesText: {[k: string]: MoveText} = {
 			desc: "Has a 10% chance to burn the target. If the target lost HP, the user takes recoil damage equal to 1/3 the HP lost by the target, rounded down, but not less than 1 HP.",
 			shortDesc: "Has 1/3 recoil. 10% chance to burn. Thaws user.",
 		},
+	},
+	dracoblitz: {
+		name: "Draco Blitz",
+		desc: "Has a 10% chance to burn the target. If the target lost HP, the user takes recoil damage equal to 33% the HP lost by the target, rounded half up, but not less than 1 HP.",
+		shortDesc: "Has 33% recoil. 10% chance to burn. Thaws user.",
+		gen4: {
+			desc: "Has a 10% chance to burn the target. If the target lost HP, the user takes recoil damage equal to 1/3 the HP lost by the target, rounded down, but not less than 1 HP.",
+			shortDesc: "Has 1/3 recoil. 10% chance to burn. Thaws user.",
+		},
+	},
+	cactussmash: {
+		name: "Cactus Smash",
+		desc: "Has a 35% chance to poison the target. If the target lost HP, the user takes recoil damage equal to 33% the HP lost by the target, rounded half up, but not less than 1 HP.",
+		shortDesc: "Has 33% recoil. 35% chance to poison.",
 	},
 	flash: {
 		name: "Flash",
@@ -2110,6 +2228,11 @@ export const MovesText: {[k: string]: MoveText} = {
 		desc: "Damage is calculated using the target's Attack stat, including stat stage changes. The user's Ability, item, and burn are used as normal.",
 		shortDesc: "Uses target's Attack stat in damage calculation.",
 	},
+	possession: {
+		name: "Possession",
+		desc: "Damage is calculated using the target's Attack stat, including stat stage changes. The user's Ability, item, and burn are used as normal.",
+		shortDesc: "Uses target's Attack stat in damage calculation.",
+	},
 	freezedry: {
 		name: "Freeze-Dry",
 		desc: "Has a 10% chance to freeze the target. This move's type effectiveness against Water is changed to be super effective no matter what this move's type is.",
@@ -2179,6 +2302,11 @@ export const MovesText: {[k: string]: MoveText} = {
 		gen1: {
 			desc: "Hits two to five times. Has a 3/8 chance to hit two or three times, and a 1/8 chance to hit four or five times. Damage is calculated once for the first hit and used for every hit. If one of the hits breaks the target's substitute, the move ends.",
 		},
+	},
+	dryneedles: {
+		name: "Fury Swipes",
+		desc: "Hits two to five times. Has a 35% chance to hit two or three times and a 15% chance to hit four or five times. If one of the hits breaks the target's substitute, it will take damage for the remaining hits. If the user has the Skill Link Ability, this move will always hit five times.",
+		shortDesc: "Hits 2-5 times in one turn.",
 	},
 	fusionbolt: {
 		name: "Fusion Bolt",
@@ -2549,6 +2677,11 @@ export const MovesText: {[k: string]: MoveText} = {
 			desc: "Raises the user's Special by 1 stage.",
 			shortDesc: "Raises the user's Special by 1.",
 		},
+	},
+	growth: {
+		name: "Growth",
+		desc: "Raises the user's Defense and Special Defense by 1 stage. If the weather is Sunny Day or Desolate Land, this move raises the user's Attack and Special Attack by 2 stages. If the user is holding Utility Umbrella, this move will only raise the user's Attack and Special Attack by 1 stage, even if the weather is Sunny Day or Desolate Land.",
+		shortDesc: "Raises user's Def and Sp. Def by 1; 2 in Sun.",
 	},
 	grudge: {
 		name: "Grudge",
@@ -3015,6 +3148,11 @@ export const MovesText: {[k: string]: MoveText} = {
 		desc: "Has a 10% chance to freeze the target.",
 		shortDesc: "10% chance to freeze the target.",
 	},
+	brainfreeze: {
+		name: "Ice Beam",
+		desc: "Has a 10% chance to freeze the target.",
+		shortDesc: "10% chance to freeze the target.",
+	},
 	iceburn: {
 		name: "Ice Burn",
 		desc: "Has a 30% chance to burn the target. This attack charges on the first turn and executes on the second. If the user is holding a Power Herb, the move completes in one turn.",
@@ -3287,7 +3425,17 @@ export const MovesText: {[k: string]: MoveText} = {
 		desc: "Has a higher chance for a critical hit.",
 		shortDesc: "High critical hit ratio.",
 	},
+	thunderslash: {
+		name: "Thunder Slash",
+		desc: "Has a higher chance for a critical hit.",
+		shortDesc: "High critical hit ratio.",
+	},
 	leafstorm: {
+		name: "Leaf Storm",
+		desc: "Lowers the user's Special Attack by 2 stages.",
+		shortDesc: "Lowers the user's Sp. Atk by 2.",
+	},
+	deluge: {
 		name: "Leaf Storm",
 		desc: "Lowers the user's Special Attack by 2 stages.",
 		shortDesc: "Lowers the user's Sp. Atk by 2.",
@@ -3456,6 +3604,10 @@ export const MovesText: {[k: string]: MoveText} = {
 		shortDesc: "Usually goes first.",
 	},
 	magicalleaf: {
+		name: "Magical Leaf",
+		shortDesc: "This move does not check accuracy.",
+	},
+	foggystrike: {
 		name: "Magical Leaf",
 		shortDesc: "This move does not check accuracy.",
 	},
@@ -4011,6 +4163,16 @@ export const MovesText: {[k: string]: MoveText} = {
 		desc: "Has a 100% chance to lower the target's accuracy by 1 stage.",
 		shortDesc: "100% chance to lower the target's accuracy by 1.",
 	},
+	typhoon: {
+		name: "Typhoon",
+		desc: "Has a 30% chance to lower the target's accuracy by 1 stage.",
+		shortDesc: "30% chance to lower the target's accuracy by 1.",
+	},
+	nimbusfist: {
+		name: "Nimbus Fist",
+		desc: "Has a 100% chance to lower the target's accuracy by 1 stage.",
+		shortDesc: "100% chance to lower the target's accuracy by 1.",
+	},
 	mudsport: {
 		name: "Mud Sport",
 		desc: "For 5 turns, all Electric-type attacks used by any active Pokemon have their power multiplied by 0.33. Fails if this effect is already active.",
@@ -4115,6 +4277,11 @@ export const MovesText: {[k: string]: MoveText} = {
 	},
 	nightslash: {
 		name: "Night Slash",
+		desc: "Has a higher chance for a critical hit.",
+		shortDesc: "High critical hit ratio.",
+	},
+	nailflick: {
+		name: "Nail Flick",
 		desc: "Has a higher chance for a critical hit.",
 		shortDesc: "High critical hit ratio.",
 	},
@@ -4559,6 +4726,16 @@ export const MovesText: {[k: string]: MoveText} = {
 		desc: "Has a higher chance for a critical hit.",
 		shortDesc: "High critical hit ratio.",
 	},
+	frostslash: {
+		name: "Frost Slash",
+		desc: "Has a 10% chance to freeze and a higher chance for a critical hit.",
+		shortDesc: "10% chance to freeze and high critical hit ratio.",
+	},
+	searingslash: {
+		name: "Frost Slash",
+		desc: "Has a 10% chance to burn and a higher chance for a critical hit.",
+		shortDesc: "10% chance to burn and high critical hit ratio.",
+	},
 	psychoshift: {
 		name: "Psycho Shift",
 		desc: "The user's non-volatile status condition is transferred to the target, and the user is then cured. Fails if the user has no non-volatile status condition or if the target already has one.",
@@ -4924,6 +5101,11 @@ export const MovesText: {[k: string]: MoveText} = {
 	},
 	revelationdance: {
 		name: "Revelation Dance",
+		desc: "This move's type depends on the user's primary type. If the user's primary type is typeless, this move's type is the user's secondary type if it has one, otherwise the added type from Forest's Curse or Trick-or-Treat. This move is typeless if the user's type is typeless alone.",
+		shortDesc: "Type varies based on the user's primary type.",
+	},
+	prismbeam: {
+		name: "Prism Beam",
 		desc: "This move's type depends on the user's primary type. If the user's primary type is typeless, this move's type is the user's secondary type if it has one, otherwise the added type from Forest's Curse or Trick-or-Treat. This move is typeless if the user's type is typeless alone.",
 		shortDesc: "Type varies based on the user's primary type.",
 	},
@@ -5560,6 +5742,16 @@ export const MovesText: {[k: string]: MoveText} = {
 		desc: "Has a 30% chance to poison the target.",
 		shortDesc: "30% chance to poison the target.",
 	},
+	venomswipe: {
+		name: "Venom Swipe",
+		desc: "Has a 30% chance to poison the target.",
+		shortDesc: "30% chance to poison the target.",
+	},
+	barbedtackle: {
+		name: "Barbed Tackle",
+		desc: "Has a 30% chance to poison the target.",
+		shortDesc: "30% chance to poison the target.",
+	},
 	sludgewave: {
 		name: "Sludge Wave",
 		desc: "Has a 10% chance to poison the target.",
@@ -5899,6 +6091,11 @@ export const MovesText: {[k: string]: MoveText} = {
 		desc: "Fails if there is no terrain active. Ends the effects of Electric Terrain, Grassy Terrain, Misty Terrain, and Psychic Terrain.",
 		shortDesc: "Fails if there is no terrain active. Ends the terrain.",
 	},
+	tempest: {
+		name: "Tempest",
+		desc: "Ends the effects of active weather.",
+		shortDesc: "Ends the effects of active weather.",
+	},
 	steelwing: {
 		name: "Steel Wing",
 		desc: "Has a 10% chance to raise the user's Defense by 1 stage.",
@@ -5971,6 +6168,11 @@ export const MovesText: {[k: string]: MoveText} = {
 		shortDesc: " + 20 power for each of the user's stat boosts.",
 	},
 	stormthrow: {
+		name: "Storm Throw",
+		desc: "This move is always a critical hit unless the target is under the effect of Lucky Chant or has the Battle Armor or Shell Armor Abilities.",
+		shortDesc: "Always results in a critical hit.",
+	},
+	cheapshot: {
 		name: "Storm Throw",
 		desc: "This move is always a critical hit unless the target is under the effect of Lucky Chant or has the Battle Armor or Shell Armor Abilities.",
 		shortDesc: "Always results in a critical hit.",
@@ -6182,6 +6384,11 @@ export const MovesText: {[k: string]: MoveText} = {
 			shortDesc: "Lowers the target's evasiveness by 1.",
 		},
 	},
+	mudslide: {
+		name: "Sweet Scent",
+		desc: "Lowers the target's evasiveness by 1 stage.",
+		shortDesc: "Lowers the foe(s) evasiveness by 1.",
+	},
 	swift: {
 		name: "Swift",
 		desc: "This move does not check accuracy.",
@@ -6193,6 +6400,11 @@ export const MovesText: {[k: string]: MoveText} = {
 		gen2: {
 			shortDesc: "This move does not check accuracy.",
 		},
+	},
+	asteroidshot: {
+		name: "Asteroid Shot",
+		desc: "This move does not check accuracy.",
+		shortDesc: "This move does not check accuracy. Hits foes.",
 	},
 	switcheroo: {
 		name: "Switcheroo",
@@ -6398,6 +6610,11 @@ export const MovesText: {[k: string]: MoveText} = {
 		name: "Thousand Arrows",
 		desc: "This move can hit airborne Pokemon, which includes Flying-type Pokemon, Pokemon with the Levitate Ability, Pokemon holding an Air Balloon, and Pokemon under the effect of Magnet Rise or Telekinesis. If the target is a Flying type and is not already grounded, this move deals neutral damage regardless of its other type(s). This move can hit a target using Bounce, Fly, or Sky Drop. If this move hits a target under the effect of Bounce, Fly, Magnet Rise, or Telekinesis, the effect ends. If the target is a Flying type that has not used Roost this turn or a Pokemon with the Levitate Ability, it loses its immunity to Ground-type attacks and the Arena Trap Ability as long as it remains active. During the effect, Magnet Rise fails for the target and Telekinesis fails against the target.",
 		shortDesc: "Grounds adjacent foes. First hit neutral on Flying.",
+	},
+	dustdevil: {
+		name: "Thousand Arrows",
+		desc: "This move can hit airborne Pokemon, which includes Flying-type Pokemon, Pokemon with the Levitate Ability, Pokemon holding an Air Balloon, and Pokemon under the effect of Magnet Rise or Telekinesis. If the target is a Flying type and is not already grounded, this move deals neutral damage regardless of its other type(s). This move can hit a target using Bounce, Fly, or Sky Drop. If this move hits a target under the effect of Bounce, Fly, Magnet Rise, or Telekinesis, the effect ends. If the target is a Flying type that has not used Roost this turn or a Pokemon with the Levitate Ability, it loses its immunity to Ground-type attacks and the Arena Trap Ability as long as it remains active. During the effect, Magnet Rise fails for the target and Telekinesis fails against the target.",
+		shortDesc: "Hits airborne foes",
 	},
 	thousandwaves: {
 		name: "Thousand Waves",
@@ -6712,6 +6929,11 @@ export const MovesText: {[k: string]: MoveText} = {
 		desc: "No additional effect.",
 		shortDesc: "Usually goes first.",
 	},
+	psybolt: {
+		name: "Psybolt",
+		desc: "No additional effect.",
+		shortDesc: "Usually goes first.",
+	},
 	astralshot: {
 		name: "Astral Shot",
 		desc: "No additional effect.",
@@ -6926,6 +7148,11 @@ export const MovesText: {[k: string]: MoveText} = {
 		desc: "If the target lost HP, the user takes recoil damage equal to 1/4 the HP lost by the target, rounded half up, but not less than 1 HP.",
 		shortDesc: "Has 1/4 recoil.",
 	},
+	focusedram: {
+		name: "Focused Ram",
+		desc: "If the target lost HP, the user takes recoil damage equal to 1/4 the HP lost by the target, rounded half up, but not less than 1 HP.",
+		shortDesc: "Has 1/4 recoil.",
+	},
 	razeearth: {
 		name: "Raze Earth",
 		desc: "If the target lost HP, the user takes recoil damage equal to 1/4 the HP lost by the target, rounded half up, but not less than 1 HP.",
@@ -7102,6 +7329,11 @@ export const MovesText: {[k: string]: MoveText} = {
 		name: "Flame Impact",
     desc: "Thaws user.",
 		shortDesc: "Nearly always goes first. Thaws user.",
+	},
+	nostrilflare: {
+		name: "Nostril Flare",
+    desc: "Thaws user.",
+		shortDesc: "Nearly always goes first.",
 	},
 	subduction: {
 		name: "Subduction",

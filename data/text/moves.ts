@@ -89,6 +89,11 @@ export const MovesText: {[k: string]: MoveText} = {
 		desc: "Raises the user's Speed by 2 stages.",
 		shortDesc: "Raises the user's Speed by 2.",
 	},
+	darkhand: {
+		name: "Dark Hand",
+		desc: "Raises the user's Accuracy by 2 stages.",
+		shortDesc: "Raises the user's Accuracy by 2.",
+	},
 	aircutter: {
 		name: "Air Cutter",
 		desc: "Has a higher chance for a critical hit.",
@@ -166,6 +171,14 @@ export const MovesText: {[k: string]: MoveText} = {
 
 		start: "  [POKEMON] surrounded itself with a veil of water!",
 		heal: "  A veil of water restored [POKEMON]'s HP!",
+	},
+	candescence: {
+		name: "Candescence",
+		desc: "The user has 1/16 of its maximum HP, rounded down, restored at the end of each turn while it remains active. If Big Root is held by the user, the HP recovered is 1.3x normal, rounded half down. If the user uses Baton Pass, the replacement will receive the healing effect.",
+		shortDesc: "User recovers 1/16 max HP per turn.",
+
+		start: "  [POKEMON] surrounded itself with envigorating light!",
+		heal: "  A veil of light raised [POKEMON]'s Atk and Sp. Atk!",
 	},
 	asteroidbelt: {
 		name: "Asteroid Belt",
@@ -300,6 +313,14 @@ export const MovesText: {[k: string]: MoveText} = {
 	},
 	avalanche: {
 		name: "Avalanche",
+		desc: "Power doubles if the user was hit by the target this turn.",
+		shortDesc: "Power doubles if user is damaged by the target.",
+		gen4: {
+			desc: "Power doubles if the user was hit by a Pokemon in the target's position this turn.",
+		},
+	},
+	vengeance: {
+		name: "Vengeance",
 		desc: "Power doubles if the user was hit by the target this turn.",
 		shortDesc: "Power doubles if user is damaged by the target.",
 		gen4: {
@@ -708,6 +729,11 @@ export const MovesText: {[k: string]: MoveText} = {
 		desc: "Has a 100% chance to lower the target's Speed by 1 stage.",
 		shortDesc: "100% chance lower adjacent Pkmn Speed by 1.",
 	},
+	burrow: {
+		name: "Burrow",
+		desc: "Has a 30% chance lower foe's Speed by 2.",
+		shortDesc: "30% chance lower foe's Speed by 2.",
+	},
 	webball: {
 		name: "Web Ball",
 		desc: "Has a 100% chance to lower the target's Speed by 1 stage.",
@@ -917,6 +943,11 @@ export const MovesText: {[k: string]: MoveText} = {
 		desc: "Causes the target to become confused.",
 		shortDesc: "Confuses the target.",
 	},
+	dazzlepowder: {
+		name: "Confuse Ray",
+		desc: "Causes the target to become confused.",
+		shortDesc: "Confuses the target.",
+	},
 	confusion: {
 		name: "Confusion",
 		desc: "Has a 10% chance to confuse the target.",
@@ -926,6 +957,16 @@ export const MovesText: {[k: string]: MoveText} = {
 		name: "Terrorize",
 		desc: "Has a 10% chance to confuse the target.",
 		shortDesc: "10% chance to confuse the target.",
+	},
+	Possess: {
+		name: "Possess",
+		desc: "Has a 30% chance to confuse the target.",
+		shortDesc: "30% chance to confuse the target.",
+	},
+	soulbreak: {
+		name: "Soul Break",
+		desc: "Has a 50% chance to confuse the target.",
+		shortDesc: "50% chance to confuse the target.",
 	},
 	psychopunch: {
 		name: "Psycho Punch",
@@ -1171,6 +1212,11 @@ export const MovesText: {[k: string]: MoveText} = {
 		desc: "No additional effect.",
 		shortDesc: "No additional effect. Hits adjacent foes.",
 	},
+	stardust: {
+		name: "Stardust",
+		desc: "No additional effect.",
+		shortDesc: "No additional effect. Hits adjacent foes.",
+	},
 	decorate: {
 		name: "Decorate",
 		desc: "Raises the target's Attack and Special Attack by 2 stages.",
@@ -1317,6 +1363,11 @@ export const MovesText: {[k: string]: MoveText} = {
 		desc: "Has a 30% chance to paralyze the target.",
 		shortDesc: "30% chance to paralyze adjacent Pokemon.",
 	},
+	starfreeze: {
+		name: "Starfreeze",
+		desc: "Has a 30% chance to paralyze the target.",
+		shortDesc: "30% chance to paralyze the target.",
+	},
 	dive: {
 		name: "Dive",
 		desc: "This attack charges on the first turn and executes on the second. On the first turn, the user avoids all attacks other than Surf and Whirlpool but takes double damage from them, and is also unaffected by weather. If the user is holding a Power Herb, the move completes in one turn.",
@@ -1397,6 +1448,21 @@ export const MovesText: {[k: string]: MoveText} = {
 		gen1: {
 			desc: "Hits twice. Damage is calculated once for the first hit and used for both hits. If the first hit breaks the target's substitute, the move ends.",
 		},
+	},
+	metalpincer: {
+		name: "Metal Pincer",
+		desc: "Hits thrice. If the first hit breaks the target's substitute, it will take damage for the second hit.",
+		shortDesc: "Hits 3 times in one turn.",
+	},
+	doublespin: {
+		name: "Double Spin",
+		desc: "Hits twice. If the first hit breaks the target's substitute, it will take damage for the second hit. 10% chance to raise user's Attack",
+		shortDesc: "Hits 2 times in one turn. 10% chance to raise user's Attack",
+	},
+	doubleshot: {
+		name: "Double Shot",
+		desc: "Hits twice. If the first hit breaks the target's substitute, it will take damage for the second hit. 20% chance to raise user's Accuracy",
+		shortDesc: "Hits 2 times in one turn. 20% chance to raise user's Accuracy",
 	},
 	doubleslap: {
 		name: "Double Slap",
@@ -1560,6 +1626,21 @@ export const MovesText: {[k: string]: MoveText} = {
 		name: "Earth Power",
 		desc: "Has a 10% chance to lower the target's Special Defense by 1 stage.",
 		shortDesc: "10% chance to lower the target's Sp. Def by 1.",
+	},
+	sonicsand: {
+		name: "Sonic Sand",
+		desc: "Has a 10% chance to lower the target's Special Defense by 2 stages.",
+		shortDesc: "10% chance to lower the target's Sp. Def by 2.",
+	},
+	megashock: {
+		name: "Megashock",
+		desc: "Has a 30% chance to lower the target's Defense by 2 stages.",
+		shortDesc: "30% chance to lower the target's Defense by 2.",
+	},
+	sandblast: {
+		name: "Sandbast",
+		desc: "Has a 30% chance to lower the target's Accuracy by 1 stage.",
+		shortDesc: "30% chance to lower the target's Accuracy by 1.",
 	},
 	diamondblast: {
 		name: "Diamond Blast",
@@ -1844,6 +1925,11 @@ export const MovesText: {[k: string]: MoveText} = {
 		desc: "Leaves the target with at least 1 HP.",
 		shortDesc: "Always leaves the target with at least 1 HP.",
 	},
+	lifedrain: {
+		name: "Life Drain",
+		desc: "Leaves the target with at least 1 HP.",
+		shortDesc: "Always leaves the target with at least 1 HP.",
+	},
 	featherdance: {
 		name: "Feather Dance",
 		desc: "Lowers the target's Attack by 2 stages.",
@@ -1884,10 +1970,40 @@ export const MovesText: {[k: string]: MoveText} = {
 		desc: "Has a 50% chance to raise the user's Special Attack by 1 stage.",
 		shortDesc: "50% chance to raise the user's Sp. Atk by 1.",
 	},
-	frostwave: {
-		name: "Frost Wave",
+	glide: {
+		name: "Glide",
+		desc: "Has a 50% chance to raise the user's Accuracy by 1 stage.",
+		shortDesc: "50% chance to raise the user's Accuracy by 1.",
+	},
+	spintail: {
+		name: "Spin Tail",
+		desc: "Has a 10% chance to raise the user's Speed by 1 stage.",
+		shortDesc: "10% chance to raise the user's Speed by 1.",
+	},
+	paleobreath: {
+		name: "Paleobreath",
 		desc: "Has a 50% chance to raise the user's Special Attack by 1 stage.",
 		shortDesc: "50% chance to raise the user's Sp. Atk by 1.",
+	},
+	rapidgrowth: {
+		name: "Rapid Growth",
+		desc: "Has a 20% chance to raise the user's Special Attack by 1 stage.",
+		shortDesc: "20% chance to raise the user's Sp. Atk by 1.",
+	},
+	guardianleaf: {
+		name: "Guardian Leaf",
+		desc: "Has a 20% chance to raise the user's Defense by 1 stage.",
+		shortDesc: "20% chance to raise the user's Defense by 1.",
+	},
+	psyburn: {
+		name: "Psyburn",
+		desc: "Has a 30% chance to raise the user's Special Defense by 1 stage.",
+		shortDesc: "30% chance to raise the user's Sp. Def by 1.",
+	},
+	frostbite: {
+		name: "Frost Bite",
+		desc: "Has a 40% chance to raise the user's Special Attack by 1 stage.",
+		shortDesc: "40% chance to raise the user's Sp. Atk by 1.",
 	},
 	fierywrath: {
 		name: "Fiery Wrath",
@@ -1964,6 +2080,14 @@ export const MovesText: {[k: string]: MoveText} = {
 		shortDesc: "Negative Priority. Traps the target.",
 
 		start: "  [POKEMON] became trapped in the volcanic ring!",
+		move: "#wrap", // gen 1 only
+	},
+	corner: {
+		name: "Magma Ring",
+		desc: "Prevents the target from switching for four or five turns (seven turns if the user is holding Grip Claw). Causes damage to the target equal to 1/8 of its maximum HP (1/6 if the user is holding Binding Band), rounded down, at the end of each turn during effect. The target can still switch out if it is holding Shed Shell or uses Baton Pass, Flip Turn, Parting Shot, Teleport, U-turn, or Volt Switch. The effect ends if either the user or the target leaves the field, or if the target uses Rapid Spin or Substitute successfully. This effect is not stackable or reset by using this or another binding move.",
+		shortDesc: "Traps the target.",
+
+		start: "  [POKEMON] has been cornered!",
 		move: "#wrap", // gen 1 only
 	},
 	firstimpression: {
@@ -2603,6 +2727,11 @@ export const MovesText: {[k: string]: MoveText} = {
 		desc: "This move's power is 20 if the target weighs less than 10 kg, 40 if less than 25 kg, 60 if less than 50 kg, 80 if less than 100 kg, 100 if less than 200 kg, and 120 if greater than or equal to 200 kg.",
 		shortDesc: "More power the heavier the target.",
 	},
+	gravitywave: {
+		name: "Gravity Wave",
+		desc: "This move's power is 20 if the target weighs less than 10 kg, 40 if less than 25 kg, 60 if less than 50 kg, 80 if less than 100 kg, 100 if less than 200 kg, and 120 if greater than or equal to 200 kg.",
+		shortDesc: "More power the heavier the target.",
+	},
 	grasspledge: {
 		name: "Grass Pledge",
 		desc: "If one of the user's allies chose to use Fire Pledge or Water Pledge this turn and has not moved yet, it takes its turn immediately after the user and the user's move does nothing. If combined with Fire Pledge, the ally uses Fire Pledge with 150 power and a sea of fire appears on the target's side for 4 turns, which causes damage to non-Fire types equal to 1/8 of their maximum HP, rounded down, at the end of each turn during effect, including the last turn. If combined with Water Pledge, the ally uses Grass Pledge with 150 power and a swamp appears on the target's side for 4 turns, which quarters the Speed of each Pokemon on that side. When used as a combined move, this move gains STAB no matter what the user's type is. This move does not consume the user's Grass Gem.",
@@ -2765,6 +2894,11 @@ export const MovesText: {[k: string]: MoveText} = {
 		name: "Hammer Arm",
 		desc: "Lowers the user's Speed by 1 stage.",
 		shortDesc: "Lowers the user's Speed by 1.",
+	},
+	wildgrowth: {
+		name: "Hammer Arm",
+		desc: "30% chance to lower the user's Speed by 1 stage.",
+		shortDesc: "30% chance to lower the user's Speed by 1.",
 	},
 	happyhour: {
 		name: "Happy Hour",
@@ -3133,6 +3267,10 @@ export const MovesText: {[k: string]: MoveText} = {
 	},
 	hypnosis: {
 		name: "Hypnosis",
+		shortDesc: "Causes the target to fall asleep.",
+	},
+	deepyawn: {
+		name: "Deep Yawn",
 		shortDesc: "Causes the target to fall asleep.",
 	},
 	iceball: {
@@ -4163,6 +4301,11 @@ export const MovesText: {[k: string]: MoveText} = {
 		desc: "Has a 100% chance to lower the target's accuracy by 1 stage.",
 		shortDesc: "100% chance to lower the target's accuracy by 1.",
 	},
+	cinderbreath: {
+		name: "Cinder Breath",
+		desc: "Has a 100% chance to lower the target's accuracy by 1 stage.",
+		shortDesc: "100% chance to lower the target's accuracy by 1.",
+	},
 	typhoon: {
 		name: "Typhoon",
 		desc: "Has a 30% chance to lower the target's accuracy by 1 stage.",
@@ -4277,6 +4420,11 @@ export const MovesText: {[k: string]: MoveText} = {
 	},
 	nightslash: {
 		name: "Night Slash",
+		desc: "Has a higher chance for a critical hit.",
+		shortDesc: "High critical hit ratio.",
+	},
+	darkcutter: {
+		name: "Dark Cutter",
 		desc: "Has a higher chance for a critical hit.",
 		shortDesc: "High critical hit ratio.",
 	},
@@ -5264,6 +5412,11 @@ export const MovesText: {[k: string]: MoveText} = {
 			desc: "If this move is successful, the user is locked into this move and cannot make another move until it misses, 5 turns have passed, or the attack cannot be used. Power doubles with each successful hit of this move and doubles again if Defense Curl was used previously by the user. If this move is called by Sleep Talk, the move is used for one turn.",
 		},
 	},
+	rocktumble: {
+		name: "Rollout",
+		desc: "If this move is successful, the user is locked into this move and cannot make another move until it misses, 5 turns have passed, or the attack cannot be used. Power doubles with each successful hit of this move and doubles again if Defense Curl was used previously by the user. If this move is called by Sleep Talk, the move is used for one turn. If this move hits an active Disguise during the effect, the power multiplier is paused but the turn counter is not, potentially allowing the multiplier to be used on the user's next move after this effect ends.",
+		shortDesc: "Power doubles with each hit. Repeats for 5 turns.",
+	},
 	roost: {
 		name: "Roost",
 		desc: "The user restores 1/2 of its maximum HP, rounded half up. Until the end of the turn, Flying-type users lose their Flying type and pure Flying-type users become Normal type. Does nothing if the user's HP is full.",
@@ -5466,6 +5619,21 @@ export const MovesText: {[k: string]: MoveText} = {
 		name: "Shadow Ball",
 		desc: "Has a 20% chance to lower the target's Special Defense by 1 stage.",
 		shortDesc: "20% chance to lower the target's Sp. Def by 1.",
+	},
+	geoimpact: {
+		name: "Geo Impact",
+		desc: "Has a 60% chance to raise the target's Special Attack by 2 stage.",
+		shortDesc: "60% chance to raise the target's Sp. Atk by 2.",
+	},
+	iciclepunch: {
+		name: "Icicle Punch",
+		desc: "Has a 20% chance to lower the target's Evsasion by 1 stage.",
+		shortDesc: "20% chance to lower the target's Evasion by 1.",
+	},
+	shinebomb: {
+		name: "Shine Bomb",
+		desc: "Has a 10% chance to lower the target's Accuracy by 1 stage.",
+		shortDesc: "10% chance to lower the target's Accuracy by 1.",
 	},
 	shadowbone: {
 		name: "Shadow Bone",
@@ -5746,6 +5914,21 @@ export const MovesText: {[k: string]: MoveText} = {
 		name: "Venom Swipe",
 		desc: "Has a 30% chance to poison the target.",
 		shortDesc: "30% chance to poison the target.",
+	},
+	darkresolve: {
+		name: "Dark Resolve",
+		desc: "Poisons the user after inflicting damage.",
+		shortDesc: "Poisons the user after inflicting damage.",
+	},
+	psygatling: {
+		name: "Psygatling",
+		desc: "30% chance to Burn the user.",
+		shortDesc: "30% chance to Burn the user.",
+	},
+	bugnoise: {
+		name: "Bug Noise",
+		desc: "20% chance to Paralyze the user.",
+		shortDesc: "20% chance to Paralyze the user.",
 	},
 	barbedtackle: {
 		name: "Barbed Tackle",
@@ -6788,10 +6971,15 @@ export const MovesText: {[k: string]: MoveText} = {
 			shortDesc: "No additional effect.",
 		},
 	},
-	triattack: {
-		name: "Tri Attack",
+	bigbang: {
+		name: "Big Bang",
 		desc: "Has a 50% chance to either burn, freeze, or paralyze the target.",
 		shortDesc: "50% chance to paralyze or burn or freeze target.",
+	},
+	iceboltwave: {
+		name: "Icebolt Wave",
+		desc: "Has a 10% chance to either burn, freeze, or paralyze the target.",
+		shortDesc: "10% chance to paralyze or burn or freeze target.",
 	},
 	trick: {
 		name: "Trick",
@@ -6959,6 +7147,11 @@ export const MovesText: {[k: string]: MoveText} = {
 		desc: "Lowers the user's Speed, Defense, and Special Defense by 1 stage.",
 		shortDesc: "Lowers the user's Defense, Sp. Def, Speed by 1.",
 	},
+	novainferno: {
+		name: "Nova Inferno",
+		desc: "Lowers the user's Speed, Defense, and Special Defense by 1 stage.",
+		shortDesc: "Lowers the user's Defense, Sp. Def, Speed by 1.",
+	},
 	veeveevolley: {
 		name: "Veevee Volley",
 		desc: "Power is equal to the greater of (user's Happiness * 2/5), rounded down, or 1.",
@@ -7070,6 +7263,11 @@ export const MovesText: {[k: string]: MoveText} = {
 		name: "Water Spout",
 		desc: "Power is equal to (user's current HP * 150 / user's maximum HP), rounded down, but not less than 1.",
 		shortDesc: "Less power as user's HP decreases. Hits foe(s).",
+	},
+	cursedwrath: {
+		name: "Cursed Wrath",
+		desc: "Power is equal to (user's maximum HP * 150 / user's current HP), rounded down, but not less than 1.",
+		shortDesc: "More power as user's HP decreases.",
 	},
 	weatherball: {
 		name: "Weather Ball",

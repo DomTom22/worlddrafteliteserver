@@ -958,7 +958,7 @@ export const MovesText: {[k: string]: MoveText} = {
 		desc: "Has a 10% chance to confuse the target.",
 		shortDesc: "10% chance to confuse the target.",
 	},
-	Possess: {
+	possess: {
 		name: "Possess",
 		desc: "Has a 30% chance to confuse the target.",
 		shortDesc: "30% chance to confuse the target.",
@@ -1457,12 +1457,12 @@ export const MovesText: {[k: string]: MoveText} = {
 	doublespin: {
 		name: "Double Spin",
 		desc: "Hits twice. If the first hit breaks the target's substitute, it will take damage for the second hit. 10% chance to raise user's Attack",
-		shortDesc: "Hits 2 times in one turn. 10% chance to raise user's Attack",
+		shortDesc: "Hits 2 times. 10% chance to raise user's Attack",
 	},
 	doubleshot: {
 		name: "Double Shot",
 		desc: "Hits twice. If the first hit breaks the target's substitute, it will take damage for the second hit. 20% chance to raise user's Accuracy",
-		shortDesc: "Hits 2 times in one turn. 20% chance to raise user's Accuracy",
+		shortDesc: "Hits 2 times. 20% chance to raise user's Accuracy",
 	},
 	doubleslap: {
 		name: "Double Slap",
@@ -2807,8 +2807,8 @@ export const MovesText: {[k: string]: MoveText} = {
 			shortDesc: "Raises the user's Special by 1.",
 		},
 	},
-	growth: {
-		name: "Growth",
+	leafshield: {
+		name: "Leaf Shield",
 		desc: "Raises the user's Defense and Special Defense by 1 stage. If the weather is Sunny Day or Desolate Land, this move raises the user's Attack and Special Attack by 2 stages. If the user is holding Utility Umbrella, this move will only raise the user's Attack and Special Attack by 1 stage, even if the weather is Sunny Day or Desolate Land.",
 		shortDesc: "Raises user's Def and Sp. Def by 1; 2 in Sun.",
 	},

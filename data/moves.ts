@@ -6671,7 +6671,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		type: "Dark",
 		contestType: "Clever",
 	},
-	possesion: {
+	possession: {
 		num: 492,
 		accuracy: 100,
 		basePower: 95,
@@ -16699,7 +16699,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		accuracy: 90,
 		basePower: 70,
 		category: "Special",
-		name: "Scald",
+		name: "Aqua Bolt",
 		pp: 20,
 		priority: 0,
 		flags: {protect: 1, mirror: 1},
@@ -20294,7 +20294,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		accuracy: 80,
 		basePower: 90,
 		category: "Special",
-		name: "Thousand Arrows",
+		name: "Dust Devil",
 		pp: 5,
 		priority: 0,
 		flags: {protect: 1, mirror: 1, nonsky: 1},

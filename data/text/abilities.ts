@@ -142,6 +142,16 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 		desc: "When this Pokemon has more than 1/2 its maximum HP and takes damage from an attack bringing it to 1/2 or less of its maximum HP, its Special Attack is raised by 1 stage. This effect applies after all hits from a multi-hit move; Sheer Force prevents it from activating if the move has a secondary effect.",
 		shortDesc: "This Pokemon's Sp. Atk is raised by 1 when it reaches 1/2 or less of its max HP.",
 	},
+	adrenaline: {
+		name: "Adranaline",
+		desc: "When this Pokemon has more than 1/2 its maximum HP and takes damage from an attack bringing it to 1/2 or less of its maximum HP, its Speed is raised by 1 stage. This effect applies after all hits from a multi-hit move; Sheer Force prevents it from activating if the move has a secondary effect.",
+		shortDesc: "This Pokemon's Speed is raised by 1 when it reaches 1/2 or less of its max HP.",
+	},
+	stubborn: {
+		name: "Stubborn",
+		desc: "When this Pokemon has more than 1/2 its maximum HP and takes damage from an attack bringing it to 1/2 or less of its maximum HP, its Defense is raised by 1 stage. This effect applies after all hits from a multi-hit move; Sheer Force prevents it from activating if the move has a secondary effect.",
+		shortDesc: "This Pokemon's Defense is raised by 1 when it reaches 1/2 or less of its max HP.",
+	},
 	bigpecks: {
 		name: "Big Pecks",
 		shortDesc: "Prevents other Pokemon from lowering this Pokemon's Defense stat stage.",
@@ -591,6 +601,11 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 		desc: "This Pokemon's Attack is multiplied by 1.5 and the accuracy of its physical attacks is multiplied by 0.8.",
 		shortDesc: "This Pokemon's Attack is 1.5x and accuracy of its physical attacks is 0.8x.",
 	},
+	eccentric: {
+		name: "Eccentric",
+		desc: "This Pokemon's Special Attack is multiplied by 1.5 and the accuracy of its physical attacks is multiplied by 0.8.",
+		shortDesc: "This Pokemon's Sp. Atk is 1.5x and accuracy of its special attacks is 0.8x.",
+	},
 	hydration: {
 		name: "Hydration",
 		desc: "This Pokemon has its non-volatile status condition cured at the end of each turn if Rain Dance is active. If this Pokemon is holding Utility Umbrella, its non-volatile status condition will not be cured.",
@@ -612,6 +627,16 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 		name: "Ice Body",
 		desc: "If Hail is active, this Pokemon restores 1/16 of its maximum HP, rounded down, at the end of each turn. This Pokemon takes no damage from Hail.",
 		shortDesc: "If Hail is active, this Pokemon heals 1/16 of its max HP each turn; immunity to Hail.",
+	},
+	sunbathe: {
+		name: "Sunbathe",
+		desc: "If Sunny Day is active, this Pokemon restores 1/16 of its maximum HP, rounded down, at the end of each turn. This Pokemon takes no damage from Hail.",
+		shortDesc: "If Sunny Day is active, this Pokemon heals 1/16 of its max HP each turn.",
+	},
+	heliophobia: {
+		name: "Heliophobia",
+		desc: "This Pokemon gains 1/8 HP every turn in New Moon; loses 1/8 HP in Sun.",
+		shortDesc: "This Pokemon gains 1/8 HP every turn in New Moon; loses 1/8 HP in Sun.",
 	},
 	iceface: {
 		name: "Ice Face",
@@ -688,6 +713,11 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 		gen7: {
 			desc: "On switch-in, this Pokemon lowers the Sp. Atk of adjacent opposing Pokemon by 1 stage. Pokemon behind a substitute are immune.",
 		},
+	},
+	psychout: {
+		name: "Psych Out",
+		desc: "On switch-in, this Pokemon lowers the Sp. Atk of adjacent opposing Pokemon by 1 stage. Pokemon behind a substitute are immune.",
+		shortDesc: "On switch-in, this Pokemon lowers the Sp. Atk of adjacent opponents by 1 stage.",
 	},
 	petrify: {
 		name: "Petrify",
@@ -899,6 +929,11 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 		name: "Moxie",
 		desc: "This Pokemon's Attack is raised by 1 stage if it attacks and knocks out another Pokemon.",
 		shortDesc: "This Pokemon's Attack is raised by 1 stage if it attacks and KOes another Pokemon.",
+	},
+	scavenger: {
+		name: "Scavenger",
+		desc: "When this Pokemon knocks out a foe it recovers 1/4 of their max HP.",
+		shortDesc: "When this Pokemon knocks out a foe it recovers 1/4 of their max HP.",
 	},
 	multiscale: {
 		name: "Multiscale",
@@ -1247,6 +1282,10 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 		name: "Run Away",
 		shortDesc: "No competitive use.",
 	},
+	forage: {
+		name: "Forage",
+		shortDesc: "No competitive use.",
+	},
 	sandforce: {
 		name: "Sand Force",
 		desc: "If Sandstorm is active, this Pokemon's Ground-, Rock-, and Steel-type attacks have their power multiplied by 1.3. This Pokemon takes no damage from Sandstorm.",
@@ -1399,7 +1438,7 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 	},
 	iceslick: {
 		name: "Ice Slick",
-		shortDesc: "If Hail is active, this Pokemon's Speed is doubled.",
+		shortDesc: "If Hail or Snowy Terrain is active, this Pokemon's Speed is doubled. Immunity to Hail damage.",
 	},
 	shadowdancer: {
 		name: "Shadow Dancer",
@@ -1433,6 +1472,11 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 		gen7: {
 			desc: "If Sunny Day is active, this Pokemon's Special Attack is multiplied by 1.5 and it loses 1/8 of its maximum HP, rounded down, at the end of each turn.",
 		},
+	},
+	permafrost: {
+		name: "Permafrost",
+		desc: "If Hail is active, this Pokemon's Def is 1.5x; immunity to Hail damage.",
+		shortDesc: "If Hail is active, this Pokemon's Def is 1.5x; immunity to Hail damage.",
 	},
 	windpower: {
 		name: "Wind Power",
@@ -1571,6 +1615,13 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 
 		damage: "  [POKEMON] was hurt!",
 	},
+	feedback: {
+		name: "Feedback",
+		desc: "Pokemon not making contact with this Pokemon lose 1/8 of their maximum HP, rounded down.",
+		shortDesc: "Pokemon not making contact with this Pokemon lose 1/8 of their max HP.",
+
+		damage: "  [POKEMON] was hurt!",
+	},
 	absolution: {
 		name: "Absolution",
 		desc: "If New Moon is active, this Pokemon's Special Attack is multiplied by 1.5 and it loses 1/8 of its maximum HP, rounded down, at the end of each turn. If this Pokemon is holding Utility Umbrella, its Special Attack remains the same and it does not lose any HP.",
@@ -1618,6 +1669,21 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 		desc: "Speed Swap starts Trick Room in battle as soon as a Pokémon with Speed Swap enters the battle. If a Pokémon with Speed Swap enters the battle while Trick Room is already in effect, Trick Room will end immediately.",
 		shortDesc: "Activates the Trick Room effect on entering the battlefield.",
 	},
+	orbitaltide: {
+		name: "Orbital Tide",
+		desc: "Activates Gravity in battle as soon as a Pokémon with Speed Swap enters the battle. If a Pokémon with Speed Swap enters the battle while Trick Room is already in effect, Trick Room will end immediately.",
+		shortDesc: "Activates the Gravity effect on entering the battlefield.",
+	},
+	artillery: {
+		name: "Artillery",
+		desc: "This Pokemon's ballistic attacks have their power multiplied by 1.2.",
+		shortDesc: "This Pokemon's ballistic attacks have 1.2x power.",
+	},
+	solidfooting: {
+		name: "Solid Footing",
+		desc: "This Pokemon is immune to hazards upon switch-in.",
+		shortDesc: "This Pokemon is immune to hazards upon switch-in.",
+	},
 	psychocall: {
 		name: "Psycho Call",
 		desc: "When a Pokemon with Psycho Call uses a Psychic-type movve, the power will increase by 1.5x if the user has less than or equal to 1/3 of its maximum HP remaining",
@@ -1632,6 +1698,11 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 		name: "Vaporization",
 		desc: "Causes damage-dealing Water-type moves and targetable Water-type status moves to fail when used. Damages all Water-type Pokémon for ⅛ of their maximum HP at the end of each every turn.",
 		shortDesc: "Vaporizes Water Moves and damages water types.",
+	},
+	vampiric: {
+		name: "Vampiric",
+		desc: "Allows the user to regain 25% of the damage inflicted when using a contact move. That amount of HP recovered is unaffected by Big Root. If the effects of Heal Block are active then Vampiric cannot restore HP.",
+		shortDesc: "Recovers a little HP with contact moves.",
 	},
 	windforce: {
 		name: "Wind Force",

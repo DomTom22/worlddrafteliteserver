@@ -12798,7 +12798,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		types: ["Dark"],
 		genderRatio: {M: 0.875, F: 0.125},
 		baseStats: {hp: 60, atk: 130, def: 60, spa: 145, spd: 90, spe: 125},
-		abilities: {0: "Dolus"},
+		abilities: {0: "Trace"},
 		heightm: 1.6,
 		weightkg: 81.1,
 		color: "Gray",

@@ -452,7 +452,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		randomBattleLevel: 88,
 		randomDoubleBattleMoves: ["doubleedge", "fakeout", "hypnosis", "icywind", "knockoff", "taunt"],
 		randomDoubleBattleLevel: 90,
-		tier: "(XU)",
+		tier: "NFE",
 		doublesTier: "(DUU)",
 	},
 	persianalola: {
@@ -1656,7 +1656,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "Illegal",
 	},
 	sunflora: {
-		tier: "(XU)",
+		tier: "NFE",
 	},
 	yanma: {
 		tier: "LC",
@@ -1706,7 +1706,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		doublesTier: "(DUU)",
 	},
 	girafarig: {
-		tier: "(XU)",
+		tier: "NFE",
 	},
 	girafarigchromatic: {
 		tier: "NU",
@@ -1723,7 +1723,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		randomBattleLevel: 90,
 		randomDoubleBattleMoves: ["glare", "headbutt", "protect", "rockslide"],
 		randomDoubleBattleLevel: 90,
-		tier: "(XU)",
+		tier: "LC",
 		doublesTier: "(DUU)",
 	},
 	gligar: {
@@ -1744,7 +1744,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		randomBattleLevel: 84,
 		randomDoubleBattleMoves: ["liquidation", "poisonjab", "protect", "taunt", "thunderwave", "toxicspikes"],
 		randomDoubleBattleLevel: 88,
-		tier: "(XU)",
+		tier: "LC",
 		doublesTier: "(DUU)",
 	},
 	qwilfishchromatic: {
@@ -2047,7 +2047,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "Illegal",
 	},
 	mightyena: {
-		tier: "(XU)",
+		tier: "NFE",
 	},
 	mightyenachromatic: {
 		tier: "NU",
@@ -2575,7 +2575,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		isNonstandard: "Past",
 	},
 	kecleon: {
-		tier: "(XU)",
+		tier: "LC",
 	},
 	shuppet: {
 		isNonstandard: "Past",

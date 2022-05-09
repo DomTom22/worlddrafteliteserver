@@ -17142,8 +17142,6 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			vinewhip: ["8L16", "7L7", "6L7", "5L19", "4L19"],
 			worryseed: ["7T", "6T", "5T", "4T"],
 			wringout: ["7L49", "6L49", "5L50", "4L50"],
-			dazzlepowder: ["8M"],
-			leafshield: ["8M"],
 		},
 		eventData: [
 			{generation: 4, level: 50, gender: "M", nature: "Brave", moves: ["sunnyday", "morningsun", "ancientpower", "naturalgift"], pokeball: "cherishball"},

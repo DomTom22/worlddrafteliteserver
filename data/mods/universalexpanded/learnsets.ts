@@ -29740,6 +29740,9 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			throatchop: ["8M"],
 			whirlpool: ["8M"],
 			willowisp: ["8M"],
+			partingshot: ["8M"],
+			possession: ["8M"],
+			cursedwrath: ["8M"],
 		},
 	},
 	remoraid: {
@@ -29899,6 +29902,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			whirlpool: ["8M", "7V", "4M"],
 			wrap: ["8L1"],
 			wringout: ["7L28", "6L28", "5L36", "4L36"],
+			coralbreak: ["8M"],
 		},
 		eventData: [
 			{generation: 4, level: 50, gender: "F", nature: "Serious", abilities: ["suctioncups"], moves: ["octazooka", "icebeam", "signalbeam", "hyperbeam"], pokeball: "cherishball"},
@@ -30158,6 +30162,9 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			whirlpool: ["8M", "7V", "4M"],
 			wideguard: ["8L16", "7L23", "7E", "6L23", "6E", "5L23", "5E"],
 			wingattack: ["8L1", "7L14", "7V", "6L14", "5L22", "4L22", "3L36"],
+			typhoon: ["8M"],
+			coralbreak: ["8M"],
+			flipturn: ["8M"],
 		},
 		eventData: [
 			{generation: 3, level: 10, gender: "M", moves: ["tackle", "bubble", "supersonic"], pokeball: "pokeball"},

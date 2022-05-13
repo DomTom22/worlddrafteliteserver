@@ -5457,7 +5457,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		name: "Remoraid",
 		types: ["Water"],
 		baseStats: {hp: 35, atk: 65, def: 35, spa: 65, spd: 35, spe: 65},
-		abilities: {0: "Hustle", 1: "Sniper", H: "Moody"},
+		abilities: {0: "Hustle", 1: "Sniper", H: "Artillery"},
 		heightm: 0.6,
 		weightkg: 12,
 		color: "Gray",

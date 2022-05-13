@@ -14467,8 +14467,8 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		prevo: "Pawniard",
 		evoLevel: 52,
 		eggGroups: ["Human-Like"],
-		otherFormes: ["Bisharp-Mega", "Bisharp-DB", "Bisharp-Delta", "Bisharp-Delta-Mega"],
-		formeOrder: ["Bisharp", "Bisharp-DB", "Bisharp-Mega", "Bisharp-Delta", "Bisharp-Delta-Mega"]
+		otherFormes: ["Bisharp-Mega", "Bisharp-Armian", "Bisharp-Delta", "Bisharp-Delta-Mega"],
+		formeOrder: ["Bisharp", "Bisharp-Armian", "Bisharp-Mega", "Bisharp-Delta", "Bisharp-Delta-Mega"]
 	},
 	bisharpmega: {
 		num: 625,
@@ -14513,9 +14513,9 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Undiscovered"],
 		requiredItem: "Delta Bisharpite",
 	},
-  bisharpdb: {
+  bisharparmian: {
     num: 625,
-    name: "Bisharp-DB",
+    name: "Bisharp-Armian",
     baseSpecies: "Bisharp",
     types: ["Steel"],
     baseStats: {hp: 85, atk: 155, def: 155, spa: 40, spd: 40, spe: 80},

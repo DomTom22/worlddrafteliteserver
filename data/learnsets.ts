@@ -31547,7 +31547,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			{generation: 5, level: 50},
 		],
 	},
-	tyranitararmiran: {
+	tyranitardbz: {
 		learnset: {
 			aerialace: ["7M", "6M", "5M", "4M", "3M"],
 			ancientpower: ["4T"],
@@ -32480,7 +32480,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			{generation: 5, level: 50, shiny: 1, moves: ["leafstorm", "dragonpulse", "focusblast", "rockslide"], pokeball: "cherishball"},
 		],
 	},
-	sceptilearmiran: {
+	sceptiledb: {
 		learnset: {
 			absorb: ["7L1", "6L1", "5L1", "4L1", "3L1"],
 			acrobatics: ["8M", "7M", "6M", "5M"],
@@ -50600,7 +50600,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			{generation: 6, level: 66, gender: "F", perfectIVs: 3, moves: ["dragonrush", "earthquake", "brickbreak", "gigaimpact"], pokeball: "cherishball"},
 		],
 	},
-	garchomparmiran: {
+	garchompdb: {
 		learnset: {
 			aerialace: ["7M", "6M", "5M", "4M"],
 			aquatail: ["7T", "6T", "5T", "4T"],
@@ -51141,7 +51141,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			yawn: ["8L1", "7L1", "6L1", "5L1", "4L1"],
 		},
 	},
-	hippowdonarmiran: {
+	hippowdondb: {
 		learnset: {
 			amnesia: ["8M"],
 			attract: ["8M", "7M", "6M", "5M", "4M"],
@@ -56460,7 +56460,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			{generation: 5, level: 24},
 		],
 	},
-	gigalitharmiran: {
+	gigalithdb: {
 		learnset: {
 			attract: ["8M", "7M", "6M", "5M"],
 			block: ["7T", "6T", "5T"],
@@ -68081,7 +68081,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 		],
 		eventOnly: true,
 	},
-	greninjaarmiran: {
+	greninjadb: {
 		learnset: {
 			acrobatics: ["7M", "6M"],
 			aerialace: ["7M", "6M"],

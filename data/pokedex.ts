@@ -713,8 +713,6 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	fearowegho: {
 		num: 22,
 		name: "Fearow-Egho",
-		baseSpecies: "Fearow",
-		forme: "Egho",
 		types: ["Dark", "Fighting"],
 		baseStats: {hp: 65, atk: 112, def: 55, spa: 50, spd: 50, spe: 110},
 		abilities: {0: "Defiant", H: "Adaptability"},
@@ -2456,8 +2454,6 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	magnetonegho: {
 		num: 82,
 		name: "Magneton-Egho",
-		baseSpecies: "Magneton",
-		forme: "Egho",
 		types: ["Grass", "Steel"],
 		gender: "N",
 		baseStats: {hp: 65, atk: 105, def: 70, spa: 60, spd: 95, spe: 70},
@@ -3162,8 +3158,6 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	chanseyegho: {
 		num: 113,
 		name: "Chansey-Egho",
-		baseSpecies: "Chansey",
-		forme: "Egho",
 		types: ["Fighting", "Fairy"],
 		gender: "F",
 		baseStats: {hp: 105, atk: 230, def: 35, spa: 5, spd: 5, spe: 50},
@@ -4788,8 +4782,6 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	azumarillegho: {
 		num: 184,
 		name: "Azumarill-Egho",
-		baseSpecies: "Azumarill",
-		forme: "Egho",
 		types: ["Rock", "Fighting"],
 		baseStats: {hp: 100, atk: 80, def: 65, spa: 60, spd: 60, spe: 55},
 		abilities: {0: "Huge Power", H: "Dry Skin"},
@@ -6071,8 +6063,6 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	blisseyegho: {
 		num: 242,
 		name: "Blissey-Egho",
-		baseSpecies: "Blissey",
-		forme: "Egho",
 		types: ["Fairy", "Fighting"],
 		gender: "F",
 		baseStats: {hp: 135, atk: 255, def: 55, spa: 10, spd: 10, spe: 75},
@@ -6158,14 +6148,13 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		prevo: "Pupitar",
 		evoLevel: 55,
 		eggGroups: ["Monster"],
-		otherFormes: ["Tyranitar-Armiran", "Tyrantiar-Chromatic", "Tyranitar-Mega"],
-		formeOrder: ["Tyranitar", "Tyranitar-Armiran", "Tyrantiar-Chromatic", "Tyranitar-Mega"],
+		otherFormes: ["Tyrantiar-Chromatic", "Tyranitar-Mega"],
+		formeOrder: ["Tyranitar", "Tyrantiar-Chromatic", "Tyranitar-Mega"],
 	},
-	tyranitararmiran: {
+	tyranitardb: {
 		num: 248,
-		name: "Tyranitar-Armiran",
+		name: "Tyranitar-DB",
 		baseSpecies: "Tyranitar",
-		forme: "Armiran",
 		types: ["Fire", "Rock"],
 		baseStats: {hp: 100, atk: 95, def: 110, spa: 125, spd: 100, spe: 70},
 		abilities: {0: "Drought"},
@@ -6279,14 +6268,13 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		prevo: "Grovyle",
 		evoLevel: 36,
 		eggGroups: ["Monster", "Dragon"],
-		otherFormes: ["Sceptile-Armiran", "Sceptile-Delta", "Sceptile-Mega"],
-		formeOrder: ["Sceptile", "Sceptile-Armiran", "Sceptile-Delta", "Sceptile-Mega"],
+		otherFormes: ["Sceptile-DB", "Sceptile-Delta", "Sceptile-Mega"],
+		formeOrder: ["Sceptile", "Sceptile-DB", "Sceptile-Delta", "Sceptile-Mega"],
 	},
-	sceptilearmiran: {
+	sceptiledb: {
 		num: 254,
-		name: "Sceptile-Armiran",
+		name: "Sceptile-DB",
 		baseSpecies: "Sceptile",
-		forme: "Armiran",
 		types: ["Poison"],
 		genderRatio: {M: 0.875, F: 0.125},
 		baseStats: {hp: 70, atk: 105, def: 65, spa: 85, spd: 85, spe: 120},
@@ -8481,14 +8469,13 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		weightkg: 100,
 		color: "Green",
 		eggGroups: ["Monster", "Grass"],
-		otherFormes: ["Tropius-Armiran"],
-		formeOrder: ["Tropius", "Tropius-Armiran"],
+		otherFormes: ["Tropius-DB"],
+		formeOrder: ["Tropius", "Tropius-DB"],
 	},
-	tropiusarmiran: {
+	tropiusdb: {
 		num: 357,
-		name: "Tropius-Armiran",
+		name: "Tropius-DB",
 		baseSpecies: "Tropius",
-		forme: "Armiran",
 		types: ["Dragon", "Steel"],
 		baseStats: {hp: 140, atk: 100, def: 130, spa: 125, spd: 60, spe: 45},
 		abilities: {0: "Berserk", 1: "Bullet Proof", H: "Clear Body"},
@@ -10527,14 +10514,13 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		prevo: "Gabite",
 		evoLevel: 48,
 		eggGroups: ["Monster", "Dragon"],
-		otherFormes: ["Garchomp-Mega", "Garchomp-Armiran"],
-		formeOrder: ["Garchomp", "Garchomp-Mega", "Garchomp-Armiran"],
+		otherFormes: ["Garchomp-Mega", "Garchomp-DB"],
+		formeOrder: ["Garchomp", "Garchomp-Mega", "Garchomp-DB"],
 	},
-	garchomparmiran: {
+	garchompdb: {
 		num: 445,
-		name: "Garchomp-Armiran",
+		name: "Garchomp-DB",
 		baseSpecies: "Garchomp",
-		forme: "Armiran",
 		types: ["Fairy", "Dragon"],
 		baseStats: {hp: 108, atk: 110, def: 85, spa: 110, spd: 95, spe: 102},
 		abilities: {0: "Rough Skin", H: "Pressure"},
@@ -10690,14 +10676,13 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		prevo: "Hippopotas",
 		evoLevel: 34,
 		eggGroups: ["Field"],
-		otherFormes: ["Hippowdown-Armiran"],
-		formeOrder: ["Hippowdown", "Hippowdown-Armiran"],
+		otherFormes: ["Hippowdown-DB"],
+		formeOrder: ["Hippowdown", "Hippowdown-DB"],
 	},
-	hippowdonarmiran: {
+	hippowdondb: {
 		num: 450,
-		name: "Hippowdon-Armiran",
+		name: "Hippowdon-DB",
 		baseSpecies: "Hippowdon",
-		forme: "Armiran",
 		types: ["Water", "Steel"],
 		baseStats: {hp: 108, atk: 68, def: 72, spa: 112, spd: 118, spe: 47},
 		abilities: {0: "Drizzle", 1: "Swift Swim", H: "Strong Jaw"},
@@ -10923,9 +10908,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	},
 	magnezoneegho: {
 		num: 462,
-		baseSpecies: "Magnezone",
-		forme: "Egho",
-		forme: "Egho",
+		name: "Magnezone-Egho",
 		types: ["Grass", "Steel"],
 		gender: "N",
 		baseStats: {hp: 80, atk: 120, def: 90, spa: 70, spd: 115, spe: 60},
@@ -12552,14 +12535,13 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		prevo: "Boldore",
 		evoType: "trade",
 		eggGroups: ["Mineral"],
-		otherFormes: ["Gigalith-Armiran", "Gigalith-Chromatic"],
-		formeOrder: ["Gigalith", "Gigalith-Armiran", "Gigalith-Chromatic"],
+		otherFormes: ["Gigalith-DB", "Gigalith-Chromatic"],
+		formeOrder: ["Gigalith", "Gigalith-DB", "Gigalith-Chromatic"],
 	},
-	gigalitharmiran: {
+	gigalithdb: {
 		num: 526,
-		name: "Gigalith-Armiran",
+		name: "Gigalith-DB",
 		baseSpecies: "Gigalith",
-		forme: "Armiran",
 		types: ["Ghost", "Ground"],
 		baseStats: {hp: 85, atk: 60, def: 130, spa: 85, spd: 130, spe: 25},
 		abilities: {0: "Levitate", H: "Sand Stream"},
@@ -13430,8 +13412,6 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	garbodoregho: {
 		num: 569,
 		name: "Garbodor-Egho",
-		baseSpecies: "Garbodor",
-		forme: "Egho",
 		types: ["Poison", "Steel"],
 		baseStats: {hp: 80, atk: 50, def: 97, spa: 90, spd: 82, spe: 75},
 		abilities: {0: "Battle Armor", H: "Filter"},
@@ -14467,8 +14447,8 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		prevo: "Pawniard",
 		evoLevel: 52,
 		eggGroups: ["Human-Like"],
-		otherFormes: ["Bisharp-Mega", "Bisharp-Armian", "Bisharp-Delta", "Bisharp-Delta-Mega"],
-		formeOrder: ["Bisharp", "Bisharp-Armian", "Bisharp-Mega", "Bisharp-Delta", "Bisharp-Delta-Mega"]
+		otherFormes: ["Bisharp-Mega", "Bisharp-DB", "Bisharp-Delta", "Bisharp-Delta-Mega"],
+		formeOrder: ["Bisharp", "Bisharp-DB", "Bisharp-Mega", "Bisharp-Delta", "Bisharp-Delta-Mega"]
 	},
 	bisharpmega: {
 		num: 625,
@@ -14513,9 +14493,9 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Undiscovered"],
 		requiredItem: "Delta Bisharpite",
 	},
-  bisharparmian: {
+  bisharpdb: {
     num: 625,
-    name: "Bisharp-Armian",
+    name: "Bisharp-DB",
     baseSpecies: "Bisharp",
     types: ["Steel"],
     baseStats: {hp: 85, atk: 155, def: 155, spa: 40, spd: 40, spe: 80},
@@ -15307,9 +15287,9 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		prevo: "Frogadier",
 		evoLevel: 36,
 		eggGroups: ["Water 1"],
-		otherFormes: ["Greninja-Ash", "Greninja-Armiran", "Greninja-Delta"],
+		otherFormes: ["Greninja-Ash", "Greninja-DB", "Greninja-Delta"],
 		// non-activated Greninja-Ash is forme 1, but PS does not currently distinguish it
-		formeOrder: ["Greninja", "Greninja", "Greninja-Ash", "Greninja-Armiran", "Greninja-Delta"],
+		formeOrder: ["Greninja", "Greninja", "Greninja-Ash", "Greninja-DB", "Greninja-Delta"],
 	},
 	greninjaash: {
 		num: 658,
@@ -15327,11 +15307,10 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		requiredAbility: "Battle Bond",
 		battleOnly: "Greninja",
 	},
-	greninjaarmiran: {
+	greninjadb: {
 		num: 658,
-		name: "Greninja-Armiran",
+		name: "Greninja-DB",
 		baseSpecies: "Greninja",
-		forme: "Armiran",
 		types: ["Fire", "Dark"],
 		genderRatio: {M: 0.875, F: 0.125},
 		baseStats: {hp: 72, atk: 95, def: 67, spa: 103, spd: 71, spe: 122},

@@ -1989,7 +1989,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "OU",
 		doublesTier: "DOU",
 	},
-	tyranitararmiran: {
+	tyranitardb: {
 		isNonstandard: "Custom",
 		tier: "Illegal",
 	},
@@ -2042,7 +2042,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		isNonstandard: "CAP",
 		tier: "CAP",
 	},
-	sceptilearmiran: {
+	sceptiledb: {
 		isNonstandard: "Custom",
 		tier: "Illegal",
 	},
@@ -2658,7 +2658,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	tropius: {
 		tier: "(PU)",
 	},
-	tropiusarmiran: {
+	tropiusdb: {
 		isNonstandard: "Custom",
 		tier: "Illegal",
 	},
@@ -3159,7 +3159,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "OU",
 		doublesTier: "DOU",
 	},
-	garchomparmiran: {
+	garchompdb: {
 		isNonstandard: "Custom",
 		tier: "Illegal",
 	},
@@ -3195,7 +3195,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "UU",
 		doublesTier: "(DUU)",
 	},
-	hippowdonarmiran: {
+	hippowdondb: {
 		isNonstandard: "Custom",
 		tier: "Illegal",
 	},
@@ -3591,7 +3591,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "PU",
 		doublesTier: "DUU",
 	},
-	gigalitharmiran: {
+	gigalithdb: {
 		isNonstandard: "Custom",
 		tier: "Illegal",
 	},
@@ -4486,7 +4486,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "OU",
 		doublesTier: "DUU",
 	},
-	greninjaarmiran: {
+	greninjadb: {
 		isNonstandard: "Custom",
 		tier: "Illegal",
 	},

@@ -737,7 +737,7 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 	},
 	starguardian: {
 		onStart(source) {
-			source.side.foe.addSideCondition('lightscreen');
+			source.side.active.addSideCondition('lightscreen');
 		},
 		name: "Star Guardian",
 		rating: 2,
@@ -745,7 +745,7 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 	},
 	cloversong: {
 		onStart(source) {
-			source.side.foe.addSideCondition('luckychant');
+			source.side.active.addSideCondition('luckychant');
 		},
 		name: "Clover Song",
 		rating: 2,
@@ -753,7 +753,7 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 	},
 	garlandguardian: {
 		onStart(source) {
-			source.side.foe.addSideCondition('safeguard');
+			source.side.active.addSideCondition('safeguard');
 		},
 		name: "Garland Guardian",
 		rating: 2,
@@ -761,7 +761,7 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 	},
 	barriermaker: {
 		onStart(source) {
-			source.side.foe.addSideCondition('reflect');
+			source.side.active.addSideCondition('reflect');
 		},
 		name: "Barrier Maker",
 		rating: 2,
@@ -4653,9 +4653,6 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		onDamagingHit(damage, target, source, effect) {
 			if (move.category === 'Physical') {
 				this.boost({def: 1});
-			if (move.category === 'Special') {
-				this.boost({spd: 1});
-				}
 			}
 		},
 		name: "Adaptive Skin",

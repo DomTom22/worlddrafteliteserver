@@ -729,8 +729,7 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 	},
 	quillerinstinct: {
 		onDamagingHit(damage, target, source, move) {
-			const target = pokemon.side.foe.active[pokemon.side.foe.active.length - 1 - pokemon.position];
-			source.side.foe.addSideCondition('spikes');
+			source.addSideCondition('spikes');
 		},
 		name: "Quiller Instinct",
 		rating: 2,

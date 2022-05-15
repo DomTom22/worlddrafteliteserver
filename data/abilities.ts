@@ -1506,7 +1506,7 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		onModifyPriority(priority, pokemon, target, move) {
 			if (move.flags['sound']) {
 				 return priority + 1;
-			 },
+			 }
 		},
 		name: "Maestro",
 		rating: 3,

@@ -729,7 +729,7 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 	},
 	quillerinstinct: {
 		onDamagingHit(damage, target, source, move) {
-			source.side.foe.addSideCondition('spikes');
+			source.side.active.addSideCondition('spikes');
 		},
 		name: "Quiller Instinct",
 		rating: 2,
@@ -737,15 +737,17 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 	},
 	starguardian: {
 		onStart(source) {
-			source.side.active.addSideCondition('lightscreen');
+			const target = pokemon.side.foe.active[pokemon.side.foe.active.length - 1 - pokemon.position];
+			source.side.foe.addSideCondition('lightscreen');
 		},
 		name: "Star Guardian",
-		rating: 2,
+		rating: 3,
 		num: 130,
 	},
 	cloversong: {
 		onStart(source) {
-			source.side.active.addSideCondition('luckychant');
+			const target = pokemon.side.foe.active[pokemon.side.foe.active.length - 1 - pokemon.position];
+			source.side.foe.addSideCondition('luckychant');
 		},
 		name: "Clover Song",
 		rating: 2,
@@ -753,7 +755,8 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 	},
 	garlandguardian: {
 		onStart(source) {
-			source.side.active.addSideCondition('safeguard');
+			const target = pokemon.side.foe.active[pokemon.side.foe.active.length - 1 - pokemon.position];
+			source.side.foe.addSideCondition('safeguard');
 		},
 		name: "Garland Guardian",
 		rating: 2,
@@ -765,7 +768,7 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 				target.side.foe.addSideCondition('safeguard');
 	      },
 		name: "Barrier Maker",
-		rating: 2,
+		rating: 3,
 		num: 130,
 	},
 	cutecharm: {
@@ -4652,7 +4655,7 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 	},
 	adaptiveskin: {
 		onDamagingHit(damage, target, source, effect) {
-			if (target !== source && target.side === this.effectData.target && this.getCategory(move) === 'Physical') {
+			if (!move.category !== 'Status') {
 				this.boost({def: 1});
 			}
 		},

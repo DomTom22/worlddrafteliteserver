@@ -3324,13 +3324,13 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		onFoeTryMove(target, source, move) {
 			if (move?.category === 'Status') {
 				move.honorauraBoosted = true;
-				return priority - 1;
+				return priority + -1;
 			}
 		},
 		onModifyPriority(priority, pokemon, target, move) {
 			if (move?.category === 'Status') {
 				move.honorauraBoosted = true;
-				return priority - 1;
+				return priority + -1;
 			}
 		},
 		name: "Honor Aura",

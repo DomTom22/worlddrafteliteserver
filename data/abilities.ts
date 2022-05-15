@@ -760,9 +760,10 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		num: 130,
 	},
 	barriermaker: {
-		onStart(source) {
-			source.side.active.addSideCondition('reflect');
-		},
+		onStart(pokemon) {
+				const target = pokemon.side.foe.active[pokemon.side.foe.active.length - 1 - pokemon.position];
+				target.side.foe.addSideCondition('safeguard');
+	      },
 		name: "Barrier Maker",
 		rating: 2,
 		num: 130,
@@ -3324,13 +3325,13 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		onFoeTryMove(target, source, move) {
 			if (move?.category === 'Status') {
 				move.honorauraBoosted = true;
-				return priority + -1;
+				return priority -1;
 			}
 		},
 		onModifyPriority(priority, pokemon, target, move) {
 			if (move?.category === 'Status') {
 				move.honorauraBoosted = true;
-				return priority + -1;
+				return priority -1;
 			}
 		},
 		name: "Honor Aura",

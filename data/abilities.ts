@@ -4651,7 +4651,7 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 	},
 	adaptiveskin: {
 		onDamagingHit(damage, target, source, effect) {
-			if (move.category === 'Physical') {
+			if (target !== source && target.side === this.effectData.target && this.getCategory(move) === 'Physical') {
 				this.boost({def: 1});
 			}
 		},

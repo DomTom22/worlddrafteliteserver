@@ -3669,7 +3669,10 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 	},
 	deterrent: {
 		onFoeSwitchIn(damage, target, source) {
+			for (const target of pokemon.side.foe.active) {
+				if (!target || !this.isAdjacent(target, pokemon)) continue;
 				this.damage(source.baseMaxhp / 8, source, target);
+			}
 		},
 		name: "Deterrent",
 		rating: 2.5,

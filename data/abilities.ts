@@ -3325,16 +3325,16 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		num: 158,
 	},
 	honoraura: {
-		onFoeTryMove(target, source, move) {
+		onFoeModifyPriority(priority, pokemon, target, move) {
 			if (move?.category === 'Status') {
-				move.honorauraBoosted = true;
-				return priority -1;
+				move.pranksterBoosted = true;
+				return priority - 1;
 			}
 		},
 		onModifyPriority(priority, pokemon, target, move) {
 			if (move?.category === 'Status') {
-				move.honorauraBoosted = true;
-				return priority -1;
+				move.pranksterBoosted = true;
+				return priority - 1;
 			}
 		},
 		name: "Honor Aura",
@@ -4654,9 +4654,14 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		num: 192,
 	},
 	adaptiveskin: {
-		onDamagingHit(damage, target, source, effect) {
-			if (!move.category !== 'Status') {
-				this.boost({def: 1});
+		onDamagingHit(damage, target, source, move) {
+			if (move.category === 'Physical') {
+				this.boost({def: 1}, target);
+			}
+		},
+		onDamagingHit(damage, target, source, move) {
+			if (move.category === 'Special') {
+				this.boost({spd: 1}, target);
 			}
 		},
 		name: "Adaptive Skin",

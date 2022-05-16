@@ -13411,6 +13411,8 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	},
 	garbodoregho: {
 		num: 569,
+		baseSpecies: "Garbodor",
+		forme: "Egho",
 		name: "Garbodor-Egho",
 		types: ["Poison", "Steel"],
 		baseStats: {hp: 80, atk: 50, def: 97, spa: 90, spd: 82, spe: 75},

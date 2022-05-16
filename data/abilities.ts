@@ -729,7 +729,7 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 	},
 	quillerinstinct: {
 		onDamagingHit(damage, target, source, move) {
-			source.side.foe.addSideCondition('spikes');
+			source.side.addSideCondition('spikes');
 		},
 		name: "Quiller Instinct",
 		rating: 2,

@@ -3196,7 +3196,7 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		num: 38,
 	},
 	poisonpunish: {
-		onDamagingHit(damage, target, source, move) {
+		onDamagingHit(damage, source, target, move) {
 			if (move.category === 'Special') {
 				if (this.randomChance(3, 10)) {
 					source.trySetStatus('psn', target);

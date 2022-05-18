@@ -7444,6 +7444,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		ignoreImmunity: true,
 		isFutureMove: true,
 		onTry(source, target) {
+			if (!target.side.addSlotCondition(target, 'futuremove')) return false;
 			Object.assign(target.side.slotConditions[target.position]['futuremove'], {
 				duration: 3,
 				move: 'prophecy',
@@ -7472,6 +7473,29 @@ export const Moves: {[moveid: string]: MoveData} = {
 		target: "self",
 		type: "Psychic",
 		contestType: "Clever",
+	},
+	prophecys: {
+		num: 248,
+		accuracy: 100,
+		basePower: 0,
+		category: "Status",
+		name: "Prophecys",
+		pp: 10,
+		priority: 0,
+		flags: {},
+		ignoreImmunity: true,
+		slotCondition: 'Prophecys',
+		condition: {
+			duration: 2,
+			boosts: {
+				accuracy: 2,
+			},
+		},
+		secondary: null,
+		target: "self",
+		type: "Normal",
+		zMove: {boost: {spd: 1}},
+		contestType: "Cute",
 	},
 	winterwarning: {
 		num: 248,

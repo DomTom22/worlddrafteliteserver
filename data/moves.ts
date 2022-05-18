@@ -7487,8 +7487,12 @@ export const Moves: {[moveid: string]: MoveData} = {
 		slotCondition: 'Prophecys',
 		condition: {
 			duration: 2,
-			boosts: {
-				accuracy: 2,
+			onResidualOrder: 4,
+			onEnd(target) {
+				if (target && !target.fainted) {
+					const boost: SparseBoostsTable = {};
+            boost['accuracy'] = 2;
+            this.boost(boost);
 			},
 		},
 		secondary: null,

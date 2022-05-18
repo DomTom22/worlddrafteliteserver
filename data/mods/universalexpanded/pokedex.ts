@@ -1033,7 +1033,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		forme: "Delta",
 		types: ["Flying", "Fairy"],
 		baseStats: {hp: 60, atk: 90, def: 55, spa: 90, spd: 80, spe: 110},
-		abilities: {0: "Cute Charm", 1: "Cloud Nine", H: "Gale Wings"},
+		abilities: {0: "Cute Charm", 1: "Wind Power", H: "Gale Wings"},
 		heightm: 0.8,
 		weightkg: 30,
 		color: "Black",

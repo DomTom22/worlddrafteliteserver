@@ -7432,6 +7432,48 @@ export const Moves: {[moveid: string]: MoveData} = {
 		type: "Psychic",
 		contestType: "Clever",
 	},
+	prophecy: {
+		num: 248,
+		accuracy: 100,
+		basePower: 0,
+		category: "Status",
+		name: "Prophecy",
+		pp: 10,
+		priority: 0,
+		flags: {},
+		ignoreImmunity: true,
+		isFutureMove: true,
+		onTry(source, target) {
+			if (!target.side.addSlotCondition(target, 'futuremove')) return false;
+			Object.assign(target.side.slotConditions[target.position]['futuremove'], {
+				duration: 3,
+				move: 'prophecy',
+				source: source,
+				moveData: {
+					id: 'prophecy',
+					name: "Prophecy",
+					accuracy: 100,
+					basePower: 0,
+					category: "Status",
+					priority: 0,
+					flags: {},
+					boosts: {
+						accuracy: 2,
+					},
+					ignoreImmunity: false,
+					effectType: 'Move',
+					isFutureMove: true,
+					type: 'Psychic',
+				},
+			});
+			this.add('-start', source, 'move: Prophecy');
+			return this.NOT_FAIL;
+		},
+		secondary: null,
+		target: "normal",
+		type: "Psychic",
+		contestType: "Clever",
+	},
 	winterwarning: {
 		num: 248,
 		accuracy: 100,
@@ -22830,7 +22872,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		accuracy: 100,
 		basePower: 85,
 		category: "Physical",
-		name: "Wood Hammer",
+		name: "Granite Head",
 		pp: 15,
 		priority: 0,
 		flags: {contact: 1, protect: 1, mirror: 1},

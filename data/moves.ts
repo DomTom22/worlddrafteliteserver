@@ -7470,7 +7470,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 			return this.NOT_FAIL;
 		},
 		secondary: null,
-		target: "normal",
+		target: "self",
 		type: "Psychic",
 		contestType: "Clever",
 	},

@@ -7444,7 +7444,6 @@ export const Moves: {[moveid: string]: MoveData} = {
 		ignoreImmunity: true,
 		isFutureMove: true,
 		onTry(source, target) {
-			if (!target.side.addSlotCondition(target, 'futuremove')) return false;
 			Object.assign(target.side.slotConditions[target.position]['futuremove'], {
 				duration: 3,
 				move: 'prophecy',

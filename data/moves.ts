@@ -7460,10 +7460,11 @@ export const Moves: {[moveid: string]: MoveData} = {
 					boosts: {
 						accuracy: 2,
 					},
-					ignoreImmunity: false,
+					ignoreImmunity: true,
 					effectType: 'Move',
 					isFutureMove: true,
 					type: 'Psychic',
+					target: "self",
 				},
 			});
 			this.add('-start', source, 'move: Prophecy');
@@ -7473,33 +7474,6 @@ export const Moves: {[moveid: string]: MoveData} = {
 		target: "self",
 		type: "Psychic",
 		contestType: "Clever",
-	},
-	prophecys: {
-		num: 248,
-		accuracy: 100,
-		basePower: 0,
-		category: "Status",
-		name: "Prophecys",
-		pp: 10,
-		priority: 0,
-		flags: {},
-		ignoreImmunity: true,
-		slotCondition: 'Prophecys',
-		condition: {
-			duration: 2,
-			onResidualOrder: 4,
-			onEnd(target) {
-				if (target && !target.fainted) {
-					const boost: SparseBoostsTable = {};
-            boost['accuracy'] = 2;
-            this.boost(boost);
-			},
-		},
-		secondary: null,
-		target: "self",
-		type: "Normal",
-		zMove: {boost: {spd: 1}},
-		contestType: "Cute",
 	},
 	winterwarning: {
 		num: 248,

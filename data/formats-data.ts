@@ -8326,6 +8326,174 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		isNonstandard: "Past",
 		tier: "Illegal",
 	},
+	bandeon: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	scaleon: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	porygonwes: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	egorgeon: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	vesperfum: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	croakraze: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	swelephant: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	luxflon: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	dielebi: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	electaburst: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	spiritombx: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	sharpedox: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	pyukumukux: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	galvantulax: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	chientilly: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	gengarx: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	cofagrigusx: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	rapidashx: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	cacturnex: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	slurpuffx: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	roseradex: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	toxapexx: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	greninjax: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	mewtwox: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	raichux: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	bisharpx: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	scovilex: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	tyranitarx: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	aegislashx: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	tapubulux: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	tapufinix: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	tapukokox: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	tapulelex: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	dragalistk: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	bellossommega: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	shiftrymegax: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	weavilemega: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	raikoumega: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	enteimega: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	suicune: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	luxraymega: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	mienshaomega: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
 	missingno: {
 		isNonstandard: "Custom",
 		tier: "Illegal",

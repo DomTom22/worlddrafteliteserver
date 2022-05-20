@@ -25,6 +25,97 @@ export const Items: {[itemid: string]: ItemData} = {
 		num: 677,
 		gen: 6,
 	},
+	bellossomite: {
+		name: "Bellossomite",
+		spritenum: 576,
+		megaStone: "Bellossom-Mega",
+		megaEvolves: "Bellossom",
+		itemUser: ["Bellossom"],
+		onTakeItem(item, source) {
+			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
+			return true;
+		},
+		num: 677,
+		gen: 6,
+	},
+	mienshite: {
+		name: "Mienshite",
+		spritenum: 576,
+		megaStone: "Mienshao-Mega",
+		megaEvolves: "Mienshao",
+		itemUser: ["Mienshao"],
+		onTakeItem(item, source) {
+			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
+			return true;
+		},
+		num: 677,
+		gen: 6,
+	},
+	raikite: {
+		name: "Raikite",
+		spritenum: 576,
+		megaStone: "Raikou-Mega",
+		megaEvolves: "Raikou",
+		itemUser: ["Raikou"],
+		onTakeItem(item, source) {
+			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
+			return true;
+		},
+		num: 677,
+		gen: 6,
+	},
+	enteite: {
+		name: "Enteite",
+		spritenum: 576,
+		megaStone: "Entei-Mega",
+		megaEvolves: "Entei",
+		itemUser: ["Entei"],
+		onTakeItem(item, source) {
+			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
+			return true;
+		},
+		num: 677,
+		gen: 6,
+	},
+	suicunite: {
+		name: "Suicunite",
+		spritenum: 576,
+		megaStone: "Suicune-Mega",
+		megaEvolves: "Suicune",
+		itemUser: ["Suicune"],
+		onTakeItem(item, source) {
+			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
+			return true;
+		},
+		num: 677,
+		gen: 6,
+	},
+	luxrite: {
+		name: "Luxrite",
+		spritenum: 576,
+		megaStone: "Luxrite-Mega",
+		megaEvolves: "Luxrite",
+		itemUser: ["Luxrite"],
+		onTakeItem(item, source) {
+			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
+			return true;
+		},
+		num: 677,
+		gen: 6,
+	},
+	weavite: {
+		name: "Weavite",
+		spritenum: 576,
+		megaStone: "Weavile-Mega",
+		megaEvolves: "Weavile",
+		itemUser: ["Weavile"],
+		onTakeItem(item, source) {
+			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
+			return true;
+		},
+		num: 677,
+		gen: 6,
+	},
 	absorbbulb: {
 		name: "Absorb Bulb",
 		spritenum: 2,
@@ -3159,6 +3250,19 @@ export const Items: {[itemid: string]: ItemData} = {
 		name: "Shiftrite",
 		spritenum: 622,
 		megaStone: "Shiftry-Mega",
+		megaEvolves: "Shiftry",
+		itemUser: ["Shiftry"],
+		onTakeItem(item, source) {
+			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
+			return true;
+		},
+		num: 762,
+		gen: 6,
+	},
+	shiftritex: {
+		name: "Shiftrite-X",
+		spritenum: 622,
+		megaStone: "Shiftry-Mega-X",
 		megaEvolves: "Shiftry",
 		itemUser: ["Shiftry"],
 		onTakeItem(item, source) {

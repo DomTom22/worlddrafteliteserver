@@ -25353,7 +25353,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		types: ["Grass", "Electric"],
 		genderRatio: {M: 0.50, F: 0.50},
 		baseStats: {hp: 80, atk: 67, def: 78, spa: 124, spd: 84, spe: 112},
-		abilities: {0: "Effect Spore", "Lighting Rod", H: "Intimidate"},
+		abilities: {0: "Effect Spore", 1: "Lighting Rod", H: "Intimidate"},
 		heightm: 10,
 		weightkg: 41.4,
 		color: "Green",

@@ -24843,9 +24843,9 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "Yellow",
 		eggGroups: ["Field"],
 	},
-	sosquatch: {
+	snosquatch: {
 		num: -2505,
-		name: "Sosquatch",
+		name: "Snosquatch",
 		types: ["Ice", "Rock"],
 		genderRatio: {M: 0.50, F: 0.50},
 		baseStats: {hp: 74, atk: 130, def: 100, spa: 80, spd: 60, spe: 96},

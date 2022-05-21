@@ -24705,9 +24705,9 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "Yellow",
 		eggGroups: ["Field"],
 	},
-	sosquatch: {
+	snosquatch: {
 		num: -2505,
-		name: "Sosquatch",
+		name: "Snosquatch",
 		types: ["Ice", "Rock"],
 		genderRatio: {M: 0.50, F: 0.50},
 		baseStats: {hp: 74, atk: 130, def: 100, spa: 80, spd: 60, spe: 96},
@@ -25211,7 +25211,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		types: ["Grass", "Electric"],
 		genderRatio: {M: 0.50, F: 0.50},
 		baseStats: {hp: 80, atk: 67, def: 78, spa: 124, spd: 84, spe: 112},
-		abilities: {0: "Effect Spore", "Lighting Rod", H: "Intimidate"},
+		abilities: {0: "Effect Spore", 1: "Lighting Rod", H: "Intimidate"},
 		heightm: 10,
 		weightkg: 41.4,
 		color: "Green",

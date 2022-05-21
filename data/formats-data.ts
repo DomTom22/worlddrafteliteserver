@@ -8022,7 +8022,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		isNonstandard: "Past",
 		tier: "Illegal",
 	},
-	snosquatch: {
+	sosquatch: {
 		isNonstandard: "Past",
 		tier: "Illegal",
 	},
@@ -8306,7 +8306,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		isNonstandard: "Past",
 		tier: "Illegal",
 	},
-	snosqwatch: {
+	sosqwatch: {
 		isNonstandard: "Past",
 		tier: "Illegal",
 	},
@@ -8482,7 +8482,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		isNonstandard: "Past",
 		tier: "Illegal",
 	},
-	suicune: {
+	suicunemega: {
 		isNonstandard: "Past",
 		tier: "Illegal",
 	},

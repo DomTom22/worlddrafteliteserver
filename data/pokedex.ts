@@ -4820,7 +4820,6 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		evoItem: "Sun Stone",
 		eggGroups: ["Grass"],
 		requiredItem: "Bellossomite",
-		battleOnly: "Bellossom",
 	},
 	marill: {
 		num: 183,
@@ -6219,9 +6218,9 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		otherFormes: ["Suicune-Mega"],
 		formeOrder: ["Suicune","Suicune-Mega"],
 	},
-	suicune: {
+	suicunemega: {
 		num: 245,
-		name: "Suicune",
+		name: "Suicune-Mega",
 		baseSpecies: "Suicune",
 		forme: "Mega",
 		types: ["Water"],
@@ -18513,7 +18512,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		formeOrder: ["Tapu Lele", "Tapu Lele-X"],
 	},
 	tapulelex: {
-		num: 788,
+		num: 786,
 		name: "Tapu Lele-X",
 		baseSpecies: "Tapu Lele",
 		forme: "X",
@@ -18544,6 +18543,8 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	tapubulux: {
 		num: 787,
 		name: "Tapu Bulu-X",
+		baseSpecies: "Tapu Bulu",
+		forme: "X",
 		types: ["Dragon", "Dark"],
 		gender: "N",
 		baseStats: {hp: 70, atk: 160, def: 115, spa: 85, spd: 95, spe: 75},
@@ -24842,9 +24843,9 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "Yellow",
 		eggGroups: ["Field"],
 	},
-	snosquatch: {
+	sosquatch: {
 		num: -2505,
-		name: "Snosquatch",
+		name: "Sosquatch",
 		types: ["Ice", "Rock"],
 		genderRatio: {M: 0.50, F: 0.50},
 		baseStats: {hp: 74, atk: 130, def: 100, spa: 80, spd: 60, spe: 96},

@@ -64,8 +64,8 @@ export const Items: {[itemid: string]: ItemData} = {
 		num: 677,
 		gen: 6,
 	},
-	enteite: {
-		name: "Enteite",
+	entite: {
+		name: "Entite",
 		spritenum: 576,
 		megaStone: "Entei-Mega",
 		megaEvolves: "Entei",

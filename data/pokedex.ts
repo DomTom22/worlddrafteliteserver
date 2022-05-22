@@ -15056,7 +15056,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		prevo: "Golett",
 		evoLevel: 43,
 		eggGroups: ["Mineral"],
-		otherFormes: ["Golurk-Cefira""Golurk-Delta"],
+		otherFormes: ["Golurk-Cefira", "Golurk-Delta"],
 		formeOrder: ["Golurk", "Golurk-Cefira", "Golurk-Delta"],
 	},
 	golurkdelta: {

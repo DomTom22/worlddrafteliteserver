@@ -8502,6 +8502,10 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		isNonstandard: "Past",
 		tier: "Illegal",
 	},
+	lilligantcefira: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
 	persiancefira: {
 		isNonstandard: "Past",
 		tier: "Illegal",

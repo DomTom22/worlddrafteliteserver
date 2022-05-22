@@ -2944,6 +2944,19 @@ export const Items: {[itemid: string]: ItemData} = {
 		num: 1233,
 		gen: 6,
 	},
+	cefiransablenite: {
+		name: "Cefiran Sablenite",
+		spritenum: 576,
+		megaStone: "Sableye-Cefira-Mega",
+		megaEvolves: "Sableye-Cefira",
+		itemUser: ["Sableye-Cefira"],
+		onTakeItem(item, source) {
+			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
+			return true;
+		},
+		num: 1233,
+		gen: 6,
+	},
 	deltascizorite: {
 		name: "Delta Scizorite",
 		spritenum: 576,

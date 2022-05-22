@@ -3881,6 +3881,10 @@ export const MovesText: {[k: string]: MoveText} = {
 		name: "Kickstart",
 		shortDesc: "Usually goes first.",
 	},
+	jetstrikex: {
+		name: "Jetstrike",
+		shortDesc: "Usually goes first.",
+	},
 	magicalleaf: {
 		name: "Magical Leaf",
 		shortDesc: "This move does not check accuracy.",

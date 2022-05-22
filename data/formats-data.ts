@@ -8494,6 +8494,154 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		isNonstandard: "Past",
 		tier: "Illegal",
 	},
+	venomothcefira: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	dugtriocefira: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	persiancefira: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	ariadoscefira: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	magcargocefira: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	smearglecefira: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	celebicefira: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	hariyamacefira: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	sableyecefira: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	sableyecefiramega: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	cameruptcefira: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	cameruptcefiramega: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	flygoncefira: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	altariacefira: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	altariacefiramega: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	sevipermega: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	glaliecefira: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	glaliecefiramega: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	lopunnycefira: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	lopunnycefiramega: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	abomasnowcefira: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	abomasnowcefiramega: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	liligantcefira: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	gothitellecefira: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	golurkcefira: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	braviarymega: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	klefkicefira: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	falinkscefira: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	gastesla: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	lunaye: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	narvalor: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	cefireon: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	astrem: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	unktena: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	cervantrier: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	luxpiravit: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	bogaleon: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
 	missingno: {
 		isNonstandard: "Custom",
 		tier: "Illegal",

@@ -21459,7 +21459,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		evoItem: "Ice Stone",
 		eggGroups: ["Field"],
 	},
-	elcipseon: {
+	eclipseon: {
 		num: -1009,
 		name: "Eclipseon",
 		types: ["Dark", "Psychic"],
@@ -21630,10 +21630,10 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		types: ["Water", "Psychic"],
 		genderRatio: {M: 0.875, F: 0.125},
 		baseStats: {hp: 95, atk: 60, def: 65, spa: 110, spd: 130, spe: 65},
-		abilities: {0: "Magic Bounce"},
+		abilities: {0: "Magic Bounce", 1: "Natural Cure", H: "Pressure"},
 		heightm: 0.8,
 		weightkg: 24.5,
-		color: "Yellow",
+		color: "Blue",
 		prevo: "Eevee",
 		evoType: "useItem",
 		evoItem: "Water Stone",

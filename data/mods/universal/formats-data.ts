@@ -157,6 +157,9 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	arbok: {
 		tier: "XU",
 	},
+	arbokmega: {
+		tier: "RU",
+	},
 	pichu: {
 		tier: "LCUU",
 	},
@@ -1144,6 +1147,9 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "(XU)",
 		doublesTier: "(DUU)",
 	},
+	laprasmega: {
+		tier: "RU",
+	},
 	laprasgmax: {
 		randomBattleMoves: ["freezedry", "icebeam", "protect", "sparklingaria", "thunderbolt", "toxic"],
 		randomBattleLevel: 86,
@@ -1238,87 +1244,67 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		doublesTier: "DUU",
 	},
 	pospheon: {
-		isNonstandard: "Custom",
-		tier: "Illegal",
+		tier: "RU",
 	},
 	blaneon: {
-		isNonstandard: "Custom",
-		tier: "Illegal",
+		tier: "PU",
 	},
 	aromeon: {
-		isNonstandard: "Custom",
-		tier: "Illegal",
+		tier: "ZU",
 	},
 	fureon: {
 		tier: "OU",
 	},
 	dynameon: {
-		isNonstandard: "Custom",
-		tier: "Illegal",
+		tier: "XU",
 	},
 	radeon: {
-		isNonstandard: "Custom",
-		tier: "Illegal",
+		tier: "PU",
 	},
 	obsideon: {
-		isNonstandard: "Custom",
-		tier: "Illegal",
+		tier: "ZU",
 	},
 	frosteon: {
-		isNonstandard: "Custom",
-		tier: "Illegal",
+		tier: "PU",
 	},
 	blizzeon: {
-		isNonstandard: "Custom",
-		tier: "Illegal",
+		tier: "ZU",
 	},
 	eclipseon: {
-		isNonstandard: "Custom",
-		tier: "Illegal",
+		tier: "PU",
 	},
 	cindereon: {
-		isNonstandard: "Custom",
-		tier: "Illegal",
+		tier: "ZU",
 	},
 	zereon: {
-		isNonstandard: "Custom",
-		tier: "Illegal",
+		tier: "XU",
 	},
 	pulseon: {
-		isNonstandard: "Custom",
-		tier: "Illegal",
+		tier: "RU",
 	},
 	pineon: {
-		isNonstandard: "Custom",
-		tier: "Illegal",
+		tier: "XU",
 	},
 	noctiveon: {
-		isNonstandard: "Custom",
-		tier: "Illegal",
+		tier: "XU",
 	},
 	mooreon: {
-		isNonstandard: "Custom",
-		tier: "Illegal",
+		tier: "NU",
 	},
 	devileon: {
-		isNonstandard: "Custom",
-		tier: "Illegal",
+		tier: "PU",
 	},
 	murkeon: {
-		isNonstandard: "Custom",
-		tier: "Illegal",
+		tier: "XU",
 	},
 	isycleon: {
-		isNonstandard: "Custom",
-		tier: "Illegal",
+		tier: "XU",
 	},
 	staticeon: {
-		isNonstandard: "Custom",
-		tier: "Illegal",
+		tier: "ZUBL",
 	},
 	sootheon: {
-		isNonstandard: "Custom",
-		tier: "Illegal",
+		tier: "NU",
 	},
 	porygon: {
 		tier: "LC",
@@ -1383,7 +1369,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	snorlax: {
 		randomBattleMoves: ["darkestlariat", "doubleedge", "earthquake", "facade", "heatcrash"],
 		randomBattleLevel: 82,
-		tier: "PU",
+		tier: "ZU",
 		doublesTier: "(DUU)",
 	},
 	snorlaxgmax: {
@@ -3658,6 +3644,9 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "PU",
 		doublesTier: "DOU",
 	},
+	whimsicottmega: {
+		tier: "OU",
+	},
 	petilil: {
 		tier: "LC",
 	},
@@ -3811,7 +3800,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "LC",
 	},
 	garbodor: {
-		tier: "ZU",
+		tier: "XU",
 		doublesTier: "(DUU)",
 	},
 	garbodorgmax: {
@@ -4631,8 +4620,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		doublesTier: "(DUU)",
 	},
 	helioliskmega: {
-		isNonstandard: "Custom",
-		tier: "Illegal",
+		tier: "OU",
 	},
 	tyrunt: {
 		tier: "LC",
@@ -4839,7 +4827,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		randomBattleLevel: 82,
 		randomDoubleBattleMoves: ["bodypress", "diamondstorm", "earthpower", "moonblast"],
 		randomDoubleBattleLevel: 80,
-		tier: "PU",
+		tier: "ZU",
 		doublesTier: "DOU",
 	},
 	dianciemega: {
@@ -6357,7 +6345,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "OU",
 	},
 	brainoar: {
-		tier: "NU",
+		tier: "PU",
 	},
 	kinetmunk: {
 		tier: "(XU)",
@@ -6600,7 +6588,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "ZU",
 	},
 	krilvolver: {
-		tier: "ZU",
+		tier: "XU",
 	},
 	maractusdelta: {
 		tier: "ZU",
@@ -6829,7 +6817,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "RU",
 	},
 	ludicolodelta: {
-		tier: "PU",
+		tier: "ZU",
 	},
 	shiftrydelta: {
 		tier: "PU",
@@ -6993,7 +6981,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "PUBL",
 	},
 	cofagrigusdelta: {
-		tier: "ZU",
+		tier: "XU",
 	},
 	emolgadelta: {
 		tier: "RU",
@@ -7164,7 +7152,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "PU",
 	},
 	fettlekish: {
-		tier: "PU",
+		tier: "ZU",
 	},
 	shibalbat: {
 		tier: "(XU)",
@@ -7218,7 +7206,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "RU",
 	},
 	galaxagos: {
-		tier: "ZU",
+		tier: "XU",
 	},
 	magnitogre: {
 		tier: "RU",
@@ -7380,7 +7368,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "NUBL",
 	},
 	erion: {
-		tier: "UU",
+		tier: "RU",
 	},
 	erace: {
 		tier: "RU",
@@ -7584,7 +7572,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "RU",
 	},
 	diaduna: {
-		tier: "NU",
+		tier: "PU",
 	},
 	sabrinel: {
 		tier: "(XU)",
@@ -7629,7 +7617,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "(XU)",
 	},
 	samushrai: {
-		tier: "ZU",
+		tier: "(XU)",
 	},
 	pteriarch: {
 		tier: "XU",
@@ -7719,7 +7707,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "PU",
 	},
 	carnivice: {
-		tier: "NU",
+		tier: "PU",
 	},
 	valentide: {
 		tier: "XU",
@@ -7770,71 +7758,55 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "RUBL",
 	},
 	dragoyle: {
-		isNonstandard: "Past",
-		tier: "Illegal",
+		tier: "UU",
 	},
 	oculeus: {
-		isNonstandard: "Past",
-		tier: "Illegal",
+		tier: "Uber",
 	},
 	arkhaos: {
-		isNonstandard: "Past",
-		tier: "Illegal",
+		tier: "AG",
 	},
 	venusauregho: {
-		isNonstandard: "Past",
-		tier: "Illegal",
+		tier: "NU",
 	},
 	charizardegho: {
-		isNonstandard: "Past",
-		tier: "Illegal",
+		tier: "ZU",
 	},
 	blastoiseegho: {
-		isNonstandard: "Past",
-		tier: "Illegal",
+		tier: "UU",
 	},
 	mukegho: {
-		isNonstandard: "Past",
-		tier: "Illegal",
+		tier: "XU",
 	},
 	oozma: {
 		tier: "RU",
 	},
 	fearowegho: {
-		isNonstandard: "Past",
-		tier: "Illegal",
+		tier: "NU",
 	},
 	noctowlegho: {
-		isNonstandard: "Past",
-		tier: "Illegal",
+		tier: "XU",
 	},
 	azumarillegho: {
-		isNonstandard: "Past",
-		tier: "Illegal",
+		tier: "PU",
 	},
 	garbodoregho: {
-		isNonstandard: "Past",
-		tier: "Illegal",
+		tier: "ZU",
 	},
 	altariaegho: {
-		isNonstandard: "Past",
-		tier: "Illegal",
+		tier: "UU",
 	},
 	ludicoloegho: {
-		isNonstandard: "Past",
-		tier: "Illegal",
+		tier: "XU",
 	},
 	magnetonegho: {
-		isNonstandard: "Past",
-		tier: "Illegal",
+		tier: "UU",
 	},
 	magnezoneegho: {
-		isNonstandard: "Past",
-		tier: "Illegal",
+		tier: "OU",
 	},
 	tangrowthegho: {
-		isNonstandard: "Past",
-		tier: "Illegal",
+		tier: "NU",
 	},
 	chanseyegho: {
 		isNonstandard: "Past",
@@ -7845,7 +7817,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "Illegal",
 	},
 	gorochu: {
-		tier: "RU",
+		tier: "NU",
 	},
 	nidorook: {
 		tier: "OU",
@@ -7914,116 +7886,244 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "UUBL",
 	},
 	shyleon: {
-		isNonstandard: "Past",
-		tier: "Illegal",
+		tier: "(XU)",
+	},
+	shyleonterrestrial: {
+		tier: "(XU)",
+	},
+	shyleonx: {
+		tier: "RUBL",
+	},
+	shyleonastro: {
+		tier: "Uber",
 	},
 	trishout: {
-		isNonstandard: "Past",
-		tier: "Illegal",
+		tier: "(XU)",
+	},
+	trishoutterrestrial: {
+		tier: "XU",
+	},
+	trishoutx: {
+		tier: "UUBL",
+	},
+	trishoutastro: {
+		tier: "Uber",
 	},
 	shulong: {
-		isNonstandard: "Past",
-		tier: "Illegal",
+		tier: "(PU)",
+	},
+	shulongterrestrial: {
+		tier: "XU",
+	},
+	shulongx: {
+		tier: "UU",
+	},
+	shulongastro: {
+		tier: "Uber",
+	},
+	bellossommega: {
+		tier: "UU",
+	},
+	shiftrymegax: {
+		tier: "NU",
+	},
+	weavilemega: {
+		tier: "OUBL",
+	},
+	raikoumega: {
+		tier: "OUBL",
+	},
+	enteimega: {
+		tier: "UUBL",
+	},
+	suicunemega: {
+		tier: "OU",
+	},
+	luxraymega: {
+		tier: "RU",
+	},
+	mienshaomega: {
+		tier: "RU",
 	},
 	harrowk: {
-		isNonstandard: "Past",
-		tier: "Illegal",
+		tier: "UUBL",
 	},
 	kungfur: {
-		isNonstandard: "Past",
-		tier: "Illegal",
+		tier: "PUBL",
 	},
 	hangead: {
-		isNonstandard: "Past",
-		tier: "Illegal",
+		tier: "(XU)",
 	},
 	whisteract: {
-		isNonstandard: "Past",
-		tier: "Illegal",
+		tier: "XU",
 	},
 	blingrudge: {
-		isNonstandard: "Past",
-		tier: "Illegal",
+		tier: "UU",
 	},
 	mylomute: {
-		isNonstandard: "Past",
-		tier: "Illegal",
+		tier: "NU",
 	},
 	honchen: {
-		isNonstandard: "Past",
-		tier: "Illegal",
+		tier: "NU",
 	},
 	koinkoin: {
-		isNonstandard: "Past",
-		tier: "Illegal",
+		tier: "PU",
 	},
 	hercurcules: {
-		isNonstandard: "Past",
-		tier: "Illegal",
+		tier: "RU",
 	},
 	grudako: {
-		isNonstandard: "Past",
-		tier: "Illegal",
+		tier: "OU",
 	},
 	sabolt: {
-		isNonstandard: "Past",
-		tier: "Illegal",
+		tier: "(XU)",
 	},
 	gachigachoo: {
-		isNonstandard: "Past",
-		tier: "Illegal",
+		tier: "(XU)",
 	},
 	wystearia: {
-		isNonstandard: "Past",
-		tier: "Illegal",
+		tier: "ZU",
 	},
 	scovile: {
-		isNonstandard: "Past",
-		tier: "Illegal",
+		tier: "RUBL",
 	},
 	troglolith: {
-		isNonstandard: "Past",
-		tier: "Illegal",
+		tier: "PU",
+	},
+	madieval: {
+		tier: "PU",
 	},
 	nebyura: {
-		isNonstandard: "Past",
-		tier: "Illegal",
+		tier: "ZU",
 	},
 	birigiri: {
-		isNonstandard: "Past",
-		tier: "Illegal",
+		tier: "(XU)",
 	},
 	goombear: {
-		isNonstandard: "Past",
-		tier: "Illegal",
+		tier: "UU",
 	},
 	fatail: {
-		isNonstandard: "Past",
-		tier: "Illegal",
+		tier: "XU",
 	},
 	reindigo: {
-		isNonstandard: "Past",
-		tier: "Illegal",
+		tier: "ZU",
 	},
-	snosqwatch: {
-		isNonstandard: "Past",
-		tier: "Illegal",
+	sosqwatch: {
+		tier: "XU",
 	},
 	skravroom: {
-		isNonstandard: "Past",
-		tier: "Illegal",
+		tier: "UU",
 	},
 	rexquiem: {
-		isNonstandard: "Past",
-		tier: "Illegal",
+		tier: "OU",
 	},
 	scarphasmo: {
-		isNonstandard: "Past",
-		tier: "Illegal",
+		tier: "PU",
 	},
 	donanas: {
-		isNonstandard: "Past",
-		tier: "Illegal",
+		tier: "RU",
+	},
+	bandeon: {
+		tier: "RU",
+	},
+	scaleon: {
+		tier: "PU",
+	},
+	porygonwes: {
+		tier: "UU",
+	},
+	egorgeon: {
+		tier: "OU",
+	},
+	vesperfum: {
+		tier: "ZU",
+	},
+	croakraze: {
+		tier: "UUBL",
+	},
+	swelephant: {
+		tier: "RU",
+	},
+	luxflon: {
+		tier: "AG",
+	},
+	dielebi: {
+		tier: "RU",
+	},
+	electaburst: {
+		tier: "RU",
+	},
+	spiritombx: {
+		tier: "(XU)",
+	},
+	sharpedox: {
+		tier: "ZU",
+	},
+	pyukumukux: {
+		tier: "PU",
+	},
+	galvantulax: {
+		tier: "XU",
+	},
+	chientilly: {
+		tier: "XU",
+	},
+	gengarx: {
+		tier: "RU",
+	},
+	cofagrigusx: {
+		tier: "(XU)",
+	},
+	rapidashx: {
+		tier: "XU",
+	},
+	cacturnex: {
+		tier: "PU",
+	},
+	slurpuffx: {
+		tier: "ZU",
+	},
+	roseradex: {
+		tier: "UU",
+	},
+	toxapexx: {
+		tier: "OUBL",
+	},
+	greninjax: {
+		tier: "Uber",
+	},
+	mewtwox: {
+		tier: "Uber",
+	},
+	raichux: {
+		tier: "PU",
+	},
+	bisharpx: {
+		tier: "OU",
+	},
+	scovilex: {
+		tier: "UU",
+	},
+	tyranitarx: {
+		tier: "OU",
+	},
+	aegislashx: {
+		tier: "OU",
+	},
+	tapubulux: {
+		tier: "OU",
+	},
+	tapufinix: {
+		tier: "OU",
+	},
+	tapukokox: {
+		tier: "OU",
+	},
+	tapulelex: {
+		tier: "RU",
+	},
+	dragalistk: {
+		tier: "Uber",
 	},
 	missingno: {
 		isNonstandard: "Custom",

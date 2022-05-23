@@ -2640,8 +2640,8 @@ export const Items: {[itemid: string]: ItemData} = {
     fling: {
         basePower: 60,
     },
-    forcedForme: "Bisharp-DB",
-    itemUser: ["Bisharp-DB"],
+    forcedForme: "Bisharp-Armira",
+    itemUser: ["Bisharp-Armira"],
     num: 1112,
     gen: 4,
   },

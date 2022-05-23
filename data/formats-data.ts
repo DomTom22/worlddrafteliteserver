@@ -8510,6 +8510,10 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		isNonstandard: "Past",
 		tier: "Illegal",
 	},
+	tangrowthcefira: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
 	ariadoscefira: {
 		isNonstandard: "Past",
 		tier: "Illegal",

@@ -960,10 +960,37 @@ export const Formats: FormatList = [
 
 	// Pet Mods
 	///////////////////////////////////////////////////////////////////
+	{
+			section: "Radical Red Tiers",
+			column: 3,
+		},
+		{
+			name: "[Gen 8] Radical Red Ubers",
+			threads: [
+				`&bullet; <a href="https://www.smogon.com/forums/threads/3676539/">Ubers Metagame Discussion</a>`,
+				`&bullet; <a href="https://www.smogon.com/forums/threads/3675564/">Ubers Sample Teams</a>`,
+				`&bullet; <a href="https://www.smogon.com/forums/threads/3675194/">Ubers Viability Rankings</a>`,
+			],
 
+			mod: 'gen8rr',
+			ruleset: ['Standard', 'Obtainable', 'Dynamax Clause'],
+			banlist: ['AG', 'Baton Pass', 'Moody'],
+		},
+		{
+			name: "[Gen 8] Radical Red OU",
+			threads: [
+				`&bullet; <a href="https://www.smogon.com/forums/threads/3672210/">OU Metagame Discussion</a>`,
+				`&bullet; <a href="https://www.smogon.com/forums/threads/3672556/">OU Sample Teams</a>`,
+				`&bullet; <a href="https://www.smogon.com/forums/threads/3674058/">OU Viability Rankings</a>`,
+			],
+
+			mod: 'gen8rr',
+			ruleset: ['Standard', 'Obtainable', 'Dynamax Clause'],
+			banlist: ['Uber', 'OUBL', 'AG', 'Arena Trap', 'Moody', 'Power Construct', 'Shadow Tag', 'Baton Pass'],
+		},
 	{
 		section: "Pet Mods",
-		column: 2,
+		column: 4,
 	},
 	{
 		name: "[Gen 8] Megas for All",
@@ -1063,7 +1090,7 @@ export const Formats: FormatList = [
 
 	{
 		section: "OM of the Month",
-		column: 2,
+		column: 4,
 	},
 	{
 		name: "[Gen 8] Max Berries",
@@ -1227,7 +1254,7 @@ export const Formats: FormatList = [
 
 	{
 		section: "Other Metagames",
-		column: 2,
+		column: 4,
 	},
 	{
 		name: "[Gen 8] Balanced Hackmons",
@@ -2024,7 +2051,7 @@ export const Formats: FormatList = [
 
 	{
 		section: "Randomized Metas",
-		column: 2,
+		column: 4,
 	},
 	{
 		name: "[Gen 8] Monotype Random Battle",

@@ -733,6 +733,69 @@ export const Formats: FormatList = [
 								banlist: ['Uber', 'OUBL', 'AG', 'Arena Trap', 'Moody', 'Power Construct', 'Shadow Tag', 'Baton Pass'],
 							},
 							{
+									section: "Opalo Tiers",
+								},
+								{
+									name: "[Gen 8] Opalo OU",
+									threads: [
+										`&bullet; <a href="https://www.smogon.com/forums/threads/3672210/">OU Metagame Discussion</a>`,
+										`&bullet; <a href="https://www.smogon.com/forums/threads/3672556/">OU Sample Teams</a>`,
+										`&bullet; <a href="https://www.smogon.com/forums/threads/3674058/">OU Viability Rankings</a>`,
+									],
+
+									mod: 'opalo',
+									ruleset: ['Standard', 'Obtainable', 'Dynamax Clause'],
+									banlist: ['Uber', 'OUBL', 'AG', 'Arena Trap', 'Moody', 'Power Construct', 'Shadow Tag', 'Baton Pass'],
+								},
+								{
+									name: "[Gen 8] Opalo UU",
+									threads: [
+										`&bullet; <a href="https://www.smogon.com/forums/threads/3672210/">OU Metagame Discussion</a>`,
+										`&bullet; <a href="https://www.smogon.com/forums/threads/3672556/">OU Sample Teams</a>`,
+										`&bullet; <a href="https://www.smogon.com/forums/threads/3674058/">OU Viability Rankings</a>`,
+									],
+
+									mod: 'opalo',
+									ruleset: ['Standard', 'Obtainable', 'Dynamax Clause'],
+									banlist: ['AG', 'Uber', 'OUBL', 'OU', 'UUBL'],
+								},
+								{
+									name: "[Gen 8] Opalo RU",
+									threads: [
+										`&bullet; <a href="https://www.smogon.com/forums/threads/3672210/">OU Metagame Discussion</a>`,
+										`&bullet; <a href="https://www.smogon.com/forums/threads/3672556/">OU Sample Teams</a>`,
+										`&bullet; <a href="https://www.smogon.com/forums/threads/3674058/">OU Viability Rankings</a>`,
+									],
+
+									mod: 'insurgence',
+									ruleset: ['Standard', 'Obtainable', 'Dynamax Clause'],
+									banlist: ['AG', 'Uber', 'OUBL', 'OU', 'UUBL', 'UU', 'RUBL'],
+								},
+								{
+									name: "[Gen 8] Opalo NU",
+									threads: [
+										`&bullet; <a href="https://www.smogon.com/forums/threads/3672210/">OU Metagame Discussion</a>`,
+										`&bullet; <a href="https://www.smogon.com/forums/threads/3672556/">OU Sample Teams</a>`,
+										`&bullet; <a href="https://www.smogon.com/forums/threads/3674058/">OU Viability Rankings</a>`,
+									],
+
+									mod: 'opalo',
+									ruleset: ['Standard', 'Obtainable', 'Dynamax Clause'],
+									banlist: ['AG', 'Uber', 'OUBL', 'OU', 'UUBL', 'UU', 'RUBL', 'RU', 'NUBL'],
+								},
+								{
+									name: "[Gen 8] Opalo PU",
+									threads: [
+										`&bullet; <a href="https://www.smogon.com/forums/threads/3672210/">OU Metagame Discussion</a>`,
+										`&bullet; <a href="https://www.smogon.com/forums/threads/3672556/">OU Sample Teams</a>`,
+										`&bullet; <a href="https://www.smogon.com/forums/threads/3674058/">OU Viability Rankings</a>`,
+									],
+
+									mod: 'opalo',
+									ruleset: ['Standard', 'Obtainable', 'Dynamax Clause'],
+									banlist: ['AG', 'Uber', 'OUBL', 'OU', 'UUBL', 'UU', 'RUBL', 'RU', 'NUBL', 'NU', 'PUBL'],
+								},
+							{
 									section: "Universal Tiers",
 									column: 2,
 								},
@@ -972,7 +1035,7 @@ export const Formats: FormatList = [
 				`&bullet; <a href="https://www.smogon.com/forums/threads/3675194/">Ubers Viability Rankings</a>`,
 			],
 
-			mod: 'gen8',
+			mod: 'radicalred',
 			ruleset: ['Standard', 'Obtainable', 'Dynamax Clause'],
 			banlist: ['AG', 'Baton Pass', 'Moody'],
 		},
@@ -984,7 +1047,7 @@ export const Formats: FormatList = [
 				`&bullet; <a href="https://www.smogon.com/forums/threads/3674058/">OU Viability Rankings</a>`,
 			],
 
-			mod: 'gen8',
+			mod: 'radicalred',
 			ruleset: ['Standard', 'Obtainable', 'Dynamax Clause'],
 			banlist: ['Uber', 'OUBL', 'AG', 'Arena Trap', 'Moody', 'Power Construct', 'Shadow Tag', 'Baton Pass'],
 		},

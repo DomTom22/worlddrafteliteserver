@@ -733,6 +733,54 @@ export const Formats: FormatList = [
 								banlist: ['Uber', 'OUBL', 'AG', 'Arena Trap', 'Moody', 'Power Construct', 'Shadow Tag', 'Baton Pass'],
 							},
 							{
+								name: "[Gen 8] Infninity UU",
+								threads: [
+									`&bullet; <a href="https://www.smogon.com/forums/threads/3672210/">OU Metagame Discussion</a>`,
+									`&bullet; <a href="https://www.smogon.com/forums/threads/3672556/">OU Sample Teams</a>`,
+									`&bullet; <a href="https://www.smogon.com/forums/threads/3674058/">OU Viability Rankings</a>`,
+								],
+
+								mod: 'infinity',
+								ruleset: ['Standard', 'Obtainable', 'Dynamax Clause'],
+								banlist: ['AG', 'Uber', 'OUBL', 'OU', 'UUBL'],
+							},
+							{
+								name: "[Gen 8] Infinity RU",
+								threads: [
+									`&bullet; <a href="https://www.smogon.com/forums/threads/3672210/">OU Metagame Discussion</a>`,
+									`&bullet; <a href="https://www.smogon.com/forums/threads/3672556/">OU Sample Teams</a>`,
+									`&bullet; <a href="https://www.smogon.com/forums/threads/3674058/">OU Viability Rankings</a>`,
+								],
+
+								mod: 'infinity',
+								ruleset: ['Standard', 'Obtainable', 'Dynamax Clause'],
+								banlist: ['AG', 'Uber', 'OUBL', 'OU', 'UUBL', 'UU', 'RUBL'],
+							},
+							{
+								name: "[Gen 8] Infinity NU",
+								threads: [
+									`&bullet; <a href="https://www.smogon.com/forums/threads/3672210/">OU Metagame Discussion</a>`,
+									`&bullet; <a href="https://www.smogon.com/forums/threads/3672556/">OU Sample Teams</a>`,
+									`&bullet; <a href="https://www.smogon.com/forums/threads/3674058/">OU Viability Rankings</a>`,
+								],
+
+								mod: 'infinity',
+								ruleset: ['Standard', 'Obtainable', 'Dynamax Clause'],
+								banlist: ['AG', 'Uber', 'OUBL', 'OU', 'UUBL', 'UU', 'RUBL', 'RU', 'NUBL'],
+							},
+							{
+								name: "[Gen 8] Infinity PU",
+								threads: [
+									`&bullet; <a href="https://www.smogon.com/forums/threads/3672210/">OU Metagame Discussion</a>`,
+									`&bullet; <a href="https://www.smogon.com/forums/threads/3672556/">OU Sample Teams</a>`,
+									`&bullet; <a href="https://www.smogon.com/forums/threads/3674058/">OU Viability Rankings</a>`,
+								],
+
+								mod: 'infinity',
+								ruleset: ['Standard', 'Obtainable', 'Dynamax Clause'],
+								banlist: ['AG', 'Uber', 'OUBL', 'OU', 'UUBL', 'UU', 'RUBL', 'RU', 'NUBL', 'NU', 'PUBL'],
+							},
+							{
 									section: "Opalo Tiers",
 								},
 								{
@@ -1050,6 +1098,54 @@ export const Formats: FormatList = [
 			mod: 'radicalred',
 			ruleset: ['Standard', 'Obtainable', 'Dynamax Clause'],
 			banlist: ['Uber', 'OUBL', 'AG', 'Arena Trap', 'Moody', 'Power Construct', 'Shadow Tag', 'Baton Pass'],
+		},
+		{
+			name: "[Gen 8] Radical Red UU",
+			threads: [
+				`&bullet; <a href="https://www.smogon.com/forums/threads/3672210/">OU Metagame Discussion</a>`,
+				`&bullet; <a href="https://www.smogon.com/forums/threads/3672556/">OU Sample Teams</a>`,
+				`&bullet; <a href="https://www.smogon.com/forums/threads/3674058/">OU Viability Rankings</a>`,
+			],
+
+			mod: 'radicalred',
+			ruleset: ['Standard', 'Obtainable', 'Dynamax Clause'],
+			banlist: ['AG', 'Uber', 'OUBL', 'OU', 'UUBL'],
+		},
+		{
+			name: "[Gen 8] Radical Red RU",
+			threads: [
+				`&bullet; <a href="https://www.smogon.com/forums/threads/3672210/">OU Metagame Discussion</a>`,
+				`&bullet; <a href="https://www.smogon.com/forums/threads/3672556/">OU Sample Teams</a>`,
+				`&bullet; <a href="https://www.smogon.com/forums/threads/3674058/">OU Viability Rankings</a>`,
+			],
+
+			mod: 'radicalred',
+			ruleset: ['Standard', 'Obtainable', 'Dynamax Clause'],
+			banlist: ['AG', 'Uber', 'OUBL', 'OU', 'UUBL', 'UU', 'RUBL'],
+		},
+		{
+			name: "[Gen 8] Radical Red NU",
+			threads: [
+				`&bullet; <a href="https://www.smogon.com/forums/threads/3672210/">OU Metagame Discussion</a>`,
+				`&bullet; <a href="https://www.smogon.com/forums/threads/3672556/">OU Sample Teams</a>`,
+				`&bullet; <a href="https://www.smogon.com/forums/threads/3674058/">OU Viability Rankings</a>`,
+			],
+
+			mod: 'radicalred',
+			ruleset: ['Standard', 'Obtainable', 'Dynamax Clause'],
+			banlist: ['AG', 'Uber', 'OUBL', 'OU', 'UUBL', 'UU', 'RUBL', 'RU', 'NUBL'],
+		},
+		{
+			name: "[Gen 8] Radical Red PU",
+			threads: [
+				`&bullet; <a href="https://www.smogon.com/forums/threads/3672210/">OU Metagame Discussion</a>`,
+				`&bullet; <a href="https://www.smogon.com/forums/threads/3672556/">OU Sample Teams</a>`,
+				`&bullet; <a href="https://www.smogon.com/forums/threads/3674058/">OU Viability Rankings</a>`,
+			],
+
+			mod: 'radicalred',
+			ruleset: ['Standard', 'Obtainable', 'Dynamax Clause'],
+			banlist: ['AG', 'Uber', 'OUBL', 'OU', 'UUBL', 'UU', 'RUBL', 'RU', 'NUBL', 'NU', 'PUBL'],
 		},
 	{
 		section: "Pet Mods",

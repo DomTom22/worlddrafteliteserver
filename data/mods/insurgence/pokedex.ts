@@ -12343,7 +12343,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		forme: "Delta",
 		types: ["Grass"],
 		baseStats: {hp: 65, atk: 90, def: 115, spa: 45, spd: 115, spe: 58},
-		abilities: {0: "Rough Skin", 1: "Rivalry", H: "Grassy Surge"},
+		abilities: {0: "Rough Skin", 1: "Rivalry", H: "Anger Point"},
 		heightm: 1.1,
 		weightkg: 30,
 		color: "Green",

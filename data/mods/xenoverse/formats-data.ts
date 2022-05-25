@@ -33,7 +33,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "PU",
 	},
 	shulongx: {
-		tier: "UU",
+		tier: "OU",
 	},
 	shulongastro: {
 		tier: "Uber",
@@ -42,8 +42,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "OU",
 	},
 	shiftrymegax: {
-		isNonstandard: "Past",
-		tier: "Illegal",
+		tier: "OU",
 	},
 	weavilemega: {
 		tier: "OU",
@@ -934,7 +933,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	gengar: {
 		randomDoubleBattleMoves: ["focusblast", "nastyplot", "protect", "shadowball", "sludgebomb", "thunderbolt", "trick", "willowisp"],
 		randomDoubleBattleLevel: 82,
-    tier: "UU",
+    tier: "OU",
 		doublesTier: "(DUU)",
 	},
 	gengarmega: {
@@ -1698,7 +1697,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		randomDoubleBattleMoves: ["dragonclaw", "dragondance", "dualwingbeat", "extremespeed", "firepunch"],
 		randomDoubleBattleLevel: 82,
 		randomBattleNoDynamaxMoves: ["dragondance", "dualwingbeat", "earthquake", "outrage", "roost"],
-    tier: "UU",
+    tier: "OU",
 		doublesTier: "(DUU)",
 	},
 	mewtwo: {
@@ -2148,7 +2147,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		randomBattleLevel: 80,
 		randomDoubleBattleMoves: ["bodypress", "bravebird", "irondefense", "roost"],
 		randomDoubleBattleLevel: 84,
-    tier: "UU",
+    tier: "OU",
 		doublesTier: "(DUU)",
 	},
 	skarmorychromatic: {
@@ -2310,7 +2309,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		randomBattleLevel: 76,
 		randomDoubleBattleMoves: ["closecombat", "flareblitz", "knockoff", "protect", "swordsdance"],
 		randomDoubleBattleLevel: 78,
-    tier: "UU",
+    tier: "OU",
 		doublesTier: "(DUU)",
 	},
 	blazikenmega: {
@@ -4084,7 +4083,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		randomBattleLevel: 80,
 		randomDoubleBattleMoves: ["closecombat", "drainpunch", "highhorsepower", "icepunch", "knockoff", "machpunch", "protect", "stoneedge"],
 		randomDoubleBattleLevel: 84,
-    tier: "UU",
+    tier: "OU",
 		doublesTier: "(DUU)",
 	},
 	tympole: {
@@ -4951,7 +4950,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "Illegal",
 	},
 	meloetta: {
-    tier: "UU",
+    tier: "OU",
 	},
 	meloettapirouette: {
 	},
@@ -9033,7 +9032,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "RU",
 	},
 	honchen: {
-		tier: "UU",
+		tier: "OU",
 	},
 	koinkoin: {
 		tier: "RU",
@@ -9099,7 +9098,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "NU",
 	},
 	porygonwes: {
-		tier: "UU",
+		tier: "OU",
 	},
 	egorgeon: {
 		tier: "OU",

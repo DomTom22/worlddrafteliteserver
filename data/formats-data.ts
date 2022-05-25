@@ -520,6 +520,26 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "RU",
 		doublesTier: "DUU",
 	},
+	arcaninedb: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	arbokmega: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	laprasmega: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	whimsicottmega: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	helioliskmega: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
 	poliwag: {
 		tier: "LC",
 	},
@@ -1172,10 +1192,6 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	lapras: {
 		tier: "(PU)",
 		doublesTier: "(DUU)",
-	},
-	laprasmega: {
-		isNonstandard: "Custom",
-		tier: "Illegal",
 	},
 	laprasgmax: {
 		randomBattleMoves: ["freezedry", "icebeam", "protect", "sparklingaria", "thunderbolt", "toxic"],

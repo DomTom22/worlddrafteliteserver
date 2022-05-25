@@ -972,7 +972,7 @@ export const Formats: FormatList = [
 				`&bullet; <a href="https://www.smogon.com/forums/threads/3675194/">Ubers Viability Rankings</a>`,
 			],
 
-			mod: 'gen8rr',
+			mod: 'gen8',
 			ruleset: ['Standard', 'Obtainable', 'Dynamax Clause'],
 			banlist: ['AG', 'Baton Pass', 'Moody'],
 		},
@@ -984,7 +984,7 @@ export const Formats: FormatList = [
 				`&bullet; <a href="https://www.smogon.com/forums/threads/3674058/">OU Viability Rankings</a>`,
 			],
 
-			mod: 'gen8rr',
+			mod: 'gen8',
 			ruleset: ['Standard', 'Obtainable', 'Dynamax Clause'],
 			banlist: ['Uber', 'OUBL', 'AG', 'Arena Trap', 'Moody', 'Power Construct', 'Shadow Tag', 'Baton Pass'],
 		},

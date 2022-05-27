@@ -2380,6 +2380,9 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	swellow: {
     tier: "RU",
 	},
+	swellowdb: {
+    tier: "UU",
+	},
 	wingull: {
 		isNonstandard: "Past",
     tier: "Illegal",

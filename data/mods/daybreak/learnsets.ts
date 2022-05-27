@@ -31590,7 +31590,6 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			rocktomb: ["8M", "7M", "6M", "5M", "4M", "3M"],
 			round: ["8M", "7M", "6M", "5M"],
 			safeguard: ["8M", "7M", "6M", "5M", "4M", "3M"],
-			scaleshot: ["8M"],
 			screech: ["8M", "8L49", "7L69", "6L23", "5L23", "4L23", "3L23"],
 			secretpower: ["6M", "4M", "3M"],
 			seedbomb: ["8M", "7T", "6T", "5T", "4T"],
@@ -31616,6 +31615,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			toxicspikes: ["8M"],
 			sludgebomb: ["8M"],
 			sludgewave: ["8M"],
+			nightslash: ["8M"],
 		},
 		eventData: [
 			{generation: 5, level: 50, shiny: 1, moves: ["leafstorm", "dragonpulse", "focusblast", "rockslide"], pokeball: "cherishball"},

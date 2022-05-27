@@ -78,7 +78,6 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	venusaurdelta: {
 		num: 3,
 		name: "Venusaur-Delta",
-		baseSpecies: "Venusaur",
 		forme: "Delta",
 		types: ["Fairy", "Psychic"],
 		baseStats: {hp: 80, atk: 82, def: 83, spa: 100, spd: 100, spe: 80},
@@ -93,7 +92,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	venusaurdeltamega: {
 		num: 3,
 		name: "Venusaur-Delta-Mega",
-		baseSpecies: "Venusaur",
+		baseSpecies: "Venusaur-Delta",
 		forme: "Delta-Mega",
 		types: ["Fairy", "Psychic"],
 		baseStats: {hp: 80, atk: 100, def: 123, spa: 122, spd: 120, spe: 80},
@@ -214,7 +213,6 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	charizarddelta: {
 		num: 6,
 		name: "Charizard-Delta",
-		baseSpecies: "Charizard",
 		forme: "Delta",
 		types: ["Ghost", "Dragon"],
 		genderRatio: {M: 0.875, F: 0.125},
@@ -230,7 +228,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	charizarddeltamega: {
 		num: 6,
 		name: "Charizard-Delta-Mega",
-		baseSpecies: "Charizard",
+		baseSpecies: "Charizard-Delta",
 		forme: "Delta-Mega",
 		types: ["Ghost", "Dragon"],
 		genderRatio: {M: 0.875, F: 0.125},
@@ -336,7 +334,6 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	blastoisedelta: {
 		num: 9,
 		name: "Blastoise-Delta",
-		baseSpecies: "Blastoise",
 		forme: "Delta",
 		types: ["Dark", "Fighting"],
 		genderRatio: {M: 0.875, F: 0.125},
@@ -576,7 +573,6 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	pidgeotdelta: {
 		num: 18,
 		name: "Pidgeot-Delta",
-		baseSpecies: "Pidgeot",
 		forme: "Delta",
 		types: ["Dark", "Dragon"],
 		baseStats: {hp: 83, atk: 80, def: 75, spa: 70, spd: 70, spe: 101},
@@ -591,7 +587,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	pidgeotdeltamega: {
 		num: 18,
 		name: "Pidgeot-Delta-Mega",
-		baseSpecies: "Pidgeot",
+		baseSpecies: "Pidgeot-Delta",
 		forme: "Delta-Mega",
 		types: ["Dark", "Dragon"],
 		baseStats: {hp: 83, atk: 80, def: 80, spa: 135, spd: 80, spe: 121},
@@ -4345,7 +4341,6 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	typhlosiondelta: {
 		num: 157,
 		name: "Typhlosion-Delta",
-		baseSpecies: "Typhlosion",
 		forme: "Delta",
 		types: ["Electric", "Steel"],
 		genderRatio: {M: 0.875, F: 0.125},
@@ -4361,7 +4356,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	typhlosiondeltamega: {
 		num: 157,
 		name: "Typhlosion-Delta-Mega",
-		baseSpecies: "Typhlosion",
+		baseSpecies: "Typhlosion-Delta",
 		forme: "Delta-Mega",
 		types: ["Electric", "Steel"],
 		genderRatio: {M: 0.875, F: 0.125},
@@ -4377,7 +4372,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	typhlosiondeltamegaactive: {
 		num: 157,
 		name: "Typhlosion-Delta-Mega-Active",
-		baseSpecies: "Typhlosion",
+		baseSpecies: "Typhlosion-Delta",
 		forme: "Delta-Mega-Active",
 		types: ["Electric", "Steel"],
 		baseStats: {hp: 78, atk: 89, def: 88, spa: 159, spd: 110, spe: 110},
@@ -5116,7 +5111,6 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	sunfloradelta: {
 		num: 192,
 		name: "Sunflora-Delta",
-		baseSpecies: "Sunflora",
 		forme: "Delta",
 		types: ["Fire", "Poison"],
 		baseStats: {hp: 75, atk: 75, def: 55, spa: 105, spd: 85, spe: 30},
@@ -5134,7 +5128,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	sunfloradeltamega: {
 		num: 192,
 		name: "Sunflora-Delta-Mega",
-		baseSpecies: "Sunflora",
+		baseSpecies: "Sunflora-Delta",
 		forme: "Delta-Mega",
 		types: ["Fire", "Poison"],
 		baseStats: {hp: 75, atk: 75, def: 80, spa: 135, spd: 105, spe: 45},
@@ -5370,7 +5364,6 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	girafarigdelta: {
 		num: 203,
 		name: "Girafarig-Delta",
-		baseSpecies: "Girafarig",
 		forme: "Delta",
 		types: ["Steel", "Poison"],
 		baseStats: {hp: 70, atk: 80, def: 65, spa: 90, spd: 65, spe: 85},
@@ -5385,7 +5378,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	girafarigdeltamega: {
 		num: 203,
 		name: "Girafarig-Delta-Mega",
-		baseSpecies: "Girafarig",
+		baseSpecies: "Girafarig-Delta",
 		forme: "Delta-Mega",
 		types: ["Steel", "Poison"],
 		baseStats: {hp: 70, atk: 80, def: 95, spa: 130, spd: 95, spe: 85},
@@ -5630,7 +5623,6 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	scizordelta: {
 		num: 212,
 		name: "Scizor-Delta",
-		baseSpecies: "Scizor",
 		forme: "Delta",
 		types: ["Ice", "Fighting"],
 		baseStats: {hp: 70, atk: 130, def: 100, spa: 55, spd: 80, spe: 65},
@@ -5648,7 +5640,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	scizordeltamega: {
 		num: 212,
 		name: "Scizor-Delta-Mega",
-		baseSpecies: "Scizor",
+		baseSpecies: "Scizor-Delta",
 		forme: "Delta-Mega",
 		types: ["Ice", "Fighting"],
 		baseStats: {hp: 70, atk: 150, def: 140, spa: 65, spd: 100, spe: 75},
@@ -7163,7 +7155,6 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	gardevoirdelta: {
 		num: 282,
 		name: "Gardevoir-Delta",
-		baseSpecies: "Gardevoir",
 		forme: "Delta",
 		types: ["Electric", "Ice"],
 		baseStats: {hp: 68, atk: 65, def: 65, spa: 125, spd: 115, spe: 80},
@@ -7178,7 +7169,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	gardevoirdeltamega: {
 		num: 282,
 		name: "Gardevoir-Delta-Mega",
-		baseSpecies: "Gardevoir",
+		baseSpecies: "Gardevoir-Delta",
 		forme: "Delta-Mega",
 		types: ["Electric", "Ice"],
 		baseStats: {hp: 68, atk: 85, def: 65, spa: 165, spd: 135, spe: 100},
@@ -7517,7 +7508,6 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	sableyedelta: {
 		num: 302,
 		name: "Sableye-Delta",
-		baseSpecies: "Sableye",
 		forme: "Delta",
 		types: ["Fire", "Rock"],
 		baseStats: {hp: 50, atk: 75, def: 75, spa: 65, spd: 65, spe: 50},
@@ -7532,7 +7522,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	sableyedeltamega: {
 		num: 302,
 		name: "Sableye-Delta-Mega",
-		baseSpecies: "Sableye",
+		baseSpecies: "Sableye-Delta",
 		forme: "Delta-Mega",
 		types: ["Fire", "Rock"],
 		baseStats: {hp: 50, atk: 85, def: 125, spa: 85, spd: 115, spe: 20},
@@ -7616,7 +7606,6 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	mawiledelta: {
 		num: 303,
 		name: "Mawile-Delta",
-		baseSpecies: "Mawile",
 		forme: "Delta",
 		types: ["Grass", "Dark"],
 		baseStats: {hp: 50, atk: 85, def: 85, spa: 55, spd: 55, spe: 50},
@@ -7631,7 +7620,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	mawiledeltamega: {
 		num: 303,
 		name: "Mawile-Delta-Mega",
-		baseSpecies: "Mawile",
+		baseSpecies: "Mawile-Delta",
 		forme: "Delta-Mega",
 		types: ["Grass", "Dark"],
 		baseStats: {hp: 50, atk: 105, def: 125, spa: 55, spd: 95, spe: 50},
@@ -7768,7 +7757,6 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	medichamdelta: {
 		num: 308,
 		name: "Medicham-Delta",
-		baseSpecies: "Medicham",
 		forme: "Delta",
 		types: ["Fairy", "Ground"],
 		baseStats: {hp: 60, atk: 60, def: 75, spa: 60, spd: 75, spe: 80},
@@ -7783,7 +7771,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	medichamdeltamega: {
 		num: 308,
 		name: "Medicham-Delta-Mega",
-		baseSpecies: "Medicham",
+		baseSpecies: "Medicham-Delta",
 		forme: "Delta-Mega",
 		types: ["Fairy", "Ground"],
 		baseStats: {hp: 60, atk: 100, def: 85, spa: 80, spd: 85, spe: 100},
@@ -8063,7 +8051,6 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	cameruptdelta: {
 		num: 323,
 		name: "Camerupt-Delta",
-		baseSpecies: "Camerupt",
 		forme: "Delta",
 		types: ["Poison"],
 		baseStats: {hp: 70, atk: 100, def: 70, spa: 105, spd: 75, spe: 40},
@@ -8078,7 +8065,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	cameruptdeltamega: {
 		num: 323,
 		name: "Camerupt-Delta-Mega",
-		baseSpecies: "Camerupt",
+		baseSpecies: "Camerupt-Delta",
 		forme: "Delta-Mega",
 		types: ["Poison"],
 		baseStats: {hp: 70, atk: 120, def: 100, spa: 145, spd: 105, spe: 20},
@@ -8695,7 +8682,6 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	miloticdelta: {
 		num: 350,
 		name: "Milotic-Delta",
-		baseSpecies: "Milotic",
 		forme: "Delta",
 		types: ["Ghost"],
 		baseStats: {hp: 95, atk: 60, def: 79, spa: 100, spd: 125, spe: 81},
@@ -8710,7 +8696,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	miloticdeltamega: {
 		num: 350,
 		name: "Milotic-Delta-Mega",
-		baseSpecies: "Milotic",
+		baseSpecies: "Milotic-Delta",
 		forme: "Delta-Mega",
 		types: ["Ghost"],
 		baseStats: {hp: 95, atk: 70, def: 109, spa: 130, spd: 155, spe: 81},
@@ -9069,7 +9055,6 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	glaliedelta: {
 		num: 362,
 		name: "Glalie-Delta",
-		baseSpecies: "Glalie",
 		forme: "Delta",
 		types: ["Fire", "Rock"],
 		baseStats: {hp: 80, atk: 80, def: 80, spa: 80, spd: 80, spe: 80},
@@ -9084,7 +9069,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	glaliedeltamega: {
 		num: 362,
 		name: "Glalie-Delta-Mega",
-		baseSpecies: "Glalie",
+		baseSpecies: "Glalie-Delta",
 		forme: "Delta-Mega",
 		types: ["Fire", "Rock"],
 		baseStats: {hp: 80, atk: 120, def: 80, spa: 120, spd: 80, spe: 100},
@@ -10697,7 +10682,6 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	lopunnydelta: {
 		num: 428,
 		name: "Lopunny-Delta",
-		baseSpecies: "Lopunny",
 		forme: "Delta",
 		types: ["Fighting"],
 		baseStats: {hp: 65, atk: 76, def: 84, spa: 54, spd: 96, spe: 105},
@@ -10712,7 +10696,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	lopunnydeltamega: {
 		num: 428,
 		name: "Lopunny-Delta-Mega",
-		baseSpecies: "Lopunny",
+		baseSpecies: "Lopunny-Delta",
 		forme: "Delta-Mega",
 		types: ["Fighting", "Psychic"],
 		baseStats: {hp: 65, atk: 136, def: 94, spa: 54, spd: 96, spe: 135},
@@ -11170,7 +11154,6 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	lucariodelta: {
 		num: 448,
 		name: "Lucario-Delta",
-		baseSpecies: "Lucario",
 		forme: "Delta",
 		types: ["Dark", "Ground"],
 		genderRatio: {M: 0.875, F: 0.125},
@@ -11186,7 +11169,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	lucariodeltamega: {
 		num: 448,
 		name: "Lucario-Delta-Mega",
-		baseSpecies: "Lucario",
+		baseSpecies: "Lucario-Delta",
 		forme: "Delta-Mega",
 		types: ["Dark", "Ground"],
 		genderRatio: {M: 0.875, F: 0.125},
@@ -11830,7 +11813,6 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	galladedelta: {
 		num: 475,
 		name: "Gallade-Delta",
-		baseSpecies: "Gallade",
 		forme: "Delta",
 		types: ["Electric", "Ice"],
 		gender: "M",
@@ -11846,7 +11828,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	galladedeltamega: {
 		num: 475,
 		name: "Gallade-Delta-Mega",
-		baseSpecies: "Gallade",
+		baseSpecies: "Gallade-Delta",
 		forme: "Delta-Mega",
 		types: ["Electric", "Ice"],
 		gender: "M",
@@ -11940,7 +11922,6 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	froslassdelta: {
 		num: 478,
 		name: "Froslass-Delta",
-		baseSpecies: "Froslass",
 		forme: "Delta",
 		types: ["Fire"],
 		gender: "F",
@@ -11956,7 +11937,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	froslassdeltamega: {
 		num: 478,
 		name: "Froslass-Delta-Mega",
-		baseSpecies: "Froslass",
+		baseSpecies: "Froslass-Delta",
 		forme: "Delta-Mega",
 		types: ["Fire", "Ghost"],
 		baseStats: {hp: 70, atk: 80, def: 85, spa: 120, spd: 105, spe: 120},
@@ -15172,7 +15153,6 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	bisharpdelta: {
 		num: 625,
 		name: "Bisharp-Delta",
-		baseSpecies: "Bisharp",
 		forme: "Delta",
 		types: ["Flying", "Fighting"],
 		baseStats: {hp: 65, atk: 125, def: 100, spa: 60, spd: 70, spe: 70},
@@ -15187,7 +15167,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	bisharpdeltamega: {
 		num: 625,
 		name: "Bisharp-Delta-Mega",
-		baseSpecies: "Bisharp",
+		baseSpecies: "Bisharp-Delta",
 		forme: "Delta-Mega",
 		types: ["Flying", "Fighting"],
 		baseStats: {hp: 65, atk: 145, def: 130, spa: 60, spd: 85, spe: 105},

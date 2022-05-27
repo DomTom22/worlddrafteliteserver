@@ -102,6 +102,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		weightkg: 155.5,
 		color: "Pink",
 		eggGroups: ["Undiscovered"],
+		battleOnly: "Venusaur-Delta",
 		requiredItem: "Delta Venusaurite",
 	},
 	venusauregho: {
@@ -239,7 +240,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		weightkg: 100.5,
 		color: "Black",
 		eggGroups: ["Undiscovered"],
-		battleOnly: "Charizard",
+		battleOnly: "Charizard-Delta",
 		requiredItem: "Delta Charizardite",
 	},
 	charizardegho: {
@@ -361,6 +362,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		weightkg: 101.1,
 		color: "Black",
 		eggGroups: ["Undiscoverd"],
+		battleOnly: "Blastoise-Delta",
 		requiredItem: "Delta Blastoisinite",
 	},
 	blastoiseegho: {
@@ -598,6 +600,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		weightkg: 50.5,
 		color: "Brown",
 		eggGroups: ["Undiscovered"],
+		battleOnly: "Pidgeot-Delta",
 		requiredItem: "Delta Pidgeotite",
 	},
 	rattata: {
@@ -4368,6 +4371,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		weightkg: 79.5,
 		color: "Yellow",
 		eggGroups: ["Undiscovered"],
+		battleOnly: "Typhlosion-Delta",
 		requiredItem: "Delta Typhlosionite",
 	},
 	typhlosiondeltamegaactive: {
@@ -4384,7 +4388,6 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Undiscovered"],
 		requiredAbility: "Supercell",
 		battleOnly: "Typhlosion-Delta",
-		tier: "OU",
 	},
 	typhlosionfrante: {
 		num: 157,
@@ -5140,6 +5143,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		weightkg: 8.5,
 		color: "Purple",
 		eggGroups: ["Undiscovered"],
+		battleOnly: "Sunflora-Delta",
 		requiredItem: "Delta Sunflorite",
 	},
 	sunflorid: {
@@ -5390,6 +5394,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		weightkg: 41.5,
 		color: "Grey",
 		eggGroups: ["Undiscovered"],
+		battleOnly: "Girafarig-Delta",
 		requiredItem: "Delta Etigirafarigite",
 	},
 	folifarig: {
@@ -5652,6 +5657,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		weightkg: 125,
 		color: "Blue",
 		eggGroups: ["Undiscovered"],
+		battleOnly: "Scizor-Delta",
 		requiredItem: "Delta Scizorite",
 	},
 	shuckle: {
@@ -7181,6 +7187,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		weightkg: 48.4,
 		color: "White",
 		eggGroups: ["Undiscovered"],
+		battleOnly: "Gardevoir-Delta",
 		requiredItem: "Delta Gardevoirite",
 	},
 	surskit: {
@@ -7534,6 +7541,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		weightkg: 161,
 		color: "Red",
 		eggGroups: ["Undiscovered"],
+		battleOnly: "Sableye-Delta",
 		requiredItem: "Delta Sablenite",
 	},
 	sableyecefira: {
@@ -7632,6 +7640,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		weightkg: 23.5,
 		color: "Pink",
 		eggGroups: ["Undiscovered"],
+		battleOnly: "Mawile-Delta",
 		requiredItem: "Delta Mawilite",
 	},
 	jawile: {
@@ -7783,6 +7792,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		weightkg: 31.5,
 		color: "Brown",
 		eggGroups: ["Undiscovered"],
+		battleOnly: "Medicham-Delta",
 		requiredItem: "Delta Medichamite",
 	},
 	electrike: {
@@ -8077,6 +8087,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		weightkg: 320.5,
 		color: "Blue",
 		eggGroups: ["Undiscovered"],
+		battleOnly: "Camerupt-Delta",
 		requiredItem: "Delta Cameruptite",
 	},
 	cameruptcefira: {
@@ -8708,6 +8719,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		weightkg: 162,
 		color: "Grey",
 		eggGroups: ["Undiscovered"],
+		battleOnly: "Milotic-Delta",
 		requiredItem: "Delta Milotite",
 	},
 	castform: {
@@ -9081,6 +9093,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		weightkg: 350.2,
 		color: "Orange",
 		eggGroups: ["Undiscovered"],
+		battleOnly: "Glalie-Delta",
 		requiredItem: "Delta Glalitite",
 	},
 	spheal: {
@@ -10708,6 +10721,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		weightkg: 28.3,
 		color: "Grey",
 		eggGroups: ["Undiscovered"],
+		battleOnly: "Lopunny-Delta",
 		requiredItem: "Delta Lopunnite",
 	},
 	lopunnycefira: {
@@ -10725,11 +10739,11 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		otherFormes: ["Lopunny-Cefira-Mega"],
 		formeOrder: ["Lopunny-Cefira", "Lopunny-Cefira-Mega"],
 	},
-	lopunnydeltamega: {
+	lopunnycefiramega: {
 		num: 428,
-		name: "Lopunny-Delta-Mega",
+		name: "Lopunny-Cefira-Mega",
 		baseSpecies: "Lopunny",
-		forme: "Delta-Mega",
+		forme: "Cefira-Mega",
 		types: ["Ice", "Fighting"],
 		baseStats: {hp: 65, atk: 136, def: 94, spa: 54, spd: 96, spe: 135},
 		abilities: {0: "Striker"},
@@ -11182,6 +11196,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		weightkg: 57.5,
 		color: "Black",
 		eggGroups: ["Undiscovered"],
+		battleOnly: "Lucario-Delta",
 		requiredItem: "Delta Lucarionite",
 	},
 	hippopotas: {
@@ -11841,6 +11856,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		weightkg: 56.4,
 		color: "White",
 		eggGroups: ["Undiscovered"],
+		battleOnly: "Gallade-Delta",
 		requiredItem: "Delta Galladite",
 	},
 	probopass: {
@@ -11949,6 +11965,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		weightkg: 26.6,
 		color: "Orange",
 		eggGroups: ["Undiscovered"],
+		battleOnly: "Froslass-Delta",
 		requiredItem: "Delta Froslassite",
 	},
 	rotom: {
@@ -15179,6 +15196,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		weightkg: 70,
 		color: "Green",
 		eggGroups: ["Undiscovered"],
+		battleOnly: "Bisharp-Delta",
 		requiredItem: "Delta Bisharpite",
 	},
   bisharpdb: {

@@ -962,7 +962,6 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			scald: ["8M", "8V", "7M", "6M", "5M"],
 			secretpower: ["6M", "4M", "3M"],
 			seismictoss: ["8V", "7V", "3T"],
-			shellsmash: ["8L35"],
 			signalbeam: ["7T", "6T", "5T", "4T"],
 			skullbash: ["8L56", "8V", "7L40", "7V", "6L39", "5L39", "4L39", "3L55", "3S0"],
 			sleeptalk: ["8M", "7M", "7V", "6M", "5T", "4M", "3T"],

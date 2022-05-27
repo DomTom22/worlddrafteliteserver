@@ -11588,7 +11588,7 @@ venusaurmegax: {
     baseSpecies: "Bisharp",
     types: ["Steel"],
     baseStats: {hp: 85, atk: 155, def: 155, spa: 40, spd: 40, spe: 80},
-    abilities: {0: "Inner Focus"},
+    abilities: {0: "Defiant"},
     heightm: 1.6,
     weightkg: 70,
     color: "Red",

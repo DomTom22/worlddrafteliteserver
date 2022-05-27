@@ -56,6 +56,14 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "OU",
 		doublesTier: "DOU",
 	},
+	charizarddelta: {
+		isNonstandard: "Past",
+	tier: "Illegal",
+	},
+	charizarddeltamega: {
+		isNonstandard: "Past",
+	tier: "Illegal",
+	},
 	charizardgmax: {
 		randomDoubleBattleMoves: ["airslash", "fireblast", "focusblast", "heatwave", "protect", "tailwind"],
 		randomDoubleBattleLevel: 80,

@@ -2714,7 +2714,7 @@ export const Items: {[itemid: string]: ItemData} = {
 		name: "Delta Bisharpite",
 		spritenum: 576,
 		megaStone: "Bisharp-Delta-Mega",
-		megaEvolves: "Bisharp-Delta",
+		megaEvolves: "Bisharp",
 		itemUser: ["Bisharp-Delta"],
 		onTakeItem(item, source) {
 			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
@@ -2727,7 +2727,7 @@ export const Items: {[itemid: string]: ItemData} = {
 		name: "Delta Blastoisinite",
 		spritenum: 576,
 		megaStone: "Blastoise-Delta-Mega",
-		megaEvolves: "Blastoise-Delta",
+		megaEvolves: "Blastoise",
 		itemUser: ["Blastoise-Delta"],
 		onTakeItem(item, source) {
 			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
@@ -2740,7 +2740,7 @@ export const Items: {[itemid: string]: ItemData} = {
 		name: "Delta Cameruptite",
 		spritenum: 576,
 		megaStone: "Camerupt-Delta-Mega",
-		megaEvolves: "Camerupt-Delta",
+		megaEvolves: "Camerupt",
 		itemUser: ["Camerupt-Delta"],
 		onTakeItem(item, source) {
 			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
@@ -2753,7 +2753,7 @@ export const Items: {[itemid: string]: ItemData} = {
 		name: "Delta Charizardite",
 		spritenum: 576,
 		megaStone: "Charizard-Delta-Mega",
-		megaEvolves: "Charizard-Delta",
+		megaEvolves: "Charizard",
 		itemUser: ["Charizard-Delta"],
 		onTakeItem(item, source) {
 			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
@@ -2766,7 +2766,7 @@ export const Items: {[itemid: string]: ItemData} = {
 		name: "Delta Etigirafarigite",
 		spritenum: 576,
 		megaStone: "Girafarig-Delta-Mega",
-		megaEvolves: "Girafarig-Delta",
+		megaEvolves: "Girafarig",
 		itemUser: ["Girafarig-Delta"],
 		onTakeItem(item, source) {
 			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
@@ -2779,7 +2779,7 @@ export const Items: {[itemid: string]: ItemData} = {
 		name: "Delta Froslassite",
 		spritenum: 576,
 		megaStone: "Froslass-Delta-Mega",
-		megaEvolves: "Froslass-Delta",
+		megaEvolves: "Froslass",
 		itemUser: ["Froslass-Delta"],
 		onTakeItem(item, source) {
 			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
@@ -2792,7 +2792,7 @@ export const Items: {[itemid: string]: ItemData} = {
 		name: "Delta Gardevoirite",
 		spritenum: 576,
 		megaStone: "Gardevoir-Delta-Mega",
-		megaEvolves: "Gardevoir-Delta",
+		megaEvolves: "Gardevoir",
 		itemUser: ["Gardevoir-Delta"],
 		onTakeItem(item, source) {
 			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
@@ -2818,7 +2818,7 @@ export const Items: {[itemid: string]: ItemData} = {
 		name: "Delta Glalitite",
 		spritenum: 576,
 		megaStone: "Glalie-Delta-Mega",
-		megaEvolves: "Glalie-Delta",
+		megaEvolves: "Glalie",
 		itemUser: ["Glalie-Delta"],
 		onTakeItem(item, source) {
 			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
@@ -2831,7 +2831,7 @@ export const Items: {[itemid: string]: ItemData} = {
 		name: "Delta Lopunnite",
 		spritenum: 626,
 		megaStone: "Lopunny-Delta-Mega",
-		megaEvolves: "Lopunny-Delta",
+		megaEvolves: "Lopunny",
 		itemUser: ["Lopunny-Delta"],
 		onTakeItem(item, source) {
 			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
@@ -2844,7 +2844,7 @@ export const Items: {[itemid: string]: ItemData} = {
 		name: "Delta Lucarionite",
 		spritenum: 594,
 		megaStone: "Lucario-Delta-Mega",
-		megaEvolves: "Lucario-Delta",
+		megaEvolves: "Lucario",
 		itemUser: ["Lucario-Delta"],
 		onTakeItem(item, source) {
 			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
@@ -2857,7 +2857,7 @@ export const Items: {[itemid: string]: ItemData} = {
 		name: "Delta Mawilite",
 		spritenum: 576,
 		megaStone: "Mawile-Delta-Mega",
-		megaEvolves: "Mawile-Delta",
+		megaEvolves: "Mawile",
 		itemUser: ["Mawile-Delta"],
 		onTakeItem(item, source) {
 			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
@@ -2870,7 +2870,7 @@ export const Items: {[itemid: string]: ItemData} = {
 		name: "Delta Medichamite",
 		spritenum: 576,
 		megaStone: "Medicham-Delta-Mega",
-		megaEvolves: "Medicham-Delta",
+		megaEvolves: "Medicham",
 		itemUser: ["Medicham-Delta"],
 		onTakeItem(item, source) {
 			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
@@ -2883,7 +2883,7 @@ export const Items: {[itemid: string]: ItemData} = {
 		name: "Delta Metagrossite (Ruin)",
 		spritenum: 618,
 		megaStone: "Metagross-Delta-Ruin-Mega",
-		megaEvolves: "Metagross-Delta",
+		megaEvolves: "Metagross",
 		itemUser: ["Metagross-Delta-Ruin"],
 		onTakeItem(item, source) {
 			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
@@ -2896,7 +2896,7 @@ export const Items: {[itemid: string]: ItemData} = {
 		name: "Delta Metagrossite (Spider)",
 		spritenum: 618,
 		megaStone: "Metagross-Delta-Spider-Mega",
-		megaEvolves: "Metagross-Delta",
+		megaEvolves: "Metagross",
 		itemUser: ["Metagross-Delta-Spider"],
 		onTakeItem(item, source) {
 			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
@@ -2909,7 +2909,7 @@ export const Items: {[itemid: string]: ItemData} = {
 		name: "Delta Milotite",
 		spritenum: 576,
 		megaStone: "Milotic-Delta-Mega",
-		megaEvolves: "Milotic-Delta",
+		megaEvolves: "Milotic",
 		itemUser: ["Milotic-Delta"],
 		onTakeItem(item, source) {
 			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
@@ -2922,7 +2922,7 @@ export const Items: {[itemid: string]: ItemData} = {
 		name: "Delta Pidgeotite",
 		spritenum: 576,
 		megaStone: "Pidgeot-Delta-Mega",
-		megaEvolves: "Pidgeot-Delta",
+		megaEvolves: "Pidgeot",
 		itemUser: ["Pidgeot-Delta"],
 		onTakeItem(item, source) {
 			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
@@ -2935,7 +2935,7 @@ export const Items: {[itemid: string]: ItemData} = {
 		name: "Delta Sablenite",
 		spritenum: 576,
 		megaStone: "Sableye-Delta-Mega",
-		megaEvolves: "Sableye-Delta",
+		megaEvolves: "Sableye",
 		itemUser: ["Sableye-Delta"],
 		onTakeItem(item, source) {
 			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
@@ -2961,7 +2961,7 @@ export const Items: {[itemid: string]: ItemData} = {
 		name: "Delta Scizorite",
 		spritenum: 576,
 		megaStone: "Scizor-Delta-Mega",
-		megaEvolves: "Scizor-Delta",
+		megaEvolves: "Scizor",
 		itemUser: ["Scizor-Delta"],
 		onTakeItem(item, source) {
 			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
@@ -2974,7 +2974,7 @@ export const Items: {[itemid: string]: ItemData} = {
 		name: "Delta Sunflorite",
 		spritenum: 576,
 		megaStone: "Sunflora-Delta-Mega",
-		megaEvolves: "Sunflora-Delta",
+		megaEvolves: "Sunflora",
 		itemUser: ["Sunflora-Delta"],
 		onTakeItem(item, source) {
 			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
@@ -2987,7 +2987,7 @@ export const Items: {[itemid: string]: ItemData} = {
 		name: "Delta Typhlosionite",
 		spritenum: 576,
 		megaStone: "Typhlosion-Delta-Mega",
-		megaEvolves: "Typhlosion-Delta",
+		megaEvolves: "Typhlosion",
 		itemUser: ["Typhlosion-Delta"],
 		onTakeItem(item, source) {
 			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
@@ -3000,7 +3000,7 @@ export const Items: {[itemid: string]: ItemData} = {
 		name: "Delta Venusaurite",
 		spritenum: 576,
 		megaStone: "Venusaur-Delta-Mega",
-		megaEvolves: "Venusaur-Delta",
+		megaEvolves: "Venusaur",
 		itemUser: ["Venusaur-Delta"],
 		onTakeItem(item, source) {
 			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;

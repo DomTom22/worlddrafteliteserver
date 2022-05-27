@@ -2753,7 +2753,7 @@ export const Items: {[itemid: string]: ItemData} = {
 		name: "Delta Charizardite",
 		spritenum: 576,
 		megaStone: "Charizard-Delta-Mega",
-		megaEvolves: "Charizard-Delta",
+		megaEvolves: "Charizard",
 		itemUser: ["Charizard-Delta"],
 		onTakeItem(item, source) {
 			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;

@@ -214,7 +214,6 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	charizarddelta: {
 		num: -10020,
 		name: "Charizard-Delta",
-		baseSpecies: "Charizard",
 		forme: "Delta",
 		types: ["Ghost", "Dragon"],
 		genderRatio: {M: 0.875, F: 0.125},

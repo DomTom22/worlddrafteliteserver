@@ -213,7 +213,6 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	charizarddelta: {
 		num: 6,
 		name: "Charizard-Delta",
-		baseSpecies: "Charizard",
 		forme: "Delta",
 		types: ["Ghost", "Dragon"],
 		genderRatio: {M: 0.875, F: 0.125},
@@ -224,12 +223,12 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "Black",
 		eggGroups: ["Undiscovered"],
 		otherFormes: ["Charizard-Delta-Mega"],
-		formeOrder: ["Charizard-Delta-Mega"],
+		formeOrder: ["Charizard-Delta", "Charizard-Delta-Mega"],
 	},
 	charizarddeltamega: {
 		num: 6,
 		name: "Charizard-Delta-Mega",
-		baseSpecies: "Charizard",
+		baseSpecies: "Charizard-Delta",
 		forme: "Delta-Mega",
 		types: ["Ghost", "Dragon"],
 		genderRatio: {M: 0.875, F: 0.125},
@@ -239,7 +238,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		weightkg: 100.5,
 		color: "Black",
 		eggGroups: ["Undiscovered"],
-		battleOnly: "Charizard",
+		battleOnly: "Charizard-Delta",
 		requiredItem: "Delta Charizardite",
 	},
 	charizardegho: {

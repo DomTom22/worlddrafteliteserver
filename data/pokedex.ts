@@ -239,7 +239,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		weightkg: 100.5,
 		color: "Black",
 		eggGroups: ["Undiscovered"],
-		battleOnly: "Charizard-Delta",
+		battleOnly: "Charizard",
 		requiredItem: "Delta Charizardite",
 	},
 	charizardegho: {

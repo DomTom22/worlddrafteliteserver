@@ -6453,7 +6453,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "UU",
 	},
 	tracton: {
-		tier: "UUBL",
+		tier: "OUBL",
 	},
 	theriamp: {
 		tier: "UU",

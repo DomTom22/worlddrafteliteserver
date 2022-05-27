@@ -19732,7 +19732,6 @@ export const Moves: {[moveid: string]: MoveData} = {
 		type: "Electric",
 		contestType: "Cool",
 	},
-};
 	shadowlunge: {
 		num: 1394,
 		accuracy: 100,
@@ -19751,3 +19750,4 @@ export const Moves: {[moveid: string]: MoveData} = {
 		type: "Dark",
 		contestType: "Cool",
 	},
+};

@@ -15860,6 +15860,23 @@ export const Moves: {[moveid: string]: MoveData} = {
 		type: "Poison",
 		contestType: "Tough",
 	},
+	ghostlyvenom: {
+		num: 1288,
+		accuracy: 100,
+		basePower: 90,
+		category: "Special",
+		name: "Ghostly Venom",
+		pp: 10,
+		priority: 0,
+		flags: {bullet: 1, protect: 1, mirror: 1},
+		secondary: {
+			chance: 30,
+			status: 'psn',
+		},
+		target: "normal",
+		type: "Ghost",
+		contestType: "Tough",
+	},
 	sludgewave: {
 		num: 482,
 		accuracy: 100,

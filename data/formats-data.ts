@@ -2888,7 +2888,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		doublesTier: "DUber",
 	},
 	groudonprimal: {
-		tier: "AG",
+		tier: "Uber",
 	},
 	rayquaza: {
 		randomBattleMoves: ["dracometeor", "dragonascent", "extremespeed", "swordsdance", "vcreate", "earthquake"],

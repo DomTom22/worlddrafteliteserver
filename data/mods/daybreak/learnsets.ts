@@ -86355,7 +86355,6 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			weatherball: ["8M"],
 			workup: ["8M", "7M"],
 			defog: ["8M"],
-			superfang: ["8M"],
 		},
 	},
 	devileon: {

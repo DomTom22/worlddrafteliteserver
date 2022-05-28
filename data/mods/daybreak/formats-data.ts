@@ -400,7 +400,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		randomDoubleBattleMoves: ["heatwave", "nastyplot", "protect", "scorchingsands", "solarbeam"],
 		randomDoubleBattleLevel: 84,
 		isNonstandard: "Past",
-    tier: "Illegal",
+    tier: "UU",
 		doublesTier: "DUU",
 	},
 	ninetalesalola: {
@@ -2702,7 +2702,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		randomDoubleBattleMoves: ["bodypress", "earthpower", "fireblast", "heatwave", "protect", "solarbeam", "willowisp"],
 		randomDoubleBattleLevel: 84,
 		isNonstandard: "Past",
-    tier: "Illegal",
+    tier: "UU",
 		doublesTier: "DOU",
 	},
 	spoink: {
@@ -5157,7 +5157,6 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		randomBattleLevel: 80,
 		randomDoubleBattleMoves: ["bravebird", "closecombat", "protect", "swordsdance", "throatchop"],
 		randomDoubleBattleLevel: 80,
-		isNonstandard: "Past",
 		tier: "OU",
 	},
 	dedenne: {

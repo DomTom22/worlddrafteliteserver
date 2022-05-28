@@ -1486,6 +1486,9 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	luneon: {
 		tier: "OU",
 	},
+	pureon: {
+		tier: "OU",
+	},
 	porygon: {
 		isNonstandard: "Past",
     tier: "Illegal",

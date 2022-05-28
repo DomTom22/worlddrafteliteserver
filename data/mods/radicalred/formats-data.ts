@@ -6161,4 +6161,327 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		randomDoubleBattleMoves: ["astralbarrage", "nastyplot", "snarl", "protect", "psyshock"],
 		tier: "Uber",
 	},
+	butterfreechromatic: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	beedrillchromatic: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	raticatechromatic: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	arbokchromatic: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	clefablechromatic: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	parasectchromatic: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	golduckchromatic: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	victreebelchromatic: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	tentacruelchromatic: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	golemchromatic: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	rapidashchromatic: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	hypnochromatic: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	starmiechromatic: {
+		tier: "NUBL",
+	},
+	kabutopschromatic: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	kabutopschromatic: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	dragonairchromatic: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	ariadoschromatic: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	xatuchromatic: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	girafarigchromatic: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	qwilfishchromatic: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	skarmorychromatic: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	tyranitarchromatic: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	sceptilechromatic: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	sceptilechromaticmega: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	mightyenachromatic: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	dustoxchromatic: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	masquerainchromatic: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	slakingchromatic: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	sharpedochromatic: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	sharpedochromaticmega: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	grumpigchromatic: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	flygonchromatic: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	dusclopschromatic: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	dusknoirchromatic: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	glaliechromatic: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	glaliechromaticmega: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	regirockchromatic: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	regicechromatic: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	registeelchromatic: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	torterrachromatic: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	infernapechromatic: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	empoleonchromatic: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	rampardoschromatic: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	bastiodonchromatic: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	vespiquenchromatic: {
+		randomBattleMoves: ["airslash", "defog", "roost", "toxic", "uturn"],
+		randomBattleLevel: 96,
+		randomDoubleBattleMoves: ["airslash", "roost", "tailwind", "toxicspikes"],
+		randomDoubleBattleLevel: 96,
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	spiritombchromatic: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	lucariochromatic: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	victinichromatic: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	liepardchromatic: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	simisagechromatic: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	simisearchromatic: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	simipourchromatic: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	musharnachromatic: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	zebstrikachromatic: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	gigalithchromatic: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	krookodilechromatic: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	zoroarkchromatic: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	sawsbuckchromatic: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	haxoruschromatic: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	accelgorchromatic: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	stunfiskchromatic: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	braviarychromatic: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	cobalionchromatic: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	terrakionchromatic: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	virizionchromatic: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	keldeochromatic: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	pyroarchromatic: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	dragalgechromatic: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	auroruschromatic: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	goodrachromatic: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	trevenantchromatic: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	volcanionchromatic: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	lycanrocchromatic: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	lycanrocmidnightchromatic: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	dhelmisechromatic: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	drednawchromatic: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	boltundchromatic: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	sandacondachromatic: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	centiskorchchromatic: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	grapploctchromatic: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
 };

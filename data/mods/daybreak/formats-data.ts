@@ -5009,8 +5009,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	doublade: {
 		randomBattleMoves: ["ironhead", "sacredsword", "shadowclaw", "shadowsneak", "swordsdance"],
 		randomBattleLevel: 82,
-		isNonstandard: "Past",
-    tier: "Illegal",
+    tier: "RU",
 		doublesisNonstandard: "Past",
     tier: "RU",
 	},
@@ -5019,7 +5018,6 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		randomBattleLevel: 80,
 		randomDoubleBattleMoves: ["flashcannon", "kingsshield", "shadowball", "shadowsneak"],
 		randomDoubleBattleLevel: 84,
-		isNonstandard: "Past",
 		tier: "OU",
 	},
 	aegislashblade: {

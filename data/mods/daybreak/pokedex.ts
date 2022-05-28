@@ -4894,7 +4894,7 @@ venusaurmegax: {
 	tyranitardb: {
 		num: 248,
 		name: "Tyranitar-DB",
-		baseSpecies: "Tyranitar",
+		forme: "DB",
 		types: ["Fire", "Rock"],
 		baseStats: {hp: 100, atk: 95, def: 110, spa: 125, spd: 100, spe: 70},
 		abilities: {0: "Drought"},
@@ -4914,7 +4914,7 @@ venusaurmegax: {
 		abilities: {0: "Drought"},
 		heightm: 3,
 		weightkg: 250,
-		requiredItem: "Tyranitarite",
+		requiredItem: "Armiran Tyranitarite",
 		battleOnly: "Tyranitar-DB",
 	},
 	tyranitarchromatic: {
@@ -5027,7 +5027,7 @@ venusaurmegax: {
 	sceptiledb: {
 		num: 254,
 		name: "Sceptile-DB",
-		baseSpecies: "Sceptile",
+		forme: "DB",
 		types: ["Poison"],
 		genderRatio: {M: 0.875, F: 0.125},
 		baseStats: {hp: 70, atk: 105, def: 65, spa: 85, spd: 85, spe: 120},
@@ -5041,14 +5041,14 @@ venusaurmegax: {
 		num: 254,
 		name: "Sceptile-DB-Mega",
 		baseSpecies: "Sceptile-DB",
-		forme: "Mega",
+		forme: "DB-Mega",
 		types: ["Poison", "Dark"],
 		genderRatio: {M: 0.875, F: 0.125},
 		baseStats: {hp: 70, atk: 145, def: 75, spa: 110, spd: 85, spe: 145},
 		abilities: {0: "Electric Surge"},
 		heightm: 1.9,
 		weightkg: 55.2,
-		requiredItem: "Sceptilite",
+		requiredItem: "Armiran Sceptilite",
 		battleOnly: "Sceptile-DB",
 	},
 	sceptilemega: {

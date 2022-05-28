@@ -349,7 +349,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	blastoisedeltamega: {
 		num: 9,
 		name: "Blastoise-Delta-Mega",
-		baseSpecies: "Blastoise",
+		baseSpecies: "Blastoise-Delta",
 		forme: "Delta-Mega",
 		types: ["Dark", "Fighting"],
 		genderRatio: {M: 0.875, F: 0.125},

@@ -3688,7 +3688,7 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 	},
 	deterrent: {
 		onFoeSwitchIn(pokemon) {
-				this.damage(source.baseMaxhp / 8, source, target);
+				this.damage(pokemon.baseMaxhp / 8);
 		},
 		name: "Deterrent",
 		rating: 2.5,

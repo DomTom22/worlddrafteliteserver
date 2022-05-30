@@ -3688,8 +3688,6 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 	},
 	deterrent: {
 		onFoeSwitchIn(damage, target, source) {
-			for (const target of pokemon.side.foe.active) {
-				if (!target || !this.isAdjacent(target, pokemon)) continue;
 				this.damage(source.baseMaxhp / 8, source, target);
 			}
 		},
@@ -4677,13 +4675,11 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 	},
 	adaptiveskin: {
 		onDamagingHit(damage, target, source, move) {
-			if (move.category === 'Physical') {
-				this.boost({def: 1}, target);
-			}
-		},
-		onDamagingHit(damage, target, source, move) {
 			if (move.category === 'Special') {
 				this.boost({spd: 1}, target);
+			}
+			if (move.category === 'Phsyical') {
+				this.boost({def: 1}, target);
 			}
 		},
 		name: "Adaptive Skin",

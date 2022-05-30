@@ -3689,7 +3689,6 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 	deterrent: {
 		onFoeSwitchIn(damage, target, source) {
 				this.damage(source.baseMaxhp / 8, source, target);
-			}
 		},
 		name: "Deterrent",
 		rating: 2.5,

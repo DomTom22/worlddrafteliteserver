@@ -148,6 +148,10 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 		desc: "When this Pokemon has more than 1/2 its maximum HP and takes damage from an attack bringing it to 1/2 or less of its maximum HP, its Special Attack is raised by 1 stage. This effect applies after all hits from a multi-hit move; Sheer Force prevents it from activating if the move has a secondary effect.",
 		shortDesc: "This Pokemon's Sp. Atk is raised by 1 when it reaches 1/2 or less of its max HP.",
 	},
+	vengeance: {
+		name: "Vengeance",
+		shortDesc: "when this Pokemon reaches 1/2 or less of its max HP, the foe loses 1/4 of their max HP.",
+	},
 	adrenaline: {
 		name: "Adranaline",
 		desc: "When this Pokemon has more than 1/2 its maximum HP and takes damage from an attack bringing it to 1/2 or less of its maximum HP, its Speed is raised by 1 stage. This effect applies after all hits from a multi-hit move; Sheer Force prevents it from activating if the move has a secondary effect.",
@@ -798,11 +802,19 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 
 		damage: "#roughskin",
 	},
+	electricfence: {
+		name: "Electric Fence",
+		shortDesc: "If Electric Terrain is active, Pokemon making contact with this Pokemon lose 1/8 of their max HP.",
+
+		damage: "#roughskin",
+	},
 	deterrent: {
 		name: "Deterrent",
 		shortDesc: "Pokemon switching in against this Pokemon lose 1/8 of their max HP.",
-
-		damage: "#roughskin",
+	},
+	proudfire: {
+		name: "Proudfire",
+		shortDesc: "Pokemon switching in against this Pokemon are burned",
 	},
 	ironfist: {
 		name: "Iron Fist",
@@ -897,6 +909,10 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 		name: "Limber",
 		shortDesc: "This Pokemon cannot be paralyzed. Gaining this Ability while paralyzed cures it.",
 	},
+	energetic: {
+		name: "Energetic",
+		shortDesc: "This Pokemon cannot be paralyzed, frozen or have it's Speed lowered. Gaining this Ability while paralyzed or frozen cures it.",
+	},
 	liquidooze: {
 		name: "Liquid Ooze",
 		shortDesc: "This Pokemon damages those draining HP from it for as much as they would heal.",
@@ -964,6 +980,10 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 	merciless: {
 		name: "Merciless",
 		shortDesc: "This Pokemon's attacks are critical hits if the target is poisoned.",
+	},
+	harsh: {
+		name: "Harsh",
+		shortDesc: "This Pokemon's attacks are critical hits if the target is burned.",
 	},
 	mimicry: {
 		name: "Mimicry",
@@ -1209,9 +1229,33 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 		name: "Poison Touch",
 		shortDesc: "This Pokemon's contact moves have a 30% chance of poisoning.",
 	},
+	numbingtouch: {
+		name: "Numbing Touch",
+		shortDesc: "This Pokemon's contact moves have a 30% chance of paralyzing.",
+	},
+	shockstyle: {
+		name: "Shock Style",
+		shortDesc: "This Pokemon's Fighting moves have a 50% chance of paralyzing.",
+	},
+	shockwings: {
+		name: "Shock Wings",
+		shortDesc: "This Pokemon's Flying moves have a 20% chance of paralyzing.",
+	},
+	flamewings: {
+		name: "Flame Wings",
+		shortDesc: "This Pokemon's Flying moves have a 20% chance of burning.",
+	},
+	frostwings: {
+		name: "Frost Wings",
+		shortDesc: "This Pokemon's Flying moves have a 20% chance of freezing.",
+	},
 	burnskill: {
 		name: "Burn Skill",
 		shortDesc: "This Pokemon's Special attacks have a 30% chance of burning.",
+	},
+	nervenumber: {
+		name: "Nerve Number",
+		shortDesc: "This Pokemon's Special attacks have a 30% chance of paralyzing.",
 	},
 	powerconstruct: {
 		name: "Power Construct",
@@ -1398,6 +1442,10 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 		name: "Run Away",
 		shortDesc: "No competitive use.",
 	},
+	piggybank: {
+		name: "Piggy Bank",
+		shortDesc: "No competitive use.",
+	},
 	forage: {
 		name: "Forage",
 		shortDesc: "No competitive use.",
@@ -1531,6 +1579,10 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 		name: "Shell Armor",
 		shortDesc: "This Pokemon cannot be struck by a critical hit.",
 	},
+	impervious: {
+		name: "Impervious",
+		shortDesc: "Protects from critical hits and Def or Sp. Def lowering by foes.",
+	},
 	shielddust: {
 		name: "Shield Dust",
 		shortDesc: "This Pokemon is not affected by the secondary effect of another Pokemon's attack.",
@@ -1613,10 +1665,19 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 		desc: "If Hail is active, this Pokemon's Def is 1.5x; immunity to Hail damage.",
 		shortDesc: "If Hail is active, this Pokemon's Def is 1.5x; immunity to Hail damage.",
 	},
+	sentry: {
+		name: "Sentry",
+		shortDesc: "This Pokemon takes 1.25x less damage when using a Status move.",
+	},
 	sunchaser: {
 		name: "Sun Chaser",
 		desc: "If Sunny Day is active, this Pokemon's Atk is 1.3x.",
 		shortDesc: "If Sunny Day is active, this Pokemon's Atk is 1.3x.",
+	},
+	stout: {
+		name: "Stout",
+		desc: "If a weather is active, this Pokemon's Def and Spd is 1.2x. Immune to weather damage",
+		shortDesc: "If a weather is active, this Pokemon's Def and Spd is 1.2x. Immune to weather damage",
 	},
 	blizzboxer: {
 		name: "Blizz Boxer",
@@ -2142,6 +2203,10 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 		name: "Triage",
 		shortDesc: "This Pokemon's healing moves have their priority increased by 3.",
 	},
+	lighttrick: {
+		name: "Light Trick",
+		shortDesc: "This Pokemon's moves have their priority increased by 3 against statused foes.",
+	},
 	truant: {
 		name: "Truant",
 		shortDesc: "This Pokemon skips every other turn instead of using a move.",
@@ -2219,6 +2284,10 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 		name: "Water Absorb",
 		desc: "This Pokemon is immune to Water-type moves and restores 1/4 of its maximum HP, rounded down, when hit by a Water-type move.",
 		shortDesc: "This Pokemon heals 1/4 of its max HP when hit by Water moves; Water immunity.",
+	},
+	synthesizer: {
+		name: "Synthesizer",
+		shortDesc: "This Pokemon heals 1/4 of its max HP when hit by Sound moves; Sound immunity.",
 	},
 	waterbubble: {
 		name: "Water Bubble",

@@ -173,7 +173,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	arbok: {
     tier: "RU",
 	},
-	abrokmega: {
+	arbokmega: {
 		tier: "OU",
 	},
 	pichu: {

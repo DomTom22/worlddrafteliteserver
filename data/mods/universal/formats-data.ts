@@ -2561,11 +2561,10 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		isNonstandard: "Past",
 	},
 	kecleon: {
-		tier: "LC",
+		tier: "OU",
 	},
 	shuppet: {
-		isNonstandard: "Past",
-		tier: "Illegal",
+		tier: "LC",
 	},
 	banette: {
 		tier: "(XU)",
@@ -7470,7 +7469,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "OU",
 	},
 	lylapse: {
-		tier: "OU",
+		tier: "UU",
 	},
 	ganimede: {
 		tier: "UU",

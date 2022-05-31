@@ -3923,13 +3923,13 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 	blademaster: {
 		onBasePowerPriority: 23,
 		onBasePower(basePower, attacker, defender, move) {
-			if (move.flags['blade']) {
+			if (move.flags['slash']) {
 				this.debug('Blademaster boost');
 				return this.chainModify([4915, 4096]);
 			}
 		},
 		onModifyCritRatio(critRatio, source, target, move: ActiveMove) {
-			if (move.flags['blade']) {
+			if (move.flags['slash']) {
 				return (critRatio + 1);
 			}
 		},

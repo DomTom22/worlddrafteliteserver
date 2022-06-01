@@ -429,7 +429,7 @@ export const Conditions: {[k: string]: ConditionData} = {
 			if (user.ability === 'jewler') {
 				this.chainModify(1.5);
 			} else {
-				return this.chainModify([5325, 4096]);
+				this.chainModify([5325, 4096]);
 			}
 		},
 	},

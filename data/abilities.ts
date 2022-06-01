@@ -3900,6 +3900,37 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 2.5,
 		num: 24,
 	},
+	spectrum: {
+		name: "Spectrum",
+		onStart(pokemon) {
+			const possibleTargets = pokemon.side.foe.active.filter(foeActive => foeActive && pokemon.isAdjacent(foeActive));
+			let rand = 0;
+			if (possibleTargets.length > 1) rand = this.random(possibleTargets.length);
+			const target = possibleTargets[rand];
+			if (target && target.species) {
+				const color = target.species.color;
+				const colorType: Record<string, string> = {
+					red: 'Fire',
+					blue: 'Water',
+					yellow: 'Electric',
+					green: 'Grass',
+					black: 'Dark',
+					brown: 'Ground',
+					purple: 'Poison',
+					gray: 'Steel',
+					white: 'Flying',
+					pink: 'Fairy',
+				};
+				const type = colorType[this.toID(color)];
+				if (type) {
+					const typeAdded = pokemon.addType(type);
+					if (!source.setType(type)) return;
+					this.add('-start', source, 'typechange', type, '[from] ability: Spectrum');
+				}
+			}
+		},
+		rating: 2,
+	},
 	braveheart: {
 		onFoeAfterBoost(boost, target, source, sourceEffect) {
    const isPositiveBoost = Object.values(boost).some(v => v > 0);

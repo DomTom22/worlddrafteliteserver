@@ -426,7 +426,7 @@ export const Conditions: {[k: string]: ConditionData} = {
 		onBasePowerPriority: 14,
 		onBasePower(basePower, user, target, move) {
 			this.debug('Gem Boost');
-			if (target.ability === 'jewler') {
+			if (user.ability === 'jewler') {
 				this.chainModify(1.5);
 			} else {
 				return this.chainModify([5325, 4096]);

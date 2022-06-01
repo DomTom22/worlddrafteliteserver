@@ -1738,6 +1738,20 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 2.5,
 		num: 139,
 	},
+	jewler: {
+		name: "Jewler",
+		onResidualOrder: 26,
+		onResidualSubOrder: 1,
+		onResidual(pokemon) {
+			if (pokemon.hp && !pokemon.item && this.dex.getItem(pokemon.lastItem).isGem) {
+				pokemon.setItem(pokemon.lastItem);
+				pokemon.lastItem = '';
+				this.add('-item', pokemon, pokemon.getItem(), '[from] ability: Jewler');
+			}
+		},
+		rating: 2.5,
+		num: 139,
+	},
 	healer: {
 		name: "Healer",
 		onResidualOrder: 5,

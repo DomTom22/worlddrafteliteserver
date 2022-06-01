@@ -3903,7 +3903,7 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 	spectrum: {
 		name: "Spectrum",
 		onStart(pokemon) {
-			const possibleTargets = pokemon.side.foe.active.filter(foeActive => foeActive && pokemon.isAdjacent(foeActive));
+			const possibleTargets = pokemon.side.foe.active.filter(foeActive => foeActive && pokemon.isActive(foeActive));
 			let rand = 0;
 			if (possibleTargets.length > 1) rand = this.random(possibleTargets.length);
 			const target = possibleTargets[rand];

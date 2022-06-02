@@ -349,7 +349,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	blastoisedeltamega: {
 		num: 9,
 		name: "Blastoise-Delta-Mega",
-		baseSpecies: "Blastoise",
+		baseSpecies: "Blastoise-Delta",
 		forme: "Delta-Mega",
 		types: ["Dark", "Fighting"],
 		genderRatio: {M: 0.875, F: 0.125},
@@ -21777,9 +21777,9 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "Yellow",
 		eggGroups: ["Field"],
 	},
-	grozard: {
+	terlard: {
 		num: -1207,
-		name: "Grozard",
+		name: "Terlard",
 		types: ["Ground", "Dragon"],
 		genderRatio: {M: 0.875, F: 0.125},
 		baseStats: {hp: 60, atk: 80, def: 65, spa: 85, spd: 70, spe: 95},

@@ -61,6 +61,11 @@ export const Tags: {[id: string]: TagData} = {
 		desc: "Boosted 1.2x by Iron Fist.",
 		moveFilter: move => 'punch' in move.flags,
 	},
+	slash: {
+		name: "Slash",
+		desc: "Boosted 1.2x and +1 Crit Ratio by Blademaster.",
+		moveFilter: move => 'slash' in move.flags,
+	},
 	pulse: {
 		name: "Pulse",
 		desc: "Boosted 1.5x by Mega Launcher.",

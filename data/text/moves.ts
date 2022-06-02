@@ -72,6 +72,10 @@ export const MovesText: {[k: string]: MoveText} = {
 		name: "Aerial Ace",
 		shortDesc: "This move does not check accuracy.",
 	},
+	predictionstrike: {
+		name: "Prediction Strike",
+		shortDesc: "This move does not check accuracy.",
+	},
 	magnetthrash: {
 		name: "Magnet Thrash",
 		shortDesc: "This move does not check accuracy.",
@@ -742,6 +746,11 @@ export const MovesText: {[k: string]: MoveText} = {
 		name: "Bulldoze",
 		desc: "Has a 100% chance to lower the target's Speed by 1 stage.",
 		shortDesc: "100% chance lower adjacent Pkmn Speed by 1.",
+	},
+	trample: {
+		name: "Trample",
+		desc: "Has a 15% chance to lower the target's Speed by 1 stage.",
+		shortDesc: "15% chance lower adjacent Pkmn Speed by 1.",
 	},
 	haltingcold: {
 		name: "Halting Cold",
@@ -1415,6 +1424,10 @@ export const MovesText: {[k: string]: MoveText} = {
 		desc: "Has a 30% chance to paralyze the target.",
 		shortDesc: "30% chance to paralyze adjacent Pokemon.",
 	},
+	enchantingsong: {
+		name: "Enchanting Song",
+		shortDesc: "30% chance to attract both foes.",
+	},
 	starfreeze: {
 		name: "Starfreeze",
 		desc: "Has a 30% chance to paralyze the target.",
@@ -2054,6 +2067,11 @@ export const MovesText: {[k: string]: MoveText} = {
 		desc: "Has a 10% chance to raise the user's Special Attack by 1 stage.",
 		shortDesc: "10% chance to raise the user's Sp. Atk by 1.",
 	},
+	adrenalash: {
+		name: "Adrenelash",
+		desc: "Has a 10% chance to raise the user's Special Attack by 1 stage.",
+		shortDesc: "10% chance to raise the user's Sp. Atk by 1.",
+	},
 	glide: {
 		name: "Glide",
 		desc: "Has a 50% chance to raise the user's Accuracy by 1 stage.",
@@ -2450,6 +2468,11 @@ export const MovesText: {[k: string]: MoveText} = {
 		name: "Foul Play",
 		desc: "Damage is calculated using the target's Attack stat, including stat stage changes. The user's Ability, item, and burn are used as normal.",
 		shortDesc: "Uses target's Attack stat in damage calculation.",
+	},
+	trickytoxins: {
+		name: "Tricky Toxins",
+		desc: "Damage is calculated using the target's Attack stat, including stat stage changes. The user's Ability, item, and burn are used as normal.",
+		shortDesc: "Uses target's Sp. Atk stat in damage calculation.",
 	},
 	possession: {
 		name: "Possession",
@@ -2919,6 +2942,10 @@ export const MovesText: {[k: string]: MoveText} = {
 		desc: "Raises the user's Defense and Special Defense by 1 stage. If the weather is Sunny Day or Desolate Land, this move raises the user's Attack and Special Attack by 2 stages. If the user is holding Utility Umbrella, this move will only raise the user's Attack and Special Attack by 1 stage, even if the weather is Sunny Day or Desolate Land.",
 		shortDesc: "Raises user's Def and Sp. Def by 1; 2 in Sun.",
 	},
+	desertdance: {
+		name: "Desert Dance",
+		shortDesc: "Raises user's Sp/ Atk and Sp. Def by 1; 2 in Sandstorm.",
+	},
 	grudge: {
 		name: "Grudge",
 		desc: "Until the user's next turn, if an opposing Pokemon's attack knocks the user out, that move loses all its remaining PP.",
@@ -3376,6 +3403,26 @@ export const MovesText: {[k: string]: MoveText} = {
 		desc: "No additional effect.",
 		shortDesc: "No additional effect. Hits adjacent foes.",
 	},
+	adamantinepress: {
+		name: "Adamantine Press",
+		desc: "No additional effect.",
+		shortDesc: "No additional effect.",
+	},
+	moonimpact: {
+		name: "Moon Impact",
+		desc: "No additional effect.",
+		shortDesc: "No additional effect.",
+	},
+	strafe: {
+		name: "Strafe",
+		desc: "No additional effect.",
+		shortDesc: "No additional effect.",
+	},
+	ruin: {
+		name: "Ruin",
+		desc: "No additional effect.",
+		shortDesc: "No additional effect. Hits adjacent foes.",
+	},
 	hypnosis: {
 		name: "Hypnosis",
 		shortDesc: "Causes the target to fall asleep.",
@@ -3689,6 +3736,21 @@ export const MovesText: {[k: string]: MoveText} = {
 		desc: "Has a higher chance for a critical hit.",
 		shortDesc: "High critical hit ratio.",
 	},
+	psychoblade: {
+		name: "Psychoblade",
+		desc: "Has a higher chance for a critical hit.",
+		shortDesc: "High critical hit ratio.",
+	},
+	slice: {
+		name: "Slice",
+		desc: "Has a higher chance for a critical hit.",
+		shortDesc: "High critical hit ratio.",
+	},
+	torrentblade: {
+		name: "Torrent Blade",
+		desc: "Has a higher chance for a critical hit.",
+		shortDesc: "High critical hit ratio.",
+	},
 	thunderslash: {
 		name: "Thunder Slash",
 		desc: "Has a higher chance for a critical hit.",
@@ -3705,9 +3767,13 @@ export const MovesText: {[k: string]: MoveText} = {
 		shortDesc: "Lowers the user's Sp. Atk by 2.",
 	},
 	deluge: {
-		name: "Leaf Storm",
+		name: "Deluge",
 		desc: "Lowers the user's Special Attack by 2 stages.",
 		shortDesc: "Lowers the user's Sp. Atk by 2.",
+	},
+	earthrift: {
+		name: "Earth Rift",
+		shortDesc: "Lowers the user's Attack by 2.",
 	},
 	leaftornado: {
 		name: "Leaf Tornado",
@@ -4572,6 +4638,11 @@ export const MovesText: {[k: string]: MoveText} = {
 		desc: "Has a higher chance for a critical hit.",
 		shortDesc: "High critical hit ratio.",
 	},
+	crystalgleam: {
+		name: "Crystal Gleam",
+		desc: "Has a higher chance for a critical hit.",
+		shortDesc: "High critical hit ratio.",
+	},
 	electroslash: {
 		name: "Electro Slash",
 		desc: "Has a higher chance for a critical hit.",
@@ -4613,6 +4684,11 @@ export const MovesText: {[k: string]: MoveText} = {
 		name: "Lighshow",
 		desc: "Has a 100% chance to confuse the target.",
 		shortDesc: "100% chance to confuse the target.",
+	},
+	coygaze: {
+		name: "Coy Gaze",
+		desc: "Has a 100% chance to attract the target.",
+		shortDesc: "100% chance to attract the target.",
 	},
 	oblivionwing: {
 		name: "Oblivion Wing",
@@ -5171,6 +5247,11 @@ export const MovesText: {[k: string]: MoveText} = {
 		name: "Quiver Dance",
 		desc: "Raises the user's Special Attack, Special Defense, and Speed by 1 stage.",
 		shortDesc: "Raises the user's Sp. Atk, Sp. Def, Speed by 1.",
+	},
+	shiverdance: {
+		name: "Shiver Dance",
+		desc: "Raises the user's Attack, Defense, and Speed by 1 stage.",
+		shortDesc: "Raises the user's Attack, Defense, Speed by 1.",
 	},
 	rage: {
 		name: "Rage",
@@ -5865,6 +5946,11 @@ export const MovesText: {[k: string]: MoveText} = {
 		name: "Shadow Strike",
 		desc: "Has a 50% chance to lower the target's Defense by 1 stage.",
 		shortDesc: "50% chance to lower the target's Defense by 1.",
+	},
+	causticpunch: {
+		name: "Caustic Punch",
+		desc: "Has a 20% chance to lower the target's Defense by 1 stage.",
+		shortDesc: "20% chance to lower the target's Defense by 1.",
 	},
 	sharpen: {
 		name: "Sharpen",
@@ -6700,6 +6786,10 @@ export const MovesText: {[k: string]: MoveText} = {
 		name: "Superpower",
 		desc: "Lowers the user's Attack and Defense by 1 stage.",
 		shortDesc: "Lowers the user's Attack and Defense by 1.",
+	},
+	geyser: {
+		name: "Geyser",
+		shortDesc: "Lowers the user's Sp. Atk and Sp. Def by 1.",
 	},
 	supersonic: {
 		name: "Supersonic",

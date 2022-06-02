@@ -349,7 +349,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	blastoisedeltamega: {
 		num: 9,
 		name: "Blastoise-Delta-Mega",
-		baseSpecies: "Blastoise",
+		baseSpecies: "Blastoise-Delta",
 		forme: "Delta-Mega",
 		types: ["Dark", "Fighting"],
 		genderRatio: {M: 0.875, F: 0.125},
@@ -6381,7 +6381,6 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	tyranitardb: {
 		num: 248,
 		name: "Tyranitar-DB",
-		baseSpecies: "Tyranitar",
 		forme: "DB",
 		types: ["Fire", "Rock"],
 		baseStats: {hp: 100, atk: 95, def: 110, spa: 125, spd: 100, spe: 70},
@@ -6390,6 +6389,20 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		weightkg: 202,
 		color: "Green",
 		eggGroups: ["Monster"],
+	},
+	tyranitardbmega: {
+		num: 248,
+		name: "Tyranitar-DB-Mega",
+		baseSpecies: "Tyranitar-DB",
+		forme: "Mega-DB",
+		types: ["Fire", "Rock"],
+		genderRatio: {M: 0.875, F: 0.125},
+		baseStats: {hp: 100, atk: 95, def: 130, spa: 155, spd: 140, spe: 80},
+		abilities: {0: "Drought"},
+		heightm: 3,
+		weightkg: 250,
+		requiredItem: "Armiran Tyranitarite",
+		battleOnly: "Tyranitar-DB",
 	},
 	tyranitarchromatic: {
 		num: 248,
@@ -6529,7 +6542,6 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	sceptiledb: {
 		num: 254,
 		name: "Sceptile-DB",
-		baseSpecies: "Sceptile",
 		forme: "DB",
 		types: ["Poison"],
 		genderRatio: {M: 0.875, F: 0.125},
@@ -6539,6 +6551,20 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		weightkg: 52.2,
 		color: "Green",
 		eggGroups: ["Monster", "Dragon"],
+	},
+	sceptiledbmega: {
+		num: 254,
+		name: "Sceptile-DB-Mega",
+		baseSpecies: "Sceptile-DB",
+		forme: "DB-Mega",
+		types: ["Poison", "Dark"],
+		genderRatio: {M: 0.875, F: 0.125},
+		baseStats: {hp: 70, atk: 145, def: 75, spa: 110, spd: 85, spe: 145},
+		abilities: {0: "Electric Surge"},
+		heightm: 1.9,
+		weightkg: 55.2,
+		requiredItem: "Armiran Sceptilite",
+		battleOnly: "Sceptile-DB",
 	},
 	sceptilemega: {
 		num: 254,
@@ -21777,9 +21803,9 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "Yellow",
 		eggGroups: ["Field"],
 	},
-	grozard: {
+	terlard: {
 		num: -1207,
-		name: "Grozard",
+		name: "Terlard",
 		types: ["Ground", "Dragon"],
 		genderRatio: {M: 0.875, F: 0.125},
 		baseStats: {hp: 60, atk: 80, def: 65, spa: 85, spd: 70, spe: 95},

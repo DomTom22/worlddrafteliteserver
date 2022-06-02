@@ -2009,6 +2009,10 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		isNonstandard: "Custom",
 		tier: "Illegal",
 	},
+	tyranitardbmega: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
 	lugia: {
 		randomBattleMoves: ["airslash", "earthquake", "roost", "substitute", "toxic"],
 		randomBattleLevel: 74,
@@ -2059,6 +2063,10 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "CAP",
 	},
 	sceptiledb: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
+	sceptiledbmega: {
 		isNonstandard: "Custom",
 		tier: "Illegal",
 	},
@@ -2880,7 +2888,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		doublesTier: "DUber",
 	},
 	groudonprimal: {
-		tier: "AG",
+		tier: "Uber",
 	},
 	rayquaza: {
 		randomBattleMoves: ["dracometeor", "dragonascent", "extremespeed", "swordsdance", "vcreate", "earthquake"],
@@ -6541,10 +6549,12 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "Illegal",
 	},
 	charizarddelta: {
-		tier: "OU",
+		isNonstandard: "Past",
+		tier: "Illegal",
 	},
 	charizarddeltamega: {
-		tier: "OU",
+		isNonstandard: "Past",
+		tier: "Illegal",
 	},
 	blastoisedelta: {
 		isNonstandard: "Past",

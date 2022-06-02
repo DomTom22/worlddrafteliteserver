@@ -4078,6 +4078,9 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
     tier: "NU",
 		doublesTier: "(DUU)",
 	},
+	basculegion: {
+    tier: "OU",
+	},
 	sandile: {
 		isNonstandard: "Past",
     tier: "Illegal",
@@ -4246,6 +4249,9 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	zoroarkchromatic: {
 		isNonstandard: "Custom",
 		tier: "Illegal",
+	},
+	zoroarkhisui: {
+    tier: "UU",
 	},
 	minccino: {
 		isNonstandard: "Past",

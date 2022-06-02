@@ -4861,6 +4861,19 @@ export const Items: {[itemid: string]: ItemData} = {
 		num: 753,
 		gen: 6,
 	},
+	dbsceptilite: {
+		name: "Sceptilite",
+		spritenum: 613,
+		megaStone: "Sceptile-DB-Mega",
+		megaEvolves: "Sceptile-DB",
+		itemUser: ["Sceptile-DB"],
+		onTakeItem(item, source) {
+			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
+			return true;
+		},
+		num: 753,
+		gen: 6,
+	},
 	scizorite: {
 		name: "Scizorite",
 		spritenum: 605,
@@ -6522,6 +6535,19 @@ export const Items: {[itemid: string]: ItemData} = {
 		megaStone: "Tyranitar-Mega",
 		megaEvolves: "Tyranitar",
 		itemUser: ["Tyranitar"],
+		onTakeItem(item, source) {
+			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
+			return true;
+		},
+		num: 669,
+		gen: 6,
+	},
+	dbtyranitarite: {
+		name: "Tyranitarite",
+		spritenum: 607,
+		megaStone: "Tyranitar-DB-Mega",
+		megaEvolves: "Tyranitar-DB",
+		itemUser: ["Tyranitar-DB"],
 		onTakeItem(item, source) {
 			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
 			return true;

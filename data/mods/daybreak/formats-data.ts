@@ -2489,12 +2489,8 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		doublesTier: "(DUU)",
 	},
 	shedinja: {
-		randomBattleMoves: ["poltergeist", "shadowsneak", "swordsdance", "willowisp", "xscissor"],
-		randomBattleLevel: 88,
-		randomDoubleBattleMoves: ["allyswitch", "poltergeist", "protect", "shadowsneak", "swordsdance", "willowisp", "xscissor"],
-		randomDoubleBattleLevel: 94,
-    tier: "NU",
-		doublesTier: "(DUU)",
+		isNonstandard: "Past",
+    tier: "Illegal",
 	},
 	whismur: {
 		isNonstandard: "Past",
@@ -2765,7 +2761,6 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "Illegal",
 	},
 	altariamega: {
-		isNonstandard: "Past",
 		tier: "UU",
 	},
 	altariachromaticmega: {
@@ -2777,6 +2772,10 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	},
 	seviper: {
     tier: "NU",
+	},
+	seviperchromatic: {
+    	isNonstandard: "Past",
+		tier: "UU",
 	},
 	lunatone: {
 		randomBattleMoves: ["earthpower", "moonblast", "nastyplot", "powergem", "psychic", "stealthrock"],
@@ -2977,6 +2976,10 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		isNonstandard: "Past",
     tier: "NU",
 		doublesTier: "(DUU)",
+	},
+	froslassmega: {
+		isNonstandard: "Past",
+    tier: "Illegal",
 	},
 	spheal: {
 		isNonstandard: "Past",
@@ -3512,6 +3515,10 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		randomDoubleBattleLevel: 86,
     tier: "NU",
 		doublesTier: "(DUU)",
+	},
+	toxicroakchromatic: {
+		isNonstandard: "Past",
+    tier: "Illegal",
 	},
 	carnivine: {
 		isNonstandard: "Past",
@@ -5743,9 +5750,8 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		doublesTier: "(DUU)",
 	},
 	typenull: {
-		randomBattleMoves: ["crushclaw", "payback", "rest", "sleeptalk", "swordsdance"],
-		randomBattleLevel: 86,
-		tier: "(ZU)",
+		isNonstandard: "Past",
+    tier: "Illegal",
 	},
 	silvally: {
 		randomBattleMoves: ["crunch", "explosion", "flamecharge", "flamethrower", "multiattack", "swordsdance", "uturn"],

@@ -34068,6 +34068,8 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			thunder: ["3T"],
 			thunderbolt: ["3T"],
 			thunderwave: ["3T"],
+			boomburst: ["8T"],
+			hurricane: ["8T"],
 		},
 	},
 	wingull: {

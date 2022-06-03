@@ -599,6 +599,9 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		isNonstandard: "Custom",
 		tier: "Illegal",
 	},
+	arcaninedb: {
+		tier: "UU",
+	},
 	poliwag: {
 		isNonstandard: "Past",
     tier: "Illegal",

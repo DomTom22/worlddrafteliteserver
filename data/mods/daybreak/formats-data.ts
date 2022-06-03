@@ -2882,6 +2882,9 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	kecleon: {
     tier: "NU",
 	},
+	kecleonarmira: {
+    tier: "NU",
+	},
 	shuppet: {
 		isNonstandard: "Past",
 		tier: "Illegal",

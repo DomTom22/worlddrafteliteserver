@@ -467,10 +467,23 @@ export const Items: {[itemid: string]: ItemData} = {
 		num: 240,
 		gen: 2,
 	},
-	blastoisinite: {
-		name: "Blastoisinite",
+	blastoisinitey: {
+		name: "BlastoisiniteY",
 		spritenum: 583,
-		megaStone: "Blastoise-Mega",
+		megaStone: "Blastoise-Mega-Y",
+		megaEvolves: "Blastoise",
+		itemUser: ["Blastoise"],
+		onTakeItem(item, source) {
+			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
+			return true;
+		},
+		num: 661,
+		gen: 6,
+	},
+	blastoisinitex: {
+		name: "BlastoisiniteX",
+		spritenum: 630,
+		megaStone: "Blastoise-Mega-X",
 		megaEvolves: "Blastoise",
 		itemUser: ["Blastoise"],
 		onTakeItem(item, source) {
@@ -6592,10 +6605,23 @@ export const Items: {[itemid: string]: ItemData} = {
 		num: 1123,
 		gen: 8,
 	},
-	venusaurite: {
-		name: "Venusaurite",
+	venusauritey: {
+		name: "VenusauriteY",
 		spritenum: 608,
-		megaStone: "Venusaur-Mega",
+		megaStone: "Venusaur-Mega-Y",
+		megaEvolves: "Venusaur",
+		itemUser: ["Venusaur"],
+		onTakeItem(item, source) {
+			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
+			return true;
+		},
+		num: 659,
+		gen: 8,
+	},
+	venusauritex: {
+		name: "VenusauriteX",
+		spritenum: 588,
+		megaStone: "Venusaur-Mega-X",
 		megaEvolves: "Venusaur",
 		itemUser: ["Venusaur"],
 		onTakeItem(item, source) {

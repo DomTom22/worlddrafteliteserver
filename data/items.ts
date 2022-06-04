@@ -2428,23 +2428,23 @@ export const Items: {[itemid: string]: ItemData} = {
 		num: 741,
 		gen: 6,
 	},
-	hfglalitite: {
-		name: "HFGlalitite",
+	chromaticglalitite: {
+		name: "Glalitite-C",
 		spritenum: 580,
-		megaStone: "Glalie-HF-Mega",
-		megaEvolves: "Glalie-HF",
-		itemUser: ["Glalie-HF"],
+		megaStone: "Glalie-Chromatic-Mega",
+		megaEvolves: "Glalie-Chromatic",
+		itemUser: ["Glalie-Chromatic"],
 		onTakeItem(item, source) {
 			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
 			return true;
 		},
 	},
-	hfsharpedonite: {
-		name: "HFSharpedonite",
+	chromaticsharpedonite: {
+		name: "Sharpedonite-C",
 		spritenum: 583,
-		megaStone: "Sharpedo-HF-Mega",
-		megaEvolves: "Sharpedo-HF",
-		itemUser: ["Sharpedo-HF"],
+		megaStone: "Sharpedo-Chromatic-Mega",
+		megaEvolves: "Sharpedo-Chromatic",
+		itemUser: ["Sharpedo-Chromatic"],
 		onTakeItem(item, source) {
 			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
 			return true;
@@ -3466,12 +3466,12 @@ export const Items: {[itemid: string]: ItemData} = {
 		num: 761,
 		gen: 6,
 	},
-	hfsceptilite: {
-		name: "HFSceptilite",
+	chromaticsceptilite: {
+		name: "C-Sceptilite",
 		spritenum: 577,
-		megaStone: "Sceptile-HF-Mega",
-		megaEvolves: "Sceptile-HF",
-		itemUser: ["Sceptile-HF"],
+		megaStone: "Sceptile-Chromatic-Mega",
+		megaEvolves: "Sceptile-Chromatic",
+		itemUser: ["Sceptile-Chromatic"],
 		onTakeItem(item, source) {
 			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
 			return true;

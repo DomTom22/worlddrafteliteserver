@@ -7196,7 +7196,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "OU",
 	},
 	yatagaryu: {
-		tier: "OU",
+		tier: "Uber",
 	},
 	beliaddon: {
 		tier: "OU",

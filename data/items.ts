@@ -2428,7 +2428,7 @@ export const Items: {[itemid: string]: ItemData} = {
 		num: 741,
 		gen: 6,
 	},
-	chromaticglalitite: {
+	glalititec: {
 		name: "Glalitite-C",
 		spritenum: 580,
 		megaStone: "Glalie-Chromatic-Mega",
@@ -2439,7 +2439,7 @@ export const Items: {[itemid: string]: ItemData} = {
 			return true;
 		},
 	},
-	chromaticsharpedonite: {
+	sharpedonitec: {
 		name: "Sharpedonite-C",
 		spritenum: 583,
 		megaStone: "Sharpedo-Chromatic-Mega",
@@ -3466,7 +3466,7 @@ export const Items: {[itemid: string]: ItemData} = {
 		num: 761,
 		gen: 6,
 	},
-	chromaticsceptilite: {
+	sceptilitec: {
 		name: "C-Sceptilite",
 		spritenum: 577,
 		megaStone: "Sceptile-Chromatic-Mega",

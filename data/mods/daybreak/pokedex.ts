@@ -17425,7 +17425,7 @@ venusaurmegax: {
 		name: "Blizzeon",
 		types: ["Ice", "Electric"],
 		genderRatio: {M: 0.875, F: 0.125},
-		baseStats: {hp: 65, atk: 65, def: 110, spa: 60, spd: 95, spe: 130},
+		baseStats: {hp: 65, atk: 60, def: 110, spa: 65, spd: 95, spe: 130},
 		abilities: {0: "Volt Absorb", 1: "Ice Body", H: "Snow Warning"},
 		heightm: 0.8,
 		weightkg: 24.5,

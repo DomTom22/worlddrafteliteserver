@@ -210,8 +210,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		randomBattleLevel: 90,
 		randomDoubleBattleMoves: ["fakeout", "grassknot", "knockoff", "protect", "volttackle"],
 		randomDoubleBattleLevel: 90,
-		isNonstandard: "Past",
-    tier: "UU",
+    tier: "RU",
 	},
 	pikachucosplay: {
 		isNonstandard: "Past",
@@ -1484,7 +1483,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "UU",
 	},
 	sootheon: {
-		tier: "RU",
+		tier: "UU",
 	},
 	luneon: {
 		tier: "OU",
@@ -1514,8 +1513,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		doublesTier: "(DUU)",
 	},
 	omanyte: {
-		isNonstandard: "Past",
-    tier: "UU",
+    tier: "RU",
 	},
 	omastar: {
 		randomBattleMoves: ["earthpower", "hydropump", "icebeam", "shellsmash", "spikes", "stealthrock"],
@@ -1523,7 +1521,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		randomDoubleBattleMoves: ["earthpower", "icebeam", "muddywater", "shellsmash"],
 		randomDoubleBattleLevel: 86,
 		isNonstandard: "Past",
-    tier: "UU",
+    tier: "RU",
 		doublesTier: "(DUU)",
 	},
 	kabuto: {

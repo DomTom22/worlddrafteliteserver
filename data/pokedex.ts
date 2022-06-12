@@ -8666,7 +8666,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		formeOrder: ["Cradily", "Cradily-Chromatic"],
 	},
 	cradilychromatic: {
-		num: 34,6
+		num: 346,
 		name: "Cradily-Chromatic",
 		forme: "Chromatic",
 		types: ["Water", "Dragon"],

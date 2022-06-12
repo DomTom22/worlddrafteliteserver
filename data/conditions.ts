@@ -203,6 +203,14 @@ export const Conditions: {[k: string]: ConditionData} = {
 		name: 'trapper',
 		noCopy: true,
 	},
+	circutcharge: {
+		name: 'circutcharge',
+		onSwap(target) {
+			if (!target.fainted) {
+				target.addVolatile('charge')
+			}
+		},
+	},
 	partiallytrapped: {
 		name: 'partiallytrapped',
 		duration: 5,

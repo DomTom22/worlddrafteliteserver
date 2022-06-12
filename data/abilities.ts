@@ -3071,16 +3071,6 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 2,
 		num: 65,
 	},
-	circut: {
-		onSwap(target) {
-				if (!target.fainted) {
-					this.actions.useMove("charge", target);
-				}
-			},
-		name: "Circut",
-		rating: 2,
-		num: 65,
-	},
 	owntempo: {
 		onUpdate(pokemon) {
 			if (pokemon.volatiles['confusion']) {
@@ -3795,6 +3785,14 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		name: "Regenerator",
 		rating: 4.5,
 		num: 144,
+	},
+	circut: {
+		onSwitchOut(pokemon) {
+			pokemon.addVolatile('circutcharge');
+			},
+		name: "Circut",
+		rating: 2,
+		num: 65,
 	},
 	ripen: {
 		onTryHeal(damage, target, source, effect) {

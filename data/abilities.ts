@@ -3071,6 +3071,16 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 2,
 		num: 65,
 	},
+	circut: {
+		onSwap(target) {
+				if (!target.fainted) {
+					target.addVolatile('charge')
+				}
+			},
+		name: "Circut",
+		rating: 2,
+		num: 65,
+	},
 	owntempo: {
 		onUpdate(pokemon) {
 			if (pokemon.volatiles['confusion']) {

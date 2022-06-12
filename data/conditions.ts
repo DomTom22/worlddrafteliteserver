@@ -207,7 +207,7 @@ export const Conditions: {[k: string]: ConditionData} = {
 		name: 'circutcharge',
 		onSwap(target) {
 			if (!target.fainted) {
-				target.addVolatile('charge')
+				this.add('-activate', target, 'move: Charge');
 			}
 		},
 	},

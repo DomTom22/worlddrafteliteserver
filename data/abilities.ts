@@ -3074,7 +3074,7 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 	circut: {
 		onSwap(target) {
 				if (!target.fainted) {
-					target.addVolatile('charge')
+					this.actions.useMove("charge", target);
 				}
 			},
 		name: "Circut",

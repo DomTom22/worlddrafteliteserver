@@ -260,7 +260,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		name: "Charizard-Chromatic",
 		baseSpecies: "Charizard",
 		forme: "Chromatic",
-		types: ["Fairy", "Dragon"],
+		types: ["Fairy", "Dark"],
 		genderRatio: {M: 0.50, F: 0.50},
 		baseStats: {hp: 90, atk: 110, def: 90, spa: 80, spd: 74, spe: 90},
 		abilities: {0: "Dragon's Maw"},

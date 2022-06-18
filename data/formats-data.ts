@@ -2,6 +2,54 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	bulbasaur: {
 		tier: "LCUU",
 	},
+	charizardchromatic: {
+		tier: "UU",
+	},
+	dugtriochromatic: {
+		tier: "RU",
+	},
+	stantlerchromatic: {
+		tier: "RU",
+	},
+	cradilychromatic: {
+		tier: "OU",
+	},
+	armaldochromatic: {
+		tier: "UU",
+	},
+	beautiflychromatic: {
+		tier: "UU",
+	},
+	yanmegachromatic: {
+		tier: "OU",
+	},
+	delphoxchromatic: {
+		tier: "RU",
+	},
+	dodriochromatic: {
+		tier: "OU",
+	},
+	drapionchromatic: {
+		tier: "UU",
+	},
+	hatterenechromatic: {
+		tier: "UU",
+	},
+	heracrosschromatic: {
+		tier: "UU",
+	},
+	leavannychromatic: {
+		tier: "OU",
+	},
+	ludicolochromatic: {
+		tier: "RU",
+	},
+	tropiuschromatic: {
+		tier: "RU",
+	},
+	seviperchromatic: {
+		tier: "CAP",
+	},
 	ivysaur: {
 		tier: "NFE",
 	},
@@ -92,7 +140,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		doublesTier: "(DUU)",
 	},
 	butterfreechromatic: {
-		tier: "CAP",
+		tier: "UU",
 	},
 	butterfreegmax: {
 		randomBattleMoves: ["airslash", "bugbuzz", "quiverdance", "sleeppowder"],
@@ -2052,15 +2100,13 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		doublesTier: "(DUU)",
 	},
 	sceptilechromatic: {
-		isNonstandard: "CAP",
-		tier: "CAP",
+		tier: "UU",
 	},
 	sceptilemega: {
 		tier: "RU",
 	},
 	sceptilechromaticmega: {
-		isNonstandard: "CAP",
-		tier: "CAP",
+		tier: "OU",
 	},
 	sceptiledb: {
 		isNonstandard: "Custom",
@@ -2935,7 +2981,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "PU",
 	},
 	torterrachromatic: {
-		tier: "CAP",
+		tier: "OU",
 	},
 	chimchar: {
 		isNonstandard: "Past",
@@ -5968,7 +6014,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		doublesTier: "(DUU)",
 	},
 	sandacondachromatic: {
-		tier: "CAP",
+		tier: "OU",
 	},
 	sandacondagmax: {
 		randomDoubleBattleMoves: ["coil", "glare", "highhorsepower", "protect", "stoneedge"],

@@ -9847,7 +9847,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		types: ["Poison", "Ground"],
 		genderRatio: {M: 0.875, F: 0.125},
 		baseStats: {hp: 95, atk: 109, def: 75, spa: 105, spd: 85, spe: 56},
-		abilities: {0: "Levitate", H: "Spore Storm"},
+		abilities: {0: "Levitate", H: "Sporogenesis"},
 		heightm: 2.2,
 		weightkg: 310,
 		color: "Green",

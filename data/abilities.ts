@@ -4732,6 +4732,14 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 4,
 		num: 117,
 	},
+	sporogenesis: {
+		onStart(source) {
+			this.field.setWeather('sporestorm');
+		},
+		name: "Sporogenesis",
+		rating: 4,
+		num: 117,
+	},
 	airstream: {
 		onStart(source) {
 			this.field.setWeather('wind');

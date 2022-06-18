@@ -16100,7 +16100,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Field"],
 	},
 	delhoxchromatic: {
-		num: 658,
+		num: 655,
 		name: "Delphox-Chromatic",
 		baseSpecies: "Delphox",
 		forme: "Chromatic",

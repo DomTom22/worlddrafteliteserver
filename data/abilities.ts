@@ -3786,6 +3786,14 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 4.5,
 		num: 144,
 	},
+	circut: {
+		onSwitchOut(pokemon) {
+			pokemon.addVolatile('circutcharge');
+			},
+		name: "Circut",
+		rating: 2,
+		num: 65,
+	},
 	ripen: {
 		onTryHeal(damage, target, source, effect) {
 			if (!effect) return;
@@ -4721,6 +4729,14 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 			this.field.setWeather('hail');
 		},
 		name: "Snow Warning",
+		rating: 4,
+		num: 117,
+	},
+	sporogenesis: {
+		onStart(source) {
+			this.field.setWeather('sporestorm');
+		},
+		name: "Sporogenesis",
 		rating: 4,
 		num: 117,
 	},

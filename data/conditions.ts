@@ -203,6 +203,14 @@ export const Conditions: {[k: string]: ConditionData} = {
 		name: 'trapper',
 		noCopy: true,
 	},
+	circutcharge: {
+		name: 'circutcharge',
+		onSwap(target) {
+			if (!target.fainted) {
+				this.add('-activate', target, 'move: Charge');
+			}
+		},
+	},
 	partiallytrapped: {
 		name: 'partiallytrapped',
 		duration: 5,
@@ -755,7 +763,7 @@ export const Conditions: {[k: string]: ConditionData} = {
 		// So we give it increased priority.
 		onModifySpDPriority: 10,
 		onModifySpD(spd, pokemon) {
-			if (pokemon.hasType('Grass') && this.field.isWeather('sporestorm')) {
+			if (pokemon.hasType('Bug') && this.field.isWeather('sporestorm')) {
 				return this.modify(def, 1.5);
 			}
 		},

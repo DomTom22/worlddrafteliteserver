@@ -11686,7 +11686,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		num: 437,
 		accuracy: 100,
 		basePower: 130,
-		category: "Physcial",
+		category: "Physical",
 		name: "Earth Rift",
 		pp: 5,
 		priority: 0,

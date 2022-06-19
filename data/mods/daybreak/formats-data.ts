@@ -1181,8 +1181,84 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		doublesTier: "(DUU)",
 	},
 	starmiechromatic: {
-		isNonstandard: "CAP",
-		tier: "CAP",
+		isNonstandard: "Past",
+    tier: "Illegal",
+	},
+	cradilychromatic: {
+		isNonstandard: "Past",
+    tier: "Illegal",
+	},
+	dodriochromatic: {
+		isNonstandard: "Past",
+    tier: "Illegal",
+	},
+	leavannychromatic: {
+		isNonstandard: "Past",
+    tier: "Illegal",
+	},
+	sandacondachromatic: {
+		isNonstandard: "Past",
+    tier: "Illegal",
+	},
+	torterrachromatic: {
+		isNonstandard: "Past",
+    tier: "Illegal",
+	},
+	yanmegachromatic: {
+		isNonstandard: "Past",
+    tier: "Illegal",
+	},
+	armaldochromatic: {
+		isNonstandard: "Past",
+    tier: "Illegal",
+	},
+	beautiflychromatic: {
+		isNonstandard: "Past",
+    tier: "Illegal",
+	},
+	butterfreechromatic: {
+		isNonstandard: "Past",
+    tier: "Illegal",
+	},
+	charizardchromatic: {
+		isNonstandard: "Past",
+    tier: "Illegal",
+	},
+	drapionchromatic: {
+		isNonstandard: "Past",
+    tier: "Illegal",
+	},
+	hatterenechromatic: {
+		isNonstandard: "Past",
+    tier: "Illegal",
+	},
+	heracrosschromatic: {
+		isNonstandard: "Past",
+    tier: "Illegal",
+	},
+	seviperchromatic: {
+		isNonstandard: "Past",
+    tier: "Illegal",
+	},
+	delphoxchromatic: {
+		isNonstandard: "Past",
+    tier: "Illegal",
+	},
+	dugtriochromatic: {
+		isNonstandard: "Past",
+    tier: "Illegal",
+	},
+	ludicolochromatic: {
+		isNonstandard: "Past",
+    tier: "Illegal",
+	},
+	stantlerchromatic: {
+		isNonstandard: "Past",
+    tier: "Illegal",
+	},
+	tropiuschromatic: {
+		isNonstandard: "Past",
+    tier: "Illegal",
 	},
 	mimejr: {
 		isNonstandard: "Past",

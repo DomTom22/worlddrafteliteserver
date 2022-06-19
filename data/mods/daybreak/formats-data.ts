@@ -6471,7 +6471,6 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		randomDoubleBattleLevel: 88,
 		isNonstandard: "Past",
     tier: "Illegal",
-		doublesTier: "(DUU)",
 	},
 	gossifleur: {
 		isNonstandard: "Past",
@@ -6484,7 +6483,6 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		randomDoubleBattleLevel: 90,
 		isNonstandard: "Past",
     tier: "Illegal",
-		doublesTier: "(DUU)",
 	},
 	wooloo: {
 		isNonstandard: "Past",
@@ -6629,8 +6627,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		randomBattleLevel: 80,
 		randomDoubleBattleMoves: ["closecombat", "crunch", "drillrun", "flipturn", "liquidation", "poisonjab"],
 		randomDoubleBattleLevel: 84,
-		isNonstandard: "Past",
-		tier: "Illegal",
+		tier: "UU",
 	},
 	toxel: {
 		isNonstandard: "Past",
@@ -6641,7 +6638,6 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		randomBattleLevel: 82,
 		isNonstandard: "Past",
     tier: "Illegal",
-		doublesTier: "(DUU)",
 	},
 	toxtricitychromatic: {
 		isNonstandard: "CAP",

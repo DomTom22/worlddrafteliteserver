@@ -8726,7 +8726,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		forme: "Chromatic",
 		types: ["Water", "Dragon"],
 		baseStats: {hp: 85, atk: 75, def: 100, spa: 80, spd: 125, spe: 60},
-		abilities: {0: "Marvel Scale", H: "Swift Swim"},
+		abilities: {0: "Marvel Scale", H: "Contrary"},
 		heightm: 1.5,
 		weightkg: 60.4,
 		color: "Blue",

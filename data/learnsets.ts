@@ -42952,7 +42952,6 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			wrap: ["8L1"],
 			wringout: ["7L1", "6L1", "5L76", "4L76"],
 			flipturn: ["8M"],
-			dracometeor: ["8M"],
 			waterfall: ["8M"],
 			surf: ["8M"],
 			scald: ["8M"],

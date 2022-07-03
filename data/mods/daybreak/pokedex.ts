@@ -17369,7 +17369,7 @@ venusaurmegax: {
 		forme: "Mega",
 		types: ["Water", "Electric"],
 		baseStats: {hp: 95, atk: 110, def: 85, spa: 120, spd: 85, spe: 140},
-		abilities: {0: "Storm Surge"},
+		abilities: {0: "Volt Absorb"},
 		heightm: 1.1,
 		weightkg: 27.8,
 		color: "Yellow",

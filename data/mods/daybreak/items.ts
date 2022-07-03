@@ -2025,6 +2025,19 @@ export const Items: {[itemid: string]: ItemData} = {
 		num: 656,
 		gen: 6,
 	},
+	fureonite: {
+		name: "Fureonite",
+		spritenum: 588,
+		megaStone: "Fureon-Mega",
+		megaEvolves: "Fureon",
+		itemUser: ["Fureon"],
+		onTakeItem(item, source) {
+			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
+			return true;
+		},
+		num: -656,
+		gen: 6,
+	},
 	ghostgem: {
 		name: "Ghost Gem",
 		spritenum: 161,

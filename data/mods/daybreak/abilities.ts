@@ -3160,6 +3160,23 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 2,
 		num: 245,
 	},
+	stormsurge: {
+		onTryHit(target, source, move) {
+			if (target !== source && move.type === 'Electric') {
+				if (!this.heal(target.baseMaxhp / 4)) {
+					this.add('-immune', target, '[from] ability: Storm Surge');
+					this.field.setTerrain('electricterrain');
+		},
+			}
+		},
+				}
+				return null;
+			}
+		},
+		name: "Storm Surge",
+		rating: 3.5,
+		num: 10,
+	},
 	splashalot: {
 		onDamagingHit(damage, target, source, move) {
 			if (this.field.getWeather().id !== 'rain') {

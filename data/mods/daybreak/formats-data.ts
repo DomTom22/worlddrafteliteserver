@@ -1510,6 +1510,9 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "OU",
 		doublesTier: "DOU",
 	},
+	fureonmega: {
+		tier: "Ubers",
+	},
 	dynameon: {
 		tier: "RU",
 	},

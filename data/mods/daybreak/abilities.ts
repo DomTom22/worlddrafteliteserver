@@ -3166,7 +3166,6 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 				if (!this.heal(target.baseMaxhp / 4)) {
 					this.add('-immune', target, '[from] ability: Storm Surge');
 					this.field.setTerrain('electricterrain');
-		},
 			}
 		},
 				}

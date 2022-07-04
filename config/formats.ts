@@ -402,6 +402,18 @@ export const Formats: FormatList = [
 		{
 				section: "Daybreak Tiers",
 			},
+		{
+			name: "[Gen 8] Daybreak Ubers",
+			threads: [
+				`&bullet; <a href="https://www.smogon.com/forums/threads/3676539/">Ubers Metagame Discussion</a>`,
+				`&bullet; <a href="https://www.smogon.com/forums/threads/3675564/">Ubers Sample Teams</a>`,
+				`&bullet; <a href="https://www.smogon.com/forums/threads/3675194/">Ubers Viability Rankings</a>`,
+			],
+
+			mod: 'daybreak',
+			ruleset: ['Standard', 'Obtainable', 'Dynamax Clause'],
+			banlist: ['AG', 'Baton Pass', 'Moody'],
+		},
 			{
 				name: "[Gen 8] Daybreak OU",
 				threads: [
@@ -428,6 +440,18 @@ export const Formats: FormatList = [
 			},
 			{
 					section: "Insurgence Tiers",
+				},
+				{
+					name: "[Gen 8] Insurgence Ubers",
+					threads: [
+						`&bullet; <a href="https://www.smogon.com/forums/threads/3676539/">Ubers Metagame Discussion</a>`,
+						`&bullet; <a href="https://www.smogon.com/forums/threads/3675564/">Ubers Sample Teams</a>`,
+						`&bullet; <a href="https://www.smogon.com/forums/threads/3675194/">Ubers Viability Rankings</a>`,
+					],
+
+					mod: 'insurgence',
+					ruleset: ['Standard', 'Obtainable', 'Dynamax Clause'],
+					banlist: ['AG', 'Baton Pass', 'Moody'],
 				},
 				{
 					name: "[Gen 8] Insurgence OU",
@@ -1147,6 +1171,82 @@ export const Formats: FormatList = [
 			ruleset: ['Standard', 'Obtainable', 'Dynamax Clause'],
 			banlist: ['AG', 'Uber', 'OUBL', 'OU', 'UUBL', 'UU', 'RUBL', 'RU', 'NUBL', 'NU', 'PUBL'],
 		},
+		{
+				section: "Chasm Tiers",
+				column: 3,
+			},
+			{
+				name: "[Gen 8] Chasm Ubers",
+				threads: [
+					`&bullet; <a href="https://www.smogon.com/forums/threads/3676539/">Ubers Metagame Discussion</a>`,
+					`&bullet; <a href="https://www.smogon.com/forums/threads/3675564/">Ubers Sample Teams</a>`,
+					`&bullet; <a href="https://www.smogon.com/forums/threads/3675194/">Ubers Viability Rankings</a>`,
+				],
+
+				mod: 'chasm',
+				ruleset: ['Standard', 'Obtainable', 'Dynamax Clause'],
+				banlist: ['AG', 'Baton Pass', 'Moody'],
+			},
+			{
+				name: "[Gen 8] Chasm OU",
+				threads: [
+					`&bullet; <a href="https://www.smogon.com/forums/threads/3672210/">OU Metagame Discussion</a>`,
+					`&bullet; <a href="https://www.smogon.com/forums/threads/3672556/">OU Sample Teams</a>`,
+					`&bullet; <a href="https://www.smogon.com/forums/threads/3674058/">OU Viability Rankings</a>`,
+				],
+
+				mod: 'chasm',
+				ruleset: ['Standard', 'Obtainable', 'Dynamax Clause'],
+				banlist: ['Uber', 'OUBL', 'AG', 'Arena Trap', 'Moody', 'Power Construct', 'Shadow Tag', 'Baton Pass'],
+			},
+			{
+				name: "[Gen 8] Chasm UU",
+				threads: [
+					`&bullet; <a href="https://www.smogon.com/forums/threads/3672210/">OU Metagame Discussion</a>`,
+					`&bullet; <a href="https://www.smogon.com/forums/threads/3672556/">OU Sample Teams</a>`,
+					`&bullet; <a href="https://www.smogon.com/forums/threads/3674058/">OU Viability Rankings</a>`,
+				],
+
+				mod: 'chasm',
+				ruleset: ['Standard', 'Obtainable', 'Dynamax Clause'],
+				banlist: ['AG', 'Uber', 'OUBL', 'OU', 'UUBL'],
+			},
+			{
+				name: "[Gen 8] Chasm RU",
+				threads: [
+					`&bullet; <a href="https://www.smogon.com/forums/threads/3672210/">OU Metagame Discussion</a>`,
+					`&bullet; <a href="https://www.smogon.com/forums/threads/3672556/">OU Sample Teams</a>`,
+					`&bullet; <a href="https://www.smogon.com/forums/threads/3674058/">OU Viability Rankings</a>`,
+				],
+
+				mod: 'chasm',
+				ruleset: ['Standard', 'Obtainable', 'Dynamax Clause'],
+				banlist: ['AG', 'Uber', 'OUBL', 'OU', 'UUBL', 'UU', 'RUBL'],
+			},
+			{
+				name: "[Gen 8] Chasm NU",
+				threads: [
+					`&bullet; <a href="https://www.smogon.com/forums/threads/3672210/">OU Metagame Discussion</a>`,
+					`&bullet; <a href="https://www.smogon.com/forums/threads/3672556/">OU Sample Teams</a>`,
+					`&bullet; <a href="https://www.smogon.com/forums/threads/3674058/">OU Viability Rankings</a>`,
+				],
+
+				mod: 'chasm',
+				ruleset: ['Standard', 'Obtainable', 'Dynamax Clause'],
+				banlist: ['AG', 'Uber', 'OUBL', 'OU', 'UUBL', 'UU', 'RUBL', 'RU', 'NUBL'],
+			},
+			{
+				name: "[Gen 8] Chasm PU",
+				threads: [
+					`&bullet; <a href="https://www.smogon.com/forums/threads/3672210/">OU Metagame Discussion</a>`,
+					`&bullet; <a href="https://www.smogon.com/forums/threads/3672556/">OU Sample Teams</a>`,
+					`&bullet; <a href="https://www.smogon.com/forums/threads/3674058/">OU Viability Rankings</a>`,
+				],
+
+				mod: 'chasm',
+				ruleset: ['Standard', 'Obtainable', 'Dynamax Clause'],
+				banlist: ['AG', 'Uber', 'OUBL', 'OU', 'UUBL', 'UU', 'RUBL', 'RU', 'NUBL', 'NU', 'PUBL'],
+			},
 	{
 		section: "Pet Mods",
 		column: 4,

@@ -8548,7 +8548,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		formeOrder: ["Seviper", "Seviper-Chromatic"],
 	},
 	sevipermega: {
-		num: 334,
+		num: 336,
 		name: "Seviper-Mega",
 		baseSpecies: "Seviper",
 		forme: "Mega",

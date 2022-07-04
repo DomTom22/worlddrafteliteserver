@@ -50661,6 +50661,8 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			waterpulse: ["7T", "6T", "4M", "4S0"],
 			workup: ["8M", "8L1", "7M", "7L42", "5M"],
 			zenheadbutt: ["8M", "7T", "6T", "5T", "4T"],
+			woodhammer: ["4T"],
+			magnetforce: ["4T"],
 		},
 		eventData: [
 			{generation: 4, level: 50, gender: "M", nature: "Modest", abilities: ["steadfast"], moves: ["aurasphere", "darkpulse", "dragonpulse", "waterpulse"], pokeball: "cherishball"},

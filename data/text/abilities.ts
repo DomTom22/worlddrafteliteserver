@@ -1627,13 +1627,17 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 		name: "Ice Slick",
 		shortDesc: "If Hail or Snowy Terrain is active, this Pokemon's Speed is doubled. Immunity to Hail damage.",
 	},
-	shadowdancer: {
-		name: "Shadow Dancer",
-		shortDesc: "If Starry Night is active, this Pokemon's Speed is doubled.",
-	},
 	windrider: {
 		name: "Wind Rider",
 		shortDesc: "If Wind is active, this Pokemon's Speed is doubled.",
+	},
+	noxious: {
+		name: "Noxious",
+		shortDesc: "If Acid Rain is active, this Pokemon's Speed is doubled.",
+	},
+	psychedelic: {
+		name: "Psychedelic",
+		shortDesc: "If Spore Storm is active, this Pokemon's Speed is doubled.",
 	},
 	sniper: {
 		name: "Sniper",

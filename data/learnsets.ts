@@ -97757,7 +97757,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	    present: ["8M"],
 	    reversal: ["8M"],
 	    tickle: ["8M"],
-`	    wish: ["8M"],
+     wish: ["8M"],
         },
   },
 	mockroach: {
@@ -97781,7 +97781,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	    toxic: ["8M"],
 	    bulkup: ["8M"],
 	    hiddenpower: ["8M"],
-`	    sunnyday: ["8M"],
+      sunnyday: ["8M"],
 	    taunt: ["8M"],
 	    hyperbeam: ["8M"],
 	    protect: ["8M"],

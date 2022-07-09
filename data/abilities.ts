@@ -670,6 +670,30 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 2.5,
 		num: 172,
 	},
+	belligerent: {
+		onAfterEachBoost(boost, target, source, effect) {
+			if (!source || target.side === source.side) {
+				if (effect.id === 'stickyweb') {
+					this.hint("Court Change Sticky Web counts as lowering your own Speed, and Belligerent only affects stats lowered by foes.", true, source.side);
+				}
+				return;
+			}
+			let statsLowered = false;
+			let i: BoostName;
+			for (i in boost) {
+				if (boost[i]! < 0) {
+					statsLowered = true;
+				}
+			}
+			if (statsLowered) {
+				this.add('-ability', target, 'Belligerent');
+				this.boost({atk: 1, spa: 1}, target, target, null, true);
+			}
+		},
+		name: "Competitive",
+		rating: 2,
+		num: 172,
+	},
 	compoundeyes: {
 		onSourceModifyAccuracyPriority: -1,
 		onSourceModifyAccuracy(accuracy) {
@@ -773,6 +797,15 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 			source.side.foe.addSideCondition('safeguard');
 		},
 		name: "Garland Guardian",
+		rating: 2,
+		num: 130,
+	},
+	onthewind: {
+		onStart(source) {
+			const target = pokemon.side.foe.active[pokemon.side.foe.active.length - 1 - pokemon.position];
+			source.side.foe.addSideCondition('tailwind');
+		},
+		name: "On the Wind",
 		rating: 2,
 		num: 130,
 	},
@@ -2595,6 +2628,17 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 			}
 		},
 		name: "Marvel Scale",
+		rating: 2.5,
+		num: 63,
+	},
+	marvelskin: {
+		onModifySpDPriority: 6,
+		onModifySpD(spd, pokemon) {
+			if (pokemon.status) {
+				return this.chainModify(1.5);
+			}
+		},
+		name: "Marvel Skin",
 		rating: 2.5,
 		num: 63,
 	},
@@ -6261,6 +6305,25 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 3.5,
 		num: 262,
 	},
+	erudite: {
+		onModifyAtkPriority: 5,
+		onModifyAtk(atk, attacker, defender, move) {
+			if (move.type === 'Psychic') {
+				this.debug('Erudite boost');
+				return this.chainModify(1.5);
+			}
+		},
+		onModifySpAPriority: 5,
+		onModifySpA(atk, attacker, defender, move) {
+			if (move.type === 'Psychic') {
+				this.debug('Erudite boost');
+				return this.chainModify(1.5);
+			}
+		},
+		name: "Erudite",
+		rating: 3.5,
+		num: 262,
+	},
 	scaldingsmoke: {
 		onModifyAtkPriority: 5,
 		onModifyAtk(atk, attacker, defender, move) {
@@ -6518,7 +6581,7 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		onAnyModifyAccuracyPriority: -1,
 		onAnyModifyAccuracy(accuracy, target, source) {
 			if (source.side === this.effectData.target.side && typeof accuracy === 'number') {
-				return this.chainModify([4506, 4096]);
+				return this.chainModify(1.5);
 			}
 		},
 		name: "Ocular",

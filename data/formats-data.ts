@@ -12,10 +12,12 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "RU",
 	},
 	cradilychromatic: {
-		tier: "OU",
+		isNonstandard: "CAP",
+		tier: "CAP",
 	},
 	armaldochromatic: {
-		tier: "UU",
+		isNonstandard: "CAP",
+		tier: "CAP",
 	},
 	beautiflychromatic: {
 		tier: "UU",
@@ -45,7 +47,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "RU",
 	},
 	tropiuschromatic: {
-		tier: "RU",
+		tier: "NU",
 	},
 	seviperchromatic: {
 		tier: "CAP",

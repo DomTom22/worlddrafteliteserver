@@ -7039,7 +7039,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		baseSpecies: "Ludicolo",
 		forme: "Chromatic",
 		types: ["Ghost"],
-		baseStats: {hp: 80, atk: 55, def: 90, spa: 100, spd: 100, spe: 85},
+		baseStats: {hp: 70, atk: 80, def: 85, spa: 100, spd: 100, spe: 75},
 		abilities: {0: "Dancer", 1: "Oblivious", H: "Unaware"},
 		heightm: 1.5,
 		weightkg: 55,

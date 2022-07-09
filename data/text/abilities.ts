@@ -228,6 +228,11 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 		desc: "This Pokemon's Special Attack is raised by 2 stages for each of its stat stages that is lowered by an opposing Pokemon.",
 		shortDesc: "This Pokemon's Sp. Atk is raised by 2 for each of its stats that is lowered by a foe.",
 	},
+	belligerent: {
+		name: "Belligerent",
+		desc: "This Pokemon's attaking stats are raised for each of its stat stages that is lowered by an opposing Pokemon.",
+		shortDesc: "This Pokemon's Attack and Sp. Atk are raised for each of its stats that is lowered by a foe.",
+	},
 	compoundeyes: {
 		name: "Compound Eyes",
 		shortDesc: "This Pokemon's moves have their accuracy multiplied by 1.3.",
@@ -415,6 +420,10 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 	garlandguardian: {
 		name: "Garland Guardian",
 		shortDesc: "On switch-in, this Pokemon summons Safeguard.",
+	},
+	onthewind: {
+		name: "On the Wind",
+		shortDesc: "On switch-in, this Pokemon summons Tailwind.",
 	},
 	barriermaker: {
 		name: "Barrier Maker",
@@ -971,6 +980,11 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 		name: "Marvel Scale",
 		desc: "If this Pokemon has a non-volatile status condition, its Defense is multiplied by 1.5.",
 		shortDesc: "If this Pokemon is statused, its Defense is 1.5x.",
+	},
+	marvelskin: {
+		name: "Marvel Skin",
+		desc: "If this Pokemon has a non-volatile status condition, its Sp. Defense is multiplied by 1.5.",
+		shortDesc: "If this Pokemon is statused, its Sp. Def is 1.5x.",
 	},
 	megalauncher: {
 		name: "Mega Launcher",
@@ -2179,6 +2193,10 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 		name: "Transistor",
 		shortDesc: "This Pokemon's attacking stat is multiplied by 1.5 while using an Electric-type attack.",
 	},
+	erudite: {
+		name: "Erudite",
+		shortDesc: "This Pokemon's attacking stat is multiplied by 1.5 while using an Psychic-type attack.",
+	},
 	scaldingsmoke: {
 		name: "Scalding Smoke",
 		shortDesc: "This Pokemon's attacking stat is multiplied by 1.5 while using an Poison-type attack.",
@@ -2257,7 +2275,7 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 	},
 	ocular: {
 		name: "Ocular",
-		shortDesc: "This Pokemon and its allies' moves have their accuracy multiplied by 1.25x.",
+		shortDesc: "This Pokemon and its allies' moves have their accuracy multiplied by 1.5x.",
 	},
 	vitalspirit: {
 		name: "Vital Spirit",

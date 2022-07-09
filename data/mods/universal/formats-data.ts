@@ -12,7 +12,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		doublesTier: "DUU",
 	},
 	venusaurmega: {
-		tier: "UUBL",
+		tier: "UU",
 		doublesTier: "DOU",
 	},
 	venusaurgmax: {
@@ -588,7 +588,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		doublesTier: "(DUU)",
 	},
 	tentacruelchromatic: {
-		tier: "OU",
+		tier: "UU",
 		doublesTier: "DUber",
 	},
 	geodude: {
@@ -2356,7 +2356,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "RU",
 	},
 	sharpedochromaticmega: {
-		tier: "OU",
+		tier: "UU",
 	},
 	wailmer: {
 		tier: "LC",
@@ -3948,7 +3948,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		randomBattleLevel: 78,
 		randomDoubleBattleMoves: ["bodypress", "gyroball", "knockoff", "leechseed", "powerwhip", "protect", "toxic"],
 		randomDoubleBattleLevel: 81,
-		tier: "OU",
+		tier: "UUBL",
 		doublesTier: "DUU",
 	},
 	klink: {
@@ -4803,7 +4803,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		randomBattleLevel: 82,
 		randomDoubleBattleMoves: ["dragondance", "extremespeed", "irontail", "protect", "rockslide", "thousandarrows"],
 		randomDoubleBattleLevel: 76,
-		tier: "OU",
+		tier: "UU",
 		doublesTier: "DUU",
 	},
 	zygardecomplete: {
@@ -6328,7 +6328,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "PU",
 	},
 	electruxomega: {
-		tier: "OU",
+		tier: "UUBL",
 	},
 	brainoar: {
 		tier: "PU",
@@ -6448,7 +6448,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "OU",
 	},
 	winotinger: {
-		tier: "OU",
+		tier: "UU",
 	},
 	raffiti: {
 		tier: "UUBL",
@@ -6694,7 +6694,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "ZU",
 	},
 	snorlaxdelta: {
-		tier: "OU",
+		tier: "RUBL",
 	},
 	mismagiusdelta: {
 		tier: "RU",
@@ -7805,7 +7805,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "NU",
 	},
 	nidorook: {
-		tier: "OU",
+		tier: "UU",
 	},
 	quezsparce: {
 		tier: "UU",
@@ -7901,7 +7901,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "XU",
 	},
 	shulongx: {
-		tier: "UU",
+		tier: "RU",
 	},
 	shulongastro: {
 		tier: "Uber",
@@ -8024,7 +8024,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "ZU",
 	},
 	croakraze: {
-		tier: "UUBL",
+		tier: "RU",
 	},
 	swelephant: {
 		tier: "RU",
@@ -8096,10 +8096,10 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "OU",
 	},
 	tapubulux: {
-		tier: "OU",
+		tier: "UU",
 	},
 	tapufinix: {
-		tier: "OU",
+		tier: "UU",
 	},
 	tapukokox: {
 		tier: "UU",
@@ -8476,5 +8476,11 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	},
 	tropiuschromatic: {
 		tier: "RU",
+	},
+	torterrachromatic: {
+		tier: "UUBL",
+	},
+	sandacondachromatic: {
+		tier: "UUBL",
 	},
 };

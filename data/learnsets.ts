@@ -96718,7 +96718,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	    substitute: ["8M"],
 	    trickroom: ["8M"],
 	    rocksmash: ["8M"],
-	    waterpulse: : ["8M"],
+	    waterpulse: ["8M"],
 	    fly: ["8M"],
 	    surf: ["8M"],
 	    strength: ["8M"],

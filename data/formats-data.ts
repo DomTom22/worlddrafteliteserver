@@ -32,7 +32,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "OU",
 	},
 	drapionchromatic: {
-		tier: "UU",
+		tier: "CAP",
 	},
 	hatterenechromatic: {
 		tier: "UU",

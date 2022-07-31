@@ -340,7 +340,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		prevo: "Wartortle",
 		evoLevel: 36,
 		eggGroups: ["Monster", "Water 1"],
-		otherFormes: ["Blastoise-Mega", "Blastoise-Delta", "Blastoise-Delta-Mega", "Blatoise-Egho". "Blastoise-Foolish"],
+		otherFormes: ["Blastoise-Mega", "Blastoise-Delta", "Blastoise-Delta-Mega", "Blatoise-Egho", "Blastoise-Foolish"],
 		formeOrder: ["Blastoise", "Blastoise-Mega", "Blastoise-Delta", "Blastoise-Delta-Mega", "Blastoise-Egho", "Blastoise-Foolish"],
 		canGigantamax: "G-Max Cannonade",
 	},

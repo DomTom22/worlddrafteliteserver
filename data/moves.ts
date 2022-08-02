@@ -1,4 +1,4 @@
-/*
+slash: 1/*
 
 List of flags and their descriptions:
 
@@ -3600,7 +3600,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		accuracy: 100,
 		basePower: 70,
 		category: "Physical",
-		name: "Dark Pulse",
+		name: "Subwoofer",
 		pp: 20,
 		priority: 0,
 		flags: {protect: 1, mirror: 1, sound: 1},
@@ -15702,7 +15702,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		num: 722,
 		accuracy: 90,
 		basePower: 130,
-		category: "Speical",
+		category: "Special",
 		name: "Star Burst",
 		pp: 5,
 		priority: 0,
@@ -19014,7 +19014,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		accuracy: 95,
 		basePower: 120,
 		category: "Special",
-		name: "Magic Spell",
+		name: "Nature Blast",
 		pp: 5,
 		priority: 0,
 		flags: {protect: 1, mirror: 1},
@@ -21209,7 +21209,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		accuracy: 100,
 		basePower: 65,
 		target: "normal",
-		flags: {contact: 1, protect: 1, blade: 1, mirror: 1},
+		flags: {contact: 1, protect: 1, slash: 1, mirror: 1},
 		volatileStatus: "partiallytrapped",
 		desc: "Prevents the target from switching for four or five turns (seven turns if the user is holding Grip Claw). Causes damage to the target equal to 1/8 of its maximum HP (1/6 if the user is holding Binding Band), rounded down, at the end of each turn during effect. The target can still switch out if it is holding Shed Shell or uses Baton Pass, Flip Turn, Parting Shot, Teleport, U-turn, or Volt Switch. The effect ends if either the user or the target leaves the field, or if the target uses Rapid Spin or Substitute successfully. This effect is not stackable or reset by using this or another binding move.",
 		shortDesc: "Traps and damages the target for 4-5 turns.",

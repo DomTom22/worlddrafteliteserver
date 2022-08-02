@@ -6795,6 +6795,15 @@ export const MovesText: {[k: string]: MoveText} = {
 		end: "  The pointed stones disappeared from around [TEAM]!",
 		damage: "  Pointed stones dug into [POKEMON]!",
 	},
+	velvetscales: {
+		name: "Velvet Scales",
+		desc: "Sets up a hazard on the opposing side of the field, damaging each opposing Pokemon that switches in. Fails if the effect is already active on the opposing side. Foes lose 1/32, 1/16, 1/8, 1/4, or 1/2 of their maximum HP, rounded down, based on their weakness to the Dragon type; 0.25x, 0.5x, neutral, 2x, or 4x, respectively. Can be removed from the opposing side if any opposing Pokemon uses Rapid Spin or Defog successfully, or is hit by Defog.",
+		shortDesc: "Hurts foes on switch-in. Factors Dragon weakness.",
+
+		start: "  Sharp scales float in the air around [TEAM]!",
+		end: "  The scales disappeared from around [TEAM]!",
+		damage: "  Sharp Scales dug into [POKEMON]!",
+	},
 	steameruption: {
 		name: "Steam Eruption",
 		desc: "Has a 30% chance to burn the target. The target thaws out if it is frozen.",
@@ -6840,6 +6849,15 @@ export const MovesText: {[k: string]: MoveText} = {
 		start: "  A sticky web has been laid out on the ground around [TEAM]!",
 		end: "  The sticky web has disappeared from the ground around [TEAM]!",
 		activate: "  [POKEMON] was caught in a sticky web!",
+	},
+	scorchedashes: {
+		name: "Scorched Ashes",
+		desc: "Sets up a hazard on the opposing side of the field, lowering the Attack by 1 stage of each opposing Pokemon that switches in, unless it is a Flying-type Pokemon or has the Levitate Ability. Fails if the effect is already active on the opposing side. Can be removed from the opposing side if any opposing Pokemon uses Rapid Spin or Defog successfully, or is hit by Defog.",
+		shortDesc: "Lowers Attack of grounded foes by 1 on switch-in.",
+
+		start: "  Ashes have been laid out on the ground around [TEAM]!",
+		end: "  The ashes has disappeared from the ground around [TEAM]!",
+		activate: "  [POKEMON] was covered in ashes!",
 	},
 	stockpile: {
 		name: "Stockpile",

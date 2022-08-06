@@ -987,6 +987,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			withdraw: ["8L1", "8V", "7L1", "7V", "6L1", "5L1", "4L1", "3L1"],
 			workup: ["8M", "7M"],
 			zenheadbutt: ["8M", "7T", "6T", "5T", "4T"],
+			heavyslam: ["8M"],
 		},
 		eventData: [
 			{generation: 3, level: 70, moves: ["protect", "raindance", "skullbash", "hydropump"], pokeball: "pokeball"},
@@ -8376,7 +8377,6 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			bite: ["8L1", "8V", "7L1", "6L1", "5L1", "4L1", "3L1"],
 			bodyslam: ["8M", "7V", "3T"],
 			bulldoze: ["8M", "7M", "6M", "5M"],
-			burnup: ["8L1"],
 			captivate: ["4M"],
 			closecombat: ["8M"],
 			confide: ["7M", "6M"],
@@ -8419,7 +8419,6 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			naturalgift: ["4M"],
 			odorsleuth: ["7L1", "6L1", "5L1", "4L1", "3L1"],
 			outrage: ["8M", "8V", "7T", "6T", "5T"],
-			overheat: ["8M", "7M", "6M", "5M", "4M", "3M"],
 			playrough: ["8M", "8L1", "8V"],
 			protect: ["8M", "8V", "7M", "7V", "7S1", "6M", "5M", "4M", "3M"],
 			psychicfangs: ["8M"],
@@ -8455,6 +8454,10 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			toxic: ["8V", "7M", "7V", "6M", "5M", "4M", "3M"],
 			wildcharge: ["8M", "7M", "6M", "5M"],
 			icebeam: ["8M"],
+			blizzard: ["8M"],
+			recover: ["8M"],
+			scald: ["8M"],
+			willowisp: ["8M"],
 		},
 	},
 	arcaninechromatic: {
@@ -34157,6 +34160,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			thunderwave: ["3T"],
 			boomburst: ["8T"],
 			hurricane: ["8T"],
+			electroball: ["8T"],
 		},
 	},
 	wingull: {

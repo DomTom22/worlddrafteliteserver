@@ -389,6 +389,10 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "OU",
 		doublesTier: "(DUU)",
 	},
+		clefablefoolish: {
+		isNonstandard: "Past",
+    tier: "Illegal",
+	},
 	vulpix: {
 		isNonstandard: "Past",
     tier: "Illegal",

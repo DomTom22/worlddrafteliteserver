@@ -228,6 +228,11 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 		desc: "This Pokemon's Special Attack is raised by 2 stages for each of its stat stages that is lowered by an opposing Pokemon.",
 		shortDesc: "This Pokemon's Sp. Atk is raised by 2 for each of its stats that is lowered by a foe.",
 	},
+	belligerent: {
+		name: "Belligerent",
+		desc: "This Pokemon's attaking stats are raised for each of its stat stages that is lowered by an opposing Pokemon.",
+		shortDesc: "This Pokemon's Attack and Sp. Atk are raised for each of its stats that is lowered by a foe.",
+	},
 	compoundeyes: {
 		name: "Compound Eyes",
 		shortDesc: "This Pokemon's moves have their accuracy multiplied by 1.3.",
@@ -415,6 +420,10 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 	garlandguardian: {
 		name: "Garland Guardian",
 		shortDesc: "On switch-in, this Pokemon summons Safeguard.",
+	},
+	onthewind: {
+		name: "On the Wind",
+		shortDesc: "On switch-in, this Pokemon summons Tailwind.",
 	},
 	barriermaker: {
 		name: "Barrier Maker",
@@ -971,6 +980,11 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 		name: "Marvel Scale",
 		desc: "If this Pokemon has a non-volatile status condition, its Defense is multiplied by 1.5.",
 		shortDesc: "If this Pokemon is statused, its Defense is 1.5x.",
+	},
+	marvelskin: {
+		name: "Marvel Skin",
+		desc: "If this Pokemon has a non-volatile status condition, its Sp. Defense is multiplied by 1.5.",
+		shortDesc: "If this Pokemon is statused, its Sp. Def is 1.5x.",
 	},
 	megalauncher: {
 		name: "Mega Launcher",
@@ -1627,13 +1641,17 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 		name: "Ice Slick",
 		shortDesc: "If Hail or Snowy Terrain is active, this Pokemon's Speed is doubled. Immunity to Hail damage.",
 	},
-	shadowdancer: {
-		name: "Shadow Dancer",
-		shortDesc: "If Starry Night is active, this Pokemon's Speed is doubled.",
-	},
 	windrider: {
 		name: "Wind Rider",
 		shortDesc: "If Wind is active, this Pokemon's Speed is doubled.",
+	},
+	noxious: {
+		name: "Noxious",
+		shortDesc: "If Acid Rain is active, this Pokemon's Speed is doubled.",
+	},
+	psychedelic: {
+		name: "Psychedelic",
+		shortDesc: "If Spore Storm is active, this Pokemon's Speed is doubled.",
 	},
 	sniper: {
 		name: "Sniper",
@@ -1899,8 +1917,7 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 	},
 	etherealshroud: {
 		name: "Ethereal Shroud",
-		desc: "When this Pokemon has more than 1/2 its maximum HP and takes damage bringing it to 1/2 or less of its maximum HP, it immediately switches out to a chosen ally. This effect applies after all hits from a multi-hit move; Sheer Force prevents it from activating if the move has a secondary effect. This effect applies to both direct and indirect damage, except Curse and Substitute on use, Belly Drum, Pain Split, and confusion damage.",
-		shortDesc: "This Pokemon switches out when it reaches 1/2 or less of its maximum HP.",
+		shortDesc: "This Pokemon gains the Ghost-Type defensivley.",
 	},
 	eventhorizon: {
 		name: "Event Horizon",
@@ -2175,6 +2192,10 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 		name: "Transistor",
 		shortDesc: "This Pokemon's attacking stat is multiplied by 1.5 while using an Electric-type attack.",
 	},
+	erudite: {
+		name: "Erudite",
+		shortDesc: "This Pokemon's attacking stat is multiplied by 1.5 while using an Psychic-type attack.",
+	},
 	scaldingsmoke: {
 		name: "Scalding Smoke",
 		shortDesc: "This Pokemon's attacking stat is multiplied by 1.5 while using an Poison-type attack.",
@@ -2253,7 +2274,7 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 	},
 	ocular: {
 		name: "Ocular",
-		shortDesc: "This Pokemon and its allies' moves have their accuracy multiplied by 1.25x.",
+		shortDesc: "This Pokemon and its allies' moves have their accuracy multiplied by 1.5x.",
 	},
 	vitalspirit: {
 		name: "Vital Spirit",

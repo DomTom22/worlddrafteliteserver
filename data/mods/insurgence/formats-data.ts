@@ -4140,6 +4140,9 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "(PU)",
 		doublesTier: "(DUU)",
 	},
+	stunfiskmega: {
+		tier: "UUBL",
+	},
 	stunfiskchromatic: {
 		isNonstandard: "CAP",
 		tier: "CAP",

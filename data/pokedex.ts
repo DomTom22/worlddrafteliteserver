@@ -3396,7 +3396,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		prevo: "Haunter",
 		evoType: "trade",
 		eggGroups: ["Amorphous"],
-		otherFormes: ["Gengar-Mega", "Gengar-Foolish" "Gengar-X"],
+		otherFormes: ["Gengar-Mega", "Gengar-Foolish", "Gengar-X"],
 		formeOrder: ["Gengar", "Gengar-Mega", "Gengar-Foolish", "Gengar-X"],
 		canGigantamax: "G-Max Terror",
 	},

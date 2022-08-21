@@ -8245,7 +8245,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		prevo: "Pupitar",
 		evoLevel: 55,
 		eggGroups: ["Monster"],
-		otherFormes: ["Tyranitar-Mega", "Tyranitar-DB", "Tyranitar-Foolish" "Tyranitar-X"],
+		otherFormes: ["Tyranitar-Mega", "Tyranitar-DB", "Tyranitar-Foolish", "Tyranitar-X"],
 		formeOrder: ["Tyranitar", "Tyranitar-Mega", "Tyranitar-DB", "Tyranitar-Foolish", "Tyranitar-X"],
 	},
 	tyranitarmega: {

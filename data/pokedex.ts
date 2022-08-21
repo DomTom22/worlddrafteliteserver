@@ -2882,7 +2882,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		prevo: "Ponyta",
 		evoLevel: 40,
 		eggGroups: ["Field"],
-		otherFormes: ["Rapidash-Chromatic", "Rapidash-Foolish" "Rapidash-Galar", "Rapidash-X"],
+		otherFormes: ["Rapidash-Chromatic", "Rapidash-Foolish", "Rapidash-Galar", "Rapidash-X"],
 		formeOrder: ["Rapidash", "Rapidash-Chromatic", "Rapidash-Foolish", "Rapidash-Galar", "Rapidash-X"],
 	},
 	rapidashgalar: {

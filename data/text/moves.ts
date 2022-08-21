@@ -834,7 +834,7 @@ export const MovesText: {[k: string]: MoveText} = {
 	coldconversion: {
 		name: "Cold Conversion",
 		desc: "Fails unless the user is a Ice type. If this move is successful, the user's Ice type becomes typeless as long as it remains active.",
-		shortDesc: "User's Ice type becomes typeless; must be Fire.",
+		shortDesc: "User's Ice type becomes typeless; must be Ice.",
 
 		typeChange: "  [POKEMON] burned itself out!",
 	},
@@ -6110,6 +6110,10 @@ export const MovesText: {[k: string]: MoveText} = {
 		name: "Shadow Ball",
 		desc: "Has a 20% chance to lower the target's Special Defense by 1 stage.",
 		shortDesc: "20% chance to lower the target's Sp. Def by 1.",
+	},
+	gigaspark: {
+		name: "Giga Spark",
+		shortDesc: "20% chance to lower the user's Sp. Def by 1.",
 	},
 	magicspell: {
 		name: "Magic Spell",

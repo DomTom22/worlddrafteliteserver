@@ -2134,7 +2134,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		num: 523,
 		accuracy: 95,
 		basePower: 100,
-		category: "Speical",
+		category: "Special",
 		name: "Lead Splash",
 		pp: 5,
 		priority: 0,
@@ -4950,7 +4950,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		type: "Ghost",
 		contestType: "Beautiful",
 	},
-	wireship: {
+	wirewhip: {
 		num: 161,
 		accuracy: 90,
 		basePower: 90,
@@ -5066,7 +5066,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		type: "Ground",
 		contestType: "Beautiful",
 	},
-	razeearth: {
+	terrablast: {
 		num: 414,
 		accuracy: 100,
 		basePower: 140,
@@ -7624,7 +7624,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		accuracy: 100,
 		basePower: 95,
 		category: "Special",
-		name: "Ticky Toxins",
+		name: "Tricky Toxins",
 		pp: 15,
 		priority: 0,
 		flags: {protect: 1, mirror: 1},
@@ -11153,7 +11153,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		accuracy: 100,
 		basePower: 90,
 		category: "Physical",
-		name: "Adamantine Press",
+		name: "Strafe",
 		pp: 15,
 		priority: 0,
 		flags: {protect: 1, mirror: 1, contact: 1},
@@ -12561,7 +12561,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 			},
 		},
 		target: "normal",
-		type: "Water",
+		type: "Psychic",
 		contestType: "Cool",
 	},
 	lockon: {
@@ -17305,7 +17305,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		basePower: 0,
 		category: "Status",
 		name: "New Moon",
-		pp: 16,
+		pp: 5,
 		priority: 0,
 		flags: {},
 		weather: 'newmoon',

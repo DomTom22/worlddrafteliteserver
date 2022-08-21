@@ -5843,7 +5843,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		prevo: "Golbat",
 		evoType: "levelFriendship",
 		eggGroups: ["Flying"],
-=	},
+  },
 	chinchou: {
 		num: 170,
 		name: "Chinchou",

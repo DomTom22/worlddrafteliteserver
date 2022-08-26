@@ -389,7 +389,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "OU",
 		doublesTier: "(DUU)",
 	},
-		clefablefoolish: {
+	clefablefoolish: {
 		isNonstandard: "Past",
     tier: "Illegal",
 	},
@@ -976,6 +976,10 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	},
 	electrode: {
     tier: "NU",
+	},
+	electrodefoolish: {
+		isNonstandard: "Past",
+    tier: "Illegal",
 	},
 	exeggcute: {
 		isNonstandard: "Past",

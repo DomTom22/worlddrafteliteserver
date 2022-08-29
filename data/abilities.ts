@@ -6916,7 +6916,14 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 0,
 		num: 161,
 	},
-
+	taproot: {
+			name: "Tap Root",
+			onStart(pokemon) {
+					pokemon.addVolatile('ingrain');
+			},
+			rating: 2,
+			num: 1088,
+		},
 	// CAP
 	mountaineer: {
 		onDamage(damage, target, source, effect) {

@@ -8806,7 +8806,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		isNonstandard: "Past",
 		tier: "Illegal",
 	},
-	primapefoolish: {
+	primeapefoolish: {
 		isNonstandard: "Past",
 		tier: "Illegal",
 	},
@@ -9615,6 +9615,26 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "Illegal",
 	},
 	togekissfoolishkanto: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	girafarigfoolish: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	medichamfoolish: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	slowbrofoolish: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	mantinefoolish: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	raichufoolish: {
 		isNonstandard: "Past",
 		tier: "Illegal",
 	},

@@ -840,6 +840,34 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "RU",
 		doublesTier: "DUU",
 	},
+	mukdelta: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	mukdeltawater: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	mukdeltagrass: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	mukdeltafire: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	mukdeltadark: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	mukdeltanormal: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	mukdeltapsychic: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
 	shellder: {
 		tier: "LC",
 	},

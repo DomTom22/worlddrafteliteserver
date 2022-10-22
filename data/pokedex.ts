@@ -27726,7 +27726,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Flying"],
 	},
 	splendifowl: {
-		num: -1210",
+		num: -1210,
 		types: ["Normal", "Flying"],
 		genderRatio: {M: 0.875, F: 0.125},
 		baseStats: {hp: 80, atk: 65, def: 55, spa: 105, spd: 80, spe: 93},

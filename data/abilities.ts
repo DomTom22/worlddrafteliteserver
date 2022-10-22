@@ -2378,6 +2378,61 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 4,
 		num: 18,
 	},
+	geigersense: {
+		onStart(pokemon) {
+			for (const target of this.getAllActive()) {
+				if (target !== pokemon && target.hasType('Nuclear')) {
+					this.boost({atk: 1, spa: 1});
+					break;
+				}
+			}
+		},
+		name: "Geiger Sense",
+		rating: 1,
+		num: -117,
+	},
+	chernobyl: {
+		onStart(source) {
+			this.field.setWeather('fallout'); // REALLY can't be bothered to add a whole primal weather for an unobtainable ability
+		},
+		name: "Chernobyl",
+		rating: 5,
+		num: -118,
+	},
+	leadskin: {
+		onImmunity(type, pokemon) {
+			if (type === 'fallout') return false;
+		},
+		onTryHit(target, source, move) {
+			if (target !== source && move.type === 'Nuclear' && move.category !== 'Status') {
+				this.add('-immune', target, '[from] ability: Lead Skin');
+				return null;
+			}
+		},
+		isBreakable: true,
+		name: "Lead Skin",
+		rating: 0.5,
+		num: -111,
+	},
+	atomizate: {
+		onModifyTypePriority: -1,
+		onModifyType(move, pokemon) {
+			const noModifyType = [
+				'judgment', 'multiattack', 'naturalgift', 'revelationdance', 'technoblast', 'terrainpulse', 'weatherball',
+			];
+			if (move.type === 'Normal' && !noModifyType.includes(move.id) && !(move.isZ && move.category !== 'Status')) {
+				move.type = 'Nuclear';
+				move.atomizateBoosted = true;
+			}
+		},
+		onBasePowerPriority: 23,
+		onBasePower(basePower, pokemon, target, move) {
+			if (move.atomizateBoosted) return this.chainModify([4915, 4096]);
+		},
+		name: "Atomizate",
+		rating: 5,
+		num: -110,
+	},
 	levitate: {
 		// airborneness implemented in sim/pokemon.js:Pokemon#isGrounded
 		name: "Levitate",

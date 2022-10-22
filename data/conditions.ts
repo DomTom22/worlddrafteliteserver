@@ -516,22 +516,24 @@ export const Conditions: {[k: string]: ConditionData} = {
 	},
 	thunderstorm: {
 		name: 'Thunderstorm',
-		type: "Electric",
 		effectType: 'Weather',
 		duration: 5,
+		durationCallback(source, effect) {
+			return 5;
+		},
+		onFieldStart(field, source, effect) {
+			if (effect?.effectType === 'Ability') {
+				if (this.gen <= 5) this.effectState.duration = 0;
+				this.add('-weather', 'Thunderstorm', '[from] ability: ' + effect, '[of] ' + source);
+			} else {
+				this.add('-weather', 'Thunderstorm');
+			}
+		},
 		onWeatherModifyDamage(damage, attacker, defender, move) {
 			if (defender.hasItem('utilityumbrella')) return;
 			if (move.type === 'Electric') {
 				this.debug('thunderstorm electric boost');
 				return this.chainModify(1.5);
-			}
-		},
-		onStart(battle, source, effect) {
-			if (effect?.effectType === 'Ability') {
-				if (this.gen <= 5) this.effectData.duration = 0;
-				this.add('-weather', 'Thunderstorm', '[from] ability: ' + effect, '[of] ' + source);
-			} else {
-				this.add('-weather', 'Thunderstorm');
 			}
 		},
 		onFieldResidualOrder: 1,
@@ -545,7 +547,45 @@ export const Conditions: {[k: string]: ConditionData} = {
 				this.damage(target.baseMaxhp * Math.pow(2, typeMod) / 8);
 			}
 		},
-		onEnd() {
+		onFieldEnd() {
+			this.add('-weather', 'none');
+		},
+	},
+	fallout: {
+		name: 'Fallout',
+		effectType: 'Weather',
+		duration: 5,
+		durationCallback(source, effect) {
+			return 5;
+		},
+		onFieldStart(field, source, effect) {
+			if (effect?.effectType === 'Ability') {
+				if (this.gen <= 5) this.effectState.duration = 0;
+				this.add('-weather', 'Fallout', '[from] ability: ' + effect, '[of] ' + source);
+			} else {
+				this.add('-weather', 'Fallout');
+			}
+		},
+		onWeatherModifyDamage(damage, attacker, defender, move) {
+			// if (defender.hasItem('utilityumbrella')) return;
+
+			if (this.dex.getEffectiveness(move, defender) > 0 && defender.hasType('Nuclear')) {
+				this.debug('fallout SE on nuclear nerf');
+				return this.chainModify(0.75);
+			}
+		},
+		onFieldResidualOrder: 1,
+		onFieldResidual() {
+			this.add('-weather', 'Fallout', (this.effectState.duration % 2) ? '[noupkeepdamage]' : '[upkeep]');
+			if (this.field.isWeather('fallout')) this.eachEvent('Weather');
+		},
+		onWeather(target) {
+			if (!(this.effectState.duration % 2)) {
+				const typeMod = target.runEffectiveness(this.dex.getActiveMove('Gamma Ray'));
+				this.damage(target.baseMaxhp * Math.pow(2, typeMod) / 8);
+			}
+		},
+		onFieldEnd() {
 			this.add('-weather', 'none');
 		},
 	},

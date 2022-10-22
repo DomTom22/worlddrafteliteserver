@@ -8286,6 +8286,50 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		isNonstandard: "Past",
 		tier: "Illegal",
 	},
+	meganiumegho: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	typhlosionegho: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	feraligatregho: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	viledoom: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	mortossum: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	shroomage: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	girafaraf: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	giragira: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	orcabyss: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	joltalope: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
+	mewthree: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
 	shyleon: {
 		isNonstandard: "Past",
 		tier: "Illegal",

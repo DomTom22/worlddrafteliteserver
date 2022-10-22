@@ -1671,7 +1671,7 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 		shortDesc: "On switch-in, this Pokemon summons Trickroom.",
 	},
 	taproot: {
-		name: "Tap Root",
+		name: "Taproot",
 		shortDesc: "On switch-in, this Pokemon becomes rooted.",
 	},
 	solarpower: {

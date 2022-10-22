@@ -48840,7 +48840,6 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			waterpulse: ["7T", "6T", "4M"],
 			watersport: ["7L1", "6L1", "5L1", "4L1"],
 			whirlpool: ["7L35", "6L35", "5L39", "4M", "4L39"],
-			flowstate: ["8M"],
 		},
 		encounters: [
 			{generation: 4, level: 22},
@@ -67761,7 +67760,6 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			waterpulse: ["7T", "7L14", "6T", "6L14"],
 			watershuriken: ["7L1", "6L36", "6S0"],
 			workup: ["7M"],
-			suddenstrike: ["8M"],
 		},
 		eventData: [
 			{generation: 6, level: 36, ivs: {spe: 31}, isHidden: true, moves: ["watershuriken", "shadowsneak", "hydropump", "substitute"], pokeball: "cherishball"},
@@ -67904,7 +67902,6 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			toxic: ["7M", "6M"],
 			uturn: ["7M", "6M"],
 			workup: ["7M"],
-			suddenstrike: ["8M"],
 		},
 	},
 	bunnelby: {
@@ -105188,7 +105185,6 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			acid: ["8L1"],
 			roleplay: ["8L1"],
 			trick: ["8L1"],
-			suddenstrike: ["8M"],
 		},
 	},
 	crustledeltaberry: {

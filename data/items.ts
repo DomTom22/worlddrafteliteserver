@@ -2630,6 +2630,7 @@ export const Items: {[itemid: string]: ItemData} = {
 		},
 		num: -1004,
 		gen: 6,
+		shortDesc: "Holder's Fighting-type attacks have 1.2x power.",
 	},
 	hafliberry: {
 		name: "Hafli Berry",

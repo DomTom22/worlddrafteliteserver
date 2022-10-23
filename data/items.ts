@@ -2603,17 +2603,57 @@ export const Items: {[itemid: string]: ItemData} = {
 		num: 744,
 		gen: 6,
 	},
-	UFOite: {
-		name: "UFOite",
-		spritenum: 608,
-		megaStone: "S51-Mega",
-		megaEvolves: "S51",
-		itemUser: ["S51"],
+	unidentifiedfallenobject: {
+		name: "Unidentified Fallen Object",
+		spritenum: 780,
+		megaStone: "S51-A-Mega",
+		megaEvolves: "S51-A",
+		itemUser: ["S51-A"],
 		onTakeItem(item, source) {
 			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
 			return true;
 		},
-		num: 744,
+		num: -1013,
+		gen: 6,
+	},
+	junglecrown: {
+		name: "Jungle Crown",
+		spritenum: 771,
+		fling: {
+			basePower: 30,
+		},
+		onBasePowerPriority: 15,
+		onBasePower(basePower, user, target, move) {
+			if (move && move.type === 'Fighting') {
+				return this.chainModify([4915, 4096]);
+			}
+		},
+		num: -1004,
+		gen: 6,
+		shortDesc: "Holder's Fighting-type attacks have 1.2x power.",
+	},
+	hafliberry: {
+		name: "Hafli Berry",
+		spritenum: 768,
+		isBerry: true,
+		naturalGift: {
+			basePower: 80,
+			type: "Nuclear",
+		},
+		onSourceModifyDamage(damage, source, target, move) {
+			if (move.type === 'Nuclear' && target.getMoveHitData(move).typeMod > 0) {
+				const hitSub = target.volatiles['substitute'] && !move.flags['bypasssub'] && !(move.infiltrates && this.gen >= 6);
+				if (hitSub) return;
+
+				if (target.eatItem()) {
+					this.debug('-50% reduction');
+					this.add('-enditem', target, this.effect, '[weaken]');
+					return this.chainModify(0.5);
+				}
+			}
+		},
+		onEat() { },
+		num: -1001,
 		gen: 6,
 	},
 	inflagetite: {

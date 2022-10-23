@@ -2603,6 +2603,19 @@ export const Items: {[itemid: string]: ItemData} = {
 		num: 744,
 		gen: 6,
 	},
+	UFOite: {
+		name: "UFOite",
+		spritenum: 608,
+		megaStone: "S51-Mega",
+		megaEvolves: "S51",
+		itemUser: ["S51"],
+		onTakeItem(item, source) {
+			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
+			return true;
+		},
+		num: 744,
+		gen: 6,
+	},
 	inflagetite: {
 		name: "Inflagetite",
 		spritenum: 582,

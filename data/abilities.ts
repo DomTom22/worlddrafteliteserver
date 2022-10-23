@@ -3963,6 +3963,31 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 2,
 		num: 65,
 	},
+	regurgitation: {
+		onAfterMove(pokemon, target, move) {
+			if (pokemon === target) return;
+			if (pokemon.species.baseSpecies !== 'Muk-Delta') return;
+			const regurgMove = this.dex.getActiveMove('sonicboom');
+			regurgMove.name = "Regurgitation";
+			regurgMove.accuracy = true;
+			if (pokemon.species.id === 'mukdeltawater') regurgMove.type = 'Water';
+			if (pokemon.species.id === 'mukdeltagrass') regurgMove.type = 'Grass';
+			if (pokemon.species.id === 'mukdeltafire') regurgMove.type = 'Fire';
+			if (pokemon.species.id === 'mukdeltadark') regurgMove.type = 'Dark';
+			if (pokemon.species.id === 'mukdeltanormal') regurgMove.type = 'Normal';
+			if (pokemon.species.id === 'mukdeltapsychic') regurgMove.type = 'Psychic';
+			const regurgEffectiveness = this.dex.getEffectiveness(regurgMove.type, target);
+			const regurgDamage = Math.floor((2 ** regurgEffectiveness) * target.baseMaxhp / 6);
+			regurgMove.damage = regurgDamage;
+			if (move.name === "Regurgitation" || !target.hp || target.isSemiInvulnerable()) return;
+			this.actions.useMove(regurgMove, pokemon, target);
+			return null;
+		},
+		name: "Regurgitation",
+		gen: 6,
+		rating: 3,
+		num: 27,
+	},
 	ripen: {
 		onTryHeal(damage, target, source, effect) {
 			if (!effect) return;

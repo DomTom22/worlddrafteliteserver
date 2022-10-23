@@ -2319,6 +2319,120 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 0.5,
 		num: 102,
 	},
+	lernean: {
+		onResidualOrder: 29,
+		onResidual(pokemon) {
+			if (!pokemon.baseSpecies.id.includes('hydreigonmega') || !pokemon.species.id.includes('hydreigonmega') || !pokemon.hp) {
+				return;
+			}
+			if (pokemon.species.id === 'hydreigonmeganine') return;
+			if (pokemon.hp < (pokemon.maxhp / 5)) {
+				this.add('-activate', pokemon, 'ability: Lernean');
+				pokemon.formeChange('Hydreigon-Mega-Nine', this.effect, true);
+				return;
+			}
+			if (pokemon.species.id === 'hydreigonmegaeight') return;
+			if (pokemon.hp < (2 * pokemon.maxhp / 5)) {
+				this.add('-activate', pokemon, 'ability: Lernean');
+				pokemon.formeChange('Hydreigon-Mega-Eight', this.effect, true);
+				return;
+			}
+			if (pokemon.species.id === 'hydreigonmegaseven') return;
+			if (pokemon.hp < (3 * pokemon.maxhp / 5)) {
+				this.add('-activate', pokemon, 'ability: Lernean');
+				pokemon.formeChange('Hydreigon-Mega-Seven', this.effect, true);
+				return;
+			}
+			if (pokemon.species.id === 'hydreigonmegasix') return;
+			if (pokemon.hp < (4 * pokemon.maxhp / 5)) {
+				this.add('-activate', pokemon, 'ability: Lernean');
+				pokemon.formeChange('Hydreigon-Mega-Six', this.effect, true);
+			}
+		},
+		onPrepareHit(source, target, move) {
+			if (!source.species.id.includes('hydreigonmega')) return;
+			if (move.category === 'Status' || move.selfdestruct || move.multihit) return;
+			if ([
+				'dynamaxcannon', 'endeavor', 'fling', 'iceball', 'rollout',
+				'dragonrage', 'sonicboom', 'seismictoss', 'naturalgift'
+			].includes(move.id)) return;
+			if (!move.flags['charge'] && !move.spreadHit && !move.isZ && !move.isMax) {
+				if (source.species.id === 'hydreigonmeganine') move.multihit = 9;
+				else if (source.species.id === 'hydreigonmegaeight') move.multihit = 8;
+				else if (source.species.id === 'hydreigonmegaseven') move.multihit = 7;
+				else if (source.species.id === 'hydreigonmegasix') move.multihit = 6;
+				else move.multihit = 5;
+				move.multihitType = 'lernean';
+			}
+		},
+		// Damage modifier implemented in BattleActions#modifyDamage()
+		onSourceModifySecondaries(secondaries, target, source, move) {
+			if (move.multihitType === 'lernean' && move.id === 'secretpower' && move.hit < 2) {
+				// hack to prevent accidentally suppressing King's Rock/Razor Fang
+				return secondaries.filter(effect => effect.volatileStatus === 'flinch');
+			}
+		},
+		isPermanent: true,
+		name: "Lernean",
+		gen: 6,
+		rating: 4,
+		num: 18,
+	},
+	geigersense: {
+		onStart(pokemon) {
+			for (const target of this.getAllActive()) {
+				if (target !== pokemon && target.hasType('Nuclear')) {
+					this.boost({atk: 1, spa: 1});
+					break;
+				}
+			}
+		},
+		name: "Geiger Sense",
+		rating: 1,
+		num: -117,
+	},
+	chernobyl: {
+		onStart(source) {
+			this.field.setWeather('fallout'); // REALLY can't be bothered to add a whole primal weather for an unobtainable ability
+		},
+		name: "Chernobyl",
+		rating: 5,
+		num: -118,
+	},
+	leadskin: {
+		onImmunity(type, pokemon) {
+			if (type === 'fallout') return false;
+		},
+		onTryHit(target, source, move) {
+			if (target !== source && move.type === 'Nuclear' && move.category !== 'Status') {
+				this.add('-immune', target, '[from] ability: Lead Skin');
+				return null;
+			}
+		},
+		isBreakable: true,
+		name: "Lead Skin",
+		rating: 0.5,
+		num: -111,
+	},
+	atomizate: {
+		onModifyTypePriority: -1,
+		onModifyType(move, pokemon) {
+			const noModifyType = [
+				'judgment', 'multiattack', 'naturalgift', 'revelationdance', 'technoblast', 'terrainpulse', 'weatherball',
+			];
+			if (move.type === 'Normal' && !noModifyType.includes(move.id) && !(move.isZ && move.category !== 'Status')) {
+				move.type = 'Nuclear';
+				move.atomizateBoosted = true;
+			}
+		},
+		onBasePowerPriority: 23,
+		onBasePower(basePower, pokemon, target, move) {
+			if (move.atomizateBoosted) return this.chainModify([4915, 4096]);
+		},
+		name: "Atomizate",
+		rating: 5,
+		num: -110,
+	},
 	levitate: {
 		// airborneness implemented in sim/pokemon.js:Pokemon#isGrounded
 		name: "Levitate",
@@ -3848,31 +3962,6 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		name: "Circut",
 		rating: 2,
 		num: 65,
-	},
-	regurgitation: {
-		onAfterMove(pokemon, target, move) {
-			if (pokemon === target) return;
-			if (pokemon.species.baseSpecies !== 'Muk-Delta') return;
-			const regurgMove = this.dex.getActiveMove('sonicboom');
-			regurgMove.name = "Regurgitation";
-			regurgMove.accuracy = true;
-			if (pokemon.species.id === 'mukdeltawater') regurgMove.type = 'Water';
-			if (pokemon.species.id === 'mukdeltagrass') regurgMove.type = 'Grass';
-			if (pokemon.species.id === 'mukdeltafire') regurgMove.type = 'Fire';
-			if (pokemon.species.id === 'mukdeltadark') regurgMove.type = 'Dark';
-			if (pokemon.species.id === 'mukdeltanormal') regurgMove.type = 'Normal';
-			if (pokemon.species.id === 'mukdeltapsychic') regurgMove.type = 'Psychic';
-			const regurgEffectiveness = this.dex.getEffectiveness(regurgMove.type, target);
-			const regurgDamage = Math.floor((2 ** regurgEffectiveness) * target.baseMaxhp / 6);
-			regurgMove.damage = regurgDamage;
-			if (move.name === "Regurgitation" || !target.hp || target.isSemiInvulnerable()) return;
-			this.actions.useMove(regurgMove, pokemon, target);
-			return null;
-		},
-		name: "Regurgitation",
-		gen: 6,
-		rating: 3,
-		num: 27,
 	},
 	ripen: {
 		onTryHeal(damage, target, source, effect) {

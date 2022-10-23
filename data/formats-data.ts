@@ -6620,6 +6620,14 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		isNonstandard: "Custom",
 		tier: "Illegal",
 	},
+	urayne: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
+	uraynebeta: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
 	drilgann: {
 		isNonstandard: "Custom",
 		tier: "Illegal",

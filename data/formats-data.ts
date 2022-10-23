@@ -6496,11 +6496,19 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "Uber",
 		doublesTier: "DUber",
 	},
+	orchynx: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
 	metalynx: {
 		isNonstandard: "Custom",
 		tier: "Illegal",
 	},
 	metalynxmega: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
+	raptorch: {
 		isNonstandard: "Custom",
 		tier: "Illegal",
 	},
@@ -6512,6 +6520,10 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		isNonstandard: "Custom",
 		tier: "Illegal",
 	},
+	eletux: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
 	electruxo: {
 		isNonstandard: "Custom",
 		tier: "Illegal",
@@ -6520,7 +6532,19 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		isNonstandard: "Custom",
 		tier: "Illegal",
 	},
+	chyinmunk: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
+	chyinmunknuclear: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
 	kinetmunk: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
+	kinetmunknuclear: {
 		isNonstandard: "Custom",
 		tier: "Illegal",
 	},
@@ -6528,7 +6552,55 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		isNonstandard: "Custom",
 		tier: "Illegal",
 	},
+	birbie: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
+	aviden: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
+	cubbug: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
+	cubblfy: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
 	nimflora: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
+	barewl: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
+	dearewl: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
+	gararewl: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
+	grozard: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
+	terlard: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
+	tonemy: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
+	tofurang: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
+	dunseraph: {
 		isNonstandard: "Custom",
 		tier: "Illegal",
 	},
@@ -6561,6 +6633,14 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "Illegal",
 	},
 	inflagetahmega: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
+	s51a: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
+	s51amega: {
 		isNonstandard: "Custom",
 		tier: "Illegal",
 	},

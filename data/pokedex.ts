@@ -28915,6 +28915,8 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "Gray",
 		eggGroups: ["Amorphous"],
 		requiredItem: "Unidentified Fallen Object",
+		battleOnly: "S51-A",
+
 	},
 	paraudio: {
 		num: -1275,

@@ -30108,7 +30108,6 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		heightm: 1.4,
 		weightkg: 33.4,
 		color: "Green",
-		tags: ["Sub-Legendary"],
 		eggGroups: ["Undiscovered"],
 	},
 	baitatao: {
@@ -30121,7 +30120,6 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		heightm: 3.3,
 		weightkg: 255.5,
 		color: "Red",
-		tags: ["Restricted Legendary"],
 		eggGroups: ["Undiscovered"],
 	},
 	leviathao: {
@@ -30134,7 +30132,6 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		heightm: 1.4,
 		weightkg: 150.6,
 		color: "Blue",
-		tags: ["Restricted Legendary"],
 		eggGroups: ["Undiscovered"],
 	},
 	krakanao: {
@@ -30147,7 +30144,6 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		heightm: 1.8,
 		weightkg: 88.8,
 		color: "Blue",
-		tags: ["Restricted Legendary"],
 		eggGroups: ["Undiscovered"],
 	},
 	lanthan: {

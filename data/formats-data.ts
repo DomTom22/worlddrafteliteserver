@@ -6612,6 +6612,14 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		isNonstandard: "Custom",
 		tier: "Illegal",
 	},
+	baariettenuclear: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
+	baariettenuclearmega: {
+		isNonstandard: "Custom",
+		tier: "Illegal",
+	},
 	drilgann: {
 		isNonstandard: "Custom",
 		tier: "Illegal",

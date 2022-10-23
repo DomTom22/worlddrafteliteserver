@@ -28424,6 +28424,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "Black",
 		eggGroups: ["Undiscovered"],
 		requiredItem: "Nuclear Baariettite",
+		battleOnly: "Baariette-Nuclear",
 	},
 	tricwe: {
 		num: -1249,

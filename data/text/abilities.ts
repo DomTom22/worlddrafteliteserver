@@ -363,6 +363,10 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 		name: "Drizzle",
 		shortDesc: "On switch-in, this Pokemon summons Rain Dance.",
 	},
+	sporogenesis: {
+		name: "Drizzle",
+		shortDesc: "On switch-in, this Pokemon summons Spore Storm.",
+	},
 	pollution: {
 		name: "Pollution",
 		shortDesc: "On switch-in, this Pokemon summons Acid Rain.",
@@ -444,6 +448,10 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 	filter: {
 		name: "Filter",
 		shortDesc: "This Pokemon receives 3/4 damage from supereffective attacks.",
+	},
+	overshadow: {
+		name: "Overshadow",
+		shortDesc: "This Pokemon receives 1/2 damage from shorter foe's attacks.",
 	},
 	shieldwall: {
 		name: "Shield Wall",
@@ -1446,8 +1454,8 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 
 		damage: "  [POKEMON] was hurt!",
 	},
-	acidthorns: {
-		name: "Acid Thorns",
+	acidicthorns: {
+		name: "Acidic Thorns",
 		desc: "Pokemon making contact with this Pokemon lose 1/8 of their maximum HP, rounded down.",
 		shortDesc: "Pokemon making contact with this Pokemon lose 1/8 of their max HP and 20% chance to Poison",
 		damage: "  [POKEMON] was hurt!",
@@ -1463,6 +1471,10 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 	forage: {
 		name: "Forage",
 		shortDesc: "No competitive use.",
+	},
+	braveheart: {
+		name: "Brave Heart",
+		shortDesc: "This Pokemon's Attack is raised 1 stage when the foe raises a stat.",
 	},
 	sandforce: {
 		name: "Sand Force",
@@ -1960,7 +1972,12 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 	vaporization: {
 		name: "Vaporization",
 		desc: "Causes damage-dealing Water-type moves and targetable Water-type status moves to fail when used. Damages all Water-type Pokémon for ⅛ of their maximum HP at the end of each every turn.",
-		shortDesc: "Vaporizes Water Moves and damages water types.",
+		shortDesc: "Vaporizes Water Moves and damages Water types.",
+	},
+	luminous: {
+		name: "Luminous",
+		desc: "Causes damage-dealing Dark-type moves and targetable Dark-type status moves to fail when used. Damages all Dark-type Pokémon for ⅛ of their maximum HP at the end of each every turn.",
+		shortDesc: "Dissapates Dark Moves and damages Dark types.",
 	},
 	vampiric: {
 		name: "Vampiric",

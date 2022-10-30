@@ -1781,6 +1781,7 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 				this.add('-item', pokemon, pokemon.getItem(), '[from] ability: Jeweler');
 			}
 		},
+		shortDesc: "This Pokemon's recycles used Gems at the end of the turn.",
 		rating: 2.5,
 		num: 139,
 	},
@@ -2628,6 +2629,57 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		name: "Magic Pull",
 		rating: 4,
 		num: 271,
+	},
+	overshadow: {
+		onFoeBasePower(basePower, attacker, defender, move) {
+			if (attacker.gender && defender.gender) {
+				if (attacker.heightm > defender.heightm) {
+					this.debug('Overshadow weaken');
+					return this.chainModify(0.5);
+				}
+			}
+		},
+		name: "Overshadow",
+		rating: 0,
+		num: 1036,
+	},
+	dualsight: {
+		onModifyMove(move, pokemon) {
+			move.target = "allAdjacentFoes";
+		},
+		onBasePowerPriority: 21,
+		onBasePower(basePower, pokemon, target, move) {
+			return this.chainModify(0.75);
+		},
+		name: "Dual Sight",
+		rating: 3.5,
+		num: 1074,
+	},
+	imprint: {
+		onFoeBoost(boost, target, source, effect) {
+			if (effect.id === 'imprint') return;
+			let b: BoostID;
+			for (b in boost) {
+				if (target.boosts[b] === -6) continue;
+				const negativeBoost: SparseBoostsTable = {};
+				negativeBoost[b] = boost[b];
+				delete boost[b];
+				for (const target2 of target.side.foe.active) {
+					if (target2.hasAbility('imprint')) {
+						this.add('-ability', target2, 'Imprint');
+						// console.log("negativeBoost[b]: "+negativeBoost[b]);
+						// console.log("b: "+b);
+						// console.log("target2: "+target2);
+						// console.log("source: "+source);
+						this.boost(negativeBoost, target2);
+						this.boost(negativeBoost, source);
+					}
+				}
+			}
+		},
+		name: "Imprint",
+		rating: 4,
+		num: 1082,
 	},
 	magician: {
 		onSourceHit(target, source, move) {
@@ -3900,14 +3952,6 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 4.5,
 		num: 144,
 	},
-	circut: {
-		onSwitchOut(pokemon) {
-			pokemon.addVolatile('circutcharge');
-			},
-		name: "Circut",
-		rating: 2,
-		num: 65,
-	},
 	regurgitation: {
 		onAfterMove(pokemon, target, move) {
 			if (pokemon === target) return;
@@ -4755,6 +4799,18 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 2,
 		num: 19,
 	},
+	suvivalinstinct: {
+		onSourceModifyAccuracyPriority: -1,
+		onSourceModifyAccuracy(accuracy) {
+			if (typeof accuracy !== 'number') return;
+				if (pokemon.hp <= pokemon.maxhp / 2) {
+					return accuracy = true;
+				}
+		},
+		name: "Survival Instinct",
+		rating: 3,
+		num: 14,
+	},
 	shieldsdown: {
 		onStart(pokemon) {
 			if (pokemon.baseSpecies.baseSpecies !== 'Minior' || pokemon.transformed) return;
@@ -4986,6 +5042,17 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 			}
 		},
 		name: "Blizz Boxer",
+		rating: 2,
+		num: 94,
+	},
+	bigthorns: {
+		onModifyAtkPriority: 5,
+		onModifyAtk(atk, pokemon) {
+			if (this.field.isTerrain('grassyterrain')) {
+				return this.chainModify(1.3);
+			}
+		},
+		name: "Big Thorns",
 		rating: 2,
 		num: 94,
 	},
@@ -5919,6 +5986,36 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 3,
 		num: 274,
 	},
+	luminous: {
+		onTryHit(target, source, move) {
+			if (target !== source && move.type === 'Dark') {
+				if (!this.boost({spa: 0})) {
+					this.add('-immune', target, '[from] ability: Luminous');
+				}
+				return null;
+			}
+		},
+		onResidualOrder: 26,
+		onResidualSubOrder: 1,
+		onResidual(pokemon) {
+			if (!pokemon.hp) return;
+			for (const target of pokemon.side.foe.active) {
+				if (!target || !target.hp) continue;
+				if (target.hasType('Dark')) {
+					this.damage(target.baseMaxhp / 8, target, pokemon);
+				}
+			}
+			for (const target of pokemon.side.active) {
+				if (!target || !target.hp) continue;
+				if (target.hasType('Dark')) {
+					this.damage(target.baseMaxhp / 8, target, pokemon);
+				}
+			}
+		},
+		name: "Luminous",
+		rating: 3,
+		num: 274,
+	},
 	venomous: {
 		// The Toxic part of this mechanic is implemented in move that inflict poison under `onModifyMove` in moves.ts
 		name: "Venomous",
@@ -6826,7 +6923,7 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 3.5,
 		num: 11,
 	},
-	Synthesizer: {
+	synthesizer: {
 		onTryHit(target, source, move) {
 			if (target !== source && move.type === 'Sound') {
 				if (!this.heal(target.baseMaxhp / 4)) {

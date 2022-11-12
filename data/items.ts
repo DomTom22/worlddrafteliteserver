@@ -6741,6 +6741,22 @@ export const Items: {[itemid: string]: ItemData} = {
 		num: 258,
 		gen: 2,
 	},
+	pinksoap: {
+		name: "Pink Soap",
+		spritenum: 723,
+		fling: {
+			basePower: 90,
+		},
+		onModifyAtkPriority: 1,
+		onModifyAtk(atk, pokemon) {
+			if (pokemon.baseSpecies.baseSpecies === 'Mingola') {
+				return this.chainModify(2);
+			}
+		},
+		itemUser: ["Mingola"],
+		num: 258,
+		gen: 2,
+	},
 	throatspray: {
 		name: "Throat Spray",
 		spritenum: 713,

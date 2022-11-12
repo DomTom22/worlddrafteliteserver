@@ -1738,6 +1738,10 @@ export const ItemsText: {[k: string]: ItemText} = {
 		name: "Thick Club",
 		desc: "If held by a Cubone or a Marowak, its Attack is doubled.",
 	},
+	pinksoap: {
+		name: "Pink Soap",
+		desc: "If held by a Mingola, its Attack is doubled.",
+	},
 	throatspray: {
 		name: "Throat Spray",
 		desc: "Raises holder's Special Attack by 1 stage after it uses a sound move. Single use.",

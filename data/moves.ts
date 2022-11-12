@@ -298,6 +298,25 @@ export const Moves: {[moveid: string]: MoveData} = {
 		zMove: {effect: 'clearnegativeboost'},
 		contestType: "Cool",
 	},
+	mulchmeal: {
+		num: 97,
+		accuracy: true,
+		basePower: 0,
+		category: "Status",
+		name: "Mulch Meal",
+		pp: 10,
+		priority: 0,
+		flags: {snatch: 1},
+		boosts: {
+			spe: 2,
+		},
+		heal: [1, 3],
+		secondary: null,
+		target: "self",
+		type: "Grass",
+		zMove: {effect: 'clearnegativeboost'},
+		contestType: "Cool",
+	},
 	aircutter: {
 		num: 314,
 		accuracy: 95,
@@ -8190,6 +8209,21 @@ export const Moves: {[moveid: string]: MoveData} = {
 		type: "Grass",
 		contestType: "Clever",
 	},
+	leechingcold: {
+		num: 202,
+		accuracy: 100,
+		basePower: 80,
+		category: "Special",
+		name: "Leeching Cold",
+		pp: 10,
+		priority: 0,
+		flags: {protect: 1, mirror: 1, heal: 1},
+		drain: [1, 2],
+		secondary: null,
+		target: "normal",
+		type: "Ice",
+		contestType: "Clever",
+	},
 	voidstar: {
 		num: 202,
 		accuracy: 100,
@@ -11476,6 +11510,40 @@ export const Moves: {[moveid: string]: MoveData} = {
 		maxMove: {basePower: 130},
 		contestType: "Beautiful",
 	},
+	ricochet: {
+		num: 333,
+		accuracy: 95,
+		basePower: 25,
+		category: "Physical",
+		name: "Ricochet",
+		pp: 15,
+		priority: 0,
+		flags: {protect: 1, mirror: 1},
+		multihit: [2, 5],
+		secondary: null,
+		target: "normal",
+		type: "Steel",
+		zMove: {basePower: 140},
+		maxMove: {basePower: 130},
+		contestType: "Beautiful",
+	},
+	reverberate: {
+		num: 333,
+		accuracy: 90,
+		basePower: 25,
+		category: "Special",
+		name: "Reverberate",
+		pp: 20,
+		priority: 0,
+		flags: {protect: 1, mirror: 1, sound: 1},
+		multihit: [2, 5],
+		secondary: null,
+		target: "normal",
+		type: "Normal",
+		zMove: {basePower: 140},
+		maxMove: {basePower: 130},
+		contestType: "Beautiful",
+	},
 	tidaldragoon: {
 		num: 333,
 		accuracy: 100,
@@ -12014,6 +12082,28 @@ export const Moves: {[moveid: string]: MoveData} = {
 		secondary: null,
 		target: "normal",
 		type: "Dark",
+		contestType: "Clever",
+	},
+	slimeball: {
+		num: 282,
+		accuracy: 100,
+		basePower: 80,
+		category: "Special",
+		name: "Slime Ball",
+		pp: 12,
+		priority: 0,
+		flags: {bullet: 1, protect: 1, mirror: 1},
+		onAfterHit(target, source) {
+			if (source.hp) {
+				const item = target.takeItem();
+				if (item) {
+					this.add('-enditem', target, item.name, '[from] move: Slime Ball', '[of] ' + source);
+				}
+			}
+		},
+		secondary: null,
+		target: "normal",
+		type: "Poison",
 		contestType: "Clever",
 	},
 	landswrath: {
@@ -16971,7 +17061,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		},
 		secondary: null,
 		target: "self",
-		type: "Bug",
+		type: "Ice",
 		zMove: {effect: 'clearnegativeboost'},
 		contestType: "Beautiful",
 	},
@@ -20794,6 +20884,64 @@ export const Moves: {[moveid: string]: MoveData} = {
 		zMove: {boost: {def: 1}},
 		contestType: "Tough",
 	},
+	mirrorshield: {
+		num: 596,
+		accuracy: true,
+		basePower: 0,
+		category: "Status",
+		name: "Mirror Shield",
+		pp: 10,
+		priority: 4,
+		flags: {},
+		stallingMove: true,
+		volatileStatus: 'mirrorshield',
+		onPrepareHit(pokemon) {
+			return !!this.queue.willAct() && this.runEvent('StallMove', pokemon);
+		},
+		onHit(pokemon) {
+			pokemon.addVolatile('stall');
+		},
+		condition: {
+			duration: 1,
+			onStart(target) {
+				this.add('-singleturn', target, 'move: Protect');
+			},
+			onTryHitPriority: 3,
+			onTryHit(target, source, move) {
+				if (!move.flags['protect']) {
+					if (['gmaxoneblow', 'gmaxrapidflow'].includes(move.id)) return;
+					if (move.isZ || move.isMax) target.getMoveHitData(move).zBrokeProtect = true;
+					return;
+				}
+				if (move.smartTarget) {
+					move.smartTarget = false;
+				} else {
+					this.add('-activate', target, 'move: Protect');
+				}
+				const lockedmove = source.getVolatile('lockedmove');
+				if (lockedmove) {
+					// Outrage counter is reset
+					if (source.volatiles['lockedmove'].duration === 2) {
+						delete source.volatiles['lockedmove'];
+					}
+				}
+				if (move.flags['contact']) {
+					this.damage(source.baseMaxhp / 8, source, target);
+				}
+				return this.NOT_FAIL;
+			},
+			onHit(target, source, move) {
+				if (move.isZOrMaxPowered && move.category === 'Special') {
+					this.damage(source.baseMaxhp / 8, source, target);
+				}
+			},
+		},
+		secondary: null,
+		target: "self",
+		type: "Steel",
+		zMove: {boost: {spd: 1}},
+		contestType: "Tough",
+	},
 	spiritbreak: {
 		num: 789,
 		accuracy: 100,
@@ -23667,6 +23815,9 @@ export const Moves: {[moveid: string]: MoveData} = {
 				if (source?.hasAbility('persistent')) {
 					this.add('-activate', source, 'ability: Persistent', effect);
 					return 7;
+				if (source?.hasItem('trickrock')) {
+					return 8;
+					}
 				}
 				return 5;
 			},
@@ -23849,6 +24000,22 @@ export const Moves: {[moveid: string]: MoveData} = {
 		secondary: null,
 		target: "normal",
 		type: "Bug",
+		contestType: "Cute",
+	},
+	summersunder: {
+		num: 369,
+		accuracy: 100,
+		basePower: 70,
+		category: "Physical",
+		name: "Summer Sunder",
+		pp: 20,
+		priority: 0,
+		flags: {contact: 1, protect: 1, mirror: 1, slash: 1},
+		selfSwitch: true,
+		secondary: null,
+		critRatio: 2,
+		target: "normal",
+		type: "Grass",
 		contestType: "Cute",
 	},
 	uproar: {
@@ -24206,6 +24373,25 @@ export const Moves: {[moveid: string]: MoveData} = {
 		secondary: null,
 		target: "normal",
 		type: "Fighting",
+		contestType: "Tough",
+	},
+	sublimate: {
+		num: 358,
+		accuracy: 90,
+		basePower: 50,
+		basePowerCallback(pokemon, target, move) {
+			if (target.status === 'frz') return move.basePower * 2;
+			return move.basePower;
+		},
+		category: "Special",
+
+		name: "Sublimate",
+		pp: 15,
+		priority: 0,
+		flags: {protect: 1, mirror: 1},
+		secondary: null,
+		target: "normal",
+		type: "Ice",
 		contestType: "Tough",
 	},
 	waterfall: {
@@ -24786,6 +24972,43 @@ export const Moves: {[moveid: string]: MoveData} = {
 		target: "all",
 		type: "Psychic",
 		zMove: {boost: {spd: 1}},
+		contestType: "Clever",
+	},
+	puzzleroom: {
+		num: 472,
+		accuracy: true,
+		basePower: 0,
+		category: "Status",
+		name: "Puzzle Room",
+		pp: 10,
+		priority: 0,
+		flags: {mirror: 1},
+		pseudoWeather: 'puzzleroom',
+		condition: {
+			duration: 5,
+			durationCallback(source, effect) {
+				if (source?.hasAbility('persistent')) {
+					this.add('-activate', source, 'ability: Persistent', effect);
+					return 7;
+				}
+				return 5;
+			},
+			onStart(side, source) {
+				this.add('-fieldstart', 'move: Puzzle Room', '[of] ' + source);
+			},
+			onRestart(target, source) {
+				this.field.removePseudoWeather('puzzleroom');
+			},
+			// Swapping defenses implemented in sim/pokemon.js:Pokemon#calculateStat and Pokemon#getStat
+			onResidualOrder: 24,
+			onEnd() {
+				this.add('-fieldend', 'move: Puzzle Room');
+			},
+		},
+		secondary: null,
+		target: "all",
+		type: "Psychic",
+		zMove: {boost: {spa: 1}},
 		contestType: "Clever",
 	},
 	woodhammer: {

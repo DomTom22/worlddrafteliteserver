@@ -430,7 +430,7 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 			if (!lastAttackedBy) return;
 			const damage = move.multihit ? move.totalDamage : lastAttackedBy.damage;
 			if (target.hp <= target.maxhp / 2 && target.hp + damage > target.maxhp / 2) {
-				this.useMove('stealthrock');
+				source.side.addSideCondition('stealthrock');
 			}
 		},
 		name: "Boulder Nest",

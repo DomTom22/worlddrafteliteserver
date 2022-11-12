@@ -6743,7 +6743,7 @@ export const Items: {[itemid: string]: ItemData} = {
 	},
 	pinksoap: {
 		name: "Pink Soap",
-		spritenum: 723,
+		spritenum: 741,
 		fling: {
 			basePower: 90,
 		},

@@ -943,6 +943,30 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 2.5,
 		num: 128,
 	},
+	imperious: {
+		onAfterEachBoost(boost, target, source, effect) {
+			if (!source || target.side === source.side) {
+				if (effect.id === 'stickyweb') {
+					this.hint("Court Change Sticky Web counts as lowering your own Speed, and Defiant only affects stats lowered by foes.", true, source.side);
+				}
+				return;
+			}
+			let statsLowered = false;
+			let i: BoostName;
+			for (i in boost) {
+				if (boost[i]! < 0) {
+					statsLowered = true;
+				}
+			}
+			if (statsLowered) {
+				this.add('-ability', target, 'Imperious');
+				this.boost({spe: 2}, target, target, null, true);
+			}
+		},
+		name: "Imperious",
+		rating: 2.5,
+		num: 128,
+	},
 	deltastream: {
 		onStart(source) {
 			this.field.setWeather('deltastream');
@@ -7434,6 +7458,14 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 			rating: 2,
 			num: 1088,
 		},
+		conviction: {
+				name: "Conviction",
+				onStart(pokemon) {
+						pokemon.addVolatile('endure');
+				},
+				rating: 2,
+				num: 1088,
+			},
 	// CAP
 	mountaineer: {
 		onDamage(damage, target, source, effect) {

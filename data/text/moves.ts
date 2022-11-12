@@ -2729,6 +2729,10 @@ export const MovesText: {[k: string]: MoveText} = {
 			desc: "The user recovers 1/2 the HP lost by the target, rounded down.",
 		},
 	},
+	leechingcold: {
+		name: "Leeching Cold",
+		shortDesc: "User recovers 50% of the damage dealt.",
+	},
 	blooddraw: {
 		name: "Blood Draw",
 		desc: "The user recovers 1/2 the HP lost by the target, rounded half up. If Big Root is held by the user, the HP recovered is 1.3x normal, rounded half down.",
@@ -3841,6 +3845,12 @@ export const MovesText: {[k: string]: MoveText} = {
 		},
 
 		removeItem: "  [SOURCE] knocked off [POKEMON]'s [ITEM]!",
+	},
+	slimeball: {
+		name: "Slime Ball",
+		shortDesc: "Renders foe's item unusable.",
+
+		removeItem: "  [SOURCE] slimed [POKEMON]'s [ITEM]!",
 	},
 	landswrath: {
 		name: "Land's Wrath",
@@ -5648,6 +5658,10 @@ export const MovesText: {[k: string]: MoveText} = {
 			desc: "The user restores 1/2 of its maximum HP, rounded down. Fails if (user's maximum HP - user's current HP + 1) is divisible by 256.",
 		},
 	},
+	mulchmeal: {
+		name: "Mulch Meal",
+		shortDesc: "The user restores 1/3 of its max HP and raises Speed by 1 stage.",
+	},
 	meateat: {
 		name: "Meat Eat",
 		desc: "The user restores 1/2 of its maximum HP, rounded half up.",
@@ -6717,6 +6731,12 @@ export const MovesText: {[k: string]: MoveText} = {
 
 		damage: "#roughskin",
 	},
+	mirrorshield: {
+		name: "Mirror Shield",
+		shortDesc: "Protects from moves. Special: loses 1/8 max HP.",
+
+		damage: "#roughskin",
+	},
 	spiritbreak: {
 		name: "Spirit Break",
 		desc: "Has a 100% chance to lower the target's Special Attack by 1 stage.",
@@ -7697,6 +7717,13 @@ export const MovesText: {[k: string]: MoveText} = {
 		gen4: {
 			desc: "If this move is successful and the user has not fainted, the user switches out even if it is trapped and is replaced immediately by a selected party member. The user does not switch out if there are no unfainted party members.",
 		},
+
+		switchOut: "[POKEMON] went back to [TRAINER]!",
+	},
+	summersunder: {
+		name: "Summer Sunder",
+		desc: "If this move is successful and the user has not fainted, the user switches out even if it is trapped and is replaced immediately by a selected party member. The user does not switch out if there are no unfainted party members, or if the target switched out using an Eject Button or through the effect of the Emergency Exit or Wimp Out Abilities.",
+		shortDesc: "User switches out after damaging the target. High critical hit ratio.",
 
 		switchOut: "[POKEMON] went back to [TRAINER]!",
 	},

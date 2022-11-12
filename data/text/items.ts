@@ -76,6 +76,10 @@ export const ItemsText: {[k: string]: ItemText} = {
 		name: "Assault Vest",
 		desc: "Holder's Sp. Def is 1.5x, but it can only select damaging moves.",
 	},
+	strikevest: {
+		name: "Strike Vest",
+		desc: "Holder's Defense is 1.5x, but it can only select damaging moves.",
+	},
 	audinite: {
 		name: "Audinite",
 		desc: "If held by an Audino, this item allows it to Mega Evolve in battle.",
@@ -294,6 +298,18 @@ export const ItemsText: {[k: string]: ItemText} = {
 		name: "Damp Rock",
 		desc: "Holder's use of Rain Dance lasts 8 turns instead of 5.",
 	},
+	darkrock: {
+		name: "Dark Rock",
+		desc: "Holder's use of New Moon lasts 8 turns instead of 5.",
+	},
+	foulrock: {
+		name: "Foul Rock",
+		desc: "Holder's use of Acid Rain lasts 8 turns instead of 5.",
+	},
+	trickrock: {
+		name: "Trick Rock",
+		desc: "Holder's use of Trick Room lasts 8 turns instead of 5.",
+	},
 	darkgem: {
 		name: "Dark Gem",
 		desc: "Holder's first successful Dark-type attack will have 1.3x power. Single use.",
@@ -471,6 +487,18 @@ export const ItemsText: {[k: string]: ItemText} = {
 		name: "Eviolite",
 		desc: "If holder's species can evolve, its Defense and Sp. Def are 1.5x.",
 	},
+	iveolite: {
+		name: "Iveolite",
+		desc: "If holder's species can evolve, its Attack and Sp. Attack are 1.5x.",
+	},
+	thirdeye: {
+		name: "Third Eye",
+		desc: "Reveals the foe's ability.",
+	},
+	xrayspecs: {
+		name: "XRay Specs",
+		desc: "Reveals the foe's held item.",
+	},
 	expertbelt: {
 		name: "Expert Belt",
 		desc: "Holder's attacks that are super effective against the target do 1.2x damage.",
@@ -543,6 +571,10 @@ export const ItemsText: {[k: string]: ItemText} = {
 	flameorb: {
 		name: "Flame Orb",
 		desc: "At the end of every turn, this item attempts to burn the holder.",
+	},
+	boltorb: {
+		name: "Bolt Orb",
+		desc: "At the end of every turn, this item attempts to paralyze the holder.",
 	},
 	flameplate: {
 		name: "Flame Plate",
@@ -1737,6 +1769,14 @@ export const ItemsText: {[k: string]: ItemText} = {
 	thickclub: {
 		name: "Thick Club",
 		desc: "If held by a Cubone or a Marowak, its Attack is doubled.",
+	},
+	polishedsphere: {
+		name: "Polished Sphere",
+		desc: "If held by a Enigmantis, its Sp. Atk and Sp. Def are 1.2x.",
+	},
+	clouddust: {
+		name: "Cloud Dust",
+		desc: "Negates all weather effects while the holder is in battle.",
 	},
 	pinksoap: {
 		name: "Pink Soap",

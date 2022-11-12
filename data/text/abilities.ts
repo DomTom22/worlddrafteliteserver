@@ -377,6 +377,11 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 		desc: "This Pokemon's Attack is raised by 2 stages for each of its stat stages that is lowered by an opposing Pokemon.",
 		shortDesc: "This Pokemon's Attack is raised by 2 for each of its stats that is lowered by a foe.",
 	},
+	imperious: {
+		name: "Imperious",
+		desc: "This Pokemon's Attack is raised by 2 stages for each of its stat stages that is lowered by an opposing Pokemon.",
+		shortDesc: "This Pokemon's Attack is raised by 2 for each of its stats that is lowered by a foe.",
+	},
 	deltastream: {
 		name: "Delta Stream",
 		desc: "On switch-in, the weather becomes strong winds that remove the weaknesses of the Flying type from Flying-type Pokemon. This weather remains in effect until this Ability is no longer active for any Pokemon, or the weather is changed by Desolate Land or Primordial Sea.",
@@ -1759,6 +1764,10 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 	taproot: {
 		name: "Taproot",
 		shortDesc: "On switch-in, this Pokemon becomes rooted.",
+	},
+	conviction: {
+		name: "Conviction",
+		shortDesc: "On switch-in, this Pokemon endures itself.",
 	},
 	solarpower: {
 		name: "Solar Power",

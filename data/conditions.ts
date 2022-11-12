@@ -551,7 +551,7 @@ export const Conditions: {[k: string]: ConditionData} = {
 			this.add('-weather', 'none');
 		},
 	},
-	
+
 	sunnyday: {
 		name: 'SunnyDay',
 		effectType: 'Weather',
@@ -825,7 +825,7 @@ export const Conditions: {[k: string]: ConditionData} = {
 		effectType: 'Weather',
 		duration: 5,
 		durationCallback(source, effect) {
-			if (source?.hasItem('corrodedrock')) {
+			if (source?.hasItem('foulrock')) {
 				return 8;
 			}
 			return 5;

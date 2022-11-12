@@ -366,6 +366,26 @@ export const Items: {[itemid: string]: ItemData} = {
 		num: 640,
 		gen: 6,
 	},
+	strikevest: {
+		name: "Strike Vest",
+		spritenum: 747,
+		fling: {
+			basePower: 80,
+		},
+		onModifyDefPriority: 1,
+		onModifyDef(spd) {
+			return this.chainModify(1.5);
+		},
+		onDisableMove(pokemon) {
+			for (const moveSlot of pokemon.moveSlots) {
+				if (this.dex.getMove(moveSlot.move).category === 'Status') {
+					pokemon.disableMove(moveSlot.id);
+				}
+			}
+		},
+		num: 640,
+		gen: 6,
+	},
 	audinite: {
 		name: "Audinite",
 		spritenum: 617,
@@ -1180,6 +1200,51 @@ export const Items: {[itemid: string]: ItemData} = {
 		num: 285,
 		gen: 4,
 	},
+	darkrock: {
+		name: "Dark Rock",
+		spritenum: 740,
+		fling: {
+			basePower: 60,
+		},
+		num: 285,
+		gen: 4,
+	},
+	foulrock: {
+		name: "Foul Rock",
+		spritenum: 745,
+		fling: {
+			basePower: 60,
+		},
+		num: 285,
+		gen: 4,
+	},
+	thirdeye: {
+		name: "Third Eye",
+		spritenum: 744,
+		fling: {
+			basePower: 60,
+		},
+		num: 285,
+		gen: 4,
+	},
+	xrayspecs: {
+		name: "XRay Specs",
+		spritenum: 745,
+		fling: {
+			basePower: 60,
+		},
+		num: 285,
+		gen: 4,
+	},
+	trickrock: {
+		name: "Trick Rock",
+		spritenum: 741,
+		fling: {
+			basePower: 60,
+		},
+		num: 285,
+		gen: 4,
+	},
 	darkgem: {
 		name: "Dark Gem",
 		spritenum: 89,
@@ -1687,6 +1752,27 @@ export const Items: {[itemid: string]: ItemData} = {
 		num: 538,
 		gen: 5,
 	},
+	iveolite: {
+		name: "Iveolite",
+		spritenum: 743,
+		fling: {
+			basePower: 40,
+		},
+		onModifyAtkPriority: 2,
+		onModifyAtk(atk, pokemon) {
+			if (pokemon.baseSpecies.nfe) {
+				return this.chainModify(1.5);
+			}
+		},
+		onModifySpAPriority: 2,
+		onModifySpA(spa, pokemon) {
+			if (pokemon.baseSpecies.nfe) {
+				return this.chainModify(1.5);
+			}
+		},
+		num: 538,
+		gen: 5,
+	},
 	expertbelt: {
 		name: "Expert Belt",
 		spritenum: 132,
@@ -1892,6 +1978,21 @@ export const Items: {[itemid: string]: ItemData} = {
 		onResidualSubOrder: 2,
 		onResidual(pokemon) {
 			pokemon.trySetStatus('brn', pokemon);
+		},
+		num: 273,
+		gen: 4,
+	},
+	boltorb: {
+		name: "Bolt Orb",
+		spritenum: 742,
+		fling: {
+			basePower: 30,
+			status: 'par',
+		},
+		onResidualOrder: 26,
+		onResidualSubOrder: 2,
+		onResidual(pokemon) {
+			pokemon.trySetStatus('par', pokemon);
 		},
 		num: 273,
 		gen: 4,
@@ -6725,6 +6826,16 @@ export const Items: {[itemid: string]: ItemData} = {
 		num: 879,
 		gen: 7,
 	},
+	clouddust: {
+		name: "Cloud Dust",
+		spritenum: 747,
+		fling: {
+			basePower: 60,
+		},
+		suppressWeather: true,
+		num: 879,
+		gen: 7,
+	},
 	thickclub: {
 		name: "Thick Club",
 		spritenum: 491,
@@ -6735,6 +6846,28 @@ export const Items: {[itemid: string]: ItemData} = {
 		onModifyAtk(atk, pokemon) {
 			if (pokemon.baseSpecies.baseSpecies === 'Cubone' || pokemon.baseSpecies.baseSpecies === 'Marowak') {
 				return this.chainModify(2);
+			}
+		},
+		itemUser: ["Marowak", "Cubone"],
+		num: 258,
+		gen: 2,
+	},
+	polishedsphere: {
+		name: "Polished Sphere",
+		spritenum: 746,
+		fling: {
+			basePower: 90,
+		},
+		onModifySpAPriority: 1,
+		onModifySpA(spa, pokemon) {
+			if (pokemon.baseSpecies.baseSpecies === 'Enigmantis') {
+				return this.chainModify(1.2);
+			}
+		},
+		onModifySpDPriority: 1,
+		onModifySpD(spd, pokemon) {
+			if (pokemon.baseSpecies.baseSpecies === 'Enigmantis') {
+				return this.chainModify(1.2);
 			}
 		},
 		itemUser: ["Marowak", "Cubone"],

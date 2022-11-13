@@ -368,7 +368,7 @@ export const Items: {[itemid: string]: ItemData} = {
 	},
 	strikevest: {
 		name: "Strike Vest",
-		spritenum: 747,
+		spritenum: 749,
 		fling: {
 			basePower: 80,
 		},
@@ -1211,7 +1211,7 @@ export const Items: {[itemid: string]: ItemData} = {
 	},
 	foulrock: {
 		name: "Foul Rock",
-		spritenum: 745,
+		spritenum: 746,
 		fling: {
 			basePower: 60,
 		},
@@ -6828,7 +6828,7 @@ export const Items: {[itemid: string]: ItemData} = {
 	},
 	clouddust: {
 		name: "Cloud Dust",
-		spritenum: 747,
+		spritenum: 748,
 		fling: {
 			basePower: 60,
 		},
@@ -6854,7 +6854,7 @@ export const Items: {[itemid: string]: ItemData} = {
 	},
 	polishedsphere: {
 		name: "Polished Sphere",
-		spritenum: 746,
+		spritenum: 747,
 		fling: {
 			basePower: 90,
 		},

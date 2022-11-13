@@ -2939,7 +2939,7 @@ export const Items: {[itemid: string]: ItemData} = {
 	},
 	deltacameruptite: {
 		name: "Delta Cameruptite",
-		spritenum: 576,
+		spritenum: 770,
 		megaStone: "Camerupt-Delta-Mega",
 		megaEvolves: "Camerupt-Delta",
 		itemUser: ["Camerupt-Delta"],
@@ -2952,7 +2952,7 @@ export const Items: {[itemid: string]: ItemData} = {
 	},
 	deltacharizardite: {
 		name: "Delta Charizardite",
-		spritenum: 577,
+		spritenum: 771,
 		megaStone: "Charizard-Delta-Mega",
 		megaEvolves: "Charizard-Delta",
 		itemUser: ["Charizard-Delta"],
@@ -2965,7 +2965,7 @@ export const Items: {[itemid: string]: ItemData} = {
 	},
 	deltaetigirafarigite: {
 		name: "Delta Etigirafarigite",
-		spritenum: 576,
+		spritenum: 772,
 		megaStone: "Girafarig-Delta-Mega",
 		megaEvolves: "Girafarig-Delta",
 		itemUser: ["Girafarig-Delta"],
@@ -2978,7 +2978,7 @@ export const Items: {[itemid: string]: ItemData} = {
 	},
 	deltafroslassite: {
 		name: "Delta Froslassite",
-		spritenum: 576,
+		spritenum: 773,
 		megaStone: "Froslass-Delta-Mega",
 		megaEvolves: "Froslass-Delta",
 		itemUser: ["Froslass-Delta"],
@@ -2991,7 +2991,7 @@ export const Items: {[itemid: string]: ItemData} = {
 	},
 	deltagardevoirite: {
 		name: "Delta Gardevoirite",
-		spritenum: 576,
+		spritenum: 775,
 		megaStone: "Gardevoir-Delta-Mega",
 		megaEvolves: "Gardevoir-Delta",
 		itemUser: ["Gardevoir-Delta"],
@@ -3004,7 +3004,7 @@ export const Items: {[itemid: string]: ItemData} = {
 	},
 	deltagalladite: {
 		name: "Delta Galladite",
-		spritenum: 576,
+		spritenum: 774,
 		megaStone: "Gallade-Delta-Mega",
 		megaEvolves: "Gallade-Delta",
 		itemUser: ["Gallade-Delta"],
@@ -3017,7 +3017,7 @@ export const Items: {[itemid: string]: ItemData} = {
 	},
 	deltaglalitite: {
 		name: "Delta Glalitite",
-		spritenum: 576,
+		spritenum: 776,
 		megaStone: "Glalie-Delta-Mega",
 		megaEvolves: "Glalie-Delta",
 		itemUser: ["Glalie-Delta"],
@@ -3030,7 +3030,7 @@ export const Items: {[itemid: string]: ItemData} = {
 	},
 	deltalopunnite: {
 		name: "Delta Lopunnite",
-		spritenum: 626,
+		spritenum: 777,
 		megaStone: "Lopunny-Delta-Mega",
 		megaEvolves: "Lopunny-Delta",
 		itemUser: ["Lopunny-Delta"],
@@ -3043,7 +3043,7 @@ export const Items: {[itemid: string]: ItemData} = {
 	},
 	deltalucarionite: {
 		name: "Delta Lucarionite",
-		spritenum: 594,
+		spritenum: 778,
 		megaStone: "Lucario-Delta-Mega",
 		megaEvolves: "Lucario-Delta",
 		itemUser: ["Lucario-Delta"],
@@ -3056,7 +3056,7 @@ export const Items: {[itemid: string]: ItemData} = {
 	},
 	deltamawilite: {
 		name: "Delta Mawilite",
-		spritenum: 576,
+		spritenum: 779,
 		megaStone: "Mawile-Delta-Mega",
 		megaEvolves: "Mawile-Delta",
 		itemUser: ["Mawile-Delta"],
@@ -3069,7 +3069,7 @@ export const Items: {[itemid: string]: ItemData} = {
 	},
 	deltamedichamite: {
 		name: "Delta Medichamite",
-		spritenum: 626,
+		spritenum: 780,
 		megaStone: "Medicham-Delta-Mega",
 		megaEvolves: "Medicham-Delta",
 		itemUser: ["Medicham-Delta"],
@@ -3082,7 +3082,7 @@ export const Items: {[itemid: string]: ItemData} = {
 	},
 	deltametagrossiteruin: {
 		name: "Delta Metagrossite (Ruin)",
-		spritenum: 618,
+		spritenum: 781,
 		megaStone: "Metagross-Delta-Ruin-Mega",
 		megaEvolves: "Metagross-Delta",
 		itemUser: ["Metagross-Delta-Ruin"],
@@ -3095,7 +3095,7 @@ export const Items: {[itemid: string]: ItemData} = {
 	},
 	deltametagrossitespider: {
 		name: "Delta Metagrossite (Spider)",
-		spritenum: 618,
+		spritenum: 782,
 		megaStone: "Metagross-Delta-Spider-Mega",
 		megaEvolves: "Metagross-Delta",
 		itemUser: ["Metagross-Delta-Spider"],
@@ -3108,7 +3108,7 @@ export const Items: {[itemid: string]: ItemData} = {
 	},
 	deltamilotite: {
 		name: "Delta Milotite",
-		spritenum: 576,
+		spritenum: 783,
 		megaStone: "Milotic-Delta-Mega",
 		megaEvolves: "Milotic-Delta",
 		itemUser: ["Milotic-Delta"],
@@ -3121,7 +3121,7 @@ export const Items: {[itemid: string]: ItemData} = {
 	},
 	deltapidgeotite: {
 		name: "Delta Pidgeotite",
-		spritenum: 576,
+		spritenum: 784,
 		megaStone: "Pidgeot-Delta-Mega",
 		megaEvolves: "Pidgeot-Delta",
 		itemUser: ["Pidgeot-Delta"],

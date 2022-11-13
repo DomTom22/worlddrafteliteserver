@@ -2641,7 +2641,7 @@ export const Items: {[itemid: string]: ItemData} = {
 	},
 	metalynxite: {
 		name: "Metalynxite",
-		spritenum: 613,
+		spritenum: 753,
 		megaStone: "Metalynx-Mega",
 		megaEvolves: "Metalynx",
 		itemUser: ["Metalynx"],
@@ -2654,7 +2654,7 @@ export const Items: {[itemid: string]: ItemData} = {
 	},
 	electruxolite: {
 		name: "Electruxolite",
-		spritenum: 619,
+		spritenum: 755,
 		megaStone: "Electruxo-Mega",
 		megaEvolves: "Electruxo",
 		itemUser: ["Electruxo"],
@@ -2667,7 +2667,7 @@ export const Items: {[itemid: string]: ItemData} = {
 	},
 	archillesite: {
 		name: "Archillesite",
-		spritenum: 586,
+		spritenum: 752,
 		megaStone: "Archilles-Mega",
 		megaEvolves: "Archilles",
 		itemUser: ["Archilles"],
@@ -2680,7 +2680,7 @@ export const Items: {[itemid: string]: ItemData} = {
 	},
 	baariette: {
 		name: "Baariettite",
-		spritenum: 589,
+		spritenum: 762,
 		megaStone: "Baariette-Mega",
 		megaEvolves: "Baariette",
 		itemUser: ["Baariette"],
@@ -2693,7 +2693,7 @@ export const Items: {[itemid: string]: ItemData} = {
 	},
 	drilgannite: {
 		name: "Drilgannite",
-		spritenum: 582,
+		spritenum: 760,
 		megaStone: "Drilgann-Mega",
 		megaEvolves: "Drilgann",
 		itemUser: ["Drilgann"],
@@ -2706,7 +2706,7 @@ export const Items: {[itemid: string]: ItemData} = {
 	},
 	unidentifiedfallenobject: {
 		name: "Unidentified Fallen Object",
-		spritenum: 780,
+		spritenum: 758,
 		megaStone: "S51-A-Mega",
 		megaEvolves: "S51-A",
 		itemUser: ["S51-A"],
@@ -2772,7 +2772,7 @@ export const Items: {[itemid: string]: ItemData} = {
 	},
 	syrentite: {
 		name: "Syrentite",
-		spritenum: 599,
+		spritenum: 756,
 		megaStone: "Syrentide-Mega",
 		megaEvolves: "Syrentide",
 		itemUser: ["Syrentide"],
@@ -2785,7 +2785,7 @@ export const Items: {[itemid: string]: ItemData} = {
 	},
 	dramsamite: {
 		name: "Dramsamite",
-		spritenum: 587,
+		spritenum: 759,
 		megaStone: "Dramsama-Mega",
 		megaEvolves: "Dramsama",
 		itemUser: ["Dramsama"],
@@ -2798,7 +2798,7 @@ export const Items: {[itemid: string]: ItemData} = {
 	},
 	kiricornite: {
 		name: "Kiricornite",
-		spritenum: 587,
+		spritenum: 757,
 		megaStone: "Kiricorn-Mega",
 		megaEvolves: "Kiricorn",
 		itemUser: ["Kiricorn"],
@@ -2811,7 +2811,7 @@ export const Items: {[itemid: string]: ItemData} = {
 	},
 	arbokite: {
 		name: "Arbokite",
-		spritenum: 589,
+		spritenum: 761,
 		megaStone: "Arbok-Mega",
 		megaEvolves: "Arbok",
 		itemUser: ["Arbok"],
@@ -2824,7 +2824,7 @@ export const Items: {[itemid: string]: ItemData} = {
 	},
 	whimsite: {
 		name: "Whimsite",
-		spritenum: 616,
+		spritenum: 754,
 		megaStone: "Whimsicott-Mega",
 		megaEvolves: "Whimsicott",
 		itemUser: ["Whimsicott"],
@@ -2848,7 +2848,7 @@ export const Items: {[itemid: string]: ItemData} = {
   },
 	bisharpite: {
 		name: "Bisharpite",
-		spritenum: 583,
+		spritenum: 763,
 		megaStone: "Bisharp-Mega",
 		megaEvolves: "Bisharp",
 		itemUser: ["Bisharp"],
@@ -2861,7 +2861,7 @@ export const Items: {[itemid: string]: ItemData} = {
 	},
 	cacturnite: {
 		name: "Cacturnite",
-		spritenum: 642,
+		spritenum: 764,
 		megaStone: "Cacturne-Mega",
 		megaEvolves: "Cacturne",
 		itemUser: ["Cacturne"],
@@ -2874,7 +2874,7 @@ export const Items: {[itemid: string]: ItemData} = {
 	},
 	chatotite: {
 		name: "Chatotite",
-		spritenum: 578,
+		spritenum: 765,
 		megaStone: "Chatot-Mega",
 		megaEvolves: "Chatot",
 		itemUser: ["Chatot"],
@@ -2887,7 +2887,7 @@ export const Items: {[itemid: string]: ItemData} = {
 	},
 	crawdite: {
 		name: "Crawdite",
-		spritenum: 622,
+		spritenum: 766,
 		megaStone: "Crawdaunt-Mega",
 		megaEvolves: "Crawdaunt",
 		itemUser: ["Crawdaunt"],
@@ -2900,7 +2900,7 @@ export const Items: {[itemid: string]: ItemData} = {
 	},
 	cryogonalite: {
 		name: "Cryogonalite",
-		spritenum: 576,
+		spritenum: 768,
 		megaStone: "Cryogonal-Mega",
 		megaEvolves: "Cryogonal",
 		itemUser: ["Cryogonal"],
@@ -2913,7 +2913,7 @@ export const Items: {[itemid: string]: ItemData} = {
 	},
 	deltabisharpite: {
 		name: "Delta Bisharpite",
-		spritenum: 575,
+		spritenum: 769,
 		megaStone: "Bisharp-Delta-Mega",
 		megaEvolves: "Bisharp-Delta",
 		itemUser: ["Bisharp-Delta"],

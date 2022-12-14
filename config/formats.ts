@@ -1172,7 +1172,7 @@ export const Formats: FormatList = [
 			banlist: ['AG', 'Uber', 'OUBL', 'OU', 'UUBL', 'UU', 'RUBL', 'RU', 'NUBL', 'NU', 'PUBL'],
 		},
 		{
-				section: "Radical Red Tiers",
+				section: "Fools Gold Tiers",
 				column: 3,
 			},
 			{

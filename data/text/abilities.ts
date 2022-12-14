@@ -22,6 +22,43 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 			shortDesc: "This Pokemon's Normal-type moves become Flying type and have 1.3x power.",
 		},
 	},
+	atomizate: {
+		name: "Atomizate",
+		shortDesc: "This Pokemon's Normal-type moves become Nuclear type and have 1.2x power.",
+	},
+	geigersense: {
+		name: "Geiger Sense",
+		shortDesc: "On switch-in, raises Attack and Sp. Atk if another Nuclear-type is on field.",
+	},
+	leadskin: {
+		name: "Lead Skin",
+		desc: "This Pokemon is immune to damaging Nuclear-type moves and Fallout.",
+		shortDesc: "This Pokemon is immune to damaging Nuclear-type moves.",
+	},
+	lernean: {
+		name: "Lernean",
+		desc: "If this Pokemon is a Hydreigon-Mega, it will gain more heads if its HP decreases below 80%, 60%, 40%, or 20%, gaining multiple heads if its HP falls below multiple of these thresholds at once. Restoring HP does not remove heads and more heads will not generate if a threshold has previously been reached. It starts with 5 heads and hits once for each head with decreasing damage per hit.",
+		shortDesc: "If Hydreigon-Mega, gains heads when losing HP and hits once for each head.",
+	},
+	regurgitation: {
+		name: "Regurgitation",
+		desc: "After successfully using an attack or targetable status move, this Pokemon deals a second hit of damage that does 1/6 of the target's max HP. This damage is multiplied by the damage multiplier of the target and the type of the pokemon in Muk's mouth.",
+		shortDesc: "Based on the effectiveness of the Pokemon in Muk's mouth, this deals a secondary hit.",
+
+		activate: "  [POKEMON] did an additional attack!",
+	},
+	chernobyl: {
+		name: "Chernobyl",
+		shortDesc: "On switch-in, this Pokemon summons Fallout.",
+	},
+	dualsight: {
+		name: "Dual Sight",
+		shortDesc: "This Pokemon's attacks hit both foes with 3/4 power.",
+	},
+	catalog: {
+		name: "Catalog",
+		shortDesc: "This Pokemon's stat stages change with the foe.",
+	},
 	aftermath: {
 		name: "Aftermath",
 		desc: "If this Pokemon is knocked out with a contact move, that move's user loses 1/4 of its maximum HP, rounded down. If any active Pokemon has the Damp Ability, this effect is prevented.",
@@ -157,6 +194,14 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 		desc: "When this Pokemon has more than 1/2 its maximum HP and takes damage from an attack bringing it to 1/2 or less of its maximum HP, its Speed is raised by 1 stage. This effect applies after all hits from a multi-hit move; Sheer Force prevents it from activating if the move has a secondary effect.",
 		shortDesc: "This Pokemon's Speed is raised by 1 when it reaches 1/2 or less of its max HP.",
 	},
+	survivalinstinct: {
+		name: "Survival Instinct",
+		shortDesc: "This Pokemon's damaging attacks never miss when at 1/2 or less of its max HP.",
+	},
+	spiritguide: {
+		name: "Spirit Guide",
+		shortDesc: "Pokemon making contact with this Pokemon have their Defense lowered by 1 stage.",
+	},
 	stubborn: {
 		name: "Stubborn",
 		desc: "When this Pokemon has more than 1/2 its maximum HP and takes damage from an attack bringing it to 1/2 or less of its maximum HP, its Defense is raised by 1 stage. This effect applies after all hits from a multi-hit move; Sheer Force prevents it from activating if the move has a secondary effect.",
@@ -184,6 +229,10 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 		name: "Cheek Pouch",
 		desc: "If this Pokemon eats a Berry, it restores 1/3 of its maximum HP, rounded down, in addition to the Berry's effect.",
 		shortDesc: "If this Pokemon eats a Berry, it restores 1/3 of its max HP after the Berry's effect.",
+	},
+	roast: {
+		name: "Roast",
+		shortDesc: "If this Pokemon eats a Berry, it's Attack and Sp. Atk increase one stage.",
 	},
 	chillingneigh: {
 		name: "Chilling Neigh",
@@ -328,6 +377,11 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 		desc: "This Pokemon's Attack is raised by 2 stages for each of its stat stages that is lowered by an opposing Pokemon.",
 		shortDesc: "This Pokemon's Attack is raised by 2 for each of its stats that is lowered by a foe.",
 	},
+	imperious: {
+		name: "Imperious",
+		desc: "This Pokemon's Attack is raised by 2 stages for each of its stat stages that is lowered by an opposing Pokemon.",
+		shortDesc: "This Pokemon's Attack is raised by 2 for each of its stats that is lowered by a foe.",
+	},
 	deltastream: {
 		name: "Delta Stream",
 		desc: "On switch-in, the weather becomes strong winds that remove the weaknesses of the Flying type from Flying-type Pokemon. This weather remains in effect until this Ability is no longer active for any Pokemon, or the weather is changed by Desolate Land or Primordial Sea.",
@@ -363,6 +417,10 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 		name: "Drizzle",
 		shortDesc: "On switch-in, this Pokemon summons Rain Dance.",
 	},
+	sporogenesis: {
+		name: "Sporogenesis",
+		shortDesc: "On switch-in, this Pokemon summons Spore Storm.",
+	},
 	pollution: {
 		name: "Pollution",
 		shortDesc: "On switch-in, this Pokemon summons Acid Rain.",
@@ -388,6 +446,12 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 		},
 
 		damage: "  ([POKEMON] was hurt by its Dry Skin.)",
+	},
+	finesugar: {
+		name: "Fine Sugar",
+		shortDesc: "This Pokemon is healed 1/4 by Fire, 1/8 by Sun; is hurt 1.25x by Water, 1/8 by Rain.",
+
+		damage: "  ([POKEMON] was hurt by its Fine Sugar.)",
 	},
 	earlybird: {
 		name: "Early Bird",
@@ -444,6 +508,10 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 	filter: {
 		name: "Filter",
 		shortDesc: "This Pokemon receives 3/4 damage from supereffective attacks.",
+	},
+	overshadow: {
+		name: "Overshadow",
+		shortDesc: "This Pokemon receives 1/2 damage from shorter foe's attacks.",
 	},
 	shieldwall: {
 		name: "Shield Wall",
@@ -632,8 +700,7 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 	},
 	headache: {
 		name: "Headache",
-		desc: "If this Pokemon is confused, its Special Attack is multiplied by 1.5.",
-		shortDesc: "If this Pokemon is confused, its Sp. Atk is 1.5x.",
+		shortDesc: "If this Pokemon is confused, its Sp. Atk is doubled.",
 	},
 	harvest: {
 		name: "Harvest",
@@ -813,7 +880,7 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 	},
 	electricfence: {
 		name: "Electric Fence",
-		shortDesc: "If Electric Terrain is active, Pokemon making contact with this Pokemon lose 1/8 of their max HP.",
+		shortDesc: "If Electric Terrain is active, Pokemon making contact with this Pokemon lose 1/6 of their max HP.",
 
 		damage: "#roughskin",
 	},
@@ -829,6 +896,10 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 		name: "Iron Fist",
 		desc: "This Pokemon's punch-based attacks have their power multiplied by 1.2.",
 		shortDesc: "This Pokemon's punch-based attacks have 1.2x power. Sucker Punch is not boosted.",
+	},
+	galeforce: {
+		name: "Gale Force",
+		shortDesc: "This Pokemon's wind-based attacks have 1.5x power.",
 	},
 	justified: {
 		name: "Justified",
@@ -920,7 +991,11 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 	},
 	energetic: {
 		name: "Energetic",
-		shortDesc: "This Pokemon cannot be paralyzed, frozen or have it's Speed lowered. Gaining this Ability while paralyzed or frozen cures it.",
+		shortDesc: "This Pokemon cannot be paralyzed, poisoned or have it's Speed lowered. Gaining this Ability while paralyzed or poisoned cures it.",
+	},
+	stability: {
+		name: "Stability",
+		shortDesc: "This Pokemon cannot be burned, poisoned or frozen. Gaining this Ability while burned, poisoned or frozen cures it.",
 	},
 	liquidooze: {
 		name: "Liquid Ooze",
@@ -935,7 +1010,7 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 	},
 	frostsong: {
 		name: "Frost Song",
-		shortDesc: "This Pokemon's sound-based moves become Water type and have 1.3x Power",
+		shortDesc: "This Pokemon's sound-based moves become Ice type and have 1.5x Power",
 	},
 	longreach: {
 		name: "Long Reach",
@@ -1338,6 +1413,10 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 		desc: "This Pokemon's type changes to match the type of the move it is about to use. This effect comes after all effects that change a move's type.",
 		shortDesc: "This Pokemon's type changes to match the type of the move it is about to use.",
 	},
+	spectrum: {
+		name: "Spectrum",
+		shortDesc: "This Pokemon's type changes based on the foe's color.",
+	},
 	psychicsurge: {
 		name: "Psychic Surge",
 		shortDesc: "On switch-in, this Pokemon summons Psychic Terrain.",
@@ -1446,8 +1525,8 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 
 		damage: "  [POKEMON] was hurt!",
 	},
-	acidthorns: {
-		name: "Acid Thorns",
+	acidicthorns: {
+		name: "Acidic Thorns",
 		desc: "Pokemon making contact with this Pokemon lose 1/8 of their maximum HP, rounded down.",
 		shortDesc: "Pokemon making contact with this Pokemon lose 1/8 of their max HP and 20% chance to Poison",
 		damage: "  [POKEMON] was hurt!",
@@ -1463,6 +1542,10 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 	forage: {
 		name: "Forage",
 		shortDesc: "No competitive use.",
+	},
+	braveheart: {
+		name: "Brave Heart",
+		shortDesc: "This Pokemon's Attack is raised 1 stage when the foe raises a stat.",
 	},
 	sandforce: {
 		name: "Sand Force",
@@ -1520,6 +1603,10 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 		name: "Sand Veil",
 		desc: "If Sandstorm is active, this Pokemon's evasiveness is multiplied by 1.25. This Pokemon takes no damage from Sandstorm.",
 		shortDesc: "If Sandstorm is active, this Pokemon's evasiveness is 1.25x; immunity to Sandstorm.",
+	},
+	sandsniper: {
+		name: "Sand Sniper",
+		shortDesc: "If Sandstorm is active, this Pokemon's attacks never miss.",
 	},
 	sapsipper: {
 		name: "Sap Sipper",
@@ -1670,6 +1757,18 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 		name: "Trickster",
 		shortDesc: "On switch-in, this Pokemon summons Trickroom.",
 	},
+	mysticaura: {
+		name: "Mystic Aura",
+		shortDesc: "On switch-in, this Pokemon summons Magic Room.",
+	},
+	taproot: {
+		name: "Taproot",
+		shortDesc: "On switch-in, this Pokemon becomes rooted.",
+	},
+	conviction: {
+		name: "Conviction",
+		shortDesc: "On switch-in, this Pokemon endures itself.",
+	},
 	solarpower: {
 		name: "Solar Power",
 		desc: "If Sunny Day is active, this Pokemon's Special Attack is multiplied by 1.5 and it loses 1/8 of its maximum HP, rounded down, at the end of each turn. If this Pokemon is holding Utility Umbrella, its Special Attack remains the same and it does not lose any HP.",
@@ -1704,18 +1803,27 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 	},
 	bigthorns: {
 		name: "Big Throns",
-		desc: "If Grassy Terrain is active, this Pokemon's Atk is 1.3x.",
-		shortDesc: "If Grassy Terrain is active, this Pokemon's Atk is 1.3x.",
+		desc: "If Grassy Terrain is active, this Pokemon's Attack is 1.3x.",
+		shortDesc: "If Grassy Terrain is active, this Pokemon's Attack is 1.3x.",
+	},
+	rammingspeed: {
+		name: "Ramming Speed",
+		desc: "If Tailwind is active, this Pokemon's Attack is 1.3x.",
+		shortDesc: "If Tailwind is active, this Pokemon's Attack is 1.3x.",
 	},
 	tidalforce: {
 		name: "Tidal Force",
-		desc: "If Rain Dance is active, this Pokemon's Atk is 1.3x.",
-		shortDesc: "If Rain Dance is active, this Pokemon's Atk is 1.3x.",
+		desc: "If Rain Dance is active, this Pokemon's Sp. Atk is 1.3x.",
+		shortDesc: "If Rain Dance is active, this Pokemon's Sp. Atk is 1.3x.",
+	},
+	harshhunter: {
+		name: "Harsh Hunter",
+		shortDesc: "If Sandstorm is active, this Pokemon's Attack is 1.3x.",
 	},
 	desertarmor: {
 		name: "Desert Armor",
-		desc: "If Sandstorm is active, this Pokemon's Def is 1.5x.",
-		shortDesc: "If Sandstorm is active, this Pokemon's Def is 1.5x.",
+		desc: "If Sandstorm is active, this Pokemon's Def is doubled.",
+		shortDesc: "If Sandstorm is active, this Pokemon's Def is doubled.",
 	},
 	windpower: {
 		name: "Wind Power",
@@ -1820,6 +1928,14 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 	steelyspirit: {
 		name: "Steely Spirit",
 		shortDesc: "This Pokemon and its allies' Steel-type moves have their power multiplied by 1.5.",
+	},
+	stratagem: {
+		name: "Stratagem",
+		shortDesc: "This Pokemon's Rock-type moves have their power multiplied by 1.5.",
+	},
+	tunnelmaker: {
+		name: "Tunnel Maker",
+		shortDesc: "This Pokemon's Ground-type moves have their power multiplied by 1.5.",
 	},
 	elementalist: {
 		name: "Elementalist",
@@ -1956,17 +2072,30 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 	vaporization: {
 		name: "Vaporization",
 		desc: "Causes damage-dealing Water-type moves and targetable Water-type status moves to fail when used. Damages all Water-type Pokémon for ⅛ of their maximum HP at the end of each every turn.",
-		shortDesc: "Vaporizes Water Moves and damages water types.",
+		shortDesc: "Vaporizes Water Moves and damages Water types.",
+	},
+	luminous: {
+		name: "Luminous",
+		desc: "Causes damage-dealing Dark-type moves and targetable Dark-type status moves to fail when used. Damages all Dark-type Pokémon for ⅛ of their maximum HP at the end of each every turn.",
+		shortDesc: "Dissapates Dark Moves and damages Dark types.",
 	},
 	vampiric: {
 		name: "Vampiric",
 		desc: "Allows the user to regain 25% of the damage inflicted when using a contact move. That amount of HP recovered is unaffected by Big Root. If the effects of Heal Block are active then Vampiric cannot restore HP.",
 		shortDesc: "Recovers a little HP with contact moves.",
 	},
+	siphon: {
+		name: "Siphon",
+		shortDesc: "This Pokemon has a 30% chance recovers 1/2 the HP lost by the target with contact moves.",
+	},
 	windforce: {
 		name: "Wind Force",
 		desc: "This Pokemon is immune to Flying-type moves and raises its Speed by 1 stage when hit by an Flying-type move.",
 		shortDesc: "Flying-type moves boost this Pokemon's speed; Flying immunity.",
+	},
+	industrialize: {
+		name: "Industrialize",
+		shortDesc: "Steel-type moves boost this Pokemon's speed; Steel immunity.",
 	},
 	winterjoy: {
 		name: "Winter Joy",
@@ -2192,6 +2321,10 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 		name: "Transistor",
 		shortDesc: "This Pokemon's attacking stat is multiplied by 1.5 while using an Electric-type attack.",
 	},
+	peckingorder: {
+		name: "Pecking Order",
+		shortDesc: "This Pokemon's Flying-type moves have 1.5x power, immune to Flying-type attacks.",
+	},
 	erudite: {
 		name: "Erudite",
 		shortDesc: "This Pokemon's attacking stat is multiplied by 1.5 while using an Psychic-type attack.",
@@ -2305,6 +2438,10 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 		name: "Water Absorb",
 		desc: "This Pokemon is immune to Water-type moves and restores 1/4 of its maximum HP, rounded down, when hit by a Water-type move.",
 		shortDesc: "This Pokemon heals 1/4 of its max HP when hit by Water moves; Water immunity.",
+	},
+	heartless: {
+		name: "Heartless",
+		shortDesc: "This Pokemon heals 1/4 of its max HP when hit by Fairy moves; Fairy immunity.",
 	},
 	synthesizer: {
 		name: "Synthesizer",

@@ -834,7 +834,7 @@ export const MovesText: {[k: string]: MoveText} = {
 	coldconversion: {
 		name: "Cold Conversion",
 		desc: "Fails unless the user is a Ice type. If this move is successful, the user's Ice type becomes typeless as long as it remains active.",
-		shortDesc: "User's Ice type becomes typeless; must be Fire.",
+		shortDesc: "User's Ice type becomes typeless; must be Ice.",
 
 		typeChange: "  [POKEMON] burned itself out!",
 	},
@@ -2729,6 +2729,10 @@ export const MovesText: {[k: string]: MoveText} = {
 			desc: "The user recovers 1/2 the HP lost by the target, rounded down.",
 		},
 	},
+	leechingcold: {
+		name: "Leeching Cold",
+		shortDesc: "User recovers 50% of the damage dealt.",
+	},
 	blooddraw: {
 		name: "Blood Draw",
 		desc: "The user recovers 1/2 the HP lost by the target, rounded half up. If Big Root is held by the user, the HP recovered is 1.3x normal, rounded half down.",
@@ -3841,6 +3845,12 @@ export const MovesText: {[k: string]: MoveText} = {
 		},
 
 		removeItem: "  [SOURCE] knocked off [POKEMON]'s [ITEM]!",
+	},
+	slimeball: {
+		name: "Slime Ball",
+		shortDesc: "Renders foe's item unusable.",
+
+		removeItem: "  [SOURCE] slimed [POKEMON]'s [ITEM]!",
 	},
 	landswrath: {
 		name: "Land's Wrath",
@@ -5648,6 +5658,10 @@ export const MovesText: {[k: string]: MoveText} = {
 			desc: "The user restores 1/2 of its maximum HP, rounded down. Fails if (user's maximum HP - user's current HP + 1) is divisible by 256.",
 		},
 	},
+	mulchmeal: {
+		name: "Mulch Meal",
+		shortDesc: "The user restores 1/3 of its max HP and raises Speed by 1 stage.",
+	},
 	meateat: {
 		name: "Meat Eat",
 		desc: "The user restores 1/2 of its maximum HP, rounded half up.",
@@ -6110,6 +6124,10 @@ export const MovesText: {[k: string]: MoveText} = {
 		name: "Shadow Ball",
 		desc: "Has a 20% chance to lower the target's Special Defense by 1 stage.",
 		shortDesc: "20% chance to lower the target's Sp. Def by 1.",
+	},
+	gigaspark: {
+		name: "Giga Spark",
+		shortDesc: "20% chance to lower the user's Sp. Def by 1.",
 	},
 	magicspell: {
 		name: "Magic Spell",
@@ -6710,6 +6728,12 @@ export const MovesText: {[k: string]: MoveText} = {
 		gen6: {
 			desc: "The user is protected from most attacks made by other Pokemon during this turn, and Pokemon making contact with the user lose 1/8 of their maximum HP, rounded down. This move has a 1/X chance of being successful, where X starts at 1 and triples each time this move is successfully used. X resets to 1 if this move fails, if the user's last move used is not Detect, Endure, King's Shield, Protect, Quick Guard, Spiky Shield, or Wide Guard, or if it was one of those moves and the user's protection was broken. Fails if the user moves last this turn.",
 		},
+
+		damage: "#roughskin",
+	},
+	mirrorshield: {
+		name: "Mirror Shield",
+		shortDesc: "Protects from moves. Special: loses 1/8 max HP.",
 
 		damage: "#roughskin",
 	},
@@ -7693,6 +7717,13 @@ export const MovesText: {[k: string]: MoveText} = {
 		gen4: {
 			desc: "If this move is successful and the user has not fainted, the user switches out even if it is trapped and is replaced immediately by a selected party member. The user does not switch out if there are no unfainted party members.",
 		},
+
+		switchOut: "[POKEMON] went back to [TRAINER]!",
+	},
+	summersunder: {
+		name: "Summer Sunder",
+		desc: "If this move is successful and the user has not fainted, the user switches out even if it is trapped and is replaced immediately by a selected party member. The user does not switch out if there are no unfainted party members, or if the target switched out using an Eject Button or through the effect of the Emergency Exit or Wimp Out Abilities.",
+		shortDesc: "User switches out after damaging the target. High critical hit ratio.",
 
 		switchOut: "[POKEMON] went back to [TRAINER]!",
 	},

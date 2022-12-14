@@ -92,21 +92,6 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 2,
 		num: 76,
 	},
-	earthlock: {
-		onSwitchIn(pokemon) {
-			this.effectData.switchingIn = true;
-		},
-		onStart(pokemon) {
-			// Air Lock does not activate when Skill Swapped or when Neutralizing Gas leaves the field
-			if (!this.effectData.switchingIn) return;
-			this.add('-ability', pokemon, 'Earth Lock');
-			this.effectData.switchingIn = false;
-		},
-		suppressTerrain: true,
-		name: "Earth Lock",
-		rating: 2,
-		num: 76,
-	},
 	amplifier: {
 		onBasePowerPriority: 7,
 		onBasePower(basePower, attacker, defender, move) {
@@ -438,6 +423,20 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 2,
 		num: 201,
 	},
+	bouldernest: {
+		onAfterMoveSecondary(target, source, move) {
+			if (!source || source === target || !target.hp || !move.totalDamage) return;
+			const lastAttackedBy = target.getLastAttackedBy();
+			if (!lastAttackedBy) return;
+			const damage = move.multihit ? move.totalDamage : lastAttackedBy.damage;
+			if (target.hp <= target.maxhp / 2 && target.hp + damage > target.maxhp / 2) {
+				source.side.addSideCondition('stealthrock');
+			}
+		},
+		name: "Boulder Nest",
+		rating: 2,
+		num: 201,
+	},
 	vengeance: {
 		onAfterMoveSecondary(target, source, move) {
 			if (!source || source === target || !target.hp || !move.totalDamage) return;
@@ -529,6 +528,14 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 			this.heal(pokemon.baseMaxhp / 3);
 		},
 		name: "Cheek Pouch",
+		rating: 2,
+		num: 167,
+	},
+	roast: {
+		onEatItem(item, pokemon) {
+			this.boost({atk: 1, spa: 1});
+		},
+		name: "Roast",
 		rating: 2,
 		num: 167,
 	},
@@ -936,6 +943,30 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 2.5,
 		num: 128,
 	},
+	imperious: {
+		onAfterEachBoost(boost, target, source, effect) {
+			if (!source || target.side === source.side) {
+				if (effect.id === 'stickyweb') {
+					this.hint("Court Change Sticky Web counts as lowering your own Speed, and Defiant only affects stats lowered by foes.", true, source.side);
+				}
+				return;
+			}
+			let statsLowered = false;
+			let i: BoostName;
+			for (i in boost) {
+				if (boost[i]! < 0) {
+					statsLowered = true;
+				}
+			}
+			if (statsLowered) {
+				this.add('-ability', target, 'Imperious');
+				this.boost({spe: 2}, target, target, null, true);
+			}
+		},
+		name: "Imperious",
+		rating: 2.5,
+		num: 128,
+	},
 	deltastream: {
 		onStart(source) {
 			this.field.setWeather('deltastream');
@@ -1097,18 +1128,6 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 4,
 		num: 2,
 	},
-	pollution: {
-		onStart(source) {
-			for (const action of this.queue) {
-				if (action.choice === 'runPrimal' && action.pokemon === source && source.species.id === 'kyogre') return;
-				if (action.choice !== 'runSwitch' && action.choice !== 'runPrimal') break;
-			}
-			this.field.setWeather('acidrain');
-		},
-		name: "Pollution",
-		rating: 4,
-		num: 2,
-	},
 	drought: {
 		onStart(source) {
 			for (const action of this.queue) {
@@ -1149,11 +1168,54 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 3,
 		num: 87,
 	},
+	finesugar: {
+		onTryHit(target, source, move) {
+			if (target !== source && move.type === 'Fire') {
+				if (!this.heal(target.baseMaxhp / 4)) {
+					this.add('-immune', target, '[from] ability: Fine Sugar');
+				}
+				return null;
+			}
+		},
+		onFoeBasePowerPriority: 17,
+		onFoeBasePower(basePower, attacker, defender, move) {
+			if (this.effectData.target !== defender) return;
+			if (move.type === 'Water') {
+				return this.chainModify(1.25);
+			}
+		},
+		onWeather(target, source, effect) {
+			if (target.hasItem('utilityumbrella')) return;
+			if (effect.id === 'sunnyday' || effect.id === 'desolateland') {
+				this.heal(target.baseMaxhp / 8);
+			} else if (effect.id === 'raindance' || effect.id === 'primordialsea') {
+				this.damage(target.baseMaxhp / 8, target, target);
+			}
+		},
+		name: "Fine Sugar",
+		rating: 3,
+		num: 87,
+	},
 	earlybird: {
 		name: "Early Bird",
 		// Implemented in statuses.js
 		rating: 1.5,
 		num: 48,
+	},
+	earthlock: {
+		onSwitchIn(pokemon) {
+			this.effectData.switchingIn = true;
+		},
+		onStart(pokemon) {
+			// Air Lock does not activate when Skill Swapped or when Neutralizing Gas leaves the field
+			if (!this.effectData.switchingIn) return;
+			this.add('-ability', pokemon, 'Earth Lock');
+			this.effectData.switchingIn = false;
+		},
+		suppressTerrain: true,
+		name: "Earth Lock",
+		rating: 2,
+		num: 76,
 	},
 	effectspore: {
 		onDamagingHit(damage, target, source, move) {
@@ -1625,6 +1687,17 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 2,
 		num: 183,
 	},
+	spiritguide: {
+		onDamagingHit(damage, target, source, move) {
+			if (move.flags['contact']) {
+				this.add('-ability', target, 'Spirit Guide');
+				this.boost({def: -1}, source, target, null, true);
+			}
+		},
+		name: "Spirit Guide",
+		rating: 2,
+		num: 183,
+	},
 	gorillatactics: {
 		onStart(pokemon) {
 			pokemon.abilityData.choiceLock = "";
@@ -1748,7 +1821,7 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		onModifySpAPriority: 5,
 		onModifySpA(atk, pokemon) {
 			if (pokemon.volatiles['confusion']) {
-				return this.chainModify(1.5);
+				return this.chainModify(2);
 			}
 		},
 		name: "Headache",
@@ -1782,6 +1855,7 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 				this.add('-item', pokemon, pokemon.getItem(), '[from] ability: Jeweler');
 			}
 		},
+		shortDesc: "This Pokemon's recycles used Gems at the end of the turn.",
 		rating: 2.5,
 		num: 139,
 	},
@@ -2268,6 +2342,18 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 3,
 		num: 89,
 	},
+	galeforce: {
+		onBasePowerPriority: 23,
+		onBasePower(basePower, attacker, defender, move) {
+			if (move.flags['wind']) {
+				this.debug('Gale Force boost');
+				return this.chainModify(1.5);
+			}
+		},
+		name: "Gale Force",
+		rating: 3,
+		num: 89,
+	},
 	justified: {
 		onDamagingHit(damage, target, source, move) {
 			if (move.type === 'Dark') {
@@ -2320,6 +2406,65 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 0.5,
 		num: 102,
 	},
+	lernean: {
+		onResidualOrder: 29,
+		onResidual(pokemon) {
+			if (!pokemon.baseSpecies.id.includes('hydreigonmega') || !pokemon.species.id.includes('hydreigonmega') || !pokemon.hp) {
+				return;
+			}
+			if (pokemon.species.id === 'hydreigonmeganine') return;
+			if (pokemon.hp < (pokemon.maxhp / 5)) {
+				this.add('-activate', pokemon, 'ability: Lernean');
+				pokemon.formeChange('Hydreigon-Mega-Nine', this.effect, true);
+				return;
+			}
+			if (pokemon.species.id === 'hydreigonmegaeight') return;
+			if (pokemon.hp < (2 * pokemon.maxhp / 5)) {
+				this.add('-activate', pokemon, 'ability: Lernean');
+				pokemon.formeChange('Hydreigon-Mega-Eight', this.effect, true);
+				return;
+			}
+			if (pokemon.species.id === 'hydreigonmegaseven') return;
+			if (pokemon.hp < (3 * pokemon.maxhp / 5)) {
+				this.add('-activate', pokemon, 'ability: Lernean');
+				pokemon.formeChange('Hydreigon-Mega-Seven', this.effect, true);
+				return;
+			}
+			if (pokemon.species.id === 'hydreigonmegasix') return;
+			if (pokemon.hp < (4 * pokemon.maxhp / 5)) {
+				this.add('-activate', pokemon, 'ability: Lernean');
+				pokemon.formeChange('Hydreigon-Mega-Six', this.effect, true);
+			}
+		},
+		onPrepareHit(source, target, move) {
+			if (!source.species.id.includes('hydreigonmega')) return;
+			if (move.category === 'Status' || move.selfdestruct || move.multihit) return;
+			if ([
+				'dynamaxcannon', 'endeavor', 'fling', 'iceball', 'rollout',
+				'dragonrage', 'sonicboom', 'seismictoss', 'naturalgift'
+			].includes(move.id)) return;
+			if (!move.flags['charge'] && !move.spreadHit && !move.isZ && !move.isMax) {
+				if (source.species.id === 'hydreigonmeganine') move.multihit = 9;
+				else if (source.species.id === 'hydreigonmegaeight') move.multihit = 8;
+				else if (source.species.id === 'hydreigonmegaseven') move.multihit = 7;
+				else if (source.species.id === 'hydreigonmegasix') move.multihit = 6;
+				else move.multihit = 5;
+				move.multihitType = 'lernean';
+			}
+		},
+		// Damage modifier implemented in BattleActions#modifyDamage()
+		onSourceModifySecondaries(secondaries, target, source, move) {
+			if (move.multihitType === 'lernean' && move.id === 'secretpower' && move.hit < 2) {
+				// hack to prevent accidentally suppressing King's Rock/Razor Fang
+				return secondaries.filter(effect => effect.volatileStatus === 'flinch');
+			}
+		},
+		isPermanent: true,
+		name: "Lernean",
+		gen: 6,
+		rating: 4,
+		num: 18,
+	},
 	levitate: {
 		// airborneness implemented in sim/pokemon.js:Pokemon#isGrounded
 		name: "Levitate",
@@ -2371,6 +2516,31 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 3,
 		num: 31,
 	},
+	peckingorder: {
+		onTryHit(target, source, move) {
+			if (target !== source && move.type === 'Flying') {
+					this.add('-immune', target, '[from] ability: Lightning Rod');
+				}
+				return null;
+		},
+		onModifyAtkPriority: 5,
+		onModifyAtk(atk, attacker, defender, move) {
+			if (move.type === 'Flying') {
+				this.debug('Pecking Order boost');
+				return this.chainModify(1.5);
+			}
+		},
+		onModifySpAPriority: 5,
+		onModifySpA(atk, attacker, defender, move) {
+			if (move.type === 'Flying') {
+				this.debug('Pecking Order boost');
+				return this.chainModify(1.5);
+			}
+		},
+		name: "Pecking Order",
+		rating: 3,
+		num: 31,
+	},
 	flytrap: {
 		onTryHit(target, source, move) {
 			if (target !== source && move.type === 'Bug') {
@@ -2392,6 +2562,30 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 			}
 		},
 		name: "Flytrap",
+		rating: 3,
+		num: 31,
+	},
+	coldreception: {
+		onTryHit(target, source, move) {
+			if (target !== source && move.type === 'Ice') {
+				if (!this.boost({atk: 1})) {
+					this.add('-immune', target, '[from] ability: Cold Reception');
+				}
+				return null;
+			}
+		},
+		onAnyRedirectTarget(target, source, source2, move) {
+			if (move.type !== 'Ice' || ['firepledge', 'grasspledge', 'waterpledge'].includes(move.id)) return;
+			const redirectTarget = ['randomNormal', 'adjacentFoe'].includes(move.target) ? 'normal' : move.target;
+			if (this.validTarget(this.effectData.target, source, redirectTarget)) {
+				if (move.smartTarget) move.smartTarget = false;
+				if (this.effectData.target !== target) {
+					this.add('-activate', this.effectData.target, 'ability: Cold Reception ');
+				}
+				return this.effectData.target;
+			}
+		},
+		name: "Cold Reception",
 		rating: 3,
 		num: 31,
 	},
@@ -2439,13 +2633,13 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 	},
 	energetic: {
 		onUpdate(pokemon) {
-			if (pokemon.status === 'par' || pokemon.status === 'frz') {
+			if (pokemon.status === 'par' || pokemon.status === 'psn') {
 				this.add('-activate', pokemon, 'ability: Energetic');
 				pokemon.cureStatus();
 			}
 		},
 		onSetStatus(status, target, source, effect) {
-			if (status.id !== 'par' || status.id !== 'frz') return;
+			if (status.id !== 'par' || status.id !== 'psn') return;
 			if ((effect as Move)?.status) {
 				this.add('-immune', target, '[from] ability: Energetic');
 			}
@@ -2461,6 +2655,24 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 			}
 		},
 		name: "Energetic",
+		rating: 2,
+		num: 7,
+	},
+	stability: {
+		onUpdate(pokemon) {
+			if (pokemon.status === 'brn' || pokemon.status === 'frz' || pokemon.status === 'psn') {
+				this.add('-activate', pokemon, 'ability: Stability');
+				pokemon.cureStatus();
+			}
+		},
+		onSetStatus(status, target, source, effect) {
+			if (pokemon.status === 'brn' || pokemon.status === 'frz' || pokemon.status === 'psn') return;
+			if ((effect as Move)?.status) {
+				this.add('-immune', target, '[from] ability: Stability');
+			}
+			return false;
+		},
+		name: "Stability",
 		rating: 2,
 		num: 7,
 	},
@@ -2488,7 +2700,7 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		onBasePower(basePower, attacker, defender, move) {
 			if (move.flags['sound']) {
 				this.debug('Frost Song Boost');
-				return this.chainModify([5325, 4096]);
+				return this.chainModify(1.5);
 			}
 		},
 		name: "Frost Song",
@@ -2570,6 +2782,55 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		name: "Magic Pull",
 		rating: 4,
 		num: 271,
+	},
+	overshadow: {
+		onFoeBasePower(basePower, attacker, defender, move) {
+				if (attacker.heightm > defender.heightm) {
+					this.debug('Overshadow weaken');
+					return this.chainModify(0.5);
+			}
+		},
+		name: "Overshadow",
+		rating: 0,
+		num: 1036,
+	},
+	dualsight: {
+		onModifyMove(move, pokemon) {
+			move.target = "allAdjacentFoes";
+		},
+		onBasePowerPriority: 21,
+		onBasePower(basePower, pokemon, target, move) {
+			return this.chainModify(0.75);
+		},
+		name: "Dual Sight",
+		rating: 3.5,
+		num: 1074,
+	},
+	catalog: {
+		onFoeBoost(boost, target, source, effect) {
+			if (effect.id === 'imprint') return;
+			let b: BoostID;
+			for (b in boost) {
+				if (target.boosts[b] === -6) continue;
+				const negativeBoost: SparseBoostsTable = {};
+				negativeBoost[b] = boost[b];
+				delete boost[b];
+				for (const target2 of target.side.foe.active) {
+					if (target2.hasAbility('imprint')) {
+						this.add('-ability', target2, 'Imprint');
+						// console.log("negativeBoost[b]: "+negativeBoost[b]);
+						// console.log("b: "+b);
+						// console.log("target2: "+target2);
+						// console.log("source: "+source);
+						this.boost(negativeBoost, target2);
+						this.boost(negativeBoost, source);
+					}
+				}
+			}
+		},
+		name: "Catalog",
+		rating: 4,
+		num: 1082,
 	},
 	magician: {
 		onSourceHit(target, source, move) {
@@ -3380,6 +3641,18 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 2,
 		num: 143,
 	},
+	pollution: {
+		onStart(source) {
+			for (const action of this.queue) {
+				if (action.choice === 'runPrimal' && action.pokemon === source && source.species.id === 'kyogre') return;
+				if (action.choice !== 'runSwitch' && action.choice !== 'runPrimal') break;
+			}
+			this.field.setWeather('acidrain');
+		},
+		name: "Pollution",
+		rating: 4,
+		num: 2,
+	},
 	numbingtouch: {
 		// upokecenter says this is implemented as an added secondary effect
 		onModifyMove(move) {
@@ -3830,13 +4103,85 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 4.5,
 		num: 144,
 	},
-	circut: {
-		onSwitchOut(pokemon) {
-			pokemon.addVolatile('circutcharge');
-			},
-		name: "Circut",
-		rating: 2,
-		num: 65,
+	regurgitation: {
+		onAfterMove(pokemon, target, move) {
+			if (pokemon === target) return;
+			if (pokemon.species.baseSpecies !== 'Muk-Delta') return;
+			const regurgMove = this.dex.getActiveMove('sonicboom');
+			regurgMove.name = "Regurgitation";
+			regurgMove.accuracy = true;
+			if (pokemon.species.id === 'mukdeltawater') regurgMove.type = 'Water';
+			if (pokemon.species.id === 'mukdeltagrass') regurgMove.type = 'Grass';
+			if (pokemon.species.id === 'mukdeltafire') regurgMove.type = 'Fire';
+			if (pokemon.species.id === 'mukdeltadark') regurgMove.type = 'Dark';
+			if (pokemon.species.id === 'mukdeltanormal') regurgMove.type = 'Normal';
+			if (pokemon.species.id === 'mukdeltapsychic') regurgMove.type = 'Psychic';
+			const regurgEffectiveness = this.dex.getEffectiveness(regurgMove.type, target);
+			const regurgDamage = Math.floor((2 ** regurgEffectiveness) * target.baseMaxhp / 6);
+			regurgMove.damage = regurgDamage;
+			if (move.name === "Regurgitation" || !target.hp || target.isSemiInvulnerable()) return;
+			this.actions.useMove(regurgMove, pokemon, target);
+			return null;
+		},
+		name: "Regurgitation",
+		gen: 6,
+		rating: 3,
+		num: 27,
+	},
+	geigersense: {
+		onStart(pokemon) {
+			for (const target of this.getAllActive()) {
+				if (target !== pokemon && target.hasType('Nuclear')) {
+					this.boost({atk: 1, spa: 1});
+					break;
+				}
+			}
+		},
+		name: "Geiger Sense",
+		rating: 1,
+		num: -117,
+	},
+	chernobyl: {
+		onStart(source) {
+			this.field.setWeather('fallout');
+		},
+		name: "Chernobyl",
+		rating: 5,
+		num: -118,
+	},
+	atomizate: {
+		onModifyTypePriority: -1,
+		onModifyType(move, pokemon) {
+			const noModifyType = [
+				'judgment', 'multiattack', 'naturalgift', 'revelationdance', 'technoblast', 'terrainpulse', 'weatherball',
+			];
+			if (move.type === 'Normal' && !noModifyType.includes(move.id) && !(move.isZ && move.category !== 'Status')) {
+				move.type = 'Nuclear';
+				move.atomizateBoosted = true;
+			}
+		},
+		onBasePowerPriority: 23,
+		onBasePower(basePower, pokemon, target, move) {
+			if (move.atomizateBoosted) return this.chainModify([4915, 4096]);
+		},
+		name: "Atomizate",
+		rating: 5,
+		num: -110,
+	},
+	leadskin: {
+		onImmunity(type, pokemon) {
+			if (type === 'fallout') return false;
+		},
+		onTryHit(target, source, move) {
+			if (target !== source && move.type === 'Nuclear' && move.category !== 'Status') {
+				this.add('-immune', target, '[from] ability: Lead Skin');
+				return null;
+			}
+		},
+		isBreakable: true,
+		name: "Lead Skin",
+		rating: 0.5,
+		num: -111,
 	},
 	ripen: {
 		onTryHeal(damage, target, source, effect) {
@@ -3926,7 +4271,7 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		onDamagingHit(damage, target, source, move) {
 			if (this.field.isTerrain('electricterrain')) {
 				if (move.flags['contact']) {
-					this.damage(source.baseMaxhp / 8, source, target);
+					this.damage(source.baseMaxhp / 6, source, target);
 				}
 			}
 		},
@@ -4031,6 +4376,24 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		gen: 8,
 		desc: "This Pokemon's blade-based attacks have their power multiplied by 1.2 and get a +1 critical hit ratio.",
 		shortDesc: "Blade attacks have 1.2x power and +1 crit ratio.",
+	},
+	bladetrained: {
+		onBasePowerPriority: 23,
+		onBasePower(basePower, attacker, defender, move) {
+			if (move.flags['slash']) {
+				this.debug('Blade Trained boost');
+				return this.chainModify(1.5);
+			}
+		},
+		onModifyType(move, pokemon) {
+			if (move.flags['slash']) {
+				move.type = 'Fighting';
+			}
+		},
+		name: "Blade Trained",
+		rating: 3.5,
+		gen: 8,
+		shortDesc: "Blade attacks become Fighting-Type and have 1.5x power.",
 	},
 	blazingsoul: {
 		onModifyPriority(priority, pokemon, target, move) {
@@ -4364,6 +4727,19 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 1.5,
 		num: 8,
 	},
+	sandsniper: {
+		onModifySourceAccuracyPriority: -1,
+		onModifySourceAccuracy(accuracy) {
+			if (typeof accuracy !== 'number') return;
+			if (this.field.isWeather('sandstorm')) {
+				this.debug('Sand Sniper - increasing accuracy');
+				return move.accuracy = true;
+			}
+		},
+		name: "Sand Sniper",
+		rating: 1.5,
+		num: 8,
+	},
 	sapsipper: {
 		onTryHitPriority: 1,
 		onTryHit(target, source, move) {
@@ -4605,6 +4981,18 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 2,
 		num: 19,
 	},
+	survivalinstinct: {
+		onSourceModifyAccuracyPriority: -1,
+		onSourceModifyAccuracy(accuracy) {
+			if (typeof accuracy !== 'number') return;
+				if (pokemon.hp <= pokemon.maxhp / 2) {
+					return accuracy = true;
+				}
+		},
+		name: "Survival Instinct",
+		rating: 3,
+		num: 14,
+	},
 	shieldsdown: {
 		onStart(pokemon) {
 			if (pokemon.baseSpecies.baseSpecies !== 'Minior' || pokemon.transformed) return;
@@ -4800,6 +5188,14 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 4,
 		num: 278,
 	},
+	mysticaura: {
+		onStart(source) {
+			this.field.addPseudoWeather('magicroom');
+		},
+		name: "Mystic Aura",
+		rating: 4,
+		num: 278,
+	},
 	solarpower: {
 		onModifySpAPriority: 5,
 		onModifySpA(spa, pokemon) {
@@ -4850,10 +5246,43 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 2,
 		num: 94,
 	},
+	rammingspeed: {
+		onModifyAtkPriority: 5,
+		onModifyAtk(atk, pokemon) {
+			if (this.field.isPseudoWeather('tailwind')) {
+				return this.chainModify(1.3);
+			}
+		},
+		name: "Ramming Speed",
+		rating: 2,
+		num: 94,
+	},
+	bigthorns: {
+		onModifyAtkPriority: 5,
+		onModifyAtk(atk, pokemon) {
+			if (this.field.isTerrain('grassyterrain')) {
+				return this.chainModify(1.3);
+			}
+		},
+		name: "Big Thorns",
+		rating: 2,
+		num: 94,
+	},
 	tidalforce: {
 		onModifySpAPriority: 5,
 		onModifySpA(spa, pokemon) {
 			if (['raindance', 'primordialsea'].includes(pokemon.effectiveWeather())) {
+				return this.chainModify(1.3);
+			}
+		},
+		name: "Tidal Force",
+		rating: 2,
+		num: 94,
+	},
+	harshhunter: {
+		onModifyAtkPriority: 5,
+		onModifyAtk(atk, pokemon) {
+			if (['sandstorm'].includes(pokemon.effectiveWeather())) {
 				return this.chainModify(1.3);
 			}
 		},
@@ -4890,7 +5319,7 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		onModifyDefPriority: 5,
 		onModifyDef(def, pokemon) {
 			if (['sandstorm'].includes(pokemon.effectiveWeather())) {
-				return this.chainModify(1.5);
+				return this.chainModify(2);
 			}
 		},
 		name: "Desert Armor",
@@ -5155,6 +5584,30 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 3.5,
 		num: 252,
 	},
+	tunnelmaker: {
+		onBasePowerPriority: 22,
+		onBasePower(basePower, attacker, defender, move) {
+			if (move.type === 'Ground') {
+				this.debug('Tunnel Maker boost');
+				return this.chainModify(1.5);
+			}
+		},
+		name: "Tunnel Maker",
+		rating: 3.5,
+		num: 252,
+	},
+	stratagem: {
+		onAllyBasePowerPriority: 22,
+		onAllyBasePower(basePower, attacker, defender, move) {
+			if (move.type === 'Rock') {
+				this.debug('Stratagem boost');
+				return this.chainModify(1.5);
+			}
+		},
+		name: "Stratagem",
+		rating: 3.5,
+		num: 252,
+	},
 	elementalist: {
 		onAllyBasePowerPriority: 22,
 		onAllyBasePower(basePower, attacker, defender, move) {
@@ -5284,7 +5737,7 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		onBasePower(basePower, attacker, defender, move) {
 			if (move.flags['bite']) {
 				this.debug('Spectral Jaws Boost');
-				return this.chainModify(1.3);
+				return this.chainModify([5325, 4096]);
 			}
 		},
 		onModifyMove(move, pokemon, target) {
@@ -5302,7 +5755,7 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		onBasePower(basePower, attacker, defender, move) {
 			if (move.flags['punch']) {
 				this.debug('Mystic Fist Boost');
-				return this.chainModify(1.3);
+				return this.chainModify([5325, 4096]);
 			}
 		},
 		onModifyMove(move, pokemon, target) {
@@ -5769,6 +6222,36 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 3,
 		num: 274,
 	},
+	luminous: {
+		onTryHit(target, source, move) {
+			if (target !== source && move.type === 'Dark') {
+				if (!this.boost({spa: 0})) {
+					this.add('-immune', target, '[from] ability: Luminous');
+				}
+				return null;
+			}
+		},
+		onResidualOrder: 26,
+		onResidualSubOrder: 1,
+		onResidual(pokemon) {
+			if (!pokemon.hp) return;
+			for (const target of pokemon.side.foe.active) {
+				if (!target || !target.hp) continue;
+				if (target.hasType('Dark')) {
+					this.damage(target.baseMaxhp / 8, target, pokemon);
+				}
+			}
+			for (const target of pokemon.side.active) {
+				if (!target || !target.hp) continue;
+				if (target.hasType('Dark')) {
+					this.damage(target.baseMaxhp / 8, target, pokemon);
+				}
+			}
+		},
+		name: "Luminous",
+		rating: 3,
+		num: 274,
+	},
 	venomous: {
 		// The Toxic part of this mechanic is implemented in move that inflict poison under `onModifyMove` in moves.ts
 		name: "Venomous",
@@ -5785,6 +6268,19 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 			}
 		},
 		name: "Wind Force",
+		rating: 2,
+		num: 273,
+	},
+	industrialize: {
+		onTryHit(target, source, move) {
+			if (target !== source && move.type === 'Steel') {
+				if (!this.boost({spe: 1})) {
+					this.add('-immune', target, '[from] ability: Industrialize');
+				}
+				return null;
+			}
+		},
+		name: "Industrialize",
 		rating: 2,
 		num: 273,
 	},
@@ -6558,6 +7054,31 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 3,
 		num: 281,
 	},
+	siphon: {
+		onAfterMoveSecondarySelf(pokemon, target, move) {
+			if (move.flags['contact']) this.heal(pokemon.lastDamage / 2, pokemon);
+		},
+		name: "Vampiric",
+		rating: 3,
+		num: 281,
+	},
+	siphon: {
+		// upokecenter says this is implemented as an added secondary effect
+		onModifyMove(move) {
+			if (!move?.flags['contact'] || move.target === 'self') return;
+			if (!move.secondaries) {
+				move.secondaries = [];
+			}
+			move.secondaries.push({
+				chance: 30,
+				drain: [1, 2],
+				ability: this.dex.getAbility('siphon'),
+			});
+		},
+		name: "Siphon",
+		rating: 2,
+		num: 143,
+	},
 	bloodlust: {
 		onAfterMoveSecondarySelf(pokemon, target, move) {
 			if (move.flags['contact']) this.heal(pokemon.lastDamage / 6, pokemon);
@@ -6676,7 +7197,20 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 3.5,
 		num: 11,
 	},
-	Synthesizer: {
+	heartless: {
+		onTryHit(target, source, move) {
+			if (target !== source && move.type === 'Fairy') {
+				if (!this.heal(target.baseMaxhp / 4)) {
+					this.add('-immune', target, '[from] ability: Heartless');
+				}
+				return null;
+			}
+		},
+		name: "Heartless",
+		rating: 3.5,
+		num: 11,
+	},
+	synthesizer: {
 		onTryHit(target, source, move) {
 			if (target !== source && move.type === 'Sound') {
 				if (!this.heal(target.baseMaxhp / 4)) {
@@ -6916,7 +7450,22 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 0,
 		num: 161,
 	},
-
+	taproot: {
+			name: "Taproot",
+			onStart(pokemon) {
+					pokemon.addVolatile('ingrain');
+			},
+			rating: 2,
+			num: 1088,
+		},
+		conviction: {
+				name: "Conviction",
+				onStart(pokemon) {
+						pokemon.addVolatile('endure');
+				},
+				rating: 2,
+				num: 1088,
+			},
 	// CAP
 	mountaineer: {
 		onDamage(damage, target, source, effect) {

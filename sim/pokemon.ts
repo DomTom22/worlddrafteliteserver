@@ -495,6 +495,14 @@ export class Pokemon {
 				stat = this.storedStats['def'];
 			}
 		}
+    // Odd Room swaps defenses before calculating anything else
+    if ('puzzleroom' in this.battle.field.pseudoWeather) {
+			if (statName === 'atk') {
+				stat = this.storedStats['spa'];
+			} else if (statName === 'spa') {
+				stat = this.storedStats['atk'];
+			}
+		}
 
 		// stat boosts
 		let boosts: SparseBoostsTable = {};

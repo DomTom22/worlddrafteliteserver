@@ -1163,8 +1163,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		randomDoubleBattleMoves: ["dracometeor", "hurricane", "hydropump", "icebeam", "muddywater", "raindance"],
 		randomDoubleBattleLevel: 82,
 		randomBattleNoDynamaxMoves: ["dracometeor", "flipturn", "hydropump", "icebeam", "raindance"],
-		isNonstandard: "Past",
-    tier: "Illegal",
+    tier: "UU",
 		doublesTier: "DUU",
 	},
 	goldeen: {
@@ -1307,10 +1306,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		randomBattleLevel: 80,
 		randomDoubleBattleMoves: ["brickbreak", "bugbite", "dualwingbeat", "uturn"],
 		randomDoubleBattleLevel: 84,
-		isNonstandard: "Past",
-    tier: "Illegal",
-		doublesisNonstandard: "Past",
-    tier: "Illegal",
+    tier: "NU",
 	},
 	scizor: {
 		randomBattleMoves: ["bulletpunch", "dualwingbeat", "knockoff", "roost", "superpower", "swordsdance", "uturn"],
@@ -1370,7 +1366,6 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		randomDoubleBattleLevel: 88,
 		isNonstandard: "Past",
     tier: "Illegal",
-		doublesTier: "(DUU)",
 	},
 	pinsir: {
 		randomBattleMoves: ["closecombat", "earthquake", "knockoff", "stealthrock", "stoneedge", "xscissor"],
@@ -1388,7 +1383,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		randomBattleLevel: 82,
 		randomDoubleBattleMoves: ["bodyslam", "closecombat", "lashout", "protect", "rockslide"],
 		randomDoubleBattleLevel: 84,
-    tier: "NU",
+    tier: "UU",
 		doublesTier: "(DUU)",
 	},
 	magikarp: {
@@ -1509,6 +1504,9 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
     tier: "RU",
 		doublesTier: "DUU",
 	},
+	kingambit: {
+		tier: "OU",
+	},
 	pospheon: {
 		tier: "UU",
 	},
@@ -1523,7 +1521,8 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		doublesTier: "DOU",
 	},
 	fureonmega: {
-		tier: "Uber",
+		isNonstandard: "Past",
+		tier: "Illegal",
 	},
 	dynameon: {
 		tier: "RU",
@@ -4719,14 +4718,15 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		doublesTier: "DUU",
 	},
 	bisharpdb: {
-		tier: "UU",
+		isNonstandard: "Past",
+	tier: "Illegal",
 	},
 	bouffalant: {
 		randomBattleMoves: ["closecombat", "earthquake", "headcharge", "megahorn", "swordsdance"],
 		randomBattleLevel: 84,
 		randomDoubleBattleMoves: ["closecombat", "headcharge", "lashout", "protect", "wildcharge"],
 		randomDoubleBattleLevel: 86,
-    tier: "NU",
+    tier: "OU",
 		doublesTier: "(DUU)",
 	},
 	rufflet: {

@@ -929,6 +929,7 @@ venusaurmegax: {
 		prevo: "Sandshrew-Alola",
 		evoType: "useItem",
 		evoItem: "Ice Stone",
+		evos: ["Sandridger"],
 		eggGroups: ["Field"],
 	},
 	sandridger: {
@@ -2892,6 +2893,7 @@ venusaurmegax: {
 		heightm: 1.4,
 		weightkg: 88.4,
 		color: "Brown",
+		evos: ["Bouffalant"],
 		eggGroups: ["Field"],
 	},
 	magikarp: {
@@ -7034,6 +7036,7 @@ venusaurmegax: {
 		heightm: 0.6,
 		weightkg: 8.7,
 		color: "Pink",
+		evos: ["Alomomola"],
 		eggGroups: ["Water 2"],
 	},
 	bagon: {
@@ -11632,6 +11635,7 @@ venusaurmegax: {
     prevo: "Pawniard",
     evoLevel: 52,
     eggGroups: ["Human-Like"],
+	evos: ["Kingambit"],
     otherFormes: ["Bisharp-DB"],
     formeOrder: ["Bisharp", "Bisharp-DB"],
   },
@@ -11653,8 +11657,8 @@ venusaurmegax: {
 		num: 626,
 		name: "Bouffalant",
 		types: ["Normal"],
-		baseStats: {hp: 95, atk: 110, def: 95, spa: 40, spd: 95, spe: 55},
-		abilities: {0: "Reckless", 1: "Sap Sipper", H: "Soundproof"},
+		baseStats: {hp: 95, atk: 120, def: 95, spa: 40, spd: 95, spe: 110},
+		abilities: {0: "Reckless", 1: "Sap Sipper", H: "Sheer Force"},
 		heightm: 1.6,
 		weightkg: 94.6,
 		color: "Brown",

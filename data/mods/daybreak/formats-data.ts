@@ -337,6 +337,10 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "OU",
 		doublesTier: "DOU",
 	},
+	sandridgeralola: {
+		tier: "OU",
+		doublesTier: "DOU",
+	},
 	nidoranf: {
 		isNonstandard: "Past",
     tier: "Illegal",
@@ -1846,10 +1850,12 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
     tier: "Illegal",
 	},
 	ariadosarmira: {
-    tier: "NU",
+		isNonstandard: "Past",
+    tier: "Illegal",
 	},
 	arantula: {
-    tier: "OU",
+		isNonstandard: "Past",
+    tier: "Illegal",
 	},
 	ariadoschromatic: {
 		isNonstandard: "CAP",
@@ -2977,6 +2983,10 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
     tier: "RU",
 		doublesTier: "DUU",
 	},
+	miloticmega: {
+    tier: "OU",
+		doublesTier: "DOU",
+	},
 	castform: {
 		isNonstandard: "Past",
 		tier: "Illegal",
@@ -2994,7 +3004,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
     tier: "NU",
 	},
 	kecleonarmira: {
-    tier: "NU",
+    tier: "UU",
 	},
 	shuppet: {
 		isNonstandard: "Past",
@@ -6788,7 +6798,6 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	alcremie: {
 		isNonstandard: "Past",
     tier: "Illegal",
-		doublesTier: "(DUU)",
 	},
 	alcremiegmax: {
 		randomBattleMoves: ["calmmind", "dazzlinggleam", "mysticalfire", "psychic", "recover"],

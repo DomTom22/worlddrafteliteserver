@@ -1395,11 +1395,11 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
     tier: "Illegal",
 	},
 	gyarados: {
-		randomBattleMoves: ["bounce", "dragondance", "earthquake", "powerwhip", "waterfall"],
+		randomBattleMoves: ["skystrike", "dragondance", "earthquake", "powerwhip", "waterfall"],
 		randomBattleLevel: 76,
-		randomDoubleBattleMoves: ["bounce", "dragondance", "icefang", "powerwhip", "protect", "waterfall"],
+		randomDoubleBattleMoves: ["skystrike", "dragondance", "icefang", "powerwhip", "protect", "waterfall"],
 		randomDoubleBattleLevel: 82,
-		tier: "UU",
+		tier: "OU",
 		doublesTier: "DUU",
 	},
 	gyaradosmega: {
@@ -1429,6 +1429,10 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		randomDoubleBattleLevel: 88,
 		tier: "UU",
 		doublesTier: "DOU",
+	},
+	dittodelta: {
+		isNonstandard: "Past",
+    tier: "Illegal",
 	},
 	eevee: {
 		isNonstandard: "Past",
@@ -1521,57 +1525,60 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "UU",
 	},
 	fureon: {
-		tier: "OU",
+		tier: "Uber",
 		doublesTier: "DOU",
 	},
 	fureonmega: {
 		isNonstandard: "Past",
 		tier: "Illegal",
 	},
-	dynameon: {
-		tier: "RU",
+	clodsire: {
+		tier: "OU",
 	},
-	radeon: {
+	dynameon: {
 		tier: "UU",
 	},
+	radeon: {
+		tier: "OU",
+	},
 	obsideon: {
-		tier: "RU",
+		tier: "UU",
 	},
 	frosteon: {
-		tier: "RU",
+		tier: "UU",
 	},
 	blizzeon: {
-		tier: "RU",
+		tier: "UU",
 	},
 	eclipseon: {
-		tier: "RU",
+		tier: "UU",
 	},
 	cindereon: {
-		tier: "RU",
+		tier: "UU",
 	},
 	zereon: {
-		tier: "RU",
+		tier: "UU",
 	},
 	pulseon: {
 		tier: "OU",
 	},
 	pineon: {
-		tier: "RU",
+		tier: "UU",
 	},
 	noctiveon: {
-		tier: "RU",
+		tier: "UU",
 	},
 	mooreon: {
 		tier: "UU",
 	},
 	devileon: {
-		tier: "RU",
+		tier: "UU",
 	},
 	murkeon: {
 		tier: "UU",
 	},
 	isycleon: {
-		tier: "RU",
+		tier: "UU",
 	},
 	staticeon: {
 		tier: "UU",
@@ -1598,7 +1605,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "UU",
 	},
 	pixeon: {
-		tier: "UU",
+		tier: "OU",
 	},
 	porygon: {
 		isNonstandard: "Past",
@@ -3824,8 +3831,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "Uber",
 	},
 	arceus: {
-		isNonstandard: "Past",
-		tier: "Illegal",
+		tier: "Uberl",
 	},
 	arceusbug: {
 	},
@@ -3860,6 +3866,8 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	arceussteel: {
 	},
 	arceuswater: {
+	},
+	arceusdb: {
 	},
 	victini: {
 		randomBattleMoves: ["blueflare", "boltstrike", "energyball", "glaciate", "uturn", "vcreate", "zenheadbutt"],
@@ -5263,7 +5271,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		doublesTier: "(DUU)",
 	},
 	helioliskmega: {
-		tier: "OU",
+		tier: "Uber",
 		doublesTier: "DOU",
 	},
 	tyrunt: {
@@ -5301,7 +5309,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		randomBattleLevel: 80,
 		randomDoubleBattleMoves: ["bravebird", "closecombat", "protect", "swordsdance", "throatchop"],
 		randomDoubleBattleLevel: 80,
-		tier: "OU",
+		tier: "UU",
 	},
 	dedenne: {
 		randomBattleMoves: ["protect", "recycle", "thunderbolt", "toxic"],
@@ -5480,10 +5488,11 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		randomBattleLevel: 82,
 		randomDoubleBattleMoves: ["dragondance", "extremespeed", "irontail", "protect", "rockslide", "thousandarrows"],
 		randomDoubleBattleLevel: 76,
-		tier: "OU",
-		doublesTier: "DUU",
+		isNonstandard: "Past",
+		tier: "Illegal",
 	},
 	zygardecomplete: {
+		isNonstandard: "Past",
 		tier: "Illegal",
 	},
 	diancie: {
@@ -6755,7 +6764,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
     tier: "Illegal",
 	},
 	hatterene: {
-    tier: "RU",
+    tier: "UU",
 		doublesTier: "DOU",
 	},
 	hatterenegmax: {

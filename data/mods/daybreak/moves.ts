@@ -1851,7 +1851,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 	blazingshuriken: {
 		num: -331,
 		accuracy: 100,
-		basePower: 25,
+		basePower: 30,
 		category: "Physical",
 		name: "Blazing Shuriken",
 		pp: 30,
@@ -10073,6 +10073,25 @@ export const Moves: {[moveid: string]: MoveData} = {
 		type: "Bug",
 		contestType: "Cute",
 	},
+	freezingwater: {
+		num: 6079,
+		accuracy: 100,
+		basePower: 70,
+		category: "Special",
+		name: "Freezing Water",
+		pp: 15,
+		priority: 0,
+		flags: {contact: 1, protect: 1, mirror: 1},
+		secondary: {
+			chance: 100,
+			boosts: {
+				atk: -1,
+			},
+		},
+		target: "normal",
+		type: "Water",
+		contestType: "Cute",
+	},
 	lusterpurge: {
 		num: 295,
 		accuracy: 100,
@@ -16354,6 +16373,23 @@ export const Moves: {[moveid: string]: MoveData} = {
 		category: "Physical",
 		name: "Spark",
 		pp: 20,
+		priority: 0,
+		flags: {contact: 1, protect: 1, mirror: 1},
+		secondary: {
+			chance: 30,
+			status: 'par',
+		},
+		target: "normal",
+		type: "Electric",
+		contestType: "Cool",
+	},
+	turbodrive: {
+		num: -209,
+		accuracy: 90,
+		basePower: 85,
+		category: "Physical",
+		name: "Turbo Drive",
+		pp: 15,
 		priority: 0,
 		flags: {contact: 1, protect: 1, mirror: 1},
 		secondary: {

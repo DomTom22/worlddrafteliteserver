@@ -1687,6 +1687,17 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 2,
 		num: 183,
 	},
+	fairydust: {
+		onDamagingHit(damage, target, source, move) {
+			if (move.flags['contact']) {
+				this.add('-ability', target, 'Fairy');
+				this.boost({spe: -1}, source, target, null, true);
+			}
+		},
+		name: "Fairy",
+		rating: 2,
+		num: 183,
+	},
 	spiritguide: {
 		onDamagingHit(damage, target, source, move) {
 			if (move.flags['contact']) {

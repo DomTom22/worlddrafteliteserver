@@ -49996,6 +49996,8 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			playrough: ["8M"],
 			dazzlinggleam: ["8M"],
 			moonblast: ["8M"],
+			fairyrush: ["8M"],
+			bulkup: ["8M"],
 		},
 	},
 	riolu: {

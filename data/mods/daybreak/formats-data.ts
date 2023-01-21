@@ -1578,7 +1578,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "UU",
 	},
 	isycleon: {
-		tier: "UU",
+		tier: "OU",
 	},
 	staticeon: {
 		tier: "UU",

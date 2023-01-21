@@ -3767,6 +3767,23 @@ export const Moves: {[moveid: string]: MoveData} = {
 		type: "Dragon",
 		contestType: "Tough",
 	},
+		fairyrush: {
+		num: 4407,
+		accuracy: 75,
+		basePower: 100,
+		category: "Physical",
+		name: "Dragon Rush",
+		pp: 10,
+		priority: 0,
+		flags: {contact: 1, protect: 1, mirror: 1},
+		secondary: {
+			chance: 20,
+			volatileStatus: 'flinch',
+		},
+		target: "normal",
+		type: "Fairy",
+		contestType: "Tough",
+	},
 	dragontail: {
 		num: 525,
 		accuracy: 90,

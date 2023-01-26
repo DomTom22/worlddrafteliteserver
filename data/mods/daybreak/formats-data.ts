@@ -2320,6 +2320,14 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "Uber",
 		doublesTier: "DUber",
 	},
+	lugiashadow: {
+		randomBattleMoves: ["airslash", "darkpulse", "roost", "substitute", "toxic"],
+		randomBattleLevel: 74,
+		randomDoubleBattleMoves: ["aeroblast", "calmmind", "darkpulse", "roost", "toxic"],
+		randomDoubleBattleLevel: 72,
+		tier: "Uber",
+		doublesTier: "DUber",
+	},
 	hooh: {
 		randomBattleMoves: ["bravebird", "defog", "earthquake", "roost", "sacredfire", "toxic"],
 		randomBattleLevel: 72,

@@ -4032,6 +4032,10 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			toxic: ["8V", "7M", "7V", "6M", "5M", "4M", "3M"],
 			workup: ["8M"],
 			xscissor: ["8M", "8V", "7M", "6M", "5M", "4M"],
+			ironhead: ["8M"],
+			metalclaw: ["8M"],
+			irondefense: ["8M"],
+			gyroball: ["8M"],
 		},
 		encounters: [
 			{generation: 2, level: 10},
